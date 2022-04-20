@@ -35,11 +35,18 @@ def songToSyll(song_dir,output):
             song.tag_layer('words')
             syll = syllabify_words(song.words.text,as_dict=False)
             songDict.update({line : syll})
-        w = csv.writer(open(join(output,filename), 'w'))
-        for key, value in songDict:
-            tmp = nltk.word_tokenize(key)
-            tmp = tmp.strip(string.punctuation)
-            w.writerows(tmp, value)
+        with open(join(output,filename),'w') as w:
+            for line,syll in songDict.items():
+                w.write(line)
+                w.write('\n')
+                for tuple in syll: 
+                    w.write(str(tuple))
+                    w.write('\t')
+                w.write('\n')
+
+           
+ 
+            
             
             
 
