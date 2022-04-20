@@ -1,0 +1,1306 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 44.2428125 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "ictus" 
+        xmin = 0 
+        xmax = 44.2428125 
+        intervals: size = 120 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.241406250000001 
+            text = "ictus" 
+        intervals [2]:
+            xmin = 0.241406250000001 
+            xmax = 0.4038775494452065 
+            text = "x" 
+        intervals [3]:
+            xmin = 0.4038775494452065 
+            xmax = 0.7567670402339205 
+            text = "ictus" 
+        intervals [4]:
+            xmin = 0.7567670402339205 
+            xmax = 1.0316699032240237 
+            text = "x" 
+        intervals [5]:
+            xmin = 1.0316699032240237 
+            xmax = 1.3007237691292313 
+            text = "ictus" 
+        intervals [6]:
+            xmin = 1.3007237691292313 
+            xmax = 1.5736769664243693 
+            text = "x" 
+        intervals [7]:
+            xmin = 1.5736769664243693 
+            xmax = 1.7391422496907638 
+            text = "ictus" 
+        intervals [8]:
+            xmin = 1.7391422496907638 
+            xmax = 2.0764344149197558 
+            text = "x" 
+        intervals [9]:
+            xmin = 2.0764344149197558 
+            xmax = 2.297406250000001 
+            text = "ictus" 
+        intervals [10]:
+            xmin = 2.297406250000001 
+            xmax = 3.556936667126189 
+            text = "x" 
+        intervals [11]:
+            xmin = 3.556936667126189 
+            xmax = 3.801406250000001 
+            text = "ictus" 
+        intervals [12]:
+            xmin = 3.801406250000001 
+            xmax = 4.0174062500000005 
+            text = "x" 
+        intervals [13]:
+            xmin = 4.0174062500000005 
+            xmax = 4.273406250000001 
+            text = "ictus" 
+        intervals [14]:
+            xmin = 4.273406250000001 
+            xmax = 4.489406250000002 
+            text = "x" 
+        intervals [15]:
+            xmin = 4.489406250000002 
+            xmax = 4.753406250000001 
+            text = "ictus" 
+        intervals [16]:
+            xmin = 4.753406250000001 
+            xmax = 4.9694062500000005 
+            text = "x" 
+        intervals [17]:
+            xmin = 4.9694062500000005 
+            xmax = 5.225406250000001 
+            text = "ictus" 
+        intervals [18]:
+            xmin = 5.225406250000001 
+            xmax = 5.68140625 
+            text = "x" 
+        intervals [19]:
+            xmin = 5.68140625 
+            xmax = 5.93740625 
+            text = "ictus" 
+        intervals [20]:
+            xmin = 5.93740625 
+            xmax = 7.3053197204699645 
+            text = "x" 
+        intervals [21]:
+            xmin = 7.3053197204699645 
+            xmax = 7.5579470292016415 
+            text = "ictus" 
+        intervals [22]:
+            xmin = 7.5579470292016415 
+            xmax = 7.865581897092635 
+            text = "x" 
+        intervals [23]:
+            xmin = 7.865581897092635 
+            xmax = 8.11778770191988 
+            text = "ictus" 
+        intervals [24]:
+            xmin = 8.11778770191988 
+            xmax = 8.329668670533545 
+            text = "x" 
+        intervals [25]:
+            xmin = 8.329668670533545 
+            xmax = 8.66919306547881 
+            text = "ictus" 
+        intervals [26]:
+            xmin = 8.66919306547881 
+            xmax = 8.916495018265431 
+            text = "x" 
+        intervals [27]:
+            xmin = 8.916495018265431 
+            xmax = 9.132450620890896 
+            text = "ictus" 
+        intervals [28]:
+            xmin = 9.132450620890896 
+            xmax = 9.44140625 
+            text = "x" 
+        intervals [29]:
+            xmin = 9.44140625 
+            xmax = 9.69740625 
+            text = "ictus" 
+        intervals [30]:
+            xmin = 9.69740625 
+            xmax = 11.06540625 
+            text = "x" 
+        intervals [31]:
+            xmin = 11.06540625 
+            xmax = 11.32140625 
+            text = "ictus" 
+        intervals [32]:
+            xmin = 11.32140625 
+            xmax = 11.55340625 
+            text = "x" 
+        intervals [33]:
+            xmin = 11.55340625 
+            xmax = 11.80940625 
+            text = "ictus" 
+        intervals [34]:
+            xmin = 11.80940625 
+            xmax = 12.03340625 
+            text = "x" 
+        intervals [35]:
+            xmin = 12.03340625 
+            xmax = 12.297406250000002 
+            text = "ictus" 
+        intervals [36]:
+            xmin = 12.297406250000002 
+            xmax = 12.52140625 
+            text = "x" 
+        intervals [37]:
+            xmin = 12.52140625 
+            xmax = 12.77740625 
+            text = "ictus" 
+        intervals [38]:
+            xmin = 12.77740625 
+            xmax = 13.24140625 
+            text = "x" 
+        intervals [39]:
+            xmin = 13.24140625 
+            xmax = 13.50540625 
+            text = "ictus" 
+        intervals [40]:
+            xmin = 13.50540625 
+            xmax = 14.709858821442275 
+            text = "x" 
+        intervals [41]:
+            xmin = 14.709858821442275 
+            xmax = 15.092139027549525 
+            text = "ictus" 
+        intervals [42]:
+            xmin = 15.092139027549525 
+            xmax = 15.267201925673406 
+            text = "x" 
+        intervals [43]:
+            xmin = 15.267201925673406 
+            xmax = 15.64940625 
+            text = "ictus" 
+        intervals [44]:
+            xmin = 15.64940625 
+            xmax = 15.85740625 
+            text = "x" 
+        intervals [45]:
+            xmin = 15.85740625 
+            xmax = 16.113406250000004 
+            text = "ictus" 
+        intervals [46]:
+            xmin = 16.113406250000004 
+            xmax = 16.321406250000003 
+            text = "x" 
+        intervals [47]:
+            xmin = 16.321406250000003 
+            xmax = 16.699859520523948 
+            text = "ictus" 
+        intervals [48]:
+            xmin = 16.699859520523948 
+            xmax = 17.017406250000004 
+            text = "x" 
+        intervals [49]:
+            xmin = 17.017406250000004 
+            xmax = 17.281406250000003 
+            text = "ictus" 
+        intervals [50]:
+            xmin = 17.281406250000003 
+            xmax = 18.65740625 
+            text = "x" 
+        intervals [51]:
+            xmin = 18.65740625 
+            xmax = 18.91340625 
+            text = "ictus" 
+        intervals [52]:
+            xmin = 18.91340625 
+            xmax = 19.13740625 
+            text = "x" 
+        intervals [53]:
+            xmin = 19.13740625 
+            xmax = 19.39340625 
+            text = "ictus" 
+        intervals [54]:
+            xmin = 19.39340625 
+            xmax = 19.62540625 
+            text = "x" 
+        intervals [55]:
+            xmin = 19.62540625 
+            xmax = 19.88140625 
+            text = "ictus" 
+        intervals [56]:
+            xmin = 19.88140625 
+            xmax = 20.10540625 
+            text = "x" 
+        intervals [57]:
+            xmin = 20.10540625 
+            xmax = 20.369406250000004 
+            text = "ictus" 
+        intervals [58]:
+            xmin = 20.369406250000004 
+            xmax = 20.833406250000003 
+            text = "x" 
+        intervals [59]:
+            xmin = 20.833406250000003 
+            xmax = 21.089406250000003 
+            text = "ictus" 
+        intervals [60]:
+            xmin = 21.089406250000003 
+            xmax = 22.529406250000005 
+            text = "x" 
+        intervals [61]:
+            xmin = 22.529406250000005 
+            xmax = 22.78540625 
+            text = "ictus" 
+        intervals [62]:
+            xmin = 22.78540625 
+            xmax = 23.001406250000002 
+            text = "x" 
+        intervals [63]:
+            xmin = 23.001406250000002 
+            xmax = 23.257406250000003 
+            text = "ictus" 
+        intervals [64]:
+            xmin = 23.257406250000003 
+            xmax = 23.473406250000004 
+            text = "x" 
+        intervals [65]:
+            xmin = 23.473406250000004 
+            xmax = 23.729406250000004 
+            text = "ictus" 
+        intervals [66]:
+            xmin = 23.729406250000004 
+            xmax = 23.94540625 
+            text = "x" 
+        intervals [67]:
+            xmin = 23.94540625 
+            xmax = 24.209406250000004 
+            text = "ictus" 
+        intervals [68]:
+            xmin = 24.209406250000004 
+            xmax = 24.65740625 
+            text = "x" 
+        intervals [69]:
+            xmin = 24.65740625 
+            xmax = 24.91340625 
+            text = "ictus" 
+        intervals [70]:
+            xmin = 24.91340625 
+            xmax = 26.313406250000003 
+            text = "x" 
+        intervals [71]:
+            xmin = 26.313406250000003 
+            xmax = 26.569406250000004 
+            text = "ictus" 
+        intervals [72]:
+            xmin = 26.569406250000004 
+            xmax = 26.78540625 
+            text = "x" 
+        intervals [73]:
+            xmin = 26.78540625 
+            xmax = 27.04140625 
+            text = "ictus" 
+        intervals [74]:
+            xmin = 27.04140625 
+            xmax = 27.257406250000003 
+            text = "x" 
+        intervals [75]:
+            xmin = 27.257406250000003 
+            xmax = 27.513406250000003 
+            text = "ictus" 
+        intervals [76]:
+            xmin = 27.513406250000003 
+            xmax = 27.729406250000004 
+            text = "x" 
+        intervals [77]:
+            xmin = 27.729406250000004 
+            xmax = 27.985406250000004 
+            text = "ictus" 
+        intervals [78]:
+            xmin = 27.985406250000004 
+            xmax = 28.441406250000004 
+            text = "x" 
+        intervals [79]:
+            xmin = 28.441406250000004 
+            xmax = 28.697406250000004 
+            text = "ictus" 
+        intervals [80]:
+            xmin = 28.697406250000004 
+            xmax = 30.089406250000003 
+            text = "x" 
+        intervals [81]:
+            xmin = 30.089406250000003 
+            xmax = 30.353406250000003 
+            text = "ictus" 
+        intervals [82]:
+            xmin = 30.353406250000003 
+            xmax = 30.577406250000003 
+            text = "x" 
+        intervals [83]:
+            xmin = 30.577406250000003 
+            xmax = 30.833406250000003 
+            text = "ictus" 
+        intervals [84]:
+            xmin = 30.833406250000003 
+            xmax = 31.057406250000003 
+            text = "x" 
+        intervals [85]:
+            xmin = 31.057406250000003 
+            xmax = 31.321406250000003 
+            text = "ictus" 
+        intervals [86]:
+            xmin = 31.321406250000003 
+            xmax = 31.545406250000003 
+            text = "x" 
+        intervals [87]:
+            xmin = 31.545406250000003 
+            xmax = 31.801406250000003 
+            text = "ictus" 
+        intervals [88]:
+            xmin = 31.801406250000003 
+            xmax = 32.27340625 
+            text = "x" 
+        intervals [89]:
+            xmin = 32.27340625 
+            xmax = 32.52940625 
+            text = "ictus" 
+        intervals [90]:
+            xmin = 32.52940625 
+            xmax = 33.961406249999996 
+            text = "x" 
+        intervals [91]:
+            xmin = 33.961406249999996 
+            xmax = 34.22540625 
+            text = "ictus" 
+        intervals [92]:
+            xmin = 34.22540625 
+            xmax = 34.42540625 
+            text = "x" 
+        intervals [93]:
+            xmin = 34.42540625 
+            xmax = 34.68140625 
+            text = "ictus" 
+        intervals [94]:
+            xmin = 34.68140625 
+            xmax = 34.88140625 
+            text = "x" 
+        intervals [95]:
+            xmin = 34.88140625 
+            xmax = 35.13740625 
+            text = "ictus" 
+        intervals [96]:
+            xmin = 35.13740625 
+            xmax = 35.33740625 
+            text = "x" 
+        intervals [97]:
+            xmin = 35.33740625 
+            xmax = 35.59340625 
+            text = "ictus" 
+        intervals [98]:
+            xmin = 35.59340625 
+            xmax = 36.01740625 
+            text = "x" 
+        intervals [99]:
+            xmin = 36.01740625 
+            xmax = 36.281406249999996 
+            text = "ictus" 
+        intervals [100]:
+            xmin = 36.281406249999996 
+            xmax = 37.59340625 
+            text = "x" 
+        intervals [101]:
+            xmin = 37.59340625 
+            xmax = 37.84940625 
+            text = "ictus" 
+        intervals [102]:
+            xmin = 37.84940625 
+            xmax = 38.08140625 
+            text = "x" 
+        intervals [103]:
+            xmin = 38.08140625 
+            xmax = 38.345406249999996 
+            text = "ictus" 
+        intervals [104]:
+            xmin = 38.345406249999996 
+            xmax = 38.57740625 
+            text = "x" 
+        intervals [105]:
+            xmin = 38.57740625 
+            xmax = 38.83340625 
+            text = "ictus" 
+        intervals [106]:
+            xmin = 38.83340625 
+            xmax = 39.06540625 
+            text = "x" 
+        intervals [107]:
+            xmin = 39.06540625 
+            xmax = 39.32140625 
+            text = "ictus" 
+        intervals [108]:
+            xmin = 39.32140625 
+            xmax = 39.80140625 
+            text = "x" 
+        intervals [109]:
+            xmin = 39.80140625 
+            xmax = 40.06540625 
+            text = "ictus" 
+        intervals [110]:
+            xmin = 40.06540625 
+            xmax = 41.53740625 
+            text = "x" 
+        intervals [111]:
+            xmin = 41.53740625 
+            xmax = 41.80140625 
+            text = "ictus" 
+        intervals [112]:
+            xmin = 41.80140625 
+            xmax = 41.97740625 
+            text = "x" 
+        intervals [113]:
+            xmin = 41.97740625 
+            xmax = 42.23340625 
+            text = "ictus" 
+        intervals [114]:
+            xmin = 42.23340625 
+            xmax = 42.409406249999996 
+            text = "x" 
+        intervals [115]:
+            xmin = 42.409406249999996 
+            xmax = 42.67340625 
+            text = "ictus" 
+        intervals [116]:
+            xmin = 42.67340625 
+            xmax = 42.84940625 
+            text = "x" 
+        intervals [117]:
+            xmin = 42.84940625 
+            xmax = 43.10540625 
+            text = "ictus" 
+        intervals [118]:
+            xmin = 43.10540625 
+            xmax = 43.49740625 
+            text = "x" 
+        intervals [119]:
+            xmin = 43.49740625 
+            xmax = 43.76140625 
+            text = "ictus" 
+        intervals [120]:
+            xmin = 43.76140625 
+            xmax = 44.2428125 
+            text = "x" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 44.2428125 
+        intervals: size = 24 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.0787305998884364 
+            text = "Oh me vaesed öösed orjad," 
+        intervals [2]:
+            xmin = 2.0787305998884364 
+            xmax = 3.5549870014312237 
+            text = "kas´ke," 
+        intervals [3]:
+            xmin = 3.5549870014312237 
+            xmax = 5.5303515625 
+            text = "öösed orjad, päesed pärjad," 
+        intervals [4]:
+            xmin = 5.5303515625 
+            xmax = 7.3053197204699645 
+            text = "kas´ke," 
+        intervals [5]:
+            xmin = 7.3053197204699645 
+            xmax = 9.44298902439501 
+            text = "kinnikiilutud sulased," 
+        intervals [6]:
+            xmin = 9.44298902439501 
+            xmax = 11.060703125 
+            text = "kas´ke," 
+        intervals [7]:
+            xmin = 11.060703125 
+            xmax = 13.21856585949505 
+            text = "raudapandud palgalised," 
+        intervals [8]:
+            xmin = 13.21856585949505 
+            xmax = 14.709858821442275 
+            text = "kas´ke," 
+        intervals [9]:
+            xmin = 14.709858821442275 
+            xmax = 16.89635869188749 
+            text = "peame teisi teenimä ja" 
+        intervals [10]:
+            xmin = 16.89635869188749 
+            xmax = 18.43450520833333 
+            text = "kas´ke," 
+        intervals [11]:
+            xmin = 18.43450520833333 
+            xmax = 20.73447033639427 
+            text = "endi vara vaevama ja!" 
+        intervals [12]:
+            xmin = 20.73447033639427 
+            xmax = 22.462727338376684 
+            text = "kas´ke," 
+        intervals [13]:
+            xmin = 22.462727338376684 
+            xmax = 24.61640144853938 
+            text = "Teeni saksa sada aastat –" 
+        intervals [14]:
+            xmin = 24.61640144853938 
+            xmax = 26.318069881260527 
+            text = "kas´ke," 
+        intervals [15]:
+            xmin = 26.318069881260527 
+            xmax = 28.365389714378153 
+            text = "saksal sel´gäs siidikuube," 
+        intervals [16]:
+            xmin = 28.365389714378153 
+            xmax = 30.093646716360567 
+            text = "kas´ke," 
+        intervals [17]:
+            xmin = 30.093646716360567 
+            xmax = 32.19414368800073 
+            text = "vaesellapsel vanad riided," 
+        intervals [18]:
+            xmin = 32.19414368800073 
+            xmax = 33.92240068998314 
+            text = "kas´ke," 
+        intervals [19]:
+            xmin = 33.92240068998314 
+            xmax = 35.943131953839504 
+            text = "orjukesel omad riided," 
+        intervals [20]:
+            xmin = 35.943131953839504 
+            xmax = 37.59162324803811 
+            text = "kas´ke," 
+        intervals [21]:
+            xmin = 37.59162324803811 
+            xmax = 39.798474496723344 
+            text = "pajupuust oo pastlad jalgas," 
+        intervals [22]:
+            xmin = 39.798474496723344 
+            xmax = 41.52673149870576 
+            text = "kas´ke," 
+        intervals [23]:
+            xmin = 41.52673149870576 
+            xmax = 43.46769705477831 
+            text = "kuusekoorest kuued selgas." 
+        intervals [24]:
+            xmin = 43.46769705477831 
+            xmax = 44.2428125 
+            text = "kas´ke," 
+    item [3]:
+        class = "IntervalTier" 
+        name = "word" 
+        xmin = 0 
+        xmax = 44.2428125 
+        intervals: size = 53 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24088166099773228 
+            text = "Oh" 
+        intervals [2]:
+            xmin = 0.24088166099773228 
+            xmax = 0.4103816609977323 
+            text = "me" 
+        intervals [3]:
+            xmin = 0.4103816609977323 
+            xmax = 1.0298816609977322 
+            text = "vaesed" 
+        intervals [4]:
+            xmin = 1.0298816609977322 
+            xmax = 1.5712841553287975 
+            text = "öösed" 
+        intervals [5]:
+            xmin = 1.5712841553287975 
+            xmax = 2.077955339023808 
+            text = "orjad," 
+        intervals [6]:
+            xmin = 2.077955339023808 
+            xmax = 3.5549870014312237 
+            text = "kas´ke," 
+        intervals [7]:
+            xmin = 3.5549870014312237 
+            xmax = 4.00146044557827 
+            text = "öösed" 
+        intervals [8]:
+            xmin = 4.00146044557827 
+            xmax = 4.572419784580499 
+            text = "orjad," 
+        intervals [9]:
+            xmin = 4.572419784580499 
+            xmax = 5.157993480725624 
+            text = "päesed" 
+        intervals [10]:
+            xmin = 5.157993480725624 
+            xmax = 5.5303515625 
+            text = "pärjad," 
+        intervals [11]:
+            xmin = 5.5303515625 
+            xmax = 7.3053197204699645 
+            text = "kas´ke," 
+        intervals [12]:
+            xmin = 7.3053197204699645 
+            xmax = 8.670316397392288 
+            text = "kinnikiilutud" 
+        intervals [13]:
+            xmin = 8.670316397392288 
+            xmax = 9.44298902439501 
+            text = "sulased," 
+        intervals [14]:
+            xmin = 9.44298902439501 
+            xmax = 11.060703125 
+            text = "kas´ke," 
+        intervals [15]:
+            xmin = 11.060703125 
+            xmax = 12.01136858701814 
+            text = "raudapandud" 
+        intervals [16]:
+            xmin = 12.01136858701814 
+            xmax = 13.21856585949505 
+            text = "palgalised," 
+        intervals [17]:
+            xmin = 13.21856585949505 
+            xmax = 14.709858821442275 
+            text = "kas´ke," 
+        intervals [18]:
+            xmin = 14.709858821442275 
+            xmax = 15.270774637880017 
+            text = "peame" 
+        intervals [19]:
+            xmin = 15.270774637880017 
+            xmax = 15.8459813031442 
+            text = "teisi" 
+        intervals [20]:
+            xmin = 15.8459813031442 
+            xmax = 16.703491284013605 
+            text = "teenimä" 
+        intervals [21]:
+            xmin = 16.703491284013605 
+            xmax = 16.89635869188749 
+            text = "ja" 
+        intervals [22]:
+            xmin = 16.89635869188749 
+            xmax = 18.43450520833333 
+            text = "kas´ke," 
+        intervals [23]:
+            xmin = 18.43450520833333 
+            xmax = 19.030150085034013 
+            text = "endi" 
+        intervals [24]:
+            xmin = 19.030150085034013 
+            xmax = 19.583400085034015 
+            text = "vara" 
+        intervals [25]:
+            xmin = 19.583400085034015 
+            xmax = 20.490571003401357 
+            text = "vaevama" 
+        intervals [26]:
+            xmin = 20.490571003401357 
+            xmax = 20.73447033639427 
+            text = "ja!" 
+        intervals [27]:
+            xmin = 20.73447033639427 
+            xmax = 22.462727338376684 
+            text = "kas´ke," 
+        intervals [28]:
+            xmin = 22.462727338376684 
+            xmax = 22.945315901360544 
+            text = "Teeni" 
+        intervals [29]:
+            xmin = 22.945315901360544 
+            xmax = 23.474315901360544 
+            text = "saksa" 
+        intervals [30]:
+            xmin = 23.474315901360544 
+            xmax = 24.023315901360547 
+            text = "sada" 
+        intervals [31]:
+            xmin = 24.023315901360547 
+            xmax = 24.61640144853938 
+            text = "aastat –" 
+        intervals [32]:
+            xmin = 24.61640144853938 
+            xmax = 26.318069881260527 
+            text = "kas´ke," 
+        intervals [33]:
+            xmin = 26.318069881260527 
+            xmax = 26.80467899659864 
+            text = "saksal" 
+        intervals [34]:
+            xmin = 26.80467899659864 
+            xmax = 27.33900684996221 
+            text = "sel´gäs" 
+        intervals [35]:
+            xmin = 27.33900684996221 
+            xmax = 28.365389714378153 
+            text = "siidikuube," 
+        intervals [36]:
+            xmin = 28.365389714378153 
+            xmax = 30.093646716360567 
+            text = "kas´ke," 
+        intervals [37]:
+            xmin = 30.093646716360567 
+            xmax = 31.14191028911565 
+            text = "vaesellapsel" 
+        intervals [38]:
+            xmin = 31.14191028911565 
+            xmax = 31.63441028911565 
+            text = "vanad" 
+        intervals [39]:
+            xmin = 31.63441028911565 
+            xmax = 32.19414368800073 
+            text = "riided," 
+        intervals [40]:
+            xmin = 32.19414368800073 
+            xmax = 33.92240068998314 
+            text = "kas´ke," 
+        intervals [41]:
+            xmin = 33.92240068998314 
+            xmax = 34.981839498299315 
+            text = "orjukesel" 
+        intervals [42]:
+            xmin = 34.981839498299315 
+            xmax = 35.35383949829932 
+            text = "omad" 
+        intervals [43]:
+            xmin = 35.35383949829932 
+            xmax = 35.943131953839504 
+            text = "riided," 
+        intervals [44]:
+            xmin = 35.943131953839504 
+            xmax = 37.59162324803811 
+            text = "kas´ke," 
+        intervals [45]:
+            xmin = 37.59162324803811 
+            xmax = 38.23763770195578 
+            text = "pajupuust" 
+        intervals [46]:
+            xmin = 38.23763770195578 
+            xmax = 38.672832908163265 
+            text = "oo" 
+        intervals [47]:
+            xmin = 38.672832908163265 
+            xmax = 39.207887701955784 
+            text = "pastlad" 
+        intervals [48]:
+            xmin = 39.207887701955784 
+            xmax = 39.798474496723344 
+            text = "jalgas," 
+        intervals [49]:
+            xmin = 39.798474496723344 
+            xmax = 41.52673149870576 
+            text = "kas´ke," 
+        intervals [50]:
+            xmin = 41.52673149870576 
+            xmax = 42.5083803677721 
+            text = "kuusekoorest" 
+        intervals [51]:
+            xmin = 42.5083803677721 
+            xmax = 42.94082302295917 
+            text = "kuued" 
+        intervals [52]:
+            xmin = 42.94082302295917 
+            xmax = 43.46769705477831 
+            text = "selgas." 
+        intervals [53]:
+            xmin = 43.46769705477831 
+            xmax = 44.2428125 
+            text = "kas´ke," 
+    item [4]:
+        class = "IntervalTier" 
+        name = "varbo" 
+        xmin = 0 
+        xmax = 44.2428125 
+        intervals: size = 53 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24088166099773228 
+            text = "Oh" 
+        intervals [2]:
+            xmin = 0.24088166099773228 
+            xmax = 0.4103816609977323 
+            text = "me" 
+        intervals [3]:
+            xmin = 0.4103816609977323 
+            xmax = 1.0298816609977322 
+            text = "vaesed" 
+        intervals [4]:
+            xmin = 1.0298816609977322 
+            xmax = 1.5712841553287975 
+            text = "öösed" 
+        intervals [5]:
+            xmin = 1.5712841553287975 
+            xmax = 2.077955339023808 
+            text = "orjad," 
+        intervals [6]:
+            xmin = 2.077955339023808 
+            xmax = 3.5549870014312237 
+            text = "kas´ke," 
+        intervals [7]:
+            xmin = 3.5549870014312237 
+            xmax = 4.00146044557827 
+            text = "öösed" 
+        intervals [8]:
+            xmin = 4.00146044557827 
+            xmax = 4.572419784580499 
+            text = "orjad," 
+        intervals [9]:
+            xmin = 4.572419784580499 
+            xmax = 5.157993480725624 
+            text = "päesed" 
+        intervals [10]:
+            xmin = 5.157993480725624 
+            xmax = 5.5303515625 
+            text = "pärjad," 
+        intervals [11]:
+            xmin = 5.5303515625 
+            xmax = 7.3053197204699645 
+            text = "kas´ke," 
+        intervals [12]:
+            xmin = 7.3053197204699645 
+            xmax = 8.670316397392288 
+            text = "kinnikiilutud" 
+        intervals [13]:
+            xmin = 8.670316397392288 
+            xmax = 9.44298902439501 
+            text = "sulased," 
+        intervals [14]:
+            xmin = 9.44298902439501 
+            xmax = 11.060703125 
+            text = "kas´ke," 
+        intervals [15]:
+            xmin = 11.060703125 
+            xmax = 12.01136858701814 
+            text = "raudapandud" 
+        intervals [16]:
+            xmin = 12.01136858701814 
+            xmax = 13.21856585949505 
+            text = "palgalised," 
+        intervals [17]:
+            xmin = 13.21856585949505 
+            xmax = 14.709858821442275 
+            text = "kas´ke," 
+        intervals [18]:
+            xmin = 14.709858821442275 
+            xmax = 15.270774637880017 
+            text = "peame" 
+        intervals [19]:
+            xmin = 15.270774637880017 
+            xmax = 15.8459813031442 
+            text = "teisi" 
+        intervals [20]:
+            xmin = 15.8459813031442 
+            xmax = 16.703491284013605 
+            text = "teenimä" 
+        intervals [21]:
+            xmin = 16.703491284013605 
+            xmax = 16.89635869188749 
+            text = "ja" 
+        intervals [22]:
+            xmin = 16.89635869188749 
+            xmax = 18.43450520833333 
+            text = "kas´ke," 
+        intervals [23]:
+            xmin = 18.43450520833333 
+            xmax = 19.030150085034013 
+            text = "endi" 
+        intervals [24]:
+            xmin = 19.030150085034013 
+            xmax = 19.583400085034015 
+            text = "vara" 
+        intervals [25]:
+            xmin = 19.583400085034015 
+            xmax = 20.490571003401357 
+            text = "vaevama" 
+        intervals [26]:
+            xmin = 20.490571003401357 
+            xmax = 20.73447033639427 
+            text = "ja!" 
+        intervals [27]:
+            xmin = 20.73447033639427 
+            xmax = 22.462727338376684 
+            text = "kas´ke," 
+        intervals [28]:
+            xmin = 22.462727338376684 
+            xmax = 22.945315901360544 
+            text = "Teeni" 
+        intervals [29]:
+            xmin = 22.945315901360544 
+            xmax = 23.474315901360544 
+            text = "saksa" 
+        intervals [30]:
+            xmin = 23.474315901360544 
+            xmax = 24.023315901360547 
+            text = "sada" 
+        intervals [31]:
+            xmin = 24.023315901360547 
+            xmax = 24.61640144853938 
+            text = "aastat –" 
+        intervals [32]:
+            xmin = 24.61640144853938 
+            xmax = 26.318069881260527 
+            text = "kas´ke," 
+        intervals [33]:
+            xmin = 26.318069881260527 
+            xmax = 26.80467899659864 
+            text = "saksal" 
+        intervals [34]:
+            xmin = 26.80467899659864 
+            xmax = 27.33900684996221 
+            text = "sel´gäs" 
+        intervals [35]:
+            xmin = 27.33900684996221 
+            xmax = 28.365389714378153 
+            text = "siidikuube," 
+        intervals [36]:
+            xmin = 28.365389714378153 
+            xmax = 30.093646716360567 
+            text = "kas´ke," 
+        intervals [37]:
+            xmin = 30.093646716360567 
+            xmax = 31.14191028911565 
+            text = "vaesellapsel" 
+        intervals [38]:
+            xmin = 31.14191028911565 
+            xmax = 31.63441028911565 
+            text = "vanad" 
+        intervals [39]:
+            xmin = 31.63441028911565 
+            xmax = 32.19414368800073 
+            text = "riided," 
+        intervals [40]:
+            xmin = 32.19414368800073 
+            xmax = 33.92240068998314 
+            text = "kas´ke," 
+        intervals [41]:
+            xmin = 33.92240068998314 
+            xmax = 34.981839498299315 
+            text = "orjukesel" 
+        intervals [42]:
+            xmin = 34.981839498299315 
+            xmax = 35.35383949829932 
+            text = "omad" 
+        intervals [43]:
+            xmin = 35.35383949829932 
+            xmax = 35.943131953839504 
+            text = "riided," 
+        intervals [44]:
+            xmin = 35.943131953839504 
+            xmax = 37.59162324803811 
+            text = "kas´ke," 
+        intervals [45]:
+            xmin = 37.59162324803811 
+            xmax = 38.23763770195578 
+            text = "pajupuust" 
+        intervals [46]:
+            xmin = 38.23763770195578 
+            xmax = 38.672832908163265 
+            text = "oo" 
+        intervals [47]:
+            xmin = 38.672832908163265 
+            xmax = 39.207887701955784 
+            text = "pastlad" 
+        intervals [48]:
+            xmin = 39.207887701955784 
+            xmax = 39.798474496723344 
+            text = "jalgas," 
+        intervals [49]:
+            xmin = 39.798474496723344 
+            xmax = 41.52673149870576 
+            text = "kas´ke," 
+        intervals [50]:
+            xmin = 41.52673149870576 
+            xmax = 42.5083803677721 
+            text = "kuusekoorest" 
+        intervals [51]:
+            xmin = 42.5083803677721 
+            xmax = 42.94082302295917 
+            text = "kuued" 
+        intervals [52]:
+            xmin = 42.94082302295917 
+            xmax = 43.46769705477831 
+            text = "selgas." 
+        intervals [53]:
+            xmin = 43.46769705477831 
+            xmax = 44.2428125 
+            text = "kas´ke," 
+    item [5]:
+        class = "IntervalTier" 
+        name = "word/phon" 
+        xmin = 0 
+        xmax = 44.2428125 
+        intervals: size = 41 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16504294217687082 
+            text = "o" 
+        intervals [2]:
+            xmin = 0.16504294217687082 
+            xmax = 0.24088166099773228 
+            text = "h" 
+        intervals [3]:
+            xmin = 0.24088166099773228 
+            xmax = 0.30054526761204714 
+            text = "m" 
+        intervals [4]:
+            xmin = 0.30054526761204714 
+            xmax = 0.4103816609977323 
+            text = "e" 
+        intervals [5]:
+            xmin = 0.4103816609977323 
+            xmax = 0.5116391723356009 
+            text = "v" 
+        intervals [6]:
+            xmin = 0.5116391723356009 
+            xmax = 0.6007937846366989 
+            text = "a" 
+        intervals [7]:
+            xmin = 0.6007937846366989 
+            xmax = 0.754639172335601 
+            text = "e" 
+        intervals [8]:
+            xmin = 0.754639172335601 
+            xmax = 0.8425523308123924 
+            text = "s" 
+        intervals [9]:
+            xmin = 0.8425523308123924 
+            xmax = 0.9516391723356008 
+            text = "e" 
+        intervals [10]:
+            xmin = 0.9516391723356008 
+            xmax = 1.0298816609977322 
+            text = "d" 
+        intervals [11]:
+            xmin = 1.0298816609977322 
+            xmax = 1.2734284493997174 
+            text = "øː" 
+        intervals [12]:
+            xmin = 1.2734284493997174 
+            xmax = 1.3573356009070292 
+            text = "s" 
+        intervals [13]:
+            xmin = 1.3573356009070292 
+            xmax = 1.4705878684807254 
+            text = "e" 
+        intervals [14]:
+            xmin = 1.4705878684807254 
+            xmax = 1.5712841553287975 
+            text = "d" 
+        intervals [15]:
+            xmin = 1.5712841553287975 
+            xmax = 1.6884509416216669 
+            text = "o" 
+        intervals [16]:
+            xmin = 1.6884509416216669 
+            xmax = 1.7391422496907638 
+            text = "r" 
+        intervals [17]:
+            xmin = 1.7391422496907638 
+            xmax = 1.8600215227786105 
+            text = "j" 
+        intervals [18]:
+            xmin = 1.8600215227786105 
+            xmax = 1.977583333333333 
+            text = "a" 
+        intervals [19]:
+            xmin = 1.977583333333333 
+            xmax = 2.077955339023808 
+            text = "d" 
+        intervals [20]:
+            xmin = 2.077955339023808 
+            xmax = 7.3053197204699645 
+            text = "" 
+        intervals [21]:
+            xmin = 7.3053197204699645 
+            xmax = 7.364401913641083 
+            text = "k" 
+        intervals [22]:
+            xmin = 7.364401913641083 
+            xmax = 7.496827519024623 
+            text = "i" 
+        intervals [23]:
+            xmin = 7.496827519024623 
+            xmax = 7.5579470292016415 
+            text = "ɲ" 
+        intervals [24]:
+            xmin = 7.5579470292016415 
+            xmax = 7.629253124408163 
+            text = "ɲ" 
+        intervals [25]:
+            xmin = 7.629253124408163 
+            xmax = 7.809925382653063 
+            text = "i" 
+        intervals [26]:
+            xmin = 7.809925382653063 
+            xmax = 7.865581897092635 
+            text = "k" 
+        intervals [27]:
+            xmin = 7.865581897092635 
+            xmax = 7.924664090263753 
+            text = "k" 
+        intervals [28]:
+            xmin = 7.924664090263753 
+            xmax = 8.11636509014156 
+            text = "iː" 
+        intervals [29]:
+            xmin = 8.11636509014156 
+            xmax = 8.214156306424789 
+            text = "l" 
+        intervals [30]:
+            xmin = 8.214156306424789 
+            xmax = 8.334358009772926 
+            text = "u" 
+        intervals [31]:
+            xmin = 8.334358009772926 
+            xmax = 8.462708981144663 
+            text = "t" 
+        intervals [32]:
+            xmin = 8.462708981144663 
+            xmax = 8.61143312257541 
+            text = "u" 
+        intervals [33]:
+            xmin = 8.61143312257541 
+            xmax = 8.670316397392288 
+            text = "d" 
+        intervals [34]:
+            xmin = 8.670316397392288 
+            xmax = 8.78406941288189 
+            text = "s" 
+        intervals [35]:
+            xmin = 8.78406941288189 
+            xmax = 8.917874999999999 
+            text = "u" 
+        intervals [36]:
+            xmin = 8.917874999999999 
+            xmax = 8.974510416666664 
+            text = "l" 
+        intervals [37]:
+            xmin = 8.974510416666664 
+            xmax = 9.126874999999998 
+            text = "ɑ" 
+        intervals [38]:
+            xmin = 9.126874999999998 
+            xmax = 9.219874999999998 
+            text = "s" 
+        intervals [39]:
+            xmin = 9.219874999999998 
+            xmax = 9.364010416666666 
+            text = "e" 
+        intervals [40]:
+            xmin = 9.364010416666666 
+            xmax = 9.44298902439501 
+            text = "d" 
+        intervals [41]:
+            xmin = 9.44298902439501 
+            xmax = 44.2428125 
+            text = "" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "s1" 
+        xmin = 0 
+        xmax = 44.2428125 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5116391723356009 
+            text = "" 
+        intervals [2]:
+            xmin = 0.5116391723356009 
+            xmax = 0.6007937846366989 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.6007937846366989 
+            xmax = 0.754639172335601 
+            text = "e" 
+        intervals [4]:
+            xmin = 0.754639172335601 
+            xmax = 1.0298816609977322 
+            text = "" 
+        intervals [5]:
+            xmin = 1.0298816609977322 
+            xmax = 1.2734284493997174 
+            text = "øː" 
+        intervals [6]:
+            xmin = 1.2734284493997174 
+            xmax = 1.5712841553287975 
+            text = "" 
+        intervals [7]:
+            xmin = 1.5712841553287975 
+            xmax = 1.6884509416216669 
+            text = "o" 
+        intervals [8]:
+            xmin = 1.6884509416216669 
+            xmax = 7.364401913641083 
+            text = "" 
+        intervals [9]:
+            xmin = 7.364401913641083 
+            xmax = 7.496827519024623 
+            text = "i" 
+        intervals [10]:
+            xmin = 7.496827519024623 
+            xmax = 8.78406941288189 
+            text = "" 
+        intervals [11]:
+            xmin = 8.78406941288189 
+            xmax = 8.917874999999999 
+            text = "u" 
+        intervals [12]:
+            xmin = 8.917874999999999 
+            xmax = 44.2428125 
+            text = "" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "s2" 
+        xmin = 0 
+        xmax = 44.2428125 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8425523308123924 
+            text = "" 
+        intervals [2]:
+            xmin = 0.8425523308123924 
+            xmax = 0.9516391723356008 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.9516391723356008 
+            xmax = 1.3573356009070292 
+            text = "" 
+        intervals [4]:
+            xmin = 1.3573356009070292 
+            xmax = 1.4705878684807254 
+            text = "e" 
+        intervals [5]:
+            xmin = 1.4705878684807254 
+            xmax = 1.8600215227786105 
+            text = "" 
+        intervals [6]:
+            xmin = 1.8600215227786105 
+            xmax = 1.977583333333333 
+            text = "a" 
+        intervals [7]:
+            xmin = 1.977583333333333 
+            xmax = 7.629253124408163 
+            text = "" 
+        intervals [8]:
+            xmin = 7.629253124408163 
+            xmax = 7.809925382653063 
+            text = "i" 
+        intervals [9]:
+            xmin = 7.809925382653063 
+            xmax = 8.974510416666664 
+            text = "" 
+        intervals [10]:
+            xmin = 8.974510416666664 
+            xmax = 9.126874999999998 
+            text = "ɑ" 
+        intervals [11]:
+            xmin = 9.126874999999998 
+            xmax = 44.2428125 
+            text = "" 

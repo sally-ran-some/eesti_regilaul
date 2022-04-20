@@ -1,0 +1,125 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 32.39764172335601 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "TextTier" 
+        name = "beats" 
+        xmin = 0.606 
+        xmax = 26.259 
+        points: size = 37 
+        points [1]:
+            number = 0.606 
+            mark = "b" 
+        points [2]:
+            number = 0.85 
+            mark = "b" 
+        points [3]:
+            number = 1.686 
+            mark = "b" 
+        points [4]:
+            number = 2.249 
+            mark = "b" 
+        points [5]:
+            number = 4.076 
+            mark = "b" 
+        points [6]:
+            number = 4.454 
+            mark = "b" 
+        points [7]:
+            number = 5.184 
+            mark = "b" 
+        points [8]:
+            number = 5.872 
+            mark = "b" 
+        points [9]:
+            number = 7.957 
+            mark = "b" 
+        points [10]:
+            number = 8.381 
+            mark = "b" 
+        points [11]:
+            number = 9.773 
+            mark = "b" 
+        points [12]:
+            number = 11.318 
+            mark = "b" 
+        points [13]:
+            number = 11.944 
+            mark = "b" 
+        points [14]:
+            number = 12.208 
+            mark = "b" 
+        points [15]:
+            number = 12.407 
+            mark = "b" 
+        points [16]:
+            number = 13.059 
+            mark = "b" 
+        points [17]:
+            number = 14.523 
+            mark = "b" 
+        points [18]:
+            number = 14.844 
+            mark = "b" 
+        points [19]:
+            number = 15.059 
+            mark = "b" 
+        points [20]:
+            number = 15.35 
+            mark = "b" 
+        points [21]:
+            number = 15.566 
+            mark = "b" 
+        points [22]:
+            number = 16.18 
+            mark = "b" 
+        points [23]:
+            number = 17.934 
+            mark = "b" 
+        points [24]:
+            number = 18.262 
+            mark = "b" 
+        points [25]:
+            number = 18.453 
+            mark = "b" 
+        points [26]:
+            number = 19.124 
+            mark = "b" 
+        points [27]:
+            number = 19.321 
+            mark = "b" 
+        points [28]:
+            number = 21.327 
+            mark = "b" 
+        points [29]:
+            number = 21.714 
+            mark = "b" 
+        points [30]:
+            number = 22.587 
+            mark = "b" 
+        points [31]:
+            number = 22.895 
+            mark = "b" 
+        points [32]:
+            number = 24.709 
+            mark = "b" 
+        points [33]:
+            number = 25.181 
+            mark = "b" 
+        points [34]:
+            number = 25.306 
+            mark = "b" 
+        points [35]:
+            number = 25.644 
+            mark = "b" 
+        points [36]:
+            number = 25.859 
+            mark = "b" 
+        points [37]:
+            number = 26.259 
+            mark = "b" 
