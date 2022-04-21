@@ -37,12 +37,10 @@ def songToSyll(song_dir,output):
             songDict.update({line : syll})
         with open(join(output,filename),'w') as w:
             for line,syll in songDict.items():
-                w.write(line)
-                w.write('\n')
                 for tuple in syll: 
                     w.write(str(tuple))
                     w.write('\t')
-                w.write('\n')
+                w.write('\n')    
 
            
  
