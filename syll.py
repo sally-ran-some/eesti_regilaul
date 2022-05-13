@@ -30,24 +30,27 @@ def songToSyll(song_dir,output):
         song_x = f.readlines()
         f.close()
         songDict = {}
-        for line in song_x:
-            song = Text(line)
-            song.tag_layer('words')
-            syll = syllabify_words(song.words.text,as_dict=False)
-            songDict.update({line : syll})
-        with open(join(output,filename),'w') as w:
-            for line,syll in songDict.items():
-                for tuple in syll: 
-                    w.write(str(tuple))
-                    w.write('\t')
-                w.write('\n')    
-
-           
- 
-            
-            
-            
+        song = Text(song_x[0:])
+        song.tag_layer('words')
+        syll = syllabify_words(song.words.text,asDict = True)
+        songDict.update({song:syll})           
 
 songToSyll(song_files,syllout)
        
+
+
+          # for index in song_x:
+        #     song = Text(song_x[index])
+           
+           
+        #     song.tag_layer('words')
+        #     syll = syllabify_words(song.words.text,as_dict=False)
+        #     songDict.update({line : syll})
+        # with open(join(output,filename),'w') as w:
+        #     for line,syll in songDict.items():
+                
+        #         for tuple in syll: 
+        #             w.write(str(tuple))
+        #             w.write('\t')
+        #         w.write('\n')    
 

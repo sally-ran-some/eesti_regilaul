@@ -1,0 +1,31 @@
+
+Compiled by Herbert Tampere, Erna Tampere, Ottilie Kõiva
+17 songs of 99 available
+
+all parnumaa
+
+a total of thirty-two minutes, twelve seconds of recorded song
+seven singers 
+
+ages 67 to 92, average age 75 years old
+all women
+Anthology of Estonian Traditional Music provides an overview of the earlier folk music tradition of Estonia. The anthology includes the archival recordings 98 regilaul songs and 17 instrumental tunes from the years 1912–1966.
+
+
+archive license and permissions info
+
+citations/licenses:
+
+praatio
+parselmouth
+audacity
+nyquist plugins
+eSpeak
+
+
+nltk
+estnltk
+varbamorf?
+anaconda 
+pandas
+

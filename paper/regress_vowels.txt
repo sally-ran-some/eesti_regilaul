@@ -1,0 +1,580 @@
+a,position
+
+            Mixed Linear Model Regression Results
+==============================================================
+Model:              MixedLM   Dependent Variable:   euc       
+No. Observations:   226       Method:               REML      
+No. Groups:         3         Scale:                37715.1840
+Min. group size:    8         Log-Likelihood:       -1504.6715
+Max. group size:    130       Converged:            Yes       
+Mean group size:    75.3                                      
+--------------------------------------------------------------
+                 Coef.   Std.Err.   z    P>|z|  [0.025  0.975]
+--------------------------------------------------------------
+Intercept        519.107   51.900 10.002 0.000 417.385 620.828
+position[T.off]   76.414   26.376  2.897 0.004  24.719 128.109
+performer Var   5451.920   40.155                             
+==============================================================
+              Mixed Linear Model Regression Results
+===============================================================
+Model:               MixedLM   Dependent Variable:   F1        
+No. Observations:    226       Method:               REML      
+No. Groups:          3         Scale:                12890.0084
+Min. group size:     8         Log-Likelihood:       -1385.8502
+Max. group size:     130       Converged:            Yes       
+Mean group size:     75.3                                      
+---------------------------------------------------------------
+                 Coef.   Std.Err.   z    P>|z|  [0.025  0.975] 
+---------------------------------------------------------------
+Intercept        920.573   58.614 15.706 0.000 805.691 1035.455
+position[T.off]  -33.269   15.409 -2.159 0.031 -63.469   -3.069
+performer Var   9508.983   88.260                              
+===============================================================
+              Mixed Linear Model Regression Results
+================================================================
+Model:                MixedLM   Dependent Variable:   F2        
+No. Observations:     226       Method:               REML      
+No. Groups:           3         Scale:                24349.8031
+Min. group size:      8         Log-Likelihood:       -1455.2044
+Max. group size:      130       Converged:            Yes       
+Mean group size:      75.3                                      
+----------------------------------------------------------------
+                 Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+----------------------------------------------------------------
+Intercept       1447.862   31.204 46.400 0.000 1386.704 1509.021
+position[T.off]   42.465   21.115  2.011 0.044    1.080   83.851
+performer Var   1867.848   14.954                               
+================================================================
+               Mixed Linear Model Regression Results
+=================================================================
+Model:               MixedLM    Dependent Variable:    F3        
+No. Observations:    226        Method:                REML      
+No. Groups:          3          Scale:                 99166.8704
+Min. group size:     8          Log-Likelihood:        -1614.4517
+Max. group size:     130        Converged:             Yes       
+Mean group size:     75.3                                        
+-----------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+-----------------------------------------------------------------
+Intercept        2467.357  169.046 14.596 0.000 2136.034 2798.681
+position[T.off]  -101.043   42.724 -2.365 0.018 -184.781  -17.305
+performer Var   79818.608  259.049                               
+=================================================================
+
+a,syllable
+
+           Mixed Linear Model Regression Results
+============================================================
+Model:              MixedLM  Dependent Variable:  euc       
+No. Observations:   226      Method:              REML      
+No. Groups:         3        Scale:               38900.3389
+Min. group size:    8        Log-Likelihood:      -1508.3589
+Max. group size:    130      Converged:           Yes       
+Mean group size:    75.3                                    
+------------------------------------------------------------
+               Coef.   Std.Err.   z    P>|z|  [0.025  0.975]
+------------------------------------------------------------
+Intercept      572.745   58.011  9.873 0.000 459.045 686.444
+syllable[T.2]  -25.083   26.399 -0.950 0.342 -76.824  26.658
+performer Var 7316.238   51.524                             
+============================================================
+             Mixed Linear Model Regression Results
+=============================================================
+Model:               MixedLM  Dependent Variable:  F1        
+No. Observations:    226      Method:              REML      
+No. Groups:          3        Scale:               13028.3821
+Min. group size:     8        Log-Likelihood:      -1387.0969
+Max. group size:     130      Converged:           Yes       
+Mean group size:     75.3                                    
+-------------------------------------------------------------
+               Coef.   Std.Err.   z    P>|z|  [0.025  0.975] 
+-------------------------------------------------------------
+Intercept      891.464   60.036 14.849 0.000 773.795 1009.133
+syllable[T.2]   22.451   15.276  1.470 0.142  -7.490   52.392
+performer Var 9997.993   92.548                              
+=============================================================
+             Mixed Linear Model Regression Results
+==============================================================
+Model:              MixedLM   Dependent Variable:   F2        
+No. Observations:   226       Method:               REML      
+No. Groups:         3         Scale:                24772.3316
+Min. group size:    8         Log-Likelihood:       -1457.2145
+Max. group size:    130       Converged:            Yes       
+Mean group size:    75.3                                      
+--------------------------------------------------------------
+               Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+--------------------------------------------------------------
+Intercept     1469.280   33.264 44.170 0.000 1404.083 1534.476
+syllable[T.2]   -2.116   21.062 -0.100 0.920  -43.397   39.166
+performer Var 2112.912   16.948                               
+==============================================================
+              Mixed Linear Model Regression Results
+===============================================================
+Model:              MixedLM   Dependent Variable:   F3         
+No. Observations:   226       Method:               REML       
+No. Groups:         3         Scale:                101070.4550
+Min. group size:    8         Log-Likelihood:       -1616.5836 
+Max. group size:    130       Converged:            Yes        
+Mean group size:    75.3                                       
+---------------------------------------------------------------
+                Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+---------------------------------------------------------------
+Intercept      2389.888  169.791 14.075 0.000 2057.103 2722.673
+syllable[T.2]    48.360   42.548  1.137 0.256  -35.032  131.752
+performer Var 80382.822  259.096                               
+===============================================================
+
+a,position + syllable
+
+            Mixed Linear Model Regression Results
+==============================================================
+Model:              MixedLM   Dependent Variable:   euc       
+No. Observations:   226       Method:               REML      
+No. Groups:         3         Scale:                37608.5752
+Min. group size:    8         Log-Likelihood:       -1499.6285
+Max. group size:    130       Converged:            Yes       
+Mean group size:    75.3                                      
+--------------------------------------------------------------
+                 Coef.   Std.Err.   z    P>|z|  [0.025  0.975]
+--------------------------------------------------------------
+Intercept        534.925   52.226 10.242 0.000 432.564 637.286
+position[T.off]   80.466   26.517  3.035 0.002  28.494 132.439
+syllable[T.2]    -34.311   26.137 -1.313 0.189 -85.538  16.916
+performer Var   5135.298   38.382                             
+==============================================================
+              Mixed Linear Model Regression Results
+===============================================================
+Model:               MixedLM   Dependent Variable:   F1        
+No. Observations:    226       Method:               REML      
+No. Groups:          3         Scale:                12774.8732
+Min. group size:     8         Log-Likelihood:       -1380.6884
+Max. group size:     130       Converged:            Yes       
+Mean group size:     75.3                                      
+---------------------------------------------------------------
+                 Coef.   Std.Err.   z    P>|z|  [0.025  0.975] 
+---------------------------------------------------------------
+Intercept        908.065   58.364 15.559 0.000 793.673 1022.457
+position[T.off]  -36.378   15.443 -2.356 0.018 -66.644   -6.111
+syllable[T.2]     26.589   15.229  1.746 0.081  -3.259   56.437
+performer Var   9276.156   86.500                              
+===============================================================
+              Mixed Linear Model Regression Results
+================================================================
+Model:                MixedLM   Dependent Variable:   F2        
+No. Observations:     226       Method:               REML      
+No. Groups:           3         Scale:                24446.8925
+Min. group size:      8         Log-Likelihood:       -1451.1843
+Max. group size:      130       Converged:            Yes       
+Mean group size:      75.3                                      
+----------------------------------------------------------------
+                 Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+----------------------------------------------------------------
+Intercept       1451.239   32.898 44.113 0.000 1386.759 1515.719
+position[T.off]   43.267   21.294  2.032 0.042    1.531   85.002
+syllable[T.2]     -6.969   21.060 -0.331 0.741  -48.245   34.307
+performer Var   1876.507   14.973                               
+================================================================
+               Mixed Linear Model Regression Results
+=================================================================
+Model:               MixedLM    Dependent Variable:    F3        
+No. Observations:    226        Method:                REML      
+No. Groups:          3          Scale:                 98710.1980
+Min. group size:     8          Log-Likelihood:        -1608.7626
+Max. group size:     130        Converged:             Yes       
+Mean group size:     75.3                                        
+-----------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+-----------------------------------------------------------------
+Intercept        2438.754  169.183 14.415 0.000 2107.161 2770.347
+position[T.off]  -108.121   42.911 -2.520 0.012 -192.225  -24.017
+syllable[T.2]      60.635   42.330  1.432 0.152  -22.329  143.600
+performer Var   78795.664  256.304                               
+=================================================================
+
+i,position
+
+              Mixed Linear Model Regression Results
+=================================================================
+Model:                MixedLM   Dependent Variable:   euc        
+No. Observations:     135       Method:               REML       
+No. Groups:           3         Scale:                193327.5852
+Min. group size:      4         Log-Likelihood:       -1003.9136 
+Max. group size:      70        Converged:            Yes        
+Mean group size:      45.0                                       
+-----------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+-----------------------------------------------------------------
+Intercept        1337.723  130.984 10.213 0.000 1080.998 1594.447
+position[T.off]     2.077   79.524  0.026 0.979 -153.787  157.941
+performer Var   32583.850  110.217                               
+=================================================================
+             Mixed Linear Model Regression Results
+=============================================================
+Model:              MixedLM   Dependent Variable:   F1       
+No. Observations:   135       Method:               REML     
+No. Groups:         3         Scale:                9776.3091
+Min. group size:    4         Log-Likelihood:       -806.8837
+Max. group size:    70        Converged:            Yes      
+Mean group size:    45.0                                     
+-------------------------------------------------------------
+                 Coef.   Std.Err.   z   P>|z|  [0.025  0.975]
+-------------------------------------------------------------
+Intercept        462.801   59.460 7.783 0.000 346.262 579.341
+position[T.off]   11.406   17.899 0.637 0.524 -23.677  46.488
+performer Var   9394.023  113.469                            
+=============================================================
+               Mixed Linear Model Regression Results
+=================================================================
+Model:                MixedLM   Dependent Variable:   F2         
+No. Observations:     135       Method:               REML       
+No. Groups:           3         Scale:                159905.8521
+Min. group size:      4         Log-Likelihood:       -990.9672  
+Max. group size:      70        Converged:            Yes        
+Mean group size:      45.0                                       
+-----------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+-----------------------------------------------------------------
+Intercept        1815.278   95.654 18.978 0.000 1627.799 2002.756
+position[T.off]    11.121   72.420  0.154 0.878 -130.820  153.062
+performer Var   16515.848   56.647                               
+=================================================================
+               Mixed Linear Model Regression Results
+=================================================================
+Model:               MixedLM    Dependent Variable:    F3        
+No. Observations:    135        Method:                REML      
+No. Groups:          3          Scale:                 22073.3383
+Min. group size:     4          Log-Likelihood:        -861.6128 
+Max. group size:     70         Converged:             Yes       
+Mean group size:     45.0                                        
+-----------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+-----------------------------------------------------------------
+Intercept        2764.614  117.794 23.470 0.000 2533.743 2995.486
+position[T.off]   -83.059   26.906 -3.087 0.002 -135.794  -30.324
+performer Var   39062.551  287.092                               
+=================================================================
+
+i,syllable
+
+            Mixed Linear Model Regression Results
+==============================================================
+Model:               MixedLM  Dependent Variable:  euc        
+No. Observations:    135      Method:              REML       
+No. Groups:          3        Scale:               192583.2083
+Min. group size:     4        Log-Likelihood:      -1003.6855 
+Max. group size:     70       Converged:           Yes        
+Mean group size:     45.0                                     
+--------------------------------------------------------------
+                Coef.   Std.Err.   z   P>|z|  [0.025   0.975] 
+--------------------------------------------------------------
+Intercept      1304.922  134.523 9.700 0.000 1041.262 1568.581
+syllable[T.2]    55.632   76.591 0.726 0.468  -94.484  205.747
+performer Var 32164.506  107.586                              
+==============================================================
+            Mixed Linear Model Regression Results
+===========================================================
+Model:              MixedLM  Dependent Variable:  F1       
+No. Observations:   135      Method:              REML     
+No. Groups:         3        Scale:               9804.7263
+Min. group size:    4        Log-Likelihood:      -807.1026
+Max. group size:    70       Converged:           Yes      
+Mean group size:    45.0                                   
+-----------------------------------------------------------
+               Coef.   Std.Err.   z   P>|z|  [0.025  0.975]
+-----------------------------------------------------------
+Intercept      465.503   59.807 7.783 0.000 348.283 582.723
+syllable[T.2]    3.397   17.307 0.196 0.844 -30.523  37.318
+performer Var 9322.898  112.656                            
+===========================================================
+              Mixed Linear Model Regression Results
+===============================================================
+Model:              MixedLM   Dependent Variable:   F2         
+No. Observations:   135       Method:               REML       
+No. Groups:         3         Scale:                159109.5381
+Min. group size:    4         Log-Likelihood:       -990.6740  
+Max. group size:    70        Converged:            Yes        
+Mean group size:    45.0                                       
+---------------------------------------------------------------
+                Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+---------------------------------------------------------------
+Intercept      1785.706  100.263 17.810 0.000 1589.194 1982.218
+syllable[T.2]    57.408   69.602  0.825 0.409  -79.010  193.826
+performer Var 16553.634   56.193                               
+===============================================================
+              Mixed Linear Model Regression Results
+===============================================================
+Model:               MixedLM   Dependent Variable:   F3        
+No. Observations:    135       Method:               REML      
+No. Groups:          3         Scale:                23709.7408
+Min. group size:     4         Log-Likelihood:       -866.2337 
+Max. group size:     70        Converged:            Yes       
+Mean group size:     45.0                                      
+---------------------------------------------------------------
+                Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+---------------------------------------------------------------
+Intercept      2726.315  112.958 24.136 0.000 2504.922 2947.709
+syllable[T.2]     3.378   26.913  0.126 0.900  -49.371   56.128
+performer Var 35046.398  252.645                               
+===============================================================
+
+i,position + syllable
+
+              Mixed Linear Model Regression Results
+=================================================================
+Model:                MixedLM   Dependent Variable:   euc        
+No. Observations:     135       Method:               REML       
+No. Groups:           3         Scale:                194058.5151
+Min. group size:      4         Log-Likelihood:       -998.3716  
+Max. group size:      70        Converged:            Yes        
+Mean group size:      45.0                                       
+-----------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+-----------------------------------------------------------------
+Intercept        1306.953  136.273  9.591 0.000 1039.862 1574.044
+position[T.off]    -8.066   80.879 -0.100 0.921 -166.585  150.454
+syllable[T.2]      56.971   78.040  0.730 0.465  -95.985  209.927
+performer Var   31926.903  106.955                               
+=================================================================
+             Mixed Linear Model Regression Results
+=============================================================
+Model:              MixedLM   Dependent Variable:   F1       
+No. Observations:   135       Method:               REML     
+No. Groups:         3         Scale:                9850.5732
+Min. group size:    4         Log-Likelihood:       -803.0952
+Max. group size:    70        Converged:            Yes      
+Mean group size:    45.0                                     
+-------------------------------------------------------------
+                 Coef.   Std.Err.   z   P>|z|  [0.025  0.975]
+-------------------------------------------------------------
+Intercept        461.981   60.351 7.655 0.000 343.695 580.267
+position[T.off]   11.127   18.229 0.610 0.542 -24.602  46.855
+syllable[T.2]      1.580   17.600 0.090 0.928 -32.915  36.076
+performer Var   9409.610  113.420                            
+=============================================================
+               Mixed Linear Model Regression Results
+=================================================================
+Model:                MixedLM   Dependent Variable:   F2         
+No. Observations:     135       Method:               REML       
+No. Groups:           3         Scale:                160319.9746
+Min. group size:      4         Log-Likelihood:       -985.4613  
+Max. group size:      70        Converged:            Yes        
+Mean group size:      45.0                                       
+-----------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+-----------------------------------------------------------------
+Intercept        1785.380  102.649 17.393 0.000 1584.192 1986.568
+position[T.off]     0.963   73.599  0.013 0.990 -143.288  145.214
+syllable[T.2]      57.245   70.908  0.807 0.419  -81.732  196.221
+performer Var   16621.256   56.396                               
+=================================================================
+               Mixed Linear Model Regression Results
+=================================================================
+Model:               MixedLM    Dependent Variable:    F3        
+No. Observations:    135        Method:                REML      
+No. Groups:          3          Scale:                 22175.4297
+Min. group size:     4          Log-Likelihood:        -857.2062 
+Max. group size:     70         Converged:             Yes       
+Mean group size:     45.0                                        
+-----------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+-----------------------------------------------------------------
+Intercept        2754.890  117.761 23.394 0.000 2524.082 2985.698
+position[T.off]   -86.081   27.360 -3.146 0.002 -139.705  -32.456
+syllable[T.2]      17.322   26.405  0.656 0.512  -34.430   69.074
+performer Var   38371.875  281.936                               
+=================================================================
+
+u,position
+
+            Mixed Linear Model Regression Results
+==============================================================
+Model:              MixedLM   Dependent Variable:   euc       
+No. Observations:   82        Method:               REML      
+No. Groups:         3         Scale:                17273.5755
+Min. group size:    4         Log-Likelihood:       -511.8639 
+Max. group size:    44        Converged:            Yes       
+Mean group size:    27.3                                      
+--------------------------------------------------------------
+                  Coef.   Std.Err.   z   P>|z|  [0.025  0.975]
+--------------------------------------------------------------
+Intercept         638.048  177.412 3.596 0.000 290.327 985.769
+position[T.off]    40.422   29.823 1.355 0.175 -18.030  98.873
+performer Var   91937.555  732.070                            
+==============================================================
+             Mixed Linear Model Regression Results
+==============================================================
+Model:               MixedLM   Dependent Variable:   F1       
+No. Observations:    82        Method:               REML     
+No. Groups:          3         Scale:                7730.5233
+Min. group size:     4         Log-Likelihood:       -477.6166
+Max. group size:     44        Converged:            Yes      
+Mean group size:     27.3                                     
+--------------------------------------------------------------
+                 Coef.   Std.Err.   z    P>|z|  [0.025  0.975]
+--------------------------------------------------------------
+Intercept        567.493   43.574 13.024 0.000 482.089 652.897
+position[T.off]  -17.477   19.933 -0.877 0.381 -56.545  21.592
+performer Var   4447.651   67.985                             
+==============================================================
+              Mixed Linear Model Regression Results
+===============================================================
+Model:               MixedLM   Dependent Variable:   F2        
+No. Observations:    82        Method:               REML      
+No. Groups:          3         Scale:                13462.7576
+Min. group size:     4         Log-Likelihood:       -501.5294 
+Max. group size:     44        Converged:            Yes       
+Mean group size:     27.3                                      
+---------------------------------------------------------------
+                  Coef.   Std.Err.   z   P>|z|  [0.025  0.975] 
+---------------------------------------------------------------
+Intercept        1196.119  130.778 9.146 0.000 939.799 1452.440
+position[T.off]    22.699   26.327 0.862 0.389 -28.901   74.299
+performer Var   49357.199  451.501                             
+===============================================================
+               Mixed Linear Model Regression Results
+=================================================================
+Model:               MixedLM    Dependent Variable:    F3        
+No. Observations:    82         Method:                REML      
+No. Groups:          3          Scale:                 70692.7181
+Min. group size:     4          Log-Likelihood:        -565.4662 
+Max. group size:     44         Converged:             Yes       
+Mean group size:     27.3                                        
+-----------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+-----------------------------------------------------------------
+Intercept        2252.914   92.661 24.313 0.000 2071.302 2434.527
+position[T.off]   116.575   60.453  1.928 0.054   -1.910  235.061
+performer Var   17554.011   76.619                               
+=================================================================
+
+u,syllable
+
+            Mixed Linear Model Regression Results
+=============================================================
+Model:               MixedLM  Dependent Variable:  euc       
+No. Observations:    82       Method:              REML      
+No. Groups:          3        Scale:               17673.2152
+Min. group size:     4        Log-Likelihood:      -512.7236 
+Max. group size:     44       Converged:           Yes       
+Mean group size:     27.3                                    
+-------------------------------------------------------------
+                Coef.   Std.Err.   z   P>|z|  [0.025  0.975] 
+-------------------------------------------------------------
+Intercept       656.214  177.800 3.691 0.000 307.733 1004.695
+syllable[T.2]     4.924   31.302 0.157 0.875 -56.427   66.274
+performer Var 92217.344  727.337                             
+=============================================================
+            Mixed Linear Model Regression Results
+============================================================
+Model:               MixedLM  Dependent Variable:  F1       
+No. Observations:    82       Method:              REML     
+No. Groups:          3        Scale:               7764.6968
+Min. group size:     4        Log-Likelihood:      -477.8275
+Max. group size:     44       Converged:           Yes      
+Mean group size:     27.3                                   
+------------------------------------------------------------
+               Coef.   Std.Err.   z    P>|z|  [0.025  0.975]
+------------------------------------------------------------
+Intercept      563.966   44.999 12.533 0.000 475.769 652.163
+syllable[T.2]  -10.992   20.848 -0.527 0.598 -51.853  29.870
+performer Var 4831.306   73.003                             
+============================================================
+             Mixed Linear Model Regression Results
+==============================================================
+Model:              MixedLM   Dependent Variable:   F2        
+No. Observations:   82        Method:               REML      
+No. Groups:         3         Scale:                13580.3661
+Min. group size:    4         Log-Likelihood:       -501.8110 
+Max. group size:    44        Converged:            Yes       
+Mean group size:    27.3                                      
+--------------------------------------------------------------
+                Coef.   Std.Err.   z    P>|z|  [0.025  0.975] 
+--------------------------------------------------------------
+Intercept      1212.427  129.437  9.367 0.000 958.734 1466.120
+syllable[T.2]    -8.918   27.447 -0.325 0.745 -62.714   44.877
+performer Var 48238.340  440.837                              
+==============================================================
+              Mixed Linear Model Regression Results
+===============================================================
+Model:               MixedLM   Dependent Variable:   F3        
+No. Observations:    82        Method:               REML      
+No. Groups:          3         Scale:                73517.5481
+Min. group size:     4         Log-Likelihood:       -567.1079 
+Max. group size:     44        Converged:            Yes       
+Mean group size:     27.3                                      
+---------------------------------------------------------------
+                Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+---------------------------------------------------------------
+Intercept      2293.083  100.961 22.713 0.000 2095.204 2490.962
+syllable[T.2]    34.784   63.384  0.549 0.583  -89.447  159.015
+performer Var 21005.736   87.942                               
+===============================================================
+
+u,position + syllable
+
+             Mixed Linear Model Regression Results
+===============================================================
+Model:               MixedLM   Dependent Variable:   euc       
+No. Observations:    82        Method:               REML      
+No. Groups:          3         Scale:                17490.5467
+Min. group size:     4         Log-Likelihood:       -507.4403 
+Max. group size:     44        Converged:            Yes       
+Mean group size:     27.3                                      
+---------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025  0.975]
+---------------------------------------------------------------
+Intercept         640.908  176.828  3.624 0.000 294.332 987.485
+position[T.off]    42.534   31.316  1.358 0.174 -18.843 103.911
+syllable[T.2]      -7.674   32.495 -0.236 0.813 -71.364  56.016
+performer Var   90827.199  720.369                             
+===============================================================
+             Mixed Linear Model Regression Results
+==============================================================
+Model:               MixedLM   Dependent Variable:   F1       
+No. Observations:    82        Method:               REML     
+No. Groups:          3         Scale:                7812.7862
+Min. group size:     4         Log-Likelihood:       -473.5855
+Max. group size:     44        Converged:            Yes      
+Mean group size:     27.3                                     
+--------------------------------------------------------------
+                 Coef.   Std.Err.   z    P>|z|  [0.025  0.975]
+--------------------------------------------------------------
+Intercept        569.765   45.183 12.610 0.000 481.208 658.322
+position[T.off]  -15.756   20.913 -0.753 0.451 -56.744  25.233
+syllable[T.2]     -6.274   21.828 -0.287 0.774 -49.056  36.507
+performer Var   4695.260   71.314                             
+==============================================================
+              Mixed Linear Model Regression Results
+================================================================
+Model:                MixedLM   Dependent Variable:   F2        
+No. Observations:     82        Method:               REML      
+No. Groups:           3         Scale:                13587.8392
+Min. group size:      4         Log-Likelihood:       -497.0818 
+Max. group size:      44        Converged:            Yes       
+Mean group size:      27.3                                      
+----------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025  0.975] 
+----------------------------------------------------------------
+Intercept        1202.529  128.936  9.327 0.000 949.818 1455.239
+position[T.off]    27.393   27.600  0.992 0.321 -26.703   81.489
+syllable[T.2]     -17.047   28.651 -0.595 0.552 -73.201   39.108
+performer Var   47549.967  434.875                              
+================================================================
+               Mixed Linear Model Regression Results
+=================================================================
+Model:               MixedLM    Dependent Variable:    F3        
+No. Observations:    82         Method:                REML      
+No. Groups:          3          Scale:                 71596.0699
+Min. group size:     4          Log-Likelihood:        -560.3731 
+Max. group size:     44         Converged:             Yes       
+Mean group size:     27.3                                        
+-----------------------------------------------------------------
+                  Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+-----------------------------------------------------------------
+Intercept        2252.559   97.197 23.175 0.000 2062.057 2443.062
+position[T.off]   116.374   63.431  1.835 0.067   -7.948  240.696
+syllable[T.2]       0.843   65.186  0.013 0.990 -126.919  128.605
+performer Var   17663.301   76.820                               
+=================================================================
+
+None
