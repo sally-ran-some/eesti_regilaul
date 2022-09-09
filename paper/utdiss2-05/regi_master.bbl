@@ -1,0 +1,49 @@
+\begin{thebibliography}{8}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Eek(1998)}]{eekmeisterUralica98}
+Eek, M.~E., Arvo (1998).
+\newblock Quality of standard estonian vowels in stressed and unstressed
+  syllables of the feet in three distinctive quantity degrees.
+\newblock In {\em Proceedings of the Finnic Phonetics Symposium\/}, Linguistica
+  Uralica. Tallinn.
+
+\bibitem[{Hayes(1989)}]{hayesCompensatoryLengtheningMoraic1989}
+Hayes, B. (1989).
+\newblock Compensatory {{Lengthening}} in {{Moraic Phonology}}.
+\newblock {\em Linguistic Inquiry\/}, {\em 20\/}(2), 253--306.
+
+\bibitem[{Lehiste(1992)}]{lehistePhoneticsMetrics1992}
+Lehiste, I. (1992).
+\newblock The {{Phonetics}} of {{Metrics}}.
+\newblock {\em Empirical Studies of the Arts\/}, {\em 10\/}(2), 95--120.
+
+\bibitem[{Lippus et~al.(2014)Lippus, Asu, \&
+  Mari}]{lippusAcousticStudyEstonian2014a}
+Lippus, P., Asu, E.~L., \& Mari, M.-L.~K. (2014).
+\newblock An acoustic study of {{Estonian}} word stress.
+\newblock In {\em Speech {{Prosody}} 2014\/}, (pp. 232--235). {ISCA}.
+
+\bibitem[{Palmer \& Kelly(1992)}]{palmerLinguisticProsodyMusical1992}
+Palmer, C., \& Kelly, M.~H. (1992).
+\newblock Linguistic {{Prosody}} and {{Musical Meter}} in {{Song}}.
+\newblock {\em Journal of Memory and Language\/}, {\em 31\/}(4), 525--542.
+
+\bibitem[{Prince(1980)}]{princeMetricalTheoryEstonian1980}
+Prince, A.~S. (1980).
+\newblock A {{Metrical Theory}} for {{Estonian Quantity}}.
+\newblock {\em Linguistic Inquiry\/}, {\em 11\/}(3), 511--562.
+
+\bibitem[{Ross(1990)}]{rossFormants90}
+Ross, J. (1990).
+\newblock Formant frequencies in estonian folk singing.
+
+\bibitem[{Tormis(2007)}]{tormisProblemsThatRegilaul2007}
+Tormis, V. (2007).
+\newblock Some\_problems\_with\_that\_regilaul.pdf.
+\newblock In {\em {{RING}}\/}.
+
+\end{thebibliography}

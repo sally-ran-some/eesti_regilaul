@@ -1,0 +1,230 @@
+\chapter{statsmodels output} 
+VOWEL SPACE AND WORD STRESS \\
+OLS Regression Results \\                           
+==============================================================================
+Dep. Variable:                    euc   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.002
+Method:                 Least Squares   F-statistic:                  0.002183
+Date:                Fri, 29 Jul 2022   Prob (F-statistic):              0.963
+Time:                        12:18:32   Log-Likelihood:                -4535.8
+No. Observations:                 610   AIC:                             9076.
+Df Residuals:                     608   BIC:                             9084.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept       849.8434     24.962     34.045      0.000     800.820     898.866
+stressed[T.1]     1.5645     33.485      0.047      0.963     -64.196      67.325
+==============================================================================
+Omnibus:                       36.835   Durbin-Watson:                   1.220
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               39.735
+Skew:                           0.597   Prob(JB):                     2.35e-09
+Kurtosis:                       2.629   Cond. No.                         2.77
+==============================================================================
+\\
+VOWEL SPACE AND ICTUS POSITION \\
+OLS Regression Results \\                            
+==============================================================================
+Dep. Variable:                    euc   R-squared:                       0.015
+Model:                            OLS   Adj. R-squared:                  0.014
+Method:                 Least Squares   F-statistic:                     9.531
+Date:                Fri, 29 Jul 2022   Prob (F-statistic):            0.00211
+Time:                        12:20:25   Log-Likelihood:                -4531.1
+No. Observations:                 610   AIC:                             9066.
+Df Residuals:                     608   BIC:                             9075.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept      786.5517     26.542     29.634      0.000     734.426     838.677
+ictus[T.off]   104.6479     33.898      3.087      0.002      38.077     171.218
+==============================================================================
+Omnibus:                       33.981   Durbin-Watson:                   1.208
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               36.794
+Skew:                           0.577   Prob(JB):                     1.02e-08
+Kurtosis:                       2.662   Cond. No.                         2.98
+==============================================================================
+\\
+WORD STRESS, ICTUS, AND EUCLIDEAN DISTANCE \\
+  OLS Regression Results   \\                         
+==============================================================================
+Dep. Variable:                    euc   R-squared:                       0.015
+Model:                            OLS   Adj. R-squared:                  0.012
+Method:                 Least Squares   F-statistic:                     4.758
+Date:                Fri, 29 Jul 2022   Prob (F-statistic):            0.00891
+Time:                        12:22:32   Log-Likelihood:                -4531.1
+No. Observations:                 610   AIC:                             9068.
+Df Residuals:                     607   BIC:                             9081.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+=================================================================================================================
+                                                    coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------
+Intercept                                       891.1615     28.178     31.627      0.000     835.824     946.499
+C(ictus, Treatment(reference="off"))[T.ictus]  -104.6468     33.929     -3.084      0.002    -171.279     -38.014
+C(stressed, Treatment(reference=0))[T.1]          0.0678     33.257      0.002      0.998     -65.244      65.380
+==============================================================================
+Omnibus:                       33.982   Durbin-Watson:                   1.208
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               36.795
+Skew:                           0.577   Prob(JB):                     1.02e-08
+Kurtosis:                       2.662   Cond. No.                         3.15
+==============================================================================
+
+ICTUS AND DURATION \\
+OLS Regression Results    \\
+==============================================================================
+Dep. Variable:               duration   R-squared:                       0.007
+Model:                            OLS   Adj. R-squared:                  0.005
+Method:                 Least Squares   F-statistic:                     4.253
+Date:                Fri, 29 Jul 2022   Prob (F-statistic):             0.0396
+Time:                        12:04:47   Log-Likelihood:                 618.09
+No. Observations:                 610   AIC:                            -1232.
+Df Residuals:                     608   BIC:                            -1223.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept        0.2136      0.006     37.287      0.000       0.202       0.225
+ictus[T.off]    -0.0151      0.007     -2.062      0.040      -0.029      -0.001
+==============================================================================
+Omnibus:                       36.754   Durbin-Watson:                   1.393
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               41.905
+Skew:                           0.607   Prob(JB):                     7.95e-10
+Kurtosis:                       3.417   Cond. No.                         2.98
+==============================================================================
+\\
+
+STRESS AND VOWEL DURATION\\ 
+OLS Regression Results  \\                          
+==============================================================================
+Dep. Variable:               duration   R-squared:                       0.031
+Model:                            OLS   Adj. R-squared:                  0.029
+Method:                 Least Squares   F-statistic:                     19.41
+Date:                Fri, 29 Jul 2022   Prob (F-statistic):           1.25e-05
+Time:                        12:07:35   Log-Likelihood:                 625.54
+No. Observations:                 610   AIC:                            -1247.
+Df Residuals:                     608   BIC:                            -1238.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         0.1870      0.005     35.412      0.000       0.177       0.197
+stressed[T.1]     0.0312      0.007      4.406      0.000       0.017       0.045
+==============================================================================
+Omnibus:                       28.176   Durbin-Watson:                   1.249
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               30.942
+Skew:                           0.520   Prob(JB):                     1.91e-07
+Kurtosis:                       3.368   Cond. No.                         2.77
+==============================================================================
+\\
+ICTUS AND WORD STRESS WITH DURATION \\
+
+OLS Regression Results  \\                          
+==============================================================================
+Dep. Variable:               duration   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                     12.09
+Date:                Fri, 29 Jul 2022   Prob (F-statistic):           7.08e-06
+Time:                        12:11:09   Log-Likelihood:                 627.88
+No. Observations:                 610   AIC:                            -1250.
+Df Residuals:                     607   BIC:                            -1237.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+=================================================================================================================
+                                                    coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------
+Intercept                                         0.1808      0.006     30.221      0.000       0.169       0.193
+stressed[T.1]                                     0.0314      0.007      4.450      0.000       0.018       0.045
+C(ictus, Treatment(reference="off"))[T.ictus]     0.0156      0.007      2.159      0.031       0.001       0.030
+==============================================================================
+Omnibus:                       24.467   Durbin-Watson:                   1.246
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               26.340
+Skew:                           0.486   Prob(JB):                     1.91e-06
+Kurtosis:                       3.300   Cond. No.                         3.15
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+"""
+DURATION AND QUANTITY WITH Q2 AS INTERCEPT \\
+
+OLS Regression Results  \\                          
+============================================================================== 
+Dep. Variable:               duration   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     1.024
+Date:                Fri, 29 Jul 2022   Prob (F-statistic):              0.360
+Time:                        11:44:52   Log-Likelihood:                 616.99
+No. Observations:                 610   AIC:                            -1228.
+Df Residuals:                     607   BIC:                            -1215.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+============================================================================================================
+                                               coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                    0.1990      0.005     38.479      0.000       0.189       0.209
+C(quantity, Treatment(reference=2))[T.1]     0.0097      0.008      1.251      0.211      -0.006       0.025
+C(quantity, Treatment(reference=2))[T.3]     0.0115      0.011      1.055      0.292      -0.010       0.033
+==============================================================================
+Omnibus:                       40.450   Durbin-Watson:                   1.400
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               47.030
+Skew:                           0.636   Prob(JB):                     6.13e-11
+Kurtosis:                       3.483   Cond. No.                         3.63
+==============================================================================
+\\
+
+DURATION AND QUANTITY + ICTUS\\
+OLS Regression Results       \\                     
+==============================================================================
+Dep. Variable:               duration   R-squared:                       0.010
+Model:                            OLS   Adj. R-squared:                  0.005
+Method:                 Least Squares   F-statistic:                     1.968
+Date:                Sun, 31 Jul 2022   Prob (F-statistic):              0.118
+Time:                        17:33:52   Log-Likelihood:                 618.92
+No. Observations:                 610   AIC:                            -1230.
+Df Residuals:                     606   BIC:                            -1212.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+=================================================================================================================
+                                                    coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------
+Intercept                                         0.2083      0.007     29.662      0.000       0.195       0.222
+C(ictus, Treatment(reference="ictus"))[T.off]    -0.0144      0.007     -1.961      0.050      -0.029    2.08e-05
+C(quantity, Treatment(reference=2))[T.1]          0.0088      0.008      1.144      0.253      -0.006       0.024
+C(quantity, Treatment(reference=2))[T.3]          0.0101      0.011      0.921      0.357      -0.011       0.032
+==============================================================================
+Omnibus:                       36.409   Durbin-Watson:                   1.400
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               41.483
+Skew:                           0.602   Prob(JB):                     9.82e-10
+Kurtosis:                       3.426   Cond. No.                         4.38
+==============================================================================
+
+DURATION AND QUANTITY + STRESS \\
+
+   OLS Regression Results  \\                          
+==============================================================================
+Dep. Variable:               duration   R-squared:                       0.046
+Model:                            OLS   Adj. R-squared:                  0.041
+Method:                 Least Squares   F-statistic:                     9.750
+Date:                Thu, 28 Jul 2022   Prob (F-statistic):           2.73e-06
+Time:                        23:31:26   Log-Likelihood:                 630.34
+No. Observations:                 610   AIC:                            -1253.
+Df Residuals:                     606   BIC:                            -1235.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+============================================================================================================
+                                               coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                    0.2142      0.006     36.657      0.000       0.203       0.226
+C(stressed, Treatment(reference=1))[T.0]    -0.0417      0.008     -5.207      0.000      -0.057      -0.026
+C(quantity, Treatment(reference=2))[T.1]     0.0238      0.008      2.953      0.003       0.008       0.040
+C(quantity, Treatment(reference=2))[T.3]    -0.0036      0.011     -0.329      0.742      -0.025       0.018
+==============================================================================
+Omnibus:                       29.911   Durbin-Watson:                   1.226
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.174
+Skew:                           0.508   Prob(JB):                     3.79e-08
+Kurtosis:                       3.560   Cond. No.                         4.21

@@ -1,0 +1,26 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ictus</th>
+      <th>ictus</th>
+      <th>off</th>
+    </tr>
+    <tr>
+      <th>stress</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>106</td>
+      <td>184</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>267</td>
+      <td>58</td>
+    </tr>
+  </tbody>
+</table>
