@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.22)  8 SEP 2022 14:11
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.22)  12 SEP 2022 18:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -703,7 +703,11 @@ Requested font "cmex10" scaled 1095
 \openout3 = `regi_master.idx'.
 
 Writing index file regi_master.idx
-(./regi_master.aux (./regi-previous.aux))
+(./regi_master.aux (./regi-background.aux) (./regi-previous.aux
+
+LaTeX Warning: Label `qexamps' multiply defined.
+
+))
 \openout1 = `regi_master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 252.
@@ -717,8 +721,7 @@ LaTeX Font Info:    ... okay on input line 252.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 252.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
 52.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 252.
@@ -1141,16 +1144,9 @@ Requested font "msbm5" at 5.0pt
 tfm
 File: figures/069.png Graphic file (type bmp)
 <figures/069.png>
-
-LaTeX Warning: Reference `song69' on page 11 undefined on input line 299.
-
 File: figures/094.png Graphic file (type bmp)
 <figures/094.png>
-[11]
-
-LaTeX Warning: Reference `kinggame' on page 12 undefined on input line 309.
-
-[12]
+[11] [12]
 
 Package natbib Warning: Citation `rossLostProsodicOppositions1994' on page 13 u
 ndefined on input line 334.
@@ -1230,7 +1226,143 @@ Overfull \hbox (1.3043pt too wide) in paragraph at lines 43--44
 bate in the phono-
  []
 
-) [18] [19] (./regi_master.bbl) [20
+) [18] [19]
+\openout2 = `regi-methods.aux'.
+
+ (./regi-methods.tex
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+[20
+
+
+
+
+]
+
+LaTeX Warning: Reference `spitch' on page 21 undefined on input line 19.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+[21]
+
+Package natbib Warning: Citation `deJong' on page 22 undefined on input line 50
+.
+
+
+Package natbib Warning: Citation `bradlow' on page 22 undefined on input line 5
+0.
+
+
+Package natbib Warning: Citation `rajka' on page 22 undefined on input line 50.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+[22]
+File: figures/055.png Graphic file (type bmp)
+<figures/055.png>
+
+
+Package natbib Warning: Citation `orasEstonianFolkloreArchives2022a' on page 23
+ undefined on input line 73.
+
+[23]
+
+Package natbib Warning: Citation `tampereAnthologyEstonianTraditional2016' on p
+age 24 undefined on input line 92.
+
+
+LaTeX Warning: Reference `vinyl1970' on page 24 undefined on input line 92.
+
+
+LaTeX Warning: Reference `tampy' on page 24 undefined on input line 93.
+
+[24]
+File: figures/Mf_07027_Tampered_Orik.jpg Graphic file (type bmp)
+<figures/Mf_07027_Tampered_Orik.jpg>
+
+
+Package natbib Warning: Citation `b131156' on page 25 undefined on input line 1
+13.
+
+
+Package natbib Warning: Citation `robertsonBKeeperBeattrackerLive2007' on page 
+25 undefined on input line 114.
+
+[25]
+
+Package natbib Warning: Citation `boersnaPraatDoingPhonetics2022' on page 26 un
+defined on input line 117.
+
+[26]
+
+Package natbib Warning: Citation `duddingtonESpeakSpeechSynthesizer1995' on pag
+e 27 undefined on input line 122.
+
+Requested font "[lmmono12-regular]:" at 12.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono12-regula
+r.otf
+
+Package natbib Warning: Citation `laur-EtAl:2020:LREC' on page 27 undefined on 
+input line 143.
+
+[27]
+
+Package natbib Warning: Citation `sargEarlyHistoryEstonian2005a' on page 28 und
+efined on input line 146.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+
+Package natbib Warning: Citation `robertsonBKeeperBeattrackerLive2007' on page 
+28 undefined on input line 148.
+
+[28]
+
+Package natbib Warning: Citation `parselmouth' on page 29 undefined on input li
+ne 155.
+
+
+Package natbib Warning: Citation `van1995python' on page 29 undefined on input 
+line 155.
+
+
+Package natbib Warning: Citation `goodrichRstanarmBayesianApplied2020' on page 
+29 undefined on input line 168.
+
+
+Package natbib Warning: Citation `brillemanJointLongitudinalTimetoevent2018' on
+ page 29 undefined on input line 168.
+
+) [29] [30] (./regi_master.bbl) [31
 
 
 
@@ -1238,23 +1370,24 @@ bate in the phono-
 
 Package natbib Warning: There were undefined citations.
 
-[21
+[32
 
-] (./regi_master.aux (./regi-background.aux) (./regi-previous.aux))
+] (./regi_master.aux (./regi-background.aux) (./regi-previous.aux)
+(./regi-methods.aux))
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13437 strings out of 476919
- 256452 string characters out of 5821840
- 645209 words of memory out of 5000000
- 33181 multiletter control sequences out of 15000+600000
- 410182 words of font info for 77 fonts, out of 8000000 for 9000
+ 13468 strings out of 476919
+ 257032 string characters out of 5821840
+ 645905 words of memory out of 5000000
+ 33200 multiletter control sequences out of 15000+600000
+ 410190 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  119i,8n,131p,1392b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on regi_master.pdf (30 pages).
+Output written on regi_master.pdf (41 pages).
