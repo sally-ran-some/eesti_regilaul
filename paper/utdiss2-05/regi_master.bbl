@@ -1,49 +1,126 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{21}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 
-\bibitem[{Eek(1998)}]{eekmeisterUralica98}
-Eek, M.~E., Arvo (1998).
-\newblock Quality of standard estonian vowels in stressed and unstressed
-  syllables of the feet in three distinctive quantity degrees.
-\newblock In {\em Proceedings of the Finnic Phonetics Symposium\/}, Linguistica
-  Uralica. Tallinn.
+\bibitem[{Boersna \& Weenink(2022)}]{boersnaPraatDoingPhonetics2022}
+Boersna, P., \& Weenink, D. (2022).
+\newblock Praat: Doing {{Phonetics}} by {{Computer}}.
 
-\bibitem[{Hayes(1989)}]{hayesCompensatoryLengtheningMoraic1989}
-Hayes, B. (1989).
-\newblock Compensatory {{Lengthening}} in {{Moraic Phonology}}.
-\newblock {\em Linguistic Inquiry\/}, {\em 20\/}(2), 253--306.
+\bibitem[{Cousins \& {Hepworth-Sawyer}(2014)}]{b131156}
+Cousins, M., \& {Hepworth-Sawyer}, R. (2014).
+\newblock Logic pro {{X}}.
+
+\bibitem[{De~Jong(1995)}]{de1995supraglottal}
+De~Jong, K.~J. (1995).
+\newblock The supraglottal articulation of prominence in {{English}}:
+  {{Linguistic}} stress as localized hyperarticulation.
+\newblock {\em The journal of the acoustical society of America\/}, {\em
+  97\/}(1), 491--504.
+
+\bibitem[{Duddington et~al.(1995)Duddington, Avison, Dunn, \&
+  Vitolins}]{duddingtonESpeakSpeechSynthesizer1995}
+Duddington, J., Avison, M., Dunn, R., \& Vitolins, V. (1995).
+\newblock {{eSpeak}}: {{Speech Synthesizer}}.
+
+\bibitem[{Goodrich et~al.(2020)Goodrich, Gabry, Ali, \&
+  Brilleman}]{goodrichRstanarmBayesianApplied2020}
+Goodrich, B., Gabry, J., Ali, I., \& Brilleman, S. (2020).
+\newblock Rstanarm: {{Bayesian}} applied regression modeling via {{Stan}}.
+\newblock R package version 2.21.1.
+
+\bibitem[{Jadoul et~al.(2018)Jadoul, Thompson, \& {de Boer}}]{parselmouth}
+Jadoul, Y., Thompson, B., \& {de Boer}, B. (2018).
+\newblock Introducing {{Parselmouth}}: {{A Python}} interface to {{Praat}}.
+\newblock {\em Journal of Phonetics\/}, {\em 71\/}, 1--15.
+
+\bibitem[{Laur et~al.(2020)Laur, Orasmaa, S{\"a}rg, \&
+  Tammo}]{laur-EtAl:2020:LREC}
+Laur, S., Orasmaa, S., S{\"a}rg, D., \& Tammo, P. (2020).
+\newblock {{EstNLTK}} 1.6: {{Remastered}} estonian {{NLP}} pipeline.
+\newblock In {\em Proceedings of the 12th Language Resources and Evaluation
+  Conference\/}, (pp. 7154--7162). {Marseille, France}: {European Language
+  Resources Association}.
 
 \bibitem[{Lehiste(1992)}]{lehistePhoneticsMetrics1992}
 Lehiste, I. (1992).
 \newblock The {{Phonetics}} of {{Metrics}}.
 \newblock {\em Empirical Studies of the Arts\/}, {\em 10\/}(2), 95--120.
 
-\bibitem[{Lippus et~al.(2014)Lippus, Asu, \&
-  Mari}]{lippusAcousticStudyEstonian2014a}
-Lippus, P., Asu, E.~L., \& Mari, M.-L.~K. (2014).
-\newblock An acoustic study of {{Estonian}} word stress.
-\newblock In {\em Speech {{Prosody}} 2014\/}, (pp. 232--235). {ISCA}.
+\bibitem[{Lindblom(1990)}]{lindblom1990}
+Lindblom, B. (1990).
+\newblock Explaining phonetic variation: {{A}} sketch of the {{H}}\&{{H}}
+  theory.
+\newblock In W.~J. Hardcastle, \& A.~Marchal (Eds.) {\em Speech Production and
+  Speech Modelling\/}, (pp. 403--439). {Dordrecht}: {Springer Netherlands}.
 
 \bibitem[{Palmer \& Kelly(1992)}]{palmerLinguisticProsodyMusical1992}
 Palmer, C., \& Kelly, M.~H. (1992).
 \newblock Linguistic {{Prosody}} and {{Musical Meter}} in {{Song}}.
 \newblock {\em Journal of Memory and Language\/}, {\em 31\/}(4), 525--542.
 
-\bibitem[{Prince(1980)}]{princeMetricalTheoryEstonian1980}
-Prince, A.~S. (1980).
-\newblock A {{Metrical Theory}} for {{Estonian Quantity}}.
-\newblock {\em Linguistic Inquiry\/}, {\em 11\/}(3), 511--562.
+\bibitem[{Robertson \& Plumbley(2007)}]{robertsonBKeeperBeattrackerLive2007}
+Robertson, A., \& Plumbley, M. (2007).
+\newblock B-{{Keeper}}: A beat-tracker for live performance.
+\newblock In {\em Proceedings of the 7th International Conference on {{New}}
+  Interfaces for Musical Expression - {{NIME}} '07\/}, (p. 234). {New York, New
+  York}: {ACM Press}.
+
+\bibitem[{Ross(1989)}]{rossStudyTimingEstonian1989a}
+Ross, J. (1989).
+\newblock A study of timing in an {{Estonian}} runic song.
+\newblock {\em The Journal of the Acoustical Society of America\/}, {\em
+  86\/}(5), 1671--1677.
 
 \bibitem[{Ross(1990)}]{rossFormants90}
 Ross, J. (1990).
 \newblock Formant frequencies in estonian folk singing.
 
+\bibitem[{Ross \& Lehiste(1994)}]{rossLostProsodicOppositions1994}
+Ross, J., \& Lehiste, I. (1994).
+\newblock Lost {{Prosodic Oppositions}}: {{A Study}} of {{Contrastive
+  Duration}} in {{Estonian Funeral Laments}}.
+\newblock {\em Language and Speech\/}, {\em 37\/}(4), 407--424.
+
+\bibitem[{Ross \& Lehiste(1996)}]{rossTradeoffQuantityStress1996}
+Ross, J., \& Lehiste, I. (1996).
+\newblock Trade-off between quantity and stress in {{Estonian}} folksong
+  performance?
+\newblock {\em Folklore: Electronic Journal of Folklore\/}, {\em 02\/},
+  116--123.
+
+\bibitem[{Ross \& Lehiste(1998)}]{rossTimingEstonianFolk1998}
+Ross, J., \& Lehiste, I. (1998).
+\newblock Timing in {{Estonian Folk Songs}} as {{Interaction}} between {{Speech
+  Prosody}}, {{Meter}}, and {{Musical Rhythm}}.
+\newblock {\em Music Perception\/}, {\em 15\/}(4), 319--333.
+
+\bibitem[{S{\"a}rg(2005)}]{sargEarlyHistoryEstonian2005a}
+S{\"a}rg, T. (2005).
+\newblock The {{Early History}} of {{Estonian Speech Prosody Studies}}.
+\newblock {\em Linguistica Uralica\/}, {\em 41\/}(2), 81.
+
+\bibitem[{Smiljani{\'c} \&
+  Bradlow(2005)}]{smiljanicProductionPerceptionClear2005}
+Smiljani{\'c}, R., \& Bradlow, A.~R. (2005).
+\newblock Production and perception of clear speech in {{Croatian}} and
+  {{English}}.
+\newblock {\em The Journal of the Acoustical Society of America\/}, {\em
+  118\/}(3 Pt 1), 1677--1688.
+
+\bibitem[{Tampere(2016)}]{tampereAnthologyEstonianTraditional2016}
+Tampere, H. (2016).
+\newblock {Anthology of Estonian Traditional Music}.
+
 \bibitem[{Tormis(2007)}]{tormisProblemsThatRegilaul2007}
 Tormis, V. (2007).
 \newblock Some\_problems\_with\_that\_regilaul.pdf.
 \newblock In {\em {{RING}}\/}.
+
+\bibitem[{Van~Rossum \& Drake~Jr(1995)}]{van1995python}
+Van~Rossum, G., \& Drake~Jr, F.~L. (1995).
+\newblock {\em Python Reference Manual\/}.
+\newblock {Centrum voor Wiskunde en Informatica Amsterdam}.
 
 \end{thebibliography}

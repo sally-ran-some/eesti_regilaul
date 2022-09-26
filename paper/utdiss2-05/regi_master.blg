@@ -1,7 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: regi_master.aux
-A level-1 auxiliary file: regi-previous.aux
+A level-1 auxiliary file: regi-intro.aux
+A level-1 auxiliary file: regi-methods.aux
 The style file: apa-good.bst.bst
 Database file #1: qpannottes.bib
 You're missing a field name---line 192 of file qpannottes.bib
@@ -19,111 +20,112 @@ You're missing a field name---line 279 of file qpannottes.bib
  : %author = {},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 326 of file qpannottes.bib
+I was expecting a `,' or a `}'---line 328 of file qpannottes.bib
  : 
  : author = {Rimmel, M.},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 344 of file qpannottes.bib
+I was expecting a `,' or a `}'---line 346 of file qpannottes.bib
  : 
  : %author = {},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 497 of file qpannottes.bib
+I was expecting a `,' or a `}'---line 499 of file qpannottes.bib
  :   
  :   annnote = {An Estonian-English dictionary ``written in exile." }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 534 of file qpannottes.bib
+I was expecting a `,' or a `}'---line 536 of file qpannottes.bib
  :   
  :   annote = {
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 554 of file qpannottes.bib
+I was expecting a `,' or a `}'---line 556 of file qpannottes.bib
  :   
  :   annote = {vowel duration best acoustic correlate of stress, along with f0, spectral tilt trash.}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 602 of file qpannottes.bib
+I was expecting a `,' or a `}'---line 604 of file qpannottes.bib
  : 
  : @article{guoSpeakingClearlyImproves2021,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 655 of file qpannottes.bib
+I was expecting a `,' or a `}'---line 657 of file qpannottes.bib
  : 
  : @article{hayesRolePhonologicalPhrasing1996,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1761 of file qpannottes.bib
+Repeated entry---line 905 of file qpannottes.bib
+ : @incollection{Lindblom1990
+ :                           ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1754 of file qpannottes.bib
  :   
  :   annote={used to make flextempo beatgrids}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1781 of file qpannottes.bib
+I was expecting a `,' or a `}'---line 1774 of file qpannottes.bib
  :   
  :   annote = {onset detection and how it works}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1861 of file qpannottes.bib
+I was expecting a `,' or a `}'---line 1846 of file qpannottes.bib
  :   
  :   annote = {scypy.spatial import distance - library used to compute euclidean distance of vowel height and backness from each singer's center of gravity. This measurement helps us normalize physiological differences between subjects, i.e. the size and shape of the larynx while preserving information related to tongue and jaw position: namely, the lower two formants f1 and f2.  }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1885 of file qpannottes.bib
+I was expecting a `,' or a `}'---line 1870 of file qpannottes.bib
  : 
  : @inproceedings{Kluyver2016jupyter,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "kuznetsovaEstonianWordProsody2018"
-Warning--I didn't find a database entry for "prillopMoraeEstonianReply2020"
-Too many commas in name 1 of "Eek, Arvo, Meister, Einar" for entry eekmeisterUralica98
-while executing---line 1401 of file apa-good.bst.bst
-Too many commas in name 1 of "Eek, Arvo, Meister, Einar" for entry eekmeisterUralica98
-while executing---line 1401 of file apa-good.bst.bst
-Too many commas in name 1 of "Eek, Arvo, Meister, Einar" for entry eekmeisterUralica98
-while executing---line 1474 of file apa-good.bst.bst
-Too many commas in name 1 of "Eek, Arvo, Meister, Einar" for entry eekmeisterUralica98
-while executing---line 1474 of file apa-good.bst.bst
+Warning--I didn't find a database entry for "eestiMNNasymmetry"
+Warning--I didn't find a database entry for "rosslehiste"
+Warning--I didn't find a database entry for "deJong"
+Warning--I didn't find a database entry for "bradlow"
+Warning--I didn't find a database entry for "rajka"
+Warning--I didn't find a database entry for "orasEstonianFolkloreArchives2022a"
+Warning--I didn't find a database entry for "brillemanJointLongitudinalTimetoevent2018"
 Warning--empty journal in rossFormants90
-You've used 8 entries,
+You've used 21 entries,
             2804 wiz_defined-function locations,
-            649 strings with 6197 characters,
-and the built_in function-call counts, 4188 in all, are:
-= -- 353
-> -- 106
-< -- 8
-+ -- 47
-- -- 33
-* -- 270
-:= -- 654
-add.period$ -- 25
-call.type$ -- 8
-change.case$ -- 57
-chr.to.int$ -- 8
-cite$ -- 9
-duplicate$ -- 328
-empty$ -- 357
-format.name$ -- 47
-if$ -- 831
+            738 strings with 8737 characters,
+and the built_in function-call counts, 11342 in all, are:
+= -- 956
+> -- 390
+< -- 20
++ -- 154
+- -- 125
+* -- 807
+:= -- 1775
+add.period$ -- 61
+call.type$ -- 21
+change.case$ -- 156
+chr.to.int$ -- 21
+cite$ -- 22
+duplicate$ -- 847
+empty$ -- 869
+format.name$ -- 191
+if$ -- 2225
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 63
-newline$ -- 46
-num.names$ -- 32
-pop$ -- 121
+missing$ -- 168
+newline$ -- 107
+num.names$ -- 86
+pop$ -- 334
 preamble$ -- 1
-purify$ -- 43
+purify$ -- 125
 quote$ -- 0
-skip$ -- 138
+skip$ -- 340
 stack$ -- 0
-substring$ -- 223
-swap$ -- 161
-text.length$ -- 1
+substring$ -- 550
+swap$ -- 445
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
+type$ -- 186
 warning$ -- 1
-while$ -- 35
+while$ -- 90
 width$ -- 0
-write$ -- 108
-(There were 18 error messages)
+write$ -- 264
+(There were 15 error messages)

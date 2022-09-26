@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.22)  12 SEP 2022 18:26
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.22)  24 SEP 2022 19:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -703,11 +703,7 @@ Requested font "cmex10" scaled 1095
 \openout3 = `regi_master.idx'.
 
 Writing index file regi_master.idx
-(./regi_master.aux (./regi-background.aux) (./regi-previous.aux
-
-LaTeX Warning: Label `qexamps' multiply defined.
-
-))
+(./regi_master.aux (./regi-results.aux))
 \openout1 = `regi_master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 252.
@@ -721,7 +717,8 @@ LaTeX Font Info:    ... okay on input line 252.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 252.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
 52.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 252.
@@ -904,216 +901,78 @@ Requested font "[CharisSIL-I.ttf]/OT:script=latn;language=dflt;mapping=tex-text
  [5
 
 ]
-Overfull \hbox (4.57384pt too wide) in paragraph at lines 315--316
-[]\TU/CharisSIL(0)/m/n/12 The paper first introduces prosodic prominence in gen
-eral, then delves
- []
-
-[6]
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 317.
+(Font)              scaled to size 17.28pt on input line 316.
 Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 17.28pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
 .ttf
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 317.
+(Font)              scaled to size 17.28pt on input line 316.
 Requested font "[CharisSIL-B.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 17.28pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-B
 .ttf
- (./regi_master.toc)
+
+(./regi_master.toc)
 \tf@toc=\write4
 \openout4 = `regi_master.toc'.
 
- [7
+ [6
 
 ] (./regi_master.lot)
 \tf@lot=\write5
 \openout5 = `regi_master.lot'.
 
- [8
+ [7
 
 ] (./regi_master.lof)
 \tf@lof=\write6
 \openout6 = `regi_master.lof'.
 
-
-[9
+ [8
 
 ]
-\openout2 = `regi-background.aux'.
+\openout2 = `regi-results.aux'.
 
- (./regi-background.tex
+
+(./regi-results.tex
 Chapter 1.
-
-Overfull \hbox (1.48479pt too wide) in paragraph at lines 5--7
-[]\TU/CharisSIL(0)/m/n/12 I first give an overview of suprasegmental features o
-f Estonian speech,
- []
-
-
-Overfull \hbox (9.92908pt too wide) in paragraph at lines 5--7
-\TU/CharisSIL(0)/m/n/12 detailing fine-grained acoustic-phonetic features of sy
-llable weight and promi-
- []
-
+File: figures/strictus_box.png Graphic file (type bmp)
+<figures/strictus_box.png>
 [1
 
 
 ]
-Overfull \hbox (4.28087pt too wide) in paragraph at lines 32--33
-[]\TU/CharisSIL(0)/m/n/12 RQ: can quantities in conversational speech be distin
-guished by acous-
- []
+
+Package caption Warning: \label without proper reference on input line 29.
+See the caption package documentation for explanation.
 
 
-Overfull \hbox (2.50548pt too wide) in paragraph at lines 34--35
-[]\TU/CharisSIL(0)/m/n/12 disyllabic words from recorded conversational speech 
-presented with-
- []
-
-[2]
-
-Package natbib Warning: Citation `krullUralica98' on page 3 undefined on input 
-line 51.
-
-[3]
-
-Package natbib Warning: Citation `hintUralic98' on page 4 undefined on input li
-ne 74.
+LaTeX Warning: Reference `contin' on page 2 undefined on input line 33.
 
 
-Overfull \hbox (10.8961pt too wide) in paragraph at lines 92--93
-[]\TU/CharisSIL(0)/m/n/12 long and short vary very little in quality, defining 
-as different phonemes
- []
-
-[4]
-Overfull \hbox (4.32188pt too wide) in paragraph at lines 118--121
-[]\TU/CharisSIL(0)/m/n/12 SAMEAUTHORSAMESONG: no significant timing differences
- between
- []
-
-[5]
-LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 144.
-Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;+smcp;mapping=te
-x-text;" at 12.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
-.ttf
- [6]
-
-Package natbib Warning: Citation `sluijterSpectralBalanceAcoustic1996' on page 
-7 undefined on input line 158.
+Package natbib Warning: Citation `2020SciPy-NMeth' on page 2 undefined on input
+ line 36.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
-
- []
-
-
-Package natbib Warning: Citation `asuEstonian2009' on page 7 undefined on input
- line 168.
-
-[7]
-
-Package natbib Warning: Citation `gordonPhoneticCorrelatesStress1997' on page 8
- undefined on input line 178.
-
-
-Package natbib Warning: Citation `alma991001659729706011' on page 8 undefined o
-n input line 181.
-
-
-Package natbib Warning: Citation `asuAcousticCorrelatesSecondary2018' on page 8
- undefined on input line 182.
-
-
-Package natbib Warning: Citation `meisterPerceptionShortVs2011a' on page 8 unde
-fined on input line 186.
-
-
-Package natbib Warning: Citation `kaskPerceptualAsymmetriesAuditory2021' on pag
-e 8 undefined on input line 186.
-
-
-Package natbib Warning: Citation `eekSimplePerceptionExperiments1997' on page 8
- undefined on input line 186.
-
-
-Overfull \hbox (9.53087pt too wide) in paragraph at lines 190--191
-[]\TU/CharisSIL(0)/m/n/12 Primary stress position is where the well-known terna
-ry syllable weight
- []
-
-[8]
-
-Package natbib Warning: Citation `kuznetsovaEstonianWordProsody2018' on page 9 
-undefined on input line 200.
-
-
-Package natbib Warning: Citation `prillopMoraeEstonianReply2020' on page 9 unde
-fined on input line 200.
-
-
-Overfull \hbox (1.3043pt too wide) in paragraph at lines 200--201
-[]\TU/CharisSIL(0)/m/n/12 This ternary contrast has long been the subject of de
-bate in the phono-
- []
-
-LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/it' will be
-(Font)              scaled to size 14.4pt on input line 266.
-Requested font "[CharisSIL-I.ttf]/OT:script=latn;language=dflt;mapping=tex-text
-;" at 14.4pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-I
-.ttf
-
-Package natbib Warning: Citation `sarv1998language' on page 9 undefined on inpu
-t line 268.
-
-
-Package natbib Warning: Citation `bruggemannSingingOneselfNation2014' on page 9
- undefined on input line 269.
-
-
-Package natbib Warning: Citation `ruutelTRADITIONALMUSICESTONIA2004' on page 9 
-undefined on input line 269.
-
-[9]
-
-Package natbib Warning: Citation `tormisKalevalaEstonianPerspective1985' on pag
-e 10 undefined on input line 273.
-
-
-Overfull \hbox (6.21446pt too wide) in paragraph at lines 275--276
-[]\TU/CharisSIL(0)/m/n/12 Collectively, songs in this tradition are often refer
-red to as “runosongs”
- []
-
-
-Package natbib Warning: Citation `ruutelResultsComputerizedComparative1999' on 
-page 10 undefined on input line 285.
-
-[10]
-
-Package natbib Warning: Citation `orasMusicalManifestationsTextual2010' on page
- 11 undefined on input line 288.
+Package natbib Warning: Citation `mckinney-proc-scipy-2010' on page 2 undefined
+ on input line 36.
 
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 290.
+(Font)              scaled to size 10.0pt on input line 36.
 Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 10.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
 .ttf
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 290.
+(Font)              scaled to size 7.0pt on input line 36.
 Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 7.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
 .ttf
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 290.
+(Font)              scaled to size 5.0pt on input line 36.
 Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
@@ -1142,252 +1001,76 @@ tfm
 Requested font "msbm5" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.
 tfm
-File: figures/069.png Graphic file (type bmp)
-<figures/069.png>
-File: figures/094.png Graphic file (type bmp)
-<figures/094.png>
-[11] [12]
-
-Package natbib Warning: Citation `rossLostProsodicOppositions1994' on page 13 u
-ndefined on input line 334.
-
-
-Package natbib Warning: Citation `rossTradeoffQuantityStress1996' on page 13 un
-defined on input line 339.
-
-
-Package natbib Warning: Citation `rossTimingEstonianFolk1998' on page 13 undefi
-ned on input line 341.
-
-
-Package natbib Warning: Citation `rossLostProsodicOppositions1994' on page 13 u
-ndefined on input line 342.
-
-
-Package natbib Warning: Citation `rossTradeoffQuantityStress1996' on page 13 un
-defined on input line 342.
-
-
-Package natbib Warning: Citation `rossTimingEstonianFolk1998' on page 13 undefi
-ned on input line 342.
-
-[13] [14]
-
-Package natbib Warning: Citation `lindblom1990' on page 15 undefined on input l
-ine 378.
-
-
-Package natbib Warning: Citation `moonInteractionDurationContext1994' on page 1
-5 undefined on input line 378.
-
-
-Package natbib Warning: Citation `de1995supraglottal' on page 15 undefined on i
-nput line 378.
-
-
-Package natbib Warning: Citation `bradlowIntelligibilityNormalSpeech1996' on pa
-ge 15 undefined on input line 378.
-
-
-Package natbib Warning: Citation `smiljanicProductionPerceptionClear2005' on pa
-ge 15 undefined on input line 378.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--379
-
- []
-
-[15]
-
-LaTeX Warning: Reference `' on page 16 undefined on input line 387.
-
-) [16]
-\openout2 = `regi-previous.aux'.
-
- (./regi-previous.tex
-Chapter 2.
-[17
-
-
-
-
-]
-
-Package natbib Warning: Citation `kuznetsovaEstonianWordProsody2018' on page 18
- undefined on input line 43.
-
-
-Package natbib Warning: Citation `prillopMoraeEstonianReply2020' on page 18 und
-efined on input line 43.
-
-
-Overfull \hbox (1.3043pt too wide) in paragraph at lines 43--44
-[]\TU/CharisSIL(0)/m/n/12 This ternary contrast has long been the subject of de
-bate in the phono-
- []
-
-) [18] [19]
-\openout2 = `regi-methods.aux'.
-
- (./regi-methods.tex
-Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-[20
-
-
-
-
-]
-
-LaTeX Warning: Reference `spitch' on page 21 undefined on input line 19.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-[21]
-
-Package natbib Warning: Citation `deJong' on page 22 undefined on input line 50
-.
-
-
-Package natbib Warning: Citation `bradlow' on page 22 undefined on input line 5
-0.
-
-
-Package natbib Warning: Citation `rajka' on page 22 undefined on input line 50.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-[22]
-File: figures/055.png Graphic file (type bmp)
-<figures/055.png>
-
-
-Package natbib Warning: Citation `orasEstonianFolkloreArchives2022a' on page 23
- undefined on input line 73.
-
-[23]
-
-Package natbib Warning: Citation `tampereAnthologyEstonianTraditional2016' on p
-age 24 undefined on input line 92.
-
-
-LaTeX Warning: Reference `vinyl1970' on page 24 undefined on input line 92.
-
-
-LaTeX Warning: Reference `tampy' on page 24 undefined on input line 93.
-
-[24]
-File: figures/Mf_07027_Tampered_Orik.jpg Graphic file (type bmp)
-<figures/Mf_07027_Tampered_Orik.jpg>
-
-
-Package natbib Warning: Citation `b131156' on page 25 undefined on input line 1
-13.
-
-
-Package natbib Warning: Citation `robertsonBKeeperBeattrackerLive2007' on page 
-25 undefined on input line 114.
-
-[25]
-
-Package natbib Warning: Citation `boersnaPraatDoingPhonetics2022' on page 26 un
-defined on input line 117.
-
-[26]
-
-Package natbib Warning: Citation `duddingtonESpeakSpeechSynthesizer1995' on pag
-e 27 undefined on input line 122.
-
-Requested font "[lmmono12-regular]:" at 12.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono12-regula
+LaTeX Font Info:    Font shape `TU/CharisSIL(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 36.
+Requested font "[CharisSIL-B.ttf]/OT:script=latn;language=dflt;mapping=tex-text
+;" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-B
+.ttf
+
+Package natbib Warning: Citation `reback2020pandas' on page 2 undefined on inpu
+t line 36.
+
+Requested font "[lmmono10-regular]:" at 10.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regula
 r.otf
 
-Package natbib Warning: Citation `laur-EtAl:2020:LREC' on page 27 undefined on 
-input line 143.
+Package natbib Warning: Citation `Kluyver2016jupyter' on page 2 undefined on in
+put line 36.
 
-[27]
+[2]
 
-Package natbib Warning: Citation `sargEarlyHistoryEstonian2005a' on page 28 und
-efined on input line 146.
+Package natbib Warning: Citation `heirarchyOne' on page 3 undefined on input li
+ne 75.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+LaTeX Warning: Reference `scatterSongs' on page 3 undefined on input line 80.
 
+[3]
+Overfull \hbox (316.49174pt too wide) in alignment at lines 89--112
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Package natbib Warning: Citation `robertsonBKeeperBeattrackerLive2007' on page 
-28 undefined on input line 148.
-
-[28]
-
-Package natbib Warning: Citation `parselmouth' on page 29 undefined on input li
-ne 155.
+Underfull \vbox (badness 10000) detected at line 112
+ []
 
 
-Package natbib Warning: Citation `van1995python' on page 29 undefined on input 
-line 155.
+Overfull \hbox (316.49174pt too wide) in alignment at lines 112--117
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
 
-
-Package natbib Warning: Citation `goodrichRstanarmBayesianApplied2020' on page 
-29 undefined on input line 168.
-
-
-Package natbib Warning: Citation `brillemanJointLongitudinalTimetoevent2018' on
- page 29 undefined on input line 168.
-
-) [29] [30] (./regi_master.bbl) [31
+LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/sl' in size <12> not availabl
+e
+(Font)              Font shape `TU/CharisSIL(0)/m/it' tried instead on input li
+ne 117.
+LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 117.
+[4]) [5] (./regi_master.bbl [6
 
 
 
-]
+] [7]) [8]
 
 Package natbib Warning: There were undefined citations.
 
-[32
+[9
 
-] (./regi_master.aux (./regi-background.aux) (./regi-previous.aux)
-(./regi-methods.aux))
+] (./regi_master.aux (./regi-results.aux))
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 13468 strings out of 476919
- 257032 string characters out of 5821840
- 645905 words of memory out of 5000000
- 33200 multiletter control sequences out of 15000+600000
- 410190 words of font info for 78 fonts, out of 8000000 for 9000
+ 13467 strings out of 476919
+ 257559 string characters out of 5821840
+ 659002 words of memory out of 5000000
+ 33216 multiletter control sequences out of 15000+600000
+ 410182 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 119i,8n,131p,1392b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 119i,9n,131p,1017b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on regi_master.pdf (41 pages).
+Output written on regi_master.pdf (17 pages).
