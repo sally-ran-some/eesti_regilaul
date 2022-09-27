@@ -1,9 +1,19 @@
 \chapter{Methods}
 \index{Methods@\emph{Methods}}%
+
+
 I first describe the source materials and the selection criteria for the sample corpus of {\it regilaul} folksongs. Following this, the annotation and measurement procedure is detailed. Then the procedure for assembling the corpus of songs and their text annotations is covered before proceeding to the inclusion criteria for vowel duration and dispersion measurements.
 
 
 \section{Design of the Present Study}
+
+As previous studies found that the durational properties of quantity contrasts were not found at the level of the syllable or the foot, I investigate the find-grained acoustic-phonetic properties of these contrasts at the segmental level within the syllable-note of the song. 
+
+First, duration of syllable nuclei are compared to previous results
+Second, another measure of acoustic prominence, the vowel space area, is measured. 
+
+
+
 
 To investigate the acoustic manifestations of stressed and unstressed syllables in {\it regilaul}, syllable nuclei from disyllabic feet in Q1 and Q2 are compared, as Q3 never appears in unstressed positions. 
 
@@ -18,7 +28,31 @@ To investigate the question of quantity opposition in {\it regilaul}, disyllabic
 
 \subsection{segmentation criteria}
 
+no syllables in verse-final or musical phrase-final position
+vowel onset:
+if sonorant onset, when intensity within 2 dB of steady-state/medial position of the vowel and intensity slope approaching zero
+or the intensity slope approaching zero (less than or equal to one) for more drastic transitions such as obstruents
+vowel offset intensity: before slope exceeds one (less than or equal to one) in transition to occlusion
+
+primarily syllables with onsets
+
+adjacent vowels across word boundaries, a glottal stop if present in the acoustic signal, otherwise omitted
+
+lateral approximants in syllable onset usually easier to determine boundary, coda position /l/ no boundary definable and thus analyzed as a diphthong
+in the case of intersyllabic long /l/, however, as there is no way to determine the end of the coda /l/ and beginning of the onset /l/, are excluded
+
+song 41 contained churchbells
+cases wherein word boundaries unclear due to transcription of the lyrics/poetic license
+
+nonsense words
+
+epenthesized vowels (i.e., pandi mind paju raiumaie) having mind(e) \\
+word-final vowel next to word-initial vowel/difficult or impossible to determine end of preceding and onset of next across word boundaries
+
+
 vowel onset and offset boundaries were determined using chiefly pitch and intensity contours in addition to the three first formants.
+
+
 
 onsets: \\
 
@@ -46,12 +80,9 @@ adjacent vowels, when possible, segmented by presence of glotallization pulses a
 
 In all cases, if the aforementioned cues are unavailable or ambiguous, the token is elided for this analysis. \\
 
-Stress, accent, emphasis: not one cue but a convergence of cues. 
-Song structure enforces perceptual isochrony, allows word prominence as long as melodic prominence is met (in singing/piano study) 
+A total of 757 individual vowel nuclei met the criteria for inclusion in duration measurements. After excluding diphthongs, a subset of _ met the criteria for inclusion in vowel space measurements. 
 
-Two measurements: vowel duration and vowel space
 
-While f0 is a documented cue of prominence in spoken Estonian, the song melody is strict about frequency and pitch. It is less strict about timbre. 
 \subsection{Vowel Duration}
 Why vowels and not entire syllables? The reason for this is twofold. First, measuring only the syllable nuclei affords more accurate automation. Were we to measure entire syllables, we would be limited to those with sonorant onset consonants, or in a restricted set of environments where consonant onset would be definable. By measuring only the syllable nuclei, we can reliably include more of the available vowel instances. Second, using the sonorant portions of the syllables makes way for the use of onset detection algorithms, so a strong beat is defined by a consistent threshold for each song, relative to the strength of the other beats in the signal. \\
 The previous regilaul studies found evidence of syllable-note isochrony. So, if we see Q2 and Q3 vowels increasing in duration, this would be evidence against those findings. If, however, the long and overlong vowels have less duration than the short ones, this is evidence supporting syllable-note isochrony. Due to the structure of heavy syllables, the vowels must shorten in order to accommodate the additional coda segments within the note. 
