@@ -1,0 +1,365 @@
+"0","#starting with fixed effect only model for comparison"
+"0","vowmod <- stan_glm(euclid~ictus + quantity + ictus*quantity , data=steuclid_df)"
+"1","starting worker pid=7375 on localhost:11957 at 16:56:20.398
+"
+"1","starting worker pid=7390 on localhost:11957 at 16:56:20.635
+"
+"1","starting worker pid=7404 on localhost:11957 at 16:56:20.856
+"
+"1","starting worker pid=7418 on localhost:11957 at 16:56:21.054
+"
+"1","
+SAMPLING FOR MODEL 'continuous' NOW (CHAIN "
+"1","1).
+"
+"1","Chain "
+"1","1: 
+Chain 1: Gradient evaluation took 6.8e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.68 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+"
+"1","Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
+"
+"1","Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
+"
+"1","Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
+"
+"1","Chain "
+"1","1: Iteration:  600 / 2000 [ 30%]  (Warmup)
+"
+"1","Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
+"
+"1","Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+"
+"1","Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+"
+"1","Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+"
+"1","Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+"
+"1","Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+"
+"1","Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+"
+"1","Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
+"
+"1","Chain 1: 
+Chain 1:  Elapsed Time: 0.160365 seconds (Warm-up)
+Chain 1:                0.107641 seconds (Sampling)
+Chain 1:                0.268006 seconds (Total)
+Chain 1: 
+"
+"1","
+SAMPLING FOR MODEL 'continuous' NOW (CHAIN 2).
+"
+"1","Chain 2: 
+Chain 2: Gradient evaluation took 7.4e-05 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.74 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+"
+"1","Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
+"
+"1","Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
+"
+"1","Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
+"
+"1","Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
+"
+"1","Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
+"
+"1","Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+"
+"1","Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+"
+"1","Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+"
+"1","Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+"
+"1","Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+"
+"1","Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+"
+"1","Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+"
+"1","Chain 2: 
+Chain 2:  Elapsed Time: 0.116471 seconds (Warm-up)
+Chain 2:                0.121814 seconds (Sampling)
+Chain 2:                0.238285 seconds (Total)
+Chain 2: 
+"
+"1","
+SAMPLING FOR MODEL 'continuous' NOW (CHAIN 3"
+"1",").
+"
+"1","Chain 3: "
+"1","
+Chain 3: Gradient evaluation took 6.7e-05 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.67 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+"
+"1","Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
+"
+"1","Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
+"
+"1","Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
+"
+"1","Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
+"
+"1","Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
+"
+"1","Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+"
+"1","Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+"
+"1","Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+"
+"1","Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+"
+"1","Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+"
+"1","Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+"
+"1","Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
+"
+"1","Chain 3: 
+Chain 3:  Elapsed Time: 0.103732 seconds (Warm-up)
+Chain 3:                0.108472 seconds (Sampling)
+Chain 3:                0.212204 seconds (Total)
+Chain 3: 
+"
+"1","
+SAMPLING FOR MODEL 'continuous' NOW (CHAIN 4).
+"
+"1","Chain 4: 
+Chain 4: Gradient evaluation took 1.7e-05 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.17 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+"
+"1","Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
+"
+"1","Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
+"
+"1","Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
+"
+"1","Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
+"
+"1","Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
+"
+"1","Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+"
+"1","Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+"
+"1","Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+"
+"1","Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+"
+"1","Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+"
+"1","Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+"
+"1","Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
+"
+"1","Chain 4: 
+Chain 4:  Elapsed Time: 0.102537 seconds (Warm-up)
+Chain 4:                0.10749 seconds (Sampling)
+Chain 4:                0.210027 seconds (Total)
+Chain 4: 
+"
+"0","summary(vowmod)"
+"1","
+Model Info:"
+"1","
+ function:    "
+"1"," "
+"1","stan_glm"
+"1","
+ family:      "
+"1"," "
+"1","gaussian [identity]"
+"1","
+ formula:     "
+"1"," "
+"1","euclid ~ ictus + quantity + ictus * quantity"
+"1","
+ algorithm:   "
+"1"," "
+"1","sampling"
+"1","
+ sample:      "
+"1"," "
+"1","4000"
+"1"," "
+"1","(posterior sample size)"
+"1","
+ priors:      "
+"1"," "
+"1","see help('prior_summary')"
+"1","
+ observations:"
+"1"," "
+"1","266"
+"1","
+ predictors:  "
+"1"," "
+"1","6"
+"1","
+
+Estimates:
+"
+"1","                  "
+"1","   mean"
+"1","   sd  "
+"1","   10% "
+"1","   50% "
+"1","   90% "
+"1","
+(Intercept)       "
+"1","  316.4"
+"1","   37.5"
+"1","  268.2"
+"1","  316.5"
+"1","  363.0"
+"1","
+ictusoff          "
+"1","   78.6"
+"1","   48.6"
+"1","   16.3"
+"1","   79.2"
+"1","  141.1"
+"1","
+quantity2         "
+"1","   19.7"
+"1","   45.7"
+"1","  -40.1"
+"1","   20.6"
+"1","   76.0"
+"1","
+quantity3         "
+"1","   37.3"
+"1","   55.0"
+"1","  -31.4"
+"1","   36.5"
+"1","  108.4"
+"1","
+ictusoff:quantity2"
+"1","  -60.0"
+"1","   58.2"
+"1"," -135.3"
+"1","  -60.5"
+"1","   13.9"
+"1","
+ictusoff:quantity3"
+"1","  -29.3"
+"1","   72.1"
+"1"," -122.0"
+"1","  -28.0"
+"1","   61.2"
+"1","
+sigma             "
+"1","  189.9"
+"1","    8.4"
+"1","  179.3"
+"1","  189.7"
+"1","  200.7"
+"1","
+"
+"1","
+Fit Diagnostics:
+"
+"1","        "
+"1","   mean"
+"1","   sd "
+"1","   10%"
+"1","   50%"
+"1","   90%"
+"1","
+mean_PPD"
+"1"," 359.1 "
+"1","  16.5"
+"1"," 337.8"
+"1"," 359.0"
+"1"," 380.8"
+"1","
+"
+"1","
+The mean_ppd is the sample average posterior predictive "
+"1",""
+"1","distribution of the outcome variable "
+"1",""
+"1","(for details see help('summary.stanreg')).
+"
+"1","
+"
+"1",""
+"1","MCMC diagnostics"
+"1",""
+"1","
+"
+"1","                  "
+"1"," mcse"
+"1"," Rhat"
+"1"," n_eff"
+"1","
+(Intercept)       "
+"1"," 1.0 "
+"1"," 1.0 "
+"1"," 1406 "
+"1","
+ictusoff          "
+"1"," 1.4 "
+"1"," 1.0 "
+"1"," 1292 "
+"1","
+quantity2         "
+"1"," 1.2 "
+"1"," 1.0 "
+"1"," 1359 "
+"1","
+quantity3         "
+"1"," 1.4 "
+"1"," 1.0 "
+"1"," 1475 "
+"1","
+ictusoff:quantity2"
+"1"," 1.7 "
+"1"," 1.0 "
+"1"," 1232 "
+"1","
+ictusoff:quantity3"
+"1"," 1.9 "
+"1"," 1.0 "
+"1"," 1410 "
+"1","
+sigma             "
+"1"," 0.1 "
+"1"," 1.0 "
+"1"," 4058 "
+"1","
+mean_PPD          "
+"1"," 0.3 "
+"1"," 1.0 "
+"1"," 3808 "
+"1","
+log-posterior     "
+"1"," 0.0 "
+"1"," 1.0 "
+"1"," 1445 "
+"1","
+"
+"1","
+For each parameter, mcse is Monte Carlo standard error, "
+"1",""
+"1","n_eff is a crude measure of effective sample size, "
+"1",""
+"1","and Rhat is the potential scale reduction factor on split chains"
+"1",""
+"1"," (at convergence Rhat=1).
+"

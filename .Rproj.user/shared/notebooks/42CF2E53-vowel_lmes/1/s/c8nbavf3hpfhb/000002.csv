@@ -1,0 +1,32 @@
+"0","```r
+summary(regi_df)
+```"
+"1","       X             word               syll               foot          
+ Min.   :  0.0   Length:567         Length:567         Length:567        
+ 1st Qu.:155.5   Class :character   Class :character   Class :character  
+ Median :310.0   Mode  :character   Mode  :character   Mode  :character  
+ Mean   :307.4                                                           
+ 3rd Qu.:461.5                                                           
+ Max.   :609.0                                                           
+   segment            quantity           stressed            ictus          
+ Length:567         Length:567         Length:567         Length:567        
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+    duration             f1               f2             song          
+ Min.   :0.02576   Min.   : 302.7   Min.   : 677.7   Length:567        
+ 1st Qu.:0.13880   1st Qu.: 541.5   1st Qu.:1277.6   Class :character  
+ Median :0.18881   Median : 691.6   Median :1529.3   Mode  :character  
+ Mean   :0.20045   Mean   : 700.7   Mean   :1557.7                     
+ 3rd Qu.:0.25117   3rd Qu.: 847.6   3rd Qu.:1834.8                     
+ Max.   :0.57096   Max.   :1201.8   Max.   :2579.9                     
+  performer        
+ Length:567        
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+"

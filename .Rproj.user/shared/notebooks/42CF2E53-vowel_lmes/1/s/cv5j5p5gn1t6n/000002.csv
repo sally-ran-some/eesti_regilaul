@@ -1,0 +1,13 @@
+"0","```r
+anova(dropped)
+
+```"
+"1","Type III Analysis of Variance Table with Satterthwaite's method
+                 Sum Sq  Mean Sq NumDF  DenDF F value    Pr(>F)    
+stressed       0.253328 0.253328     1 386.65 74.6830 < 2.2e-16 ***
+ictus          0.059522 0.059522     1 556.42 17.5475 3.258e-05 ***
+quantity       0.068158 0.034079     2 513.74 10.0467 5.247e-05 ***
+ictus:quantity 0.038428 0.019214     2 541.95  5.6645  0.003675 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+"

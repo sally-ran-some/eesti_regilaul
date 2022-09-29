@@ -1,0 +1,111 @@
+---
+title: "Q1 and Q2 duration in stress and ictus"
+output: html_notebook
+---
+
+```{r}
+library("lme4")
+library("ggplot2")
+library("broom")
+library(dplyr)
+data_df <- read.csv("vowel_master.csv", header= TRUE)
+
+
+data_df$ictus <- as.factor(data_df$ictus)
+data_df$stressed <- as.factor(data_df$stressed)
+data_df$quantity <- as.factor(data_df$quantity)
+data_df$song <- as.factor(data_df$song)
+data_df$word <- as.factor(data_df$word)
+head(data_df)
+
+#to look at vowel duration in song-level and word-level prominence positions, I filter out only syllables of Q1 
+strictus_data <- filter(data_df, data_df$quantity!="3")
+#strictus_data <- filter(strictus_data, nchar(strictus_data$segment)==1)
+head(strictus_data)
+
+
+```
+
+```{r}
+ggplot(strictus_data,aes(ictus,duration)) + 
+  geom_jitter(color = "violet", alpha = 0.5) +
+  facet_wrap("song")
+ggplot(strictus_data,aes(stressed,duration)) + 
+  geom_jitter(color = "orange", alpha = 0.5) +
+  facet_wrap("song")
+
+ggplot(strictus_data,aes(ictus,duration)) + 
+  geom_jitter(color = "violet", alpha = 0.5) +
+  facet_wrap("performer")
+ggplot(strictus_data,aes(stressed,duration)) + 
+  geom_jitter(color = "orange", alpha = 0.5) +
+  facet_wrap("performer")
+```
+
+```{r}
+
+```
+
+```{r}
+interaction.plot(strictus_data$stressed,strictus_data$ictus,strictus_data$duration,xlab="stressed",ylab="mean vowel duration(ms)",trace.label = "beat")
+```
+
+```{r}
+ggplot(strictus_data,aes(x=stressed,y=duration,color = ictus)) + 
+  geom_violin() +
+  facet_wrap("quantity")
+
+
+```
+
+```{}
+```
+
+```{r}
+
+ggplot(strictus_data,aes(x=shape,y=duration,color = ictus, fill=stressed)) + 
+  geom_violin()
+```
+
+```{r}
+ggplot(strictus_data,aes(x=shape,y=duration,color = ictus, fill=stressed)) + 
+  geom_violin()
+  
+ 
+```
+
+```{r}
+lindesignmod <- lmer(duration ~ ictus + stressed + ictus*stressed + (1|song) + (1|performer), data = strictus_data)
+summary(lindesignmod)
+```
+
+```{r}
+linperfmod <- lmer(duration ~ ictus + stressed + ictus*stressed  + (1|performer), data = strictus_data,REML = FALSE)
+summary(linperfmod)
+```
+
+```{r}
+linsongmod <- lmer(duration ~ ictus + stressed + ictus*stressed + (1|song), data = strictus_data,REML = FALSE)
+summary(linsongmod)
+```
+
+```{r}
+linnullIntmod <- lmer(duration ~ (1|song) + (1|performer), data = strictus_data, REML = FALSE)
+n1 <- summary(linnullIntmod)
+print(n1)
+```
+
+```{r}
+comps <- anova(lindesignmod,linperfmod)
+print(comps)
+```
+
+```{r}
+comp2 <- anova(lindesignmod,linnullIntmod)
+print(comp2)
+```
+
+```{r}
+comp2 <- anova(lindesignmod,linnullmod)
+print(comp2)
+```

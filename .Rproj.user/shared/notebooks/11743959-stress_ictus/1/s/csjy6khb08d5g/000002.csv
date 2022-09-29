@@ -1,0 +1,8 @@
+"0","```r
+pp_check(mixMod,nreps=100)
+
+pp_check(mxsong,nreps=100)
+
+pp_check(mdlsimp, nreps=100)
+
+```"

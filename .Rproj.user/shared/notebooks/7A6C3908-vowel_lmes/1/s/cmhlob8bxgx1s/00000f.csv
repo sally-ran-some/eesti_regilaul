@@ -1,0 +1,2 @@
+"0","durplot_un <- ggplot(unstress_df,aes(quantity, duration,group=interaction(ictus,quantity),col=quantity,shape=ictus)) + facet_grid(vars(ictus),vars(performer)) +geom_violin(alpha=0.05) + geom_jitter(alpha=0.3)"
+"0","plot(durplot_un)"

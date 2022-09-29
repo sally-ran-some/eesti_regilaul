@@ -1,0 +1,33 @@
+{
+    "id": "62F44F1D",
+    "path": null,
+    "project_path": null,
+    "type": "r_markdown",
+    "hash": "363553343",
+    "contents": "",
+    "dirty": true,
+    "created": 1664393541613.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "tempName": "Untitled1",
+        "chunk_output_type": "inline",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "3,0",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "2:0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 140198479173752,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1664393543580,
+    "read_only": false,
+    "read_only_alternatives": []
+}

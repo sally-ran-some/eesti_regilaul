@@ -1,0 +1,4 @@
+"0","```r
+color_scheme_set(\"mix-brightblue-red\")
+plot(sglMod, \"trace\",pars = \"ictusoff\")
+```"

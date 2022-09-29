@@ -1,0 +1,6 @@
+"0",""
+"0",""
+"0","#to look at vowel duration in song-level and word-level prominence positions, I filter out only syllables of Q1 and Q2: Q3 never occurs in unstressed syllables. "
+"0","strictus_data <- filter(data_df, data_df$quantity==""1"")"
+"0","#strictus_data <- filter(strictus_data, nchar(strictus_data$segment)==1)"
+"0","head(strictus_data)"

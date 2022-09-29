@@ -1,0 +1,4 @@
+"0","```r
+mxperf <- stan_lmer(duration~ictus+stressed+quantity+ictus*stressed +(1|performer),data=strictus_data)
+summary(mxperf)
+```"

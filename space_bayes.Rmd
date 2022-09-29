@@ -1,0 +1,119 @@
+---
+title: "Vowel Space"
+output: html_notebook
+---
+```{r}
+library("rstanarm")
+library("bayesplot")
+library("ggplot2")
+library("broom")
+
+
+
+
+# default plotting theme
+theme_set(bayesplot::theme_default(base_size = 15))
+
+# note: the line below to run chains in parallel (saves time)
+options(mc.cores = parallel::detectCores())
+
+```
+
+
+```{r}
+euclid_df <-  read.csv('euc_tidy.csv')
+euclid_df$quantity <- as.factor(euclid_df$quantity)
+euclid_df$stressed <- as.factor(euclid_df$stressed)
+euclid_df$ictus <- as.factor(euclid_df$ictus)
+euclid_df$performer <- as.factor(euclid_df$performer)
+euclid_df$song <- as.factor(euclid_df$song)
+euclid_df$qual_id <- as.factor(euclid_df$qual_id)
+head(euclid_df)
+
+
+
+```
+```{r}
+library("dplyr")
+steuclid_df <- filter(euclid_df, euclid_df$stressed=="1")
+head(steuclid_df)
+```
+
+
+```{r}
+#starting with fixed effect only model for comparison
+vowmod <- stan_glm(euclid~ictus + quantity + ictus*quantity , data=steuclid_df)
+summary(vowmod)
+```
+```{r}
+
+launch_shinystan((vowmod))
+```
+
+```{r}
+vowmix - stan_lmer((f1,f2))
+```
+
+```{r}
+ggplot(data = euclid_df, aes_(x= euclid_df$f2,y=euclid_df$f1,color = ~qual_id, label = ~qual_id)) +
+  xlab("f2")+
+  ylab("f1") +
+  scale_y_reverse(position = "right") + 
+  scale_x_reverse(position = "top") +
+  geom_density_2d() +
+
+  theme(legend.position = "none") +
+  
+  #facet_wrap(~performer) +
+  geom_point(alpha= 0.5) +
+  
+  theme_classic()
+  
+```
+```{r}
+proto <- convexHullArea(euclid_df$f1, euclid_df$f2,group = euclid_df$performer)
+plot(proto)
+#summary(proto)
+proto
+```
+```{r}
+
+vspc.area <- with(euclid_df,vowelMeansPolygonArea(f1,f2,qual_id,poly.order = c("i","ɪ","e","ø","ɛ","æ","y","ɵ","u","ʊ","o","a"), group=performer))
+
+vspc.area
+
+```
+```{r}
+ wattfab <- with(euclid_df, normVowels('wattfabricius', f1=euclid_df$f1, f2=euclid_df$f2,
+                    vowel=euclid_df$qual_id, group=euclid_df$performer))
+```
+
+```{r}
+plotVowels(f1=euclid_df$f1, f2=euclid_df$f2, vowel=euclid_df$qual_id,
+  grouping.factor=euclid_df$performer, match.axes=TRUE,
+  points='none', means='text', single.plot=FALSE,
+  family='FreeSerif', output='screen')
+```
+
+```{r}
+with(euclid_df,plotVowels(f1,f2,performer,plot.means = TRUE, pch.tokens = qual_id,pch.means = performer, ellipse.line=TRUE,poly.order=c('i','ɪ','e','ø','ɛ','æ','y','ɵ','u','ʊ','o','a'), var.col.by=qual_id, pretty=TRUE, alpha.tokens=0.3, cex.means=2))
+```
+
+```{r}
+
+#calculate center of space (f1,f2) for each performer
+# each (f1,f2) pair, get distance from center 
+# use this distance as predictor for model 
+```
+
+```{r}
+#defining euclidean distance as the distance of each (x,y) from the center of the vowel space area located at (x,y)
+
+#we don't know if quantity will be a predictor for vowel space, but since we used it in the duration model, we try it with and without. 
+vsamdl <- (euc~ictus + stressed + quantity)
+vsamdl2 <- (euc~ictus + stressed )
+
+#then try adding some random grouping variables
+
+```
+

@@ -1,0 +1,5 @@
+"0","```r
+coef(mdlX)$performer
+#plot(fitted(mdlX),residuals(mdlX))
+
+```"

@@ -1,0 +1,42 @@
+"0","```r
+linsongmod <- lmer(duration ~ ictus +stressed + quantity + ictus*stressed + (1|song) + (1+stressed|performer) + (1+ictus|performer), data = strictus_data)
+summary(linsongmod)
+```"
+"1","Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: duration ~ ictus + stressed + quantity + ictus * stressed + (1 |  
+    song) + (1 + stressed | performer) + (1 + ictus | performer)
+   Data: strictus_data
+
+REML criterion at convergence: -1205.8
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-3.14674 -0.55567 -0.01835  0.53891  3.11056 
+
+Random effects:
+ Groups      Name        Variance  Std.Dev. Corr
+ song        (Intercept) 1.907e-03 0.043674     
+ performer   (Intercept) 9.889e-04 0.031446     
+             stressed1   4.909e-04 0.022156 1.00
+ performer.1 (Intercept) 5.049e-05 0.007106     
+             ictusoff    3.636e-05 0.006030 1.00
+ Residual                4.059e-03 0.063707     
+Number of obs: 476, groups:  song, 9; performer, 3
+
+Fixed effects:
+                     Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)          0.188570   0.024731   2.279621   7.625   0.0115 *  
+ictusoff             0.005036   0.009160   6.068640   0.550   0.6021    
+stressed1            0.048221   0.016270   2.783247   2.964   0.0652 .  
+quantity2           -0.031488   0.006212 462.860532  -5.069 5.79e-07 ***
+ictusoff:stressed1  -0.018997   0.012545 444.315807  -1.514   0.1307    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) ictsff strss1 qntty2
+ictusoff    -0.095                     
+stressed1    0.490  0.258              
+quantity2   -0.096 -0.027 -0.103       
+ictsff:str1  0.113 -0.590 -0.465 -0.021
+"

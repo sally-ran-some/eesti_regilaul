@@ -1,0 +1,4 @@
+"0","p <- ggplot(strictus_data,aes(x=stressed,y=duration, color = ictus))"
+"2","Error in ggplot(strictus_data, aes(x = stressed, y = duration, color = ictus)) : 
+  object 'strictus_data' not found
+"

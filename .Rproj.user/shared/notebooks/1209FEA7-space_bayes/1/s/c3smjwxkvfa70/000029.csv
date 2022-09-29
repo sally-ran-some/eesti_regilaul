@@ -1,0 +1,1 @@
+"0","with(euclid_df,plotVowels(f1,f2,performer,plot.means = TRUE, pch.tokens = qual_id,pch.means = performer, ellipse.line=TRUE,poly.order=c('i','ɪ','e','ø','ɛ','æ','y','ɵ','u','ʊ','o','a'), var.col.by=qual_id, pretty=TRUE, alpha.tokens=0.3, cex.means=2))"

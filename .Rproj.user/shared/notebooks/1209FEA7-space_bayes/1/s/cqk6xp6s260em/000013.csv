@@ -1,0 +1,8 @@
+"0","euclid_df <-  read.csv('euc_tidy.csv')"
+"0","euclid_df$quantity <- as.factor(euclid_df$quantity)"
+"0","euclid_df$stressed <- as.factor(euclid_df$stressed)"
+"0","euclid_df$ictus <- as.factor(euclid_df$ictus)"
+"0","euclid_df$performer <- as.factor(euclid_df$performer)"
+"0","euclid_df$song <- as.factor(euclid_df$song)"
+"0","euclid_df$qual_id <- as.factor(euclid_df$qual_id)"
+"0","head(euclid_df)"

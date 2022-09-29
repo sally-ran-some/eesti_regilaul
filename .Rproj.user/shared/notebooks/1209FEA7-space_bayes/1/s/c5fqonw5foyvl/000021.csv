@@ -1,0 +1,5 @@
+"0",""
+"0","vspc.area <- with(euclid_df,vowelMeansPolygonArea(f1,f2,qual_id,poly.order = c(""i"",""ɪ"",""e"",""ø"",""ɛ"",""æ"",""y"",""ɵ"",""u"",""ʊ"",""o"",""a""), group=performer))"
+"2","Error in splancs::areapl(cbind(tapply(i$f2, i$v, mean), tapply(i$f1, i$v,  : 
+  NA/NaN/Inf in foreign function call (arg 1)
+"

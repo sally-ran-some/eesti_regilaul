@@ -1,0 +1,5 @@
+"0"," wattfab <- with(euclid_df, normVowels('wattfabricius', f1=euclid_df$f1, f2=euclid_df$f2,"
+"0","                    vowel=euclid_df$qual_id, group=euclid_df$performer))"
+"2","[phonR]: The vowel with the lowest mean F1 value (usually /i/)does not match across all speakers/groups. You'll have to calculate s-centroid manually.
+"
+"2","Warning: row names were found from a short variable and have been discarded"

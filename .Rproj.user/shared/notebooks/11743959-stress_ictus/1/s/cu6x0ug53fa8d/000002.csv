@@ -1,0 +1,6 @@
+"0","```r
+mixMod <- stan_lmer(duration ~ ictus + stressed + quantity + (1|performer) + (1|word),data = data_df)
+
+summary(mixMod)
+
+```"

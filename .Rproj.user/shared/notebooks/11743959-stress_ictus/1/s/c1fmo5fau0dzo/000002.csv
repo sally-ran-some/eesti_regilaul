@@ -1,0 +1,38 @@
+"0","```r
+lindesignmod <- lmer(duration ~ ictus + stressed + ictus*stressed + quantity + (1|song) + (1|performer), data = strictus_data)
+summary(lindesignmod)
+```"
+"1","Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: duration ~ ictus + stressed + ictus * stressed + quantity + (1 |      song) + (1 | performer)
+   Data: strictus_data
+
+REML criterion at convergence: -1201.3
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.1542 -0.5582 -0.0113  0.5436  3.1459 
+
+Random effects:
+ Groups    Name        Variance Std.Dev.
+ song      (Intercept) 0.002169 0.04657 
+ performer (Intercept) 0.001559 0.03948 
+ Residual              0.004111 0.06412 
+Number of obs: 476, groups:  song, 9; performer, 3
+
+Fixed effects:
+                     Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)          0.187125   0.028685   2.079764   6.524   0.0206 *  
+ictusoff             0.004043   0.008344 464.563242   0.485   0.6282    
+stressed1            0.052870   0.010014 464.009800   5.279 1.99e-07 ***
+quantity2           -0.031845   0.006248 464.461410  -5.097 5.04e-07 ***
+ictusoff:stressed1  -0.016482   0.012383 463.933396  -1.331   0.1839    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) ictsff strss1 qntty2
+ictusoff    -0.159                     
+stressed1   -0.125  0.474              
+quantity2   -0.083 -0.027 -0.165       
+ictsff:str1  0.113 -0.634 -0.782 -0.025
+"

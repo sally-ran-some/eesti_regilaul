@@ -1,0 +1,10 @@
+"0","```r
+#make sure categorical values read as characters instead of integers
+regi_df$foot <- as.character(regi_df$foot)
+regi_df$quantity <- as.character((regi_df$quantity))
+regi_df$stressed <- as.character(regi_df$stressed)
+regi_df$song <- as.character(regi_df$song)
+
+
+
+```"

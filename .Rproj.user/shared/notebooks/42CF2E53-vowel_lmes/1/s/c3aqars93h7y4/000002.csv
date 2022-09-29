@@ -1,0 +1,4 @@
+"0","```r
+mdlXn <- lmer(duration~(1|performer) +(1|word),data = regi_df,REML=FALSE)
+anova(mdlXn,mdlX)
+```"

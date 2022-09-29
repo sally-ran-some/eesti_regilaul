@@ -1,0 +1,18 @@
+"0","```r
+chisq.test(regi_df$ictus,regi_df$stressed, correct = FALSE)
+```"
+"1","
+	Pearson's Chi-squared test
+
+data:  regi_df$ictus and regi_df$stressed
+X-squared = 0.58391, df = 1, p-value = 0.4448
+"
+"0","```r
+chisq.test(regi_df$ictus,regi_df$quantity, correct = FALSE)
+```"
+"1","
+	Pearson's Chi-squared test
+
+data:  regi_df$ictus and regi_df$quantity
+X-squared = 1.9937, df = 2, p-value = 0.369
+"

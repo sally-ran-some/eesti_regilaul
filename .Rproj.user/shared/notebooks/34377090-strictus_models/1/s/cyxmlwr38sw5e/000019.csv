@@ -1,0 +1,3 @@
+"0",""
+"0","interaction.plot(strictus_data$stressed, strictus_data$quantity,strictus_data$duration, xlab = ""stressed"", ylab = ""mean vowel duration(ms)"",trace.label = ""quantity"")"
+"0",""

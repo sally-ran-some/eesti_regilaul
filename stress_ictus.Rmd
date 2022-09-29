@@ -1,0 +1,156 @@
+---
+title: "Stress and Ictus, Q1"
+output: html_notebook
+---
+
+```{r packages}
+#library("rstanarm")
+#library("bayesplot")
+library("lme4")
+library("ggplot2")
+library("broom")
+library(dplyr)
+
+
+# default plotting theme
+theme_set(bayesplot::theme_default(base_size = 15))
+
+# note: the line below to run chains in parallel (saves time)
+options(mc.cores = parallel::detectCores())
+
+```
+
+```{r}
+data_df <- read.csv("shapes_all_songs.csv", header= TRUE)
+
+
+data_df$ictus <- as.factor(data_df$ictus)
+data_df$stressed <- as.factor(data_df$stressed)
+data_df$quantity <- as.factor(data_df$quantity)
+data_df$song <- as.factor(data_df$song)
+data_df$word <- as.factor(data_df$word)
+head(data_df)
+
+
+```
+```{r}
+
+
+#to look at vowel duration in song-level and word-level prominence positions, I filter out only syllables of Q1 and Q2: Q3 never occurs in unstressed syllables. 
+strictus_data <- filter(data_df, data_df$quantity=="1")
+#strictus_data <- filter(strictus_data, nchar(strictus_data$segment)==1)
+head(strictus_data)
+```
+```{r}
+ggplot(strictus_data,aes(ictus,duration)) + 
+  geom_jitter(color = "violet", alpha = 0.5) +
+  facet_wrap("song")
+ggplot(strictus_data,aes(stressed,duration)) + 
+  geom_jitter(color = "orange", alpha = 0.5) +
+  facet_wrap("song")
+
+ggplot(strictus_data,aes(ictus,duration)) + 
+  geom_jitter(color = "violet", alpha = 0.5) +
+  facet_wrap("performer")
+ggplot(strictus_data,aes(stressed,duration)) + 
+  geom_jitter(color = "orange", alpha = 0.5) +
+  facet_wrap("performer")
+```
+
+```{r}
+
+interaction.plot(strictus_data$stressed,strictus_data$ictus,strictus_data$duration,xlab="stressed",ylab="mean vowel duration(ms)",trace.label = "beat")
+
+#interaction.plot(strictus_data$stressed, strictus_data$quantity,strictus_data$duration, xlab = "stressed", ylab = "mean vowel duration(ms)",trace.label = "quantity")
+```
+
+```{r}
+p <- ggplot(strictus_data,aes(x=stressed,y=duration, color = ictus))
+p + geom_boxplot(notch = FALSE)
+```
+
+```{r}
+lindesignmod <- lmer(duration ~ ictus + stressed + ictus*stressed + (1|song) + (1|performer), data = strictus_data)
+summary(lindesignmod)
+```
+
+random slopes for performer in ictus and stress categories: 
+```{r}
+linsongmod <- lmer(duration ~ ictus +stressed  + ictus*stressed + (1|song) + (1+stressed|performer) + (1+ictus|performer), data = strictus_data)
+summary(linsongmod)
+```
+```{r}
+linsongperfmod <- lmer(duration ~ ictus +stressed + ictus*stressed + (1|song) + (1|performer), data = strictus_data, REML = FALSE)
+summary(linsongperfmod)
+```
+
+
+
+
+```{r}
+mxperf <- stan_lmer(duration~ictus+stressed+quantity+ictus*stressed +(1|performer),data=strictus_data)
+summary(mxperf)
+```
+
+
+```{r}
+launch_shinystan(mxperf)
+```
+```{r}
+mxrand <- stan_lmer(duration ~ ictus+stressed+quantity+ictus*stressed +(1|song) + (1|performer),data=strictus_data)
+summary(mxrand)
+```
+```{r}
+launch_shinystan(mxrand)
+```
+
+```{r}
+mixMod <- stan_lmer(duration ~ ictus + stressed + quantity + (1|performer) + (1|word),data = data_df)
+
+summary(mixMod)
+
+```
+```{r}
+prior_summary(mixMod)
+```
+```{r}
+pp_check(mixMod,nreps=100)
+
+pp_check(mxsong,nreps=100)
+
+pp_check(mdlsimp, nreps=100)
+
+```
+```{r}
+
+```
+
+
+```{r}
+launch_shinystan((mixMod))
+```
+
+```{r}
+color_scheme_set("mix-brightblue-red")
+plot(sglMod, "trace",pars = "ictusoff")
+```
+
+```{r}
+mdlsong <- stan_lmer(duration~ictus + stressed + quantity + (1|performer) + (1|song),
+                      data_df,
+                      prior = normal(),
+                      prior_covariance = decov(1,1,1,1),
+                      iter=4000
+                      )
+summary(mdlsong)
+```
+```{r}
+launch_shinystan(mdlsong)
+```
+```{r}
+prior_summary(covprior)
+```
+
+```{r}
+plot(covprior, "trace",pars = "duration")
+```
