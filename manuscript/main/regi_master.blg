@@ -1,0 +1,95 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: regi_master.aux
+A level-1 auxiliary file: regi-intro.aux
+A level-1 auxiliary file: regi-methods.aux
+A level-1 auxiliary file: regi-results.aux
+The style file: apa-good.bst.bst
+I found no \bibdata command---while reading file regi_master.aux
+Warning--I didn't find a database entry for "tormisProblemsThatRegilaul2007"
+Warning--I didn't find a database entry for "lehistePhoneticsMetrics1992"
+Warning--I didn't find a database entry for "lippusAcousticStudyEstonian2014a"
+Warning--I didn't find a database entry for "eekmeisterUralica98"
+Warning--I didn't find a database entry for "princeMetricalTheoryEstonian1980"
+Warning--I didn't find a database entry for "hayesCompensatoryLengtheningMoraic1989"
+Warning--I didn't find a database entry for "kuznetsovaEstonianWordProsody2018"
+Warning--I didn't find a database entry for "prillopMoraeEstonianReply2020"
+Warning--I didn't find a database entry for "smiljanicProductionPerceptionClear2005"
+Warning--I didn't find a database entry for "de1995supraglottal"
+Warning--I didn't find a database entry for "lindblom1990"
+Warning--I didn't find a database entry for "palmerLinguisticProsodyMusical1992"
+Warning--I didn't find a database entry for "tormisKalevalaEstonianPerspective1985"
+Warning--I didn't find a database entry for "ruutelResultsComputerizedComparative1999"
+Warning--I didn't find a database entry for "rossFormants90"
+Warning--I didn't find a database entry for "thesong"
+Warning--I didn't find a database entry for "rossStudyTimingEstonian1989a"
+Warning--I didn't find a database entry for "rossLostProsodicOppositions1994"
+Warning--I didn't find a database entry for "rossTradeoffQuantityStress1996"
+Warning--I didn't find a database entry for "rossTimingEstonianFolk1998"
+Warning--I didn't find a database entry for "eestiMNNasymmetry"
+Warning--I didn't find a database entry for "rosslehiste"
+Warning--I didn't find a database entry for "lehiste85"
+Warning--I didn't find a database entry for "vago85"
+Warning--I didn't find a database entry for "deJong"
+Warning--I didn't find a database entry for "bradlow"
+Warning--I didn't find a database entry for "rajka"
+Warning--I didn't find a database entry for "orasEstonianFolkloreArchives2022a"
+Warning--I didn't find a database entry for "tampereAnthologyEstonianTraditional2016"
+Warning--I didn't find a database entry for "b131156"
+Warning--I didn't find a database entry for "robertsonBKeeperBeattrackerLive2007"
+Warning--I didn't find a database entry for "boersnaPraatDoingPhonetics2022"
+Warning--I didn't find a database entry for "duddingtonESpeakSpeechSynthesizer1995"
+Warning--I didn't find a database entry for "laur-EtAl:2020:LREC"
+Warning--I didn't find a database entry for "sargEarlyHistoryEstonian2005a"
+Warning--I didn't find a database entry for "parselmouth"
+Warning--I didn't find a database entry for "van1995python"
+Warning--I didn't find a database entry for "rlme4"
+Warning--I didn't find a database entry for "goodrichRstanarmBayesianApplied2020"
+Warning--I didn't find a database entry for "brillemanJointLongitudinalTimetoevent2018"
+Warning--I didn't find a database entry for "2020SciPy-NMeth"
+Warning--I didn't find a database entry for "mckinney-proc-scipy-2010"
+Warning--I didn't find a database entry for "reback2020pandas"
+Warning--I didn't find a database entry for "Kluyver2016jupyter"
+Warning--I didn't find a database entry for "heirarchyOne"
+You've used 0 entries,
+            2804 wiz_defined-function locations,
+            660 strings with 6582 characters,
+and the built_in function-call counts, 29 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 8
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 7
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 6
+(There was 1 error message)
