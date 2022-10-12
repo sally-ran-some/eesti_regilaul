@@ -1,4 +1,0 @@
-"0","ggplot(strictus_data,aes(x=shape,y=duration,color = ictus)) + "
-"0","  geom_boxplot(notch= FALSE) +"
-"0","  facet_wrap(""stressed"")"
-"0",""

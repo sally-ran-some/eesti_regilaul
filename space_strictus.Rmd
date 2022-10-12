@@ -1,0 +1,95 @@
+---
+title: "Vowel Dispersion in Ictus and Stress"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code.
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*.
+
+```{r}
+library("lme4")
+library("ggplot2")
+library("broom")
+library("dplyr")
+spata_df <- read.csv("vowel_master.csv", header= TRUE)
+
+
+spata_df$ictus <- as.factor(spata_df$ictus)
+spata_df$stressed <- as.factor(spata_df$stressed)
+spata_df$stressed <- recode_factor(spata_df$stressed, "0" = "unstressed","1" = "stressed")
+spata_df$quantity <- as.factor(spata_df$quantity)
+spata_df$song <- as.factor(spata_df$song)
+spata_df$word <- as.factor(spata_df$word)
+head(spata_df)
+```
+
+```{r}
+space_data <- filter(spata_df, spata_df$quantity!="3" & spata_df$shape != "VCC" & spata_df$shape != "VVC" & spata_df$shape != "VV" & spata_df$segment != "ɵ"& spata_df$segment != "ɵɵ" & spata_df$segment != "ɵː" & spata_df$segment != "o"& spata_df$segment != "oo"& spata_df$segment != "oː" & spata_df$segment != "æ"& spata_df$segment != "ææ" & spata_df$segment != "øː"& spata_df$segment != "æː")
+
+(space_data)
+```
+
+```{r}
+ggplot(space_data,aes(ictus,euclid)) + 
+  geom_jitter(color = "violet", alpha = 0.5) +
+  facet_wrap("song") +
+  labs(x = "beat position", y = "vowel dispersion") + 
+  theme_minimal()
+ggplot(space_data,aes(stressed,euclid)) + 
+  geom_jitter(color = "orange", alpha = 0.5) +
+  facet_wrap("song") +
+  labs(x = "word stress", y = "vowel dispersion") + 
+  theme_minimal()
+ggplot(space_data,aes(ictus,euclid)) + 
+  geom_jitter(color = "violet", alpha = 0.5) +
+  facet_wrap("performer") +
+  labs(x = "beat position", y = "vowel dispersion") + 
+  theme_minimal()
+ggplot(space_data,aes(stressed,euclid)) + 
+  geom_jitter(color = "orange", alpha = 0.5) +
+  facet_wrap("performer") +
+  labs(x = "word stress", y = "vowel dispersion") + 
+  theme_minimal()
+
+```
+
+```{r}
+ggplot(space_data,aes(x=ictus ,y=euclid,color = ictus)) + 
+  geom_violin() + stat_ydensity() + theme_minimal() +
+  labs( xlab = "beat" ,ylab = "euclidean distance") 
+```
+
+```{r}
+des_song_md <- lmer(euclid ~ stressed + ictus + quantity+ (1|song), REML = FALSE, data = space_data )
+summary(des_song_md)
+```
+
+```{r}
+des_perf_md <- lmer(euclid ~ stressed + ictus + quantity + (1|performer), REML = FALSE, data = space_data )
+summary(des_perf_md)
+```
+
+```{r}
+anova(des_song_md,des_perf_md)
+
+```
+
+```{r}
+des_max_md <- lmer(euclid ~ stressed + ictus + stressed*ictus + quantity + (1|song) + (1|performer), REML = FALSE, data = space_data )
+summary(des_max_md)
+```
+
+```{r}
+des_sp_md <- lmer(euclid ~ stressed + ictus + quantity + (1|song) + (1|performer), REML = FALSE, data = space_data )
+summary(des_sp_md)
+```
+
+```{r}
+des_null_md <- lmer(euclid ~  (1|song) + (1|performer), REML = FALSE, data = space_data )
+summary(des_null_md)
+```
+
+```{r}
+anova(des_sp_md,des_max_md)
+```

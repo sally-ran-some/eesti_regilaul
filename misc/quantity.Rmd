@@ -1,0 +1,56 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r packages}
+library("rstanarm")
+library("bayesplot")
+library("lme4")
+library("ggplot2")
+library("broom")
+
+
+# default plotting theme
+theme_set(bayesplot::theme_default(base_size = 15))
+
+# note: the line below to run chains in parallel (saves time)
+options(mc.cores = parallel::detectCores())
+```
+
+```{r}
+ggplot(steuclid_df,aes(ictus,duration)) + 
+  geom_jitter(color = "violet", alpha = 0.5) +
+  facet_wrap("song")
+ggplot(steuclid_df,aes(quantity,duration)) + 
+  geom_jitter(color = "orange", alpha = 0.5) +
+  facet_wrap("song")
+ggplot(steuclid_df,aes(ictus,euclid)) + 
+  geom_jitter(color = "violet", alpha = 0.5) +
+  facet_wrap("song")
+ggplot(steuclid_df,aes(quantity,euclid)) + 
+  geom_jitter(color = "orange", alpha = 0.5) +
+  facet_wrap("song")
+
+```
+```{r}
+summary(steuclid_df)
+```
+
+
+```{r}
+interaction.plot(steuclid_df$ictus,steuclid_df$quantity,steuclid_df$duration)
+interaction.plot(steuclid_df$ictus,steuclid_df$quantity,steuclid_df$euclid)
+
+
+```
+
+```{r}
+m <- lmer(euclid~ictus + quantity + ictus*quantity + (1|song) + (1|performer) + (1|qual_id), data = steuclid_df)
+summary(m)
+```
+

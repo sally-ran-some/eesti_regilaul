@@ -1,0 +1,50 @@
+---
+title: "Quantity and Ictus Duration & space"
+output: html_notebook
+---
+
+```{r}
+library("lme4")
+library("ggplot2")
+library("broom")
+library("dplyr")
+quant_df <- read.csv("vowel_master.csv", header= TRUE)
+quant_df$ictus <- as.factor(quant_df$ictus)
+quant_df$stressed <- as.factor(quant_df$stressed)
+quant_df$stressed <- recode_factor(quant_df$stressed, "0" = "unstressed","1" = "stressed")
+quant_df$quantity <- as.factor(quant_df$quantity)
+quant_df$song <- as.factor(quant_df$song)
+quant_df$word <- as.factor(quant_df$word)
+head(quant_df)
+```
+
+```{r}
+quant_df <- filter(quant_df, quant_df$stressed == 'stressed')
+quant_df
+```
+
+```{r}
+ggplot(quant_df,aes(ictus,duration)) + 
+  geom_jitter(color = "violet", alpha = 0.5) +
+  facet_wrap("quantity") +
+  labs(x = "beat position", y = "mean vowel duration (ms)") + 
+  theme_minimal()
+#ggsave("q_dur.png")
+ggplot(quant_df,aes(ictus,euclid)) + 
+  geom_jitter(color = "violet", alpha = 0.5) +
+  facet_wrap("quantity") +
+  labs(x = "beat position", y = "vowel dispersion") + 
+  theme_minimal()
+
+```
+
+```{r}
+ggplot(quant_df,aes(x=quantity,y=duration, color = shape)) +
+geom_violin()  + stat_ydensity() + theme_minimal() +
+
+labs( xlab = "syllable shape" ,ylab = "vowel duration (ms)") 
+```
+
+```{r}
+interaction.plot(quant_df$ictus,quant_df$quantity,quant_df$duration,xlab="i",ylab="mean vowel duration(ms)",trace.label = "q")
+```

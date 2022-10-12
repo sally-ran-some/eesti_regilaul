@@ -1,0 +1,46 @@
+---
+title: "Q1 and Q2 stress and ictus Bayes"
+output: html_notebook
+---
+
+```{r}
+
+library("rstanarm")
+library("bayesplot")
+library("ggplot2")
+# default plotting theme
+theme_set(bayesplot::theme_default(base_size = 15))
+
+# note: the line below to run chains in parallel (saves time)
+options(mc.cores = parallel::detectCores())
+```
+
+```{r}
+data_df <- read.csv("vowel_master.csv", header= TRUE)
+
+
+data_df$ictus <- as.factor(data_df$ictus)
+data_df$stressed <- as.factor(data_df$stressed)
+data_df$quantity <- as.factor(data_df$quantity)
+data_df$song <- as.factor(data_df$song)
+data_df$word <- as.factor(data_df$word)
+#head(data_df)
+
+#to look at vowel duration in song-level and word-level prominence positions, I filter out only syllables of Q1 
+strictus_data <- filter(data_df, data_df$quantity!="3" & data_df$shape != "VCC" & data_df$shape != "VVC" & data_df$shape != "VV")
+
+#strictus_data <- filter(strictus_data, nchar(strictus_data$segment)==1)
+head(strictus_data)
+
+```
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*.
+
+```{r}
+mxrand <- stan_lmer(duration ~ ictus+stressed+quantity+ictus*stressed +(1|song) + (1|performer),data=strictus_data)
+summary(mxrand)
+```
+
+```{r}
+launch_shinystan(mxrand)
+```
