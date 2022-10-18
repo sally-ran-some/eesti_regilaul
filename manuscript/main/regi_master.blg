@@ -1,57 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2021)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: regi_master.aux
 A level-1 auxiliary file: regi-intro.aux
 The style file: apa-good.bst.bst
 Database file #1: regilaul.bib
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "ross90"
-Warning--I didn't find a database entry for "lehiste1992"
-Warning--I didn't find a database entry for "eestiMNNasymmetry"
-Warning--to sort, need author or key in essensPovel1985
-Warning--empty author in essensPovel1985
-Warning--empty title in essensPovel1985
-Warning--empty journal in essensPovel1985
-Warning--empty journal in ross1990
-You've used 11 entries,
+You've used 18 entries,
             2804 wiz_defined-function locations,
-            656 strings with 6171 characters,
-and the built_in function-call counts, 5451 in all, are:
-= -- 459
-> -- 136
-< -- 11
-+ -- 57
-- -- 42
-* -- 366
-:= -- 844
-add.period$ -- 31
-call.type$ -- 11
-change.case$ -- 73
-chr.to.int$ -- 11
+            704 strings with 7544 characters,
+and the built_in function-call counts, 9571 in all, are:
+= -- 813
+> -- 268
+< -- 20
++ -- 109
+- -- 83
+* -- 650
+:= -- 1486
+add.period$ -- 57
+call.type$ -- 18
+change.case$ -- 128
+chr.to.int$ -- 18
 cite$ -- 18
-duplicate$ -- 432
-empty$ -- 460
-format.name$ -- 68
-if$ -- 1076
+duplicate$ -- 747
+empty$ -- 785
+format.name$ -- 138
+if$ -- 1898
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 82
-newline$ -- 59
-num.names$ -- 40
-pop$ -- 171
+missing$ -- 145
+newline$ -- 97
+num.names$ -- 74
+pop$ -- 271
 preamble$ -- 1
-purify$ -- 58
+purify$ -- 99
 quote$ -- 0
-skip$ -- 178
+skip$ -- 299
 stack$ -- 0
-substring$ -- 278
-swap$ -- 200
-text.length$ -- 1
+substring$ -- 491
+swap$ -- 374
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 99
-warning$ -- 5
-while$ -- 42
+type$ -- 162
+warning$ -- 0
+while$ -- 78
 width$ -- 0
-write$ -- 140
-(There were 9 warnings)
+write$ -- 240
