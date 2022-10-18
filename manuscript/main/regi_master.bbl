@@ -1,11 +1,44 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{18}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 
-\bibitem[{ess(1985)}]{essensPovel1985}
- (1985).
+\bibitem[{Eek \& Meister(1998)}]{eekMeister1998}
+Eek, A., \& Meister, E. (1998).
+\newblock {{Quality}} of standard {{Estonian}} vowels in stressed and
+  unstressed syllables of the feet in three distinctive {{Quantity}} degrees.
+\newblock In {\em Proceedings of the Finnic Phonetics Symposium\/}, Linguistica
+  Uralica. Tallinn.
+
+\bibitem[{Essens \& Povel(1985)}]{essensPovel1985}
+Essens, P., \& Povel, D.-J. (1985).
+\newblock {Metrical} and {{Nonmetrical}} representations of temporal patterns".
+\newblock {\em Perception \& Psychophysics\/}, {\em 37\/}, 1--7.
+
+\bibitem[{Lehiste(1992)}]{lehiste1992}
+Lehiste, I. (1992).
+\newblock The {{Phonetics}} of {{Metrics}}.
+\newblock {\em Empirical Studies of the Arts\/}, {\em 10\/}(2), 95--120.
+
+\bibitem[{Lindblom(1990)}]{lindblom1990}
+Lindblom, B. (1990).
+\newblock Explaining phonetic variation: {{A}} sketch of the {{H}}\&{{H}}
+  theory.
+\newblock In W.~J. Hardcastle, \& A.~Marchal (Eds.) {\em Speech Production and
+  Speech Modelling\/}, (pp. 403--439). {Dordrecht}: {Springer Netherlands}.
+
+\bibitem[{Lotman \& Lotman(2013)}]{lotmanLotman2013}
+Lotman, M.-K., \& Lotman, M. (2013).
+\newblock The {{Quantitative}} structure of {{Estonian}} syllabic-accentual
+  trochaic tetrameter.
+\newblock {\em TRAMES\/}, {\em 3\/}, 243--272.
+
+\bibitem[{Oras(2019)}]{oras2019}
+Oras, J. (2019).
+\newblock Individual rhythmic variation in oral poetry: the runosong
+  performances of {Seto} singers.
+\newblock {\em Open Access Linguistics\/}.
 
 \bibitem[{Palmer \& Kelly(1992)}]{palmer1992}
 Palmer, C., \& Kelly, M.~H. (1992).
@@ -18,17 +51,10 @@ Ross, J. (1989).
 \newblock {\em The Journal of the Acoustical Society of America\/}, {\em
   86\/}(5), 1671--1677.
 
-\bibitem[{Ross(1990)}]{ross1990}
-Ross, J. (1990).
-\newblock Formant frequencies in estonian folk singing.
-
-\bibitem[{Ross(2001)}]{rossLehiste2001}
-Ross, J. (2001).
-\newblock The temporal structure of {{Estonian}} runic songs / by {{Jaan
-  Ross}}, {{Ilse Lehiste}}.
-\newblock In {\em The Temporal Structure of {{Estonian}} Runic Songs\/},
-  Phonology and {{Phonetics}} ; 1. {Berlin, [Germany] ;}: {Mouton de Gruyter},
-  reprint 2015 ed.
+\bibitem[{Ross(1992)}]{ross1992}
+Ross, J. (1992).
+\newblock Formant frequencies in {{Estonian}} folk singing.
+\newblock {\em Journal of the Acoustical Society of America\/}.
 
 \bibitem[{Ross \& Lehiste(1994)}]{rossLehiste1994}
 Ross, J., \& Lehiste, I. (1994).
@@ -49,9 +75,31 @@ Ross, J., \& Lehiste, I. (1998).
   Prosody}}, {{Meter}}, and {{Musical Rhythm}}.
 \newblock {\em Music Perception\/}, {\em 15\/}(4), 319--333.
 
+\bibitem[{Ross \& Lehiste(2001)}]{rossLehiste2001}
+Ross, J., \& Lehiste, I. (2001).
+\newblock The temporal structure of {{Estonian}} runic songs / by {{Jaan
+  Ross}}, {{Ilse Lehiste}}.
+\newblock In {\em The Temporal Structure of {{Estonian}} Runic Songs\/},
+  Phonology and {{Phonetics}} ; 1. {Berlin, [Germany] ;}: {Mouton de Gruyter},
+  reprint 2015 ed.
+
+\bibitem[{R{\"u}{\"u}tel(1999)}]{ruutel1999}
+R{\"u}{\"u}tel, I. (1999).
+\newblock Some results of a computerized comparative analysis of the
+  {{Balto-Finnic}} runotunes.
+\newblock {\em Etnomusikologian vuosikirja\/}, {\em 11\/}, 27--45.
+
+\bibitem[{Smiljani{\'c} \& Bradlow(2005)}]{smiljanic2005}
+Smiljani{\'c}, R., \& Bradlow, A.~R. (2005).
+\newblock Production and perception of clear speech in {{Croatian}} and
+  {{English}}.
+\newblock {\em The Journal of the Acoustical Society of America\/}, {\em
+  118\/}(3 Pt 1), 1677--1688.
+
 \bibitem[{Tampere(1934)}]{tampere1934}
 Tampere, H. (1934).
-\newblock Mõningaid mõtteid eesti rahvaviisist ja selle uurimismeetodist.
+\newblock Mõningaid mõtteid {{Eesti}} rahvaviisist ja selle
+  uurimismeetodist.
 \newblock {\em Eesti Muusika Almanak I\/}, (pp. 30--38).
 
 \bibitem[{Tormis(1985)}]{tormis1985}
@@ -61,7 +109,7 @@ Tormis, V. (1985).
 
 \bibitem[{Tormis(2007)}]{tormis2007}
 Tormis, V. (2007).
-\newblock Some\_problems\_with\_that\_regilaul.pdf.
-\newblock In {\em {{RING}}\/}.
+\newblock Some problems with that {{\it regilaul\*}}.
+\newblock In {\em proceedings of the international RING conference\/}.
 
 \end{thebibliography}
