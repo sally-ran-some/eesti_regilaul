@@ -1,7 +1,67 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{11}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{ess(1985)}]{essensPovel1985}
+ (1985).
+
+\bibitem[{Palmer \& Kelly(1992)}]{palmer1992}
+Palmer, C., \& Kelly, M.~H. (1992).
+\newblock Linguistic {{Prosody}} and {{Musical Meter}} in {{Song}}.
+\newblock {\em Journal of Memory and Language\/}, {\em 31\/}(4), 525--542.
+
+\bibitem[{Ross(1989)}]{ross1989}
+Ross, J. (1989).
+\newblock A study of timing in an {{Estonian}} runic song.
+\newblock {\em The Journal of the Acoustical Society of America\/}, {\em
+  86\/}(5), 1671--1677.
+
+\bibitem[{Ross(1990)}]{ross1990}
+Ross, J. (1990).
+\newblock Formant frequencies in estonian folk singing.
+
+\bibitem[{Ross(2001)}]{rossLehiste2001}
+Ross, J. (2001).
+\newblock The temporal structure of {{Estonian}} runic songs / by {{Jaan
+  Ross}}, {{Ilse Lehiste}}.
+\newblock In {\em The Temporal Structure of {{Estonian}} Runic Songs\/},
+  Phonology and {{Phonetics}} ; 1. {Berlin, [Germany] ;}: {Mouton de Gruyter},
+  reprint 2015 ed.
+
+\bibitem[{Ross \& Lehiste(1994)}]{rossLehiste1994}
+Ross, J., \& Lehiste, I. (1994).
+\newblock Lost {{Prosodic Oppositions}}: {{A Study}} of {{Contrastive
+  Duration}} in {{Estonian Funeral Laments}}.
+\newblock {\em Language and Speech\/}, {\em 37\/}(4), 407--424.
+
+\bibitem[{Ross \& Lehiste(1996)}]{rossLehiste1996}
+Ross, J., \& Lehiste, I. (1996).
+\newblock Trade-off between quantity and stress in {{Estonian}} folksong
+  performance?
+\newblock {\em Folklore: Electronic Journal of Folklore\/}, {\em 02\/},
+  116--123.
+
+\bibitem[{Ross \& Lehiste(1998)}]{rossLehiste1998}
+Ross, J., \& Lehiste, I. (1998).
+\newblock Timing in {{Estonian Folk Songs}} as {{Interaction}} between {{Speech
+  Prosody}}, {{Meter}}, and {{Musical Rhythm}}.
+\newblock {\em Music Perception\/}, {\em 15\/}(4), 319--333.
+
+\bibitem[{Tampere(1934)}]{tampere1934}
+Tampere, H. (1934).
+\newblock Mõningaid mõtteid eesti rahvaviisist ja selle uurimismeetodist.
+\newblock {\em Eesti Muusika Almanak I\/}, (pp. 30--38).
+
+\bibitem[{Tormis(1985)}]{tormis1985}
+Tormis, V. (1985).
+\newblock Kalevala \textendash{} the {{Estonian}} perspective.
+\newblock {\em Finnish Music Quarterly\/}.
+
+\bibitem[{Tormis(2007)}]{tormis2007}
+Tormis, V. (2007).
+\newblock Some\_problems\_with\_that\_regilaul.pdf.
+\newblock In {\em {{RING}}\/}.
 
 \end{thebibliography}

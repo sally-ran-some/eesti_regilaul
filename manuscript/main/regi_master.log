@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.22)  12 OCT 2022 16:20
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.22)  18 OCT 2022 00:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -715,15 +715,7 @@ Requested font "cmex10" scaled 1095
 \openout3 = `regi_master.idx'.
 
 Writing index file regi_master.idx
-(./regi_master.aux (./regi-intro.aux) (./regi-methods.aux
-
-LaTeX Warning: Label `default' multiply defined.
-
-) (./regi-results.aux
-
-LaTeX Warning: Label `density' multiply defined.
-
-))
+(./regi_master.aux (./regi-intro.aux))
 \openout1 = `regi_master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 214.
@@ -737,7 +729,8 @@ LaTeX Font Info:    ... okay on input line 214.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 214.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
 14.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 214.
@@ -847,18 +840,7 @@ Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 8.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
 .ttf
-LaTeX Font Info:    Font shape `TU/CharisSIL(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 249.
-Requested font "[CharisSIL-B.ttf]/OT:script=latn;language=dflt;mapping=tex-text
-;" at 8.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-B
-.ttf
-
-
-Package natbib Warning: Citation `tormisProblemsThatRegilaul2007' on page 4 und
-efined on input line 249.
-
-[4
+ [4
 
 ]
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
@@ -962,260 +944,81 @@ Requested font "[CharisSIL-B.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 
 (./regi-intro.tex
 Chapter 1.
+
+LaTeX Warning: Reference `ternary' on page 1 undefined on input line 7.
+
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 16.
+(Font)              scaled to size 12.0pt on input line 17.
 Requested font "[CharisSIL-I.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-I
 .ttf
-
-Package natbib Warning: Citation `lehistePhoneticsMetrics1992' on page 1 undefi
-ned on input line 16.
-
 [1
 
 
-]
-
-Package natbib Warning: Citation `lippusAcousticStudyEstonian2014a' on page 2 u
-ndefined on input line 20.
-
-
-Package natbib Warning: Citation `lehistePhoneticsMetrics1992' on page 2 undefi
-ned on input line 22.
-
-
-Package natbib Warning: Citation `eekmeisterUralica98' on page 2 undefined on i
-nput line 24.
-
-LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 28.
-Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;+smcp;mapping=te
-x-text;" at 12.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
-.ttf
-
-Package natbib Warning: Citation `princeMetricalTheoryEstonian1980' on page 2 u
-ndefined on input line 39.
-
-
-Package natbib Warning: Citation `hayesCompensatoryLengtheningMoraic1989' on pa
-ge 2 undefined on input line 39.
-
-
-Package natbib Warning: Citation `kuznetsovaEstonianWordProsody2018' on page 2 
-undefined on input line 39.
-
-
-Package natbib Warning: Citation `prillopMoraeEstonianReply2020' on page 2 unde
-fined on input line 39.
-
-
-Overfull \hbox (1.3043pt too wide) in paragraph at lines 39--40
-[]\TU/CharisSIL(0)/m/n/12 This ternary contrast has long been the subject of de
-bate in the phono-
- []
-
-
-Package natbib Warning: Citation `smiljanicProductionPerceptionClear2005' on pa
-ge 2 undefined on input line 63.
-
-
-Package natbib Warning: Citation `de1995supraglottal' on page 2 undefined on in
-put line 63.
-
-
-Package natbib Warning: Citation `lindblom1990' on page 2 undefined on input li
-ne 63.
-
-[2] [3]
-
-Package natbib Warning: Citation `palmerLinguisticProsodyMusical1992' on page 4
- undefined on input line 77.
-
+] [2]
 File: figures/094.png Graphic file (type bmp)
 <figures/094.png>
-
-Package natbib Warning: Citation `tormisKalevalaEstonianPerspective1985' on pag
-e 4 undefined on input line 113.
-
-
-Package natbib Warning: Citation `tormisProblemsThatRegilaul2007' on page 4 und
-efined on input line 121.
+ [3]
+File: figures/022.png Graphic file (type bmp)
+<figures/022.png>
 
 
-Package natbib Warning: Citation `ruutelResultsComputerizedComparative1999' on 
-page 4 undefined on input line 134.
+Package natbib Warning: Citation `ross90' on page 4 undefined on input line 121
+.
 
 [4]
-File: figures/069.png Graphic file (type bmp)
-<figures/069.png>
 
-
-Package natbib Warning: Citation `rossFormants90' on page 5 undefined on input 
-line 149.
-
-
-Package natbib Warning: Citation `thesong' on page 5 undefined on input line 14
-9.
-
-
-Package natbib Warning: Citation `rossStudyTimingEstonian1989a' on page 5 undef
-ined on input line 150.
-
-
-Package natbib Warning: Citation `lehistePhoneticsMetrics1992' on page 5 undefi
-ned on input line 152.
+Package natbib Warning: Citation `lehiste1992' on page 5 undefined on input lin
+e 126.
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
-Package natbib Warning: Citation `rossLostProsodicOppositions1994' on page 6 un
-defined on input line 155.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
 
 [6]
-
-Package natbib Warning: Citation `rossTradeoffQuantityStress1996' on page 7 und
-efined on input line 157.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
- []
-
-
-Package natbib Warning: Citation `rossTimingEstonianFolk1998' on page 7 undefin
-ed on input line 160.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
-
- []
-
-
-Overfull \hbox (7.61462pt too wide) in paragraph at lines 169--170
+Overfull \hbox (7.61462pt too wide) in paragraph at lines 143--144
 \TU/CharisSIL(0)/m/n/12 have possible acoustic-phonetic dimensions by which to 
 indicate word bound-
  []
 
 
-Overfull \hbox (2.12634pt too wide) in paragraph at lines 169--170
+Overfull \hbox (2.12634pt too wide) in paragraph at lines 143--144
 \TU/CharisSIL(0)/m/n/12 aries (stressed-unstressed) and semantically-relevant q
 uantity contrasts. The
  []
 
-[7]
 
-Package natbib Warning: Citation `eestiMNNasymmetry' on page 8 undefined on inp
-ut line 172.
+Package natbib Warning: Citation `eestiMNNasymmetry' on page 7 undefined on inp
+ut line 146.
 
-
-Package natbib Warning: Citation `rosslehiste' on page 8 undefined on input lin
-e 177.
-
-[8]) [9]
-\openout2 = `regi-methods.aux'.
-
- (./regi-methods.tex
-Chapter 2.
-
-Overfull \hbox (2.5172pt too wide) in paragraph at lines 15--16
-[]\TU/CharisSIL(0)/m/n/12 An estonian word game supports the notion of many-to-
-one phonemes
- []
-
-[10
+[7]) [8]
+No file regi_master.ind.
+(./regi_master.bbl [9
 
 
 
-
-]
-
-Package natbib Warning: Citation `lehiste85' on page 11 undefined on input line
- 35.
-
-
-Package natbib Warning: Citation `vago85' on page 11 undefined on input line 35
-.
-
-[11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-LaTeX Warning: Reference `spitch' on page 13 undefined on input line 87.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-[14]
-
-Package natbib Warning: Citation `deJong' on page 15 undefined on input line 11
-5.
-
-
-Package natbib Warning: Citation `bradlow' on page 15 undefined on input line 1
-15.
-
-
-Package natbib Warning: Citation `rajka' on page 15 undefined on input line 115
-.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
-
- []
-
-[15]
-File: figures/055.png Graphic file (type bmp)
-<figures/055.png>
-
-
-Package natbib Warning: Citation `orasEstonianFolkloreArchives2022a' on page 16
- undefined on input line 139.
-
-
-Package natbib Warning: Citation `tampereAnthologyEstonianTraditional2016' on p
-age 16 undefined on input line 158.
-
-
-LaTeX Warning: Reference `vinyl1970' on page 16 undefined on input line 158.
-
-[16]
-File: figures/Mf_07027_Tampered_Orik.jpg Graphic file (type bmp)
-<figures/Mf_07027_Tampered_Orik.jpg>
- [17]
+]) [10]
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 179.
+(Font)              scaled to size 10.0pt on input line 375.
 Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 10.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
 .ttf
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 179.
+(Font)              scaled to size 7.0pt on input line 375.
 Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 7.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
 .ttf
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 179.
+(Font)              scaled to size 5.0pt on input line 375.
 Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 5.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
@@ -1246,153 +1049,22 @@ Requested font "msbm5" at 5.0pt
 tfm
 
 
-Package natbib Warning: Citation `b131156' on page 18 undefined on input line 1
-79.
+Package natbib Warning: There were undefined citations.
 
+[11
 
-Package natbib Warning: Citation `robertsonBKeeperBeattrackerLive2007' on page 
-18 undefined on input line 180.
+] (./regi_master.aux (./regi-intro.aux))
 
-[18]
+LaTeX Warning: There were undefined references.
 
-Package natbib Warning: Citation `boersnaPraatDoingPhonetics2022' on page 19 un
-defined on input line 183.
-
-
-Package natbib Warning: Citation `duddingtonESpeakSpeechSynthesizer1995' on pag
-e 19 undefined on input line 188.
-
-Requested font "[lmmono12-regular]:" at 12.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono12-regula
-r.otf
-
-Package natbib Warning: Citation `laur-EtAl:2020:LREC' on page 19 undefined on 
-input line 209.
-
-[19]
-
-Package natbib Warning: Citation `sargEarlyHistoryEstonian2005a' on page 20 und
-efined on input line 212.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
-
- []
-
-
-Package natbib Warning: Citation `robertsonBKeeperBeattrackerLive2007' on page 
-20 undefined on input line 214.
-
-[20]
-
-Package natbib Warning: Citation `parselmouth' on page 21 undefined on input li
-ne 221.
-
-
-Package natbib Warning: Citation `van1995python' on page 21 undefined on input 
-line 221.
-
-
-Package natbib Warning: Citation `rlme4' on page 21 undefined on input line 225
-.
-
-[21]
-
-Package natbib Warning: Citation `goodrichRstanarmBayesianApplied2020' on page 
-22 undefined on input line 235.
-
-
-Package natbib Warning: Citation `brillemanJointLongitudinalTimetoevent2018' on
- page 22 undefined on input line 235.
-
-) [22]
-\openout2 = `regi-results.aux'.
-
- (./regi-results.tex
-Chapter 3.
-File: figures/song_ick_dur.png Graphic file (type bmp)
-<figures/song_ick_dur.png>
-File: figures/song_str_dur.png Graphic file (type bmp)
-<figures/song_str_dur.png>
-[23
-
-
-
-
-]
-File: figures/perf_ick_dur.png Graphic file (type bmp)
-<figures/perf_ick_dur.png>
-File: figures/perf_str_dur.png Graphic file (type bmp)
-<figures/perf_str_dur.png>
- [24]
-File: figures/dur_density_qfac.png Graphic file (type bmp)
-<figures/dur_density_qfac.png>
-File: figures/interact_space_strictus.png Graphic file (type bmp)
-<figures/interact_space_strictus.png>
- [25]
-
-Package caption Warning: \label without proper reference on input line 89.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `contin' on page 26 undefined on input line 93.
-
-[26]
-
-Package natbib Warning: Citation `2020SciPy-NMeth' on page 27 undefined on inpu
-t line 96.
-
-
-Package natbib Warning: Citation `mckinney-proc-scipy-2010' on page 27 undefine
-d on input line 96.
-
-LaTeX Font Info:    Font shape `TU/CharisSIL(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 96.
-Requested font "[CharisSIL-B.ttf]/OT:script=latn;language=dflt;mapping=tex-text
-;" at 10.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-B
-.ttf
-
-Package natbib Warning: Citation `reback2020pandas' on page 27 undefined on inp
-ut line 96.
-
-Requested font "[lmmono10-regular]:" at 10.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regula
-r.otf
-
-Package natbib Warning: Citation `Kluyver2016jupyter' on page 27 undefined on i
-nput line 96.
-
-[27] [28]
-
-Package natbib Warning: Citation `goodrichRstanarmBayesianApplied2020' on page 
-29 undefined on input line 135.
-
-
-Package natbib Warning: Citation `heirarchyOne' on page 29 undefined on input l
-ine 135.
-
-
-LaTeX Warning: Reference `scatterSongs' on page 29 undefined on input line 140.
-
-
-[29]) [30]
-./regi_master.tex:346: TeX capacity exceeded, sorry [parameter stack size=10000
-].
-\gb@ifnextchar #1#2#3->
-                       \let \reserved@d =#1\def \reserved@a {#2}\def \reserv...
-l.346 \bibliography{qp_annotated}
-                                         % is inserted.^^I^^I^^I     %
-If you really absolutely need more capacity,
-you can ask a wizard to enlarge me.
-
- 
+ ) 
 Here is how much of TeX's memory you used:
- 13611 strings out of 476919
- 258974 string characters out of 5821840
- 677550 words of memory out of 5000000
- 33340 multiletter control sequences out of 15000+600000
- 410206 words of font info for 80 fonts, out of 8000000 for 9000
+ 13563 strings out of 476919
+ 257717 string characters out of 5821840
+ 647427 words of memory out of 5000000
+ 33310 multiletter control sequences out of 15000+600000
+ 410166 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 3339i,8n,10002p,1091b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on regi_master.pdf (38 pages).
+ 119i,8n,131p,1065b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on regi_master.pdf (19 pages).
