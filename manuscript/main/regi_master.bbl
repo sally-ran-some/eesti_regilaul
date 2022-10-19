@@ -1,8 +1,21 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{29}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Boersna \& Weenink(2022)}]{boersna2022}
+Boersna, P., \& Weenink, D. (2022).
+\newblock Praat: Doing {{Phonetics}} by {{Computer}}.
+
+\bibitem[{Cousins \& {Hepworth-Sawyer}(2014)}]{logic2014}
+Cousins, M., \& {Hepworth-Sawyer}, R. (2014).
+\newblock Logic pro {{X}}.
+
+\bibitem[{Duddington et~al.(1995)Duddington, Avison, Dunn, \&
+  Vitolins}]{eSpeak1995}
+Duddington, J., Avison, M., Dunn, R., \& Vitolins, V. (1995).
+\newblock {{eSpeak}}: {{Speech Synthesizer}}.
 
 \bibitem[{Eek \& Meister(1998)}]{eekMeister1998}
 Eek, A., \& Meister, E. (1998).
@@ -16,6 +29,23 @@ Essens, P., \& Povel, D.-J. (1985).
 \newblock {Metrical} and {{Nonmetrical}} representations of temporal patterns".
 \newblock {\em Perception \& Psychophysics\/}, {\em 37\/}, 1--7.
 
+\bibitem[{Jadoul et~al.(2018)Jadoul, Thompson, \& {de Boer}}]{parselmouth2018}
+Jadoul, Y., Thompson, B., \& {de Boer}, B. (2018).
+\newblock Introducing {{Parselmouth}}: {{A Python}} interface to {{Praat}}.
+\newblock {\em Journal of Phonetics\/}, {\em 71\/}, 1--15.
+
+\bibitem[{Laur et~al.(2020)Laur, Orasmaa, S{\"a}rg, \& Tammo}]{estnltk2020}
+Laur, S., Orasmaa, S., S{\"a}rg, D., \& Tammo, P. (2020).
+\newblock {{EstNLTK}} 1.6: {{Remastered}} estonian {{NLP}} pipeline.
+\newblock In {\em Proceedings of the 12th Language Resources and Evaluation
+  Conference\/}, (pp. 7154--7162). {Marseille, France}: {European Language
+  Resources Association}.
+
+\bibitem[{Lehiste(1985)}]{lehiste1985}
+Lehiste, I. (1985).
+\newblock An {{Estonian }} word game and the {{Phonematic}} status of
+  {{Vowels}}.
+
 \bibitem[{Lehiste(1992)}]{lehiste1992}
 Lehiste, I. (1992).
 \newblock The {{Phonetics}} of {{Metrics}}.
@@ -27,6 +57,11 @@ Lindblom, B. (1990).
   theory.
 \newblock In W.~J. Hardcastle, \& A.~Marchal (Eds.) {\em Speech Production and
   Speech Modelling\/}, (pp. 403--439). {Dordrecht}: {Springer Netherlands}.
+
+\bibitem[{Lippus et~al.(2014)Lippus, Asu, \& Mari}]{lippusAsuMari2014}
+Lippus, P., Asu, E.~L., \& Mari, M.-L.~K. (2014).
+\newblock An acoustic study of {{Estonian}} word stress.
+\newblock In {\em Speech {{Prosody}} 2014\/}, (pp. 232--235). {ISCA}.
 
 \bibitem[{Lotman \& Lotman(2013)}]{lotmanLotman2013}
 Lotman, M.-K., \& Lotman, M. (2013).
@@ -40,10 +75,22 @@ Oras, J. (2019).
   performances of {Seto} singers.
 \newblock {\em Open Access Linguistics\/}.
 
+\bibitem[{Oras \& V{\"a}strik(2002)}]{oras2002}
+Oras, J., \& V{\"a}strik, E.-H. (2002).
+\newblock Estonian {{Folklore Archives}} of the {{Estonian Literary Museum}}.
+\newblock {\em The World of Music\/}, {\em 44\/}(3), 153--156.
+
 \bibitem[{Palmer \& Kelly(1992)}]{palmer1992}
 Palmer, C., \& Kelly, M.~H. (1992).
 \newblock Linguistic {{Prosody}} and {{Musical Meter}} in {{Song}}.
 \newblock {\em Journal of Memory and Language\/}, {\em 31\/}(4), 525--542.
+
+\bibitem[{Robertson \& Plumbley(2007)}]{bKeeper2007}
+Robertson, A., \& Plumbley, M. (2007).
+\newblock B-{{Keeper}}: A beat-tracker for live performance.
+\newblock In {\em Proceedings of the 7th International Conference on {{New}}
+  Interfaces for Musical Expression - {{NIME}} '07\/}, (p. 234). {New York, New
+  York}: {ACM Press}.
 
 \bibitem[{Ross(1989)}]{ross1989}
 Ross, J. (1989).
@@ -102,6 +149,10 @@ Tampere, H. (1934).
   uurimismeetodist.
 \newblock {\em Eesti Muusika Almanak I\/}, (pp. 30--38).
 
+\bibitem[{Tampere(2016)}]{tampere2016}
+Tampere, H. (2016).
+\newblock {Anthology of Estonian Traditional Music}.
+
 \bibitem[{Tormis(1985)}]{tormis1985}
 Tormis, V. (1985).
 \newblock Kalevala \textendash{} the {{Estonian}} perspective.
@@ -111,5 +162,10 @@ Tormis, V. (1985).
 Tormis, V. (2007).
 \newblock Some problems with that {{\it regilaul\*}}.
 \newblock In {\em proceedings of the international RING conference\/}.
+
+\bibitem[{Van~Rossum \& Drake~Jr(1995)}]{python1995}
+Van~Rossum, G., \& Drake~Jr, F.~L. (1995).
+\newblock {\em Python Reference Manual\/}.
+\newblock {Centrum voor Wiskunde en Informatica Amsterdam}.
 
 \end{thebibliography}

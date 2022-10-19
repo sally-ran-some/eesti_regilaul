@@ -2,46 +2,54 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: regi_master.aux
 A level-1 auxiliary file: regi-intro.aux
+A level-1 auxiliary file: regi-methods.aux
 The style file: apa-good.bst.bst
 Database file #1: regilaul.bib
-You've used 18 entries,
+You're missing a field name---line 72 of file regilaul.bib
+ :   
+ :   %annote={used to make flextempo beatgrids}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in lehiste1985
+You've used 29 entries,
             2804 wiz_defined-function locations,
-            704 strings with 7544 characters,
-and the built_in function-call counts, 9571 in all, are:
-= -- 813
-> -- 268
-< -- 20
-+ -- 109
-- -- 83
-* -- 650
-:= -- 1486
-add.period$ -- 57
-call.type$ -- 18
-change.case$ -- 128
-chr.to.int$ -- 18
-cite$ -- 18
-duplicate$ -- 747
-empty$ -- 785
-format.name$ -- 138
-if$ -- 1898
+            765 strings with 9132 characters,
+and the built_in function-call counts, 15608 in all, are:
+= -- 1323
+> -- 507
+< -- 30
++ -- 202
+- -- 161
+* -- 1082
+:= -- 2430
+add.period$ -- 88
+call.type$ -- 29
+change.case$ -- 214
+chr.to.int$ -- 29
+cite$ -- 30
+duplicate$ -- 1189
+empty$ -- 1222
+format.name$ -- 255
+if$ -- 3095
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 145
-newline$ -- 97
-num.names$ -- 74
-pop$ -- 271
+missing$ -- 232
+newline$ -- 147
+num.names$ -- 118
+pop$ -- 473
 preamble$ -- 1
-purify$ -- 99
+purify$ -- 169
 quote$ -- 0
-skip$ -- 299
+skip$ -- 489
 stack$ -- 0
-substring$ -- 491
-swap$ -- 374
-text.length$ -- 2
+substring$ -- 735
+swap$ -- 600
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
-warning$ -- 0
-while$ -- 78
+type$ -- 258
+warning$ -- 1
+while$ -- 122
 width$ -- 0
-write$ -- 240
+write$ -- 370
+(There was 1 error message)
