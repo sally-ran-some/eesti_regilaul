@@ -1,9 +1,0 @@
-"0","```r
-mdlsong <- stan_lmer(duration~ictus + stressed + quantity + (1|performer) + (1|song),
-                      data_df,
-                      prior = normal(),
-                      prior_covariance = decov(1,1,1,1),
-                      iter=4000
-                      )
-summary(mdlsong)
-```"

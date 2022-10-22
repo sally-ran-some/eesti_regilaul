@@ -1,3 +1,0 @@
-"0","```r
-interaction.plot(regi_df$ictus,regi_df$quantity, regi_df$duration)
-```"

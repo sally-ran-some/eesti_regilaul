@@ -1,3 +1,0 @@
-"0","```r
-regi_df$fit <- predict(mdl)
-```"

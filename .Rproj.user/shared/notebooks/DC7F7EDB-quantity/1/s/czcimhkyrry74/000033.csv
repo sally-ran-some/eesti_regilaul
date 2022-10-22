@@ -1,3 +1,0 @@
-"0","ggplot(steuclid_df,aes(ictus,duration)) + "
-"0","  geom_jitter(color = ""violet"", alpha = 0.5) +"
-"0","  facet_wrap(""song"")"

@@ -1,4 +1,0 @@
-"0",""
-"0","ggplot(strictus_data,aes(ictus,euclid)) + "
-"0","  geom_jitter(color = ""violet"", alpha = 0.5) +"
-"0","  facet_wrap(""performer"")"

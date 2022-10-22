@@ -1,2 +1,0 @@
-"0","durplot <- ggplot(regi_df,aes(stressed, duration,group=interaction(stressed,ictus),col=stressed,shape=ictus)) + facet_grid(vars(ictus),vars(performer)) +geom_violin()+geom_jitter(alpha=0.3)"
-"0",""

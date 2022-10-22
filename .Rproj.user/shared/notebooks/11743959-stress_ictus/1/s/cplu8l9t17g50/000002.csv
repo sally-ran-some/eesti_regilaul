@@ -1,5 +1,0 @@
-"0","```r
-ggplot(strictus_data,aes(ictus,duration)) + 
-  geom_jitter(color = \"violet\", alpha = 0.5) +
-  facet_wrap(\"song\")
-```"

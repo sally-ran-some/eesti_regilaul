@@ -1,4 +1,0 @@
-"0","```r
-boxplot(duration~stressed+ictus,data= strictus_data,
-        col=c(\"pink\",\"orange\",\"cyan\",\"green\"))
-```"

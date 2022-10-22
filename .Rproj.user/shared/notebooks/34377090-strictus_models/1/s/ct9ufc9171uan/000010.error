@@ -1,1 +1,0 @@
-{"frames":[{"func":"ggplot(strictus_data, aes(x = stressed, y = duration, color = ictus))","file":"","line_number":0,"end_line_number":0,"character_number":0,"end_character_number":0}],"message":"Error in ggplot(strictus_data, aes(x = stressed, y = duration, color = ictus)) : \n  object 'strictus_data' not found\n"}

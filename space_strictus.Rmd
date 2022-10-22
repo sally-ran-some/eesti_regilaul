@@ -20,13 +20,14 @@ spata_df$stressed <- as.factor(spata_df$stressed)
 spata_df$stressed <- recode_factor(spata_df$stressed, "0" = "unstressed","1" = "stressed")
 spata_df$quantity <- as.factor(spata_df$quantity)
 spata_df$song <- as.factor(spata_df$song)
+spata_df$shape <- as.factor(spata_df$shape)
+
 spata_df$word <- as.factor(spata_df$word)
 head(spata_df)
 ```
 
 ```{r}
-space_data <- filter(spata_df, spata_df$quantity!="3" & spata_df$shape != "VCC" & spata_df$shape != "VVC" & spata_df$shape != "VV" & spata_df$segment != "ɵ"& spata_df$segment != "ɵɵ" & spata_df$segment != "ɵː" & spata_df$segment != "o"& spata_df$segment != "oo"& spata_df$segment != "oː" & spata_df$segment != "æ"& spata_df$segment != "ææ" & spata_df$segment != "øː"& spata_df$segment != "æː")
-
+space_data <- filter(spata_df, spata_df$quantity!="3" & spata_df$segment != "ø"&spata_df$segment != "øː"& spata_df$segment !=  "ɵ"&spata_df$segment !=  "ɵɵ"& spata_df$segment != "ɵː" &spata_df$segment != "æ"&spata_df$segment != "æː"& spata_df$segment != "ææ"&(spata_df$segment == "a" || spata_df$segment == "e" || spata_df$segment == "i" || spata_df$segment == "o"))
 (space_data)
 ```
 
@@ -55,41 +56,24 @@ ggplot(space_data,aes(stressed,euclid)) +
 ```
 
 ```{r}
-ggplot(space_data,aes(x=ictus ,y=euclid,color = ictus)) + 
+ggplot(space_data,aes(x=ictus ,y=euclid,color = stressed)) + 
   geom_violin() + stat_ydensity() + theme_minimal() +
+  facet_wrap("quantity")
   labs( xlab = "beat" ,ylab = "euclidean distance") 
+
+ggsave('space_strictus.png')
 ```
 
 ```{r}
-des_song_md <- lmer(euclid ~ stressed + ictus + quantity+ (1|song), REML = FALSE, data = space_data )
-summary(des_song_md)
+desmd <- lmer(euclid ~ stressed + ictus + quantity + stressed * ictus + quantity *ictus + (1|word) + (1|song), REML = FALSE, data = space_data )
+summary(desmd)
 ```
 
 ```{r}
-des_perf_md <- lmer(euclid ~ stressed + ictus + quantity + (1|performer), REML = FALSE, data = space_data )
-summary(des_perf_md)
-```
-
-```{r}
-anova(des_song_md,des_perf_md)
-
-```
-
-```{r}
-des_max_md <- lmer(euclid ~ stressed + ictus + stressed*ictus + quantity + (1|song) + (1|performer), REML = FALSE, data = space_data )
-summary(des_max_md)
-```
-
-```{r}
-des_sp_md <- lmer(euclid ~ stressed + ictus + quantity + (1|song) + (1|performer), REML = FALSE, data = space_data )
-summary(des_sp_md)
-```
-
-```{r}
-des_null_md <- lmer(euclid ~  (1|song) + (1|performer), REML = FALSE, data = space_data )
+des_null_md <- lmer(euclid ~  (1|song) + (1|word), REML = FALSE, data = space_data )
 summary(des_null_md)
 ```
 
 ```{r}
-anova(des_sp_md,des_max_md)
+anova(desmd,des_null_md)
 ```

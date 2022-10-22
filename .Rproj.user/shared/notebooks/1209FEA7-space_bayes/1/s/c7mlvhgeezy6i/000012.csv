@@ -1,3 +1,0 @@
-"0","library(""dplyr"")"
-"0","steuclid_df <- filter(euclid_df, euclid_df$stressed==""1"")"
-"0","head(steuclid_df)"

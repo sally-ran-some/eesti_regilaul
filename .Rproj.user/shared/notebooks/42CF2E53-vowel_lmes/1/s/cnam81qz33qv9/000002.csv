@@ -1,3 +1,0 @@
-"0","```r
-boxplot(duration~stressed + ictus, data = regi_df, col = c(\"violet\",\"gold\",\"green\",\"blue\",\"pink\",\"grey\"))
-```"

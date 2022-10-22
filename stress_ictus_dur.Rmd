@@ -15,15 +15,16 @@ data_df$ictus <- as.factor(data_df$ictus)
 data_df$stressed <- as.factor(data_df$stressed)
 data_df$stressed <- recode_factor(data_df$stressed, "0" = "unstressed","1" = "stressed")
 data_df$quantity <- as.factor(data_df$quantity)
+data_df$shape <- as.factor(data_df$shape)
 data_df$song <- as.factor(data_df$song)
 data_df$word <- as.factor(data_df$word)
 #head(data_df)
 
 #to look at vowel duration in song-level and word-level prominence positions, I filter out only syllables of Q1 and Q2, and only those shapes which surface in both stressed and unstressed positions 
-strictus_data <- filter(data_df, data_df$quantity!="3" & data_df$shape != "VCC" & data_df$shape != "VVC" & data_df$shape != "VV")
+strictus_data <- filter(data_df, data_df$quantity!="3"& data_df$shape != "C")
 
 #strictus_data <- filter(strictus_data, nchar(strictus_data$segment)==1)
-head(strictus_data)
+strictus_data
 
 
 ```
@@ -77,7 +78,10 @@ ggsave("dur_density_qfac.png")
 ```
 
 ```{r}
-ggplot(strictus_data,aes(x=shape,y=duration, color = ictus)) +
+
+shape_df <- filter(strictus_data, strictus_data$shape != "VVC" & strictus_data$shape != "VVCC" & strictus_data$shape != "VV" & strictus_data$shape != "V")
+
+ggplot(shape_df,aes(x=shape,y=duration, color = ictus)) +
 geom_violin() + stat_ydensity() + theme_minimal() +
 labs( xlab = "syllable shape" ,ylab = "vowel duration (ms)") 
 
@@ -85,7 +89,7 @@ ggsave("dur_shapeictus.png")
 ```
 
 ```{r}
-ggplot(strictus_data,aes(x=shape,y=duration, color = stressed)) +
+ggplot(shape_df,aes(x=shape,y=duration, color = stressed)) +
 geom_violin() + stat_ydensity() + theme_minimal() +
 labs( xlab = "syllable shape" ,ylab = "vowel duration (ms)") 
 
@@ -93,8 +97,16 @@ ggsave("dur_shapestress.png")
 ```
 
 ```{r}
-lindesignmod <- lmer(duration ~ ictus + stressed + ictus*stressed + quantity+  (1|song) + (1|performer), data = strictus_data, REML = FALSE)
+lindesignmod <- lmer(duration ~ ictus + stressed + quantity + ictus*stressed + quantity*ictus + (1|word) + (1|song) + (1|performer), data = strictus_data, REML = FALSE)
 summary(lindesignmod)
+```
+
+```{r}
+hist(residuals(lindesignmod))
+```
+
+```{r}
+qqnorm(residuals(lindesignmod))
 ```
 
 ```{r}
@@ -102,90 +114,12 @@ plot(lindesignmod)
 ```
 
 ```{r}
-linperfmod <- lmer(duration ~ ictus + stressed + ictus*stressed  + quantity + (1|performer), data = strictus_data,REML = FALSE)
-summary(linperfmod)
-```
-
-```{r}
-linsongmod <- lmer(duration ~ ictus + stressed + ictus*stressed + quantity + (1|song), data = strictus_data,REML = FALSE)
-summary(linsongmod)
-```
-
-```{r}
-linnullIntmod <- lmer(duration ~ (1|song) + (1|performer), data = strictus_data, REML = FALSE)
+linnullIntmod <- lmer(duration ~ (1|song) + (1|word) + (1|performer), data = strictus_data, REML = FALSE)
 n1 <- summary(linnullIntmod)
 print(n1)
 ```
 
 ```{r}
-compp <- anova(lindesignmod,linsongmod)
-print(compp)
-```
-
-```{r}
-comps <- anova(lindesignmod,linperfmod)
-print(comps)
-```
-
-```{r}
 comp2 <- anova(lindesignmod,linnullIntmod)
 print(comp2)
-```
-
-```{r}
-comp3 <- anova(linsongmod,linnullIntmod)
-print(comp3)
-```
-
-```{r}
-
-ggplot(strictus_data,aes(ictus,euclid)) + 
-  geom_jitter(color = "violet", alpha = 0.5) +
-  facet_wrap("song") +
-  labs(x = "beat position", y = "vowel dispersion") + 
-  theme_minimal()
-ggplot(strictus_data,aes(stressed,euclid)) + 
-  geom_jitter(color = "orange", alpha = 0.5) +
-  facet_wrap("song") +
-  labs(x = "word stress", y = "vowel dispersion") + 
-  theme_minimal()
-ggplot(strictus_data,aes(ictus,euclid)) + 
-  geom_jitter(color = "violet", alpha = 0.5) +
-  facet_wrap("performer") +
-  labs(x = "beat position", y = "vowel dispersion") + 
-  theme_minimal()
-ggplot(strictus_data,aes(stressed,euclid)) + 
-  geom_jitter(color = "orange", alpha = 0.5) +
-  facet_wrap("performer") +
-  labs(x = "word stress", y = "vowel dispersion") + 
-  theme_minimal()
-  
-
-```
-
-```{r}
-ggplot(strictus_data,aes(x=ictus ,y=euclid,color = ictus)) + 
-  geom_violin() + stat_ydensity() + theme_minimal() +
-  labs( xlab = "beat" ,ylab = "euclidean distance") 
-  #facet_wrap("quantity", labeller = label_both)
-```
-
-```{r}
-interaction.plot(strictus_data$stressed,strictus_data$ictus,strictus_data$euclid,xlab="word stress",ylab="vowel dispersion",trace.label = "beat")
-```
-
-```{r}
-interaction.plot(strictus_data$quantity,strictus_data$ictus,strictus_data$euclid,xlab="syllable quantity",ylab="vowel dispersion",trace.label = "beat")
-```
-
-```{r}
-ggplot(strictus_data,aes(x=stressed ,y=euclid)) + 
-  geom_violin() + stat_ydensity() + theme_minimal() +
-  labs( xlab = "word stress" ,ylab = "euclidean distance") 
-```
-
-```{r}
-ggplot(strictus_data,aes(x=quantity ,y=euclid)) + 
-  geom_violin() + stat_ydensity() + theme_minimal() +
-  labs( xlab = "syllable quantity" ,ylab = "euclidean distance") 
 ```

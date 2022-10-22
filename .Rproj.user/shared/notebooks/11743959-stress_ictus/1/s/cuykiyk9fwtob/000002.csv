@@ -1,7 +1,0 @@
-"0","```r
-library(dplyr)
-
-#to look at vowel duration in song-level and word-level prominence positions, I filter out only syllables of Q1 and Q2: Q3 never occurs in unstressed syllables. 
-strictus_data <- filter(euclid_df, euclid_df$quantity!=\"3\")
-head(strictus_data)
-```"

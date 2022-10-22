@@ -1,4 +1,0 @@
-"0","```r
-linsongperfmod <- lmer(duration ~ ictus +stressed + quantity + ictus*stressed + (1|song) + (1|performer), data = strictus_data, REML = FALSE)
-summary(linsongperfmod)
-```"

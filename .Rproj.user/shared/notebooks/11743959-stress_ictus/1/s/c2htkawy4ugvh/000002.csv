@@ -1,4 +1,0 @@
-"0","```r
-mxrand <- stan_lmer(duration ~ ictus+stressed+quantity+ictus*stressed +(1|song) + (1|performer),data=strictus_data)
-summary(mxrand)
-```"

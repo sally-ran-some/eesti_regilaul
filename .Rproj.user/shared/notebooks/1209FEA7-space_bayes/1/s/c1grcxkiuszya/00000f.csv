@@ -1,4 +1,0 @@
-"0","plotVowels(f1=euclid_df$f1, f2=euclid_df$f2, vowel=euclid_df$qual_id,"
-"0","  grouping.factor=euclid_df$performer, match.axes=TRUE,"
-"0","  points='none', means='text', single.plot=FALSE,"
-"0","  family='FreeSerif', output='screen')"

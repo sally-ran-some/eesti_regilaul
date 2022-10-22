@@ -1,2 +1,0 @@
-"0","boxplot(duration~stressed+ictus,data= strictus_data,xlab = ""word-level (stressed) and song-level (beat) prominence"",ylab = ""mean vowel duration"",notch = TRUE,"
-"0","        col=c(""pink"",""gray"",""pink"",""gray""),legend = TRUE)"

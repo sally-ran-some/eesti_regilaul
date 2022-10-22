@@ -1,2 +1,0 @@
-"0","p <- ggplot(strictus_data,aes(x=stressed,y=duration, color = ictus))"
-"0","p + geom_boxplot(notch = TRUE)"

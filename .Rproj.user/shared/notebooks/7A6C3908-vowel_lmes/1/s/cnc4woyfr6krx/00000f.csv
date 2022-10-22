@@ -1,3 +1,0 @@
-"0","boxplot(duration~stressed+ictus,data= regi_df,"
-"0","        col=c(""pink"",""grey""))"
-"0",""

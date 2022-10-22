@@ -1,1 +1,0 @@
-{"frames":[],"message":"Error in lmer(duration ~ ictus + stressed + ictus * stressed + quantity +  : \n  could not find function \"lmer\"\n"}

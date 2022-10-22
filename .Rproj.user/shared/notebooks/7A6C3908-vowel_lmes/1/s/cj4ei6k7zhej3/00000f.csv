@@ -1,8 +1,0 @@
-"0","#make sure categorical values read as characters instead of integers"
-"0","regi_df$foot <- as.character(regi_df$foot)"
-"0","regi_df$quantity <- as.character((regi_df$quantity))"
-"0","regi_df$stressed <- as.character(regi_df$stressed)"
-"0","regi_df$song <- as.character(regi_df$song)"
-"0",""
-"0",""
-"0",""

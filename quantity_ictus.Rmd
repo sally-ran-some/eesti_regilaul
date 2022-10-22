@@ -19,7 +19,7 @@ head(quant_df)
 ```
 
 ```{r}
-quant_df <- filter(quant_df, quant_df$stressed == 'stressed')
+quant_df <- filter(quant_df, quant_df$stressed == 'stressed', quant_df$quantity != "1")
 quant_df
 ```
 
@@ -39,12 +39,12 @@ ggplot(quant_df,aes(ictus,euclid)) +
 ```
 
 ```{r}
-ggplot(quant_df,aes(x=quantity,y=duration, color = shape)) +
+
+qshape_df <- filter(quant_df, quant_df$shape != "VVC" & quant_df$shape != "VVCC" & quant_df$shape != "VV" & quant_df$shape != "C" & quant_df$shape != "CVV"  & quant_df$shape != "VVVC" 
+)
+
+ggplot(qshape_df,aes(x=quantity,y=duration, color = shape)) +
 geom_violin()  + stat_ydensity() + theme_minimal() +
 
 labs( xlab = "syllable shape" ,ylab = "vowel duration (ms)") 
-```
-
-```{r}
-interaction.plot(quant_df$ictus,quant_df$quantity,quant_df$duration,xlab="i",ylab="mean vowel duration(ms)",trace.label = "q")
 ```

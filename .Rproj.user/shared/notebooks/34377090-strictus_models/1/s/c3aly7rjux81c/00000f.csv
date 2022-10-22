@@ -1,4 +1,0 @@
-"0","lindesignmod <- lmer(duration ~ ictus + stressed + ictus*stressed + quantity + (1|song) + (1|performer), data = strictus_data, REML = FALSE)"
-"2","Error in lmer(duration ~ ictus + stressed + ictus * stressed + quantity +  : 
-  could not find function ""lmer""
-"

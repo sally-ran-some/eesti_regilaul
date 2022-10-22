@@ -1,3 +1,0 @@
-"0","```r
-interaction.plot(strictus_data$stressed,strictus_data$ictus,strictus_data$duration)
-```"

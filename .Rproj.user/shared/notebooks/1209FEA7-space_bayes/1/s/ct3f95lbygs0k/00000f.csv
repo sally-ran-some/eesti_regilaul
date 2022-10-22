@@ -1,2 +1,0 @@
-"0","proto <- convexHullArea(euclid_df$f1, euclid_df$f2,group = euclid_df$performer)"
-"0","plot(proto)"
