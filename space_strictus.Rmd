@@ -23,41 +23,64 @@ spata_df$song <- as.factor(spata_df$song)
 spata_df$shape <- as.factor(spata_df$shape)
 
 spata_df$word <- as.factor(spata_df$word)
-head(spata_df)
+spata_df
 ```
 
 ```{r}
-space_data <- filter(spata_df, spata_df$quantity!="3" & spata_df$segment != "ø"&spata_df$segment != "øː"& spata_df$segment !=  "ɵ"&spata_df$segment !=  "ɵɵ"& spata_df$segment != "ɵː" &spata_df$segment != "æ"&spata_df$segment != "æː"& spata_df$segment != "ææ"&(spata_df$segment == "a" || spata_df$segment == "e" || spata_df$segment == "i" || spata_df$segment == "o"))
+#filter out all vowel phonemes that don't occur in both stressed and unstressed positions in Estonian
+space_data <- filter(spata_df, spata_df$quantity != "3" & (spata_df$segment == "a" |spata_df$segment == "aa"|spata_df$segment == "aː"| spata_df$segment == "e" |spata_df$segment == "ee"| spata_df$segment == "eː"  | spata_df$segment == "i" | spata_df$segment == "ii"| spata_df$segment == "iː" | spata_df$segment == "o"| spata_df$segment == "oo"| spata_df$segment == "oː") )
+                     
+#spata_df$quantity!="3" & spata_df$segment != "ø"
+#&spata_df$segment != "øː"& spata_df$segment !=  "ɵ"&spata_df$segment !=  "ɵɵ"
+#& spata_df$segment != "ɵː" &spata_df$segment != "æ"&spata_df$segment != "æː"
+#& spata_df$segment != "ææ" & spata_df$segment != "y")
+
 (space_data)
 ```
 
 ```{r}
-ggplot(space_data,aes(ictus,euclid)) + 
+
+ggplot(space_data, aes(ictus,euclid)) + 
   geom_jitter(color = "violet", alpha = 0.5) +
   facet_wrap("song") +
   labs(x = "beat position", y = "vowel dispersion") + 
-  theme_minimal()
-ggplot(space_data,aes(stressed,euclid)) + 
-  geom_jitter(color = "orange", alpha = 0.5) +
-  facet_wrap("song") +
-  labs(x = "word stress", y = "vowel dispersion") + 
-  theme_minimal()
-ggplot(space_data,aes(ictus,euclid)) + 
+  theme_classic()
+space_data %>%
+  arrange(euclid) %>%
+  mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%
+  ggplot(aes(stressed,euclid)) + 
+    geom_jitter(color = "orange", alpha = 0.5) +
+    facet_wrap("song") +
+    labs(x = "word stress", y = "vowel dispersion") + 
+    theme_classic()
+ggplot(space_data, aes(ictus,euclid)) + 
   geom_jitter(color = "violet", alpha = 0.5) +
   facet_wrap("performer") +
   labs(x = "beat position", y = "vowel dispersion") + 
   theme_minimal()
-ggplot(space_data,aes(stressed,euclid)) + 
-  geom_jitter(color = "orange", alpha = 0.5) +
-  facet_wrap("performer") +
-  labs(x = "word stress", y = "vowel dispersion") + 
-  theme_minimal()
+
+  space_data %>%
+  arrange(euclid) %>%
+  mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%
+  ggplot(aes(stressed,euclid)) + 
+    geom_jitter(color = "orange", alpha = 0.5) +
+    facet_wrap("performer") +
+    labs(x = "word stress", y = "vowel dispersion") + 
+    theme_minimal()
 
 ```
 
 ```{r}
-ggplot(space_data,aes(x=ictus ,y=euclid,color = stressed)) + 
-  geom_violin() + stat_ydensity() + theme_minimal() +
+space_data %>%
+  arrange(euclid) %>%
+  mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%
+  ggplot(aes(x=ictus ,y=euclid,fill = stressed)) + 
+  
+  geom_boxplot(alpha = 0.5)  + 
+  
+  #geom_jitter( alpha = 0.5) +
+  theme_classic() +
+  
   facet_wrap("quantity")
   labs( xlab = "beat" ,ylab = "euclidean distance") 
 
@@ -65,12 +88,12 @@ ggsave('space_strictus.png')
 ```
 
 ```{r}
-desmd <- lmer(euclid ~ stressed + ictus + quantity + stressed * ictus + quantity *ictus + (1|word) + (1|song), REML = FALSE, data = space_data )
+desmd <- lmer(euclid ~ stressed + ictus + stressed*ictus + (1|segment) + (1|song) + (1|performer), REML = FALSE, data = space_data )
 summary(desmd)
 ```
 
 ```{r}
-des_null_md <- lmer(euclid ~  (1|song) + (1|word), REML = FALSE, data = space_data )
+des_null_md <- lmer(euclid ~  (1|segment) + (1|song) +(1|performer), REML = FALSE, data = space_data )
 summary(des_null_md)
 ```
 

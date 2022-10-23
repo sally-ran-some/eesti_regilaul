@@ -19,32 +19,39 @@ head(quant_df)
 ```
 
 ```{r}
-quant_df <- filter(quant_df, quant_df$stressed == 'stressed', quant_df$quantity != "1")
-quant_df
+quant_data <- filter(quant_df, quant_df$stressed == "stressed")
+quant_data
 ```
 
 ```{r}
-ggplot(quant_df,aes(ictus,duration)) + 
-  geom_jitter(color = "violet", alpha = 0.5) +
-  facet_wrap("quantity") +
-  labs(x = "beat position", y = "mean vowel duration (ms)") + 
+ggplot(quant_data,aes(quantity, duration, color = quantity)) + 
+  #geom_violin()+
+  geom_boxplot(alpha = 0.3) +
+  #geom_jitter(alpha = 0.5) +
+  labs(x = "syllable quantity", y = "mean vowel duration (ms)") + 
+  facet_wrap("ictus")
   theme_minimal()
-#ggsave("q_dur.png")
-ggplot(quant_df,aes(ictus,euclid)) + 
-  geom_jitter(color = "violet", alpha = 0.5) +
-  facet_wrap("quantity") +
-  labs(x = "beat position", y = "vowel dispersion") + 
-  theme_minimal()
+ggsave("q_dur.png")
+
 
 ```
 
 ```{r}
+maxmdl <- lmer(duration ~ quantity + ictus + quantity*ictus + (1|song)+ (1|word) + (1|performer), data = quant_data, REML = FALSE)
+summary(maxmdl)
+```
 
-qshape_df <- filter(quant_df, quant_df$shape != "VVC" & quant_df$shape != "VVCC" & quant_df$shape != "VV" & quant_df$shape != "C" & quant_df$shape != "CVV"  & quant_df$shape != "VVVC" 
-)
+```{r}
+nullmdl <- lmer(duration ~ (1|song) + (1|word) + (1|performer) , data = quant_data, REML = FALSE)
+summary(nullmdl)
+```
 
-ggplot(qshape_df,aes(x=quantity,y=duration, color = shape)) +
-geom_violin()  + stat_ydensity() + theme_minimal() +
+```{r}
+comp_quant <- anova(maxmdl, nullmdl)
+print(comp_quant)
 
-labs( xlab = "syllable shape" ,ylab = "vowel duration (ms)") 
+```
+
+```{r}
+plot(maxmdl)
 ```
