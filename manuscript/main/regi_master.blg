@@ -1,8 +1,9 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: regi_master.aux
 A level-1 auxiliary file: regi-intro.aux
 A level-1 auxiliary file: regi-methods.aux
+A level-1 auxiliary file: regi-results.aux
 The style file: apa-good.bst.bst
 Database file #1: regilaul.bib
 You're missing a field name---line 72 of file regilaul.bib
@@ -13,7 +14,7 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in lehiste1985
 You've used 29 entries,
             2804 wiz_defined-function locations,
-            765 strings with 9132 characters,
+            766 strings with 9148 characters,
 and the built_in function-call counts, 15608 in all, are:
 = -- 1323
 > -- 507

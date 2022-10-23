@@ -1,21 +1,25 @@
-\contentsline {chapter}{Abstract}{5}
-\contentsline {chapter}{List of Tables}{7}
-\contentsline {chapter}{List of Figures}{8}
-\contentsline {chapter}{Chapter 1.\hspace *{1em}Introduction}{1}
-\contentsline {section}{\numberline {1.1}On words becoming lyrics}{1}
-\contentsline {subsection}{\numberline {1.1.1}Phonetics of Estonian Prosody}{2}
-\contentsline {subsection}{\numberline {1.1.2}Metrical Structure in Music}{2}
-\contentsline {subsection}{\numberline {1.1.3}Metrical Principles of Estonian folksong}{3}
-\contentsline {section}{\numberline {1.2}Previous Studies with {\it regilaul}}{5}
-\contentsline {section}{\numberline {1.3}The present study}{8}
-\contentsline {subsection}{\numberline {1.3.1}Hypotheses}{9}
-\contentsline {chapter}{Chapter 2.\hspace *{1em}Methods}{11}
-\contentsline {section}{\numberline {2.1}Phonetics of Metrics in Estonian Word Prosody}{11}
-\contentsline {section}{\numberline {2.2}Constructing the Corpus}{13}
-\contentsline {subsection}{\numberline {2.2.1}Materials}{13}
-\contentsline {section}{\numberline {2.3}Annotating the Song Audio }{14}
-\contentsline {subsection}{\numberline {2.3.1}Criteria for adjusting the forced-aligner}{16}
-\contentsline {subsection}{\numberline {2.3.2}Fusing audio-aligned transcriptions with text corpus}{18}
-\contentsline {subsection}{\numberline {2.3.3}long vowels and monophthongs}{19}
-\contentsline {subsection}{\numberline {2.3.4}Statistical Analysis}{20}
-\contentsline {chapter}{Vita}{25}
+\contentsline {chapter}{Abstract}{5}{}%
+\contentsline {chapter}{List of Tables}{8}{}%
+\contentsline {chapter}{List of Figures}{9}{}%
+\contentsline {chapter}{Chapter 1.\hspace *{1em}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}On words becoming lyrics}{1}{}%
+\contentsline {subsection}{\numberline {1.1.1}Phonetics of Estonian Prosody}{2}{}%
+\contentsline {subsection}{\numberline {1.1.2}Metrical Structure in Music}{2}{}%
+\contentsline {subsection}{\numberline {1.1.3}Metrical Principles of Estonian folksong}{3}{}%
+\contentsline {section}{\numberline {1.2}Previous Studies with {\it regilaul}}{5}{}%
+\contentsline {section}{\numberline {1.3}The present study}{8}{}%
+\contentsline {subsection}{\numberline {1.3.1}Hypotheses}{9}{}%
+\contentsline {chapter}{Chapter 2.\hspace *{1em}Methods}{11}{}%
+\contentsline {section}{\numberline {2.1}Phonetics of Metrics in Estonian Word Prosody}{11}{}%
+\contentsline {section}{\numberline {2.2}Constructing the Corpus}{13}{}%
+\contentsline {subsection}{\numberline {2.2.1}Materials}{13}{}%
+\contentsline {section}{\numberline {2.3}Annotating the Song Audio }{14}{}%
+\contentsline {subsection}{\numberline {2.3.1}Criteria for adjusting the forced-aligner}{16}{}%
+\contentsline {subsection}{\numberline {2.3.2}Fusing audio-aligned transcriptions with text corpus}{18}{}%
+\contentsline {subsection}{\numberline {2.3.3}long vowels and monophthongs}{19}{}%
+\contentsline {subsection}{\numberline {2.3.4}Statistical Analysis}{20}{}%
+\contentsline {chapter}{Chapter 3.\hspace *{1em}Results}{21}{}%
+\contentsline {section}{\numberline {3.1}word and song prosodic prominence}{21}{}%
+\contentsline {subsection}{\numberline {3.1.1}Duration of Vowels}{21}{}%
+\contentsline {subsection}{\numberline {3.1.2}Dispersion}{21}{}%
+\contentsline {chapter}{Vita}{35}{}%
