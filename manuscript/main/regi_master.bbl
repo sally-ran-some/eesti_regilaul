@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{28}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -40,11 +40,6 @@ Laur, S., Orasmaa, S., S{\"a}rg, D., \& Tammo, P. (2020).
 \newblock In {\em Proceedings of the 12th Language Resources and Evaluation
   Conference\/}, (pp. 7154--7162). {Marseille, France}: {European Language
   Resources Association}.
-
-\bibitem[{Lehiste(1985)}]{lehiste1985}
-Lehiste, I. (1985).
-\newblock An {{Estonian }} word game and the {{Phonematic}} status of
-  {{Vowels}}.
 
 \bibitem[{Lehiste(1992)}]{lehiste1992}
 Lehiste, I. (1992).

@@ -1,122 +1,95 @@
 \chapter{Results}
 \index{Results@\emph{Results}}%
 
+\section{Quantity Oppositions in Ictus position}
 
-\section{word and song prosodic prominence}
+
+Ternary quantity contrast is only in primary stressed syllables. To analyze vowel duration measurements in all three quantities, a subset of only primary stressed syllables is taken from the dataset.
+At the song level, the kalevala meter avoids short stressed syllables (Q1) in ictus position, preferring Q2 or Q3 (long and overlong) syllables to fall on the beat. In off-ictus postion, short stressed (Q1) syllables are preferred while Q3 avoided.
 
 
-\subsection{Duration of Vowels}
-
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[width =\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/q_dur.png}
+%\caption{density plot of vowel durations in three syllable quantities}
+%\label{qdur}
 %
-\begin{figure}[htb]
-\begin{center}
-\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/perf_ick_dur.png}
+%\end{figure}
+\begin{wrapfigure}{l}{0.5\textwidth}
+\centering
+\includegraphics[width =0.5\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/q_dur.png}
+\caption{density plot of vowel durations in three syllable quantities}
+\label{qdur}
 
-\caption{}
-\label{songick}
-\end{center}
-\end{figure}
-%In \ref{songick}, vowel durations of syllable-notes that fall on the beat trend longer than those that fall off the beat. 
+\end{wrapfigure}
+
+
+\ref{qdur} shows the vowel durations of all three syllable quantities, grouped by ictus and off-ictus positions in the song. In ictus position, median vowel duration descends as quantity increases, with the greatest difference between Q1 and Q2. Off the beat, a similar descending pattern is evident: however, in this case the largest difference is between Q2 and Q3 syllables. 
+ The intercept is set at ictus position, Q1. Findings are significant results for Q2(p<0.001), Q3, and off-ictus positions (p< 0.05). Comparison with null model was statistically significant (p<0.001)\footnote{See Appendix A} 
+ 
+ 
+
+
+
+
+%\begin{equation}
+%$$lmer(duration ~ quantity + ictus + quantity * ictus + (1 | song) + (1 | word) + (1 | performer))$$ \\
+%
+%$$lmer(duration ~ (1 | song) + (1 | word) + (1 | performer))$$
 %
 %
-\begin{figure}[htb]
-\begin{center}
-\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/song_icK_dur.png}
-
-\caption{n}
-\label{songstr}
-\end{center}
-\end{figure}
-
-\begin{figure}[htb]
-\begin{center}
-\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/song_str_dur.png}
-
-\caption{within-song vowel durations and word-stress position}
-\label{songstr}
-\end{center}
-\end{figure}
-
 %
-%with observations grouped by song \ref{songstr} shows durations of syllable nuclei in two word-stress positions: stressed and unstressed. Here it is clear that syllable-notes that are ordinarily stressed in spoken Estonian maintain the longer vowel duration even in nominally isochronous syllable-notes. 
+%\end{equation}
+\section{stress and unstress}
+
+
+\subsection{duration}
+
+Linear mixed-effects model results are significant for off-ictus (p<0.05), stressed (p<0.001), and Q2. Anova comparison of the maximal design model with a null model is also statistically significant. I reject the null hypothesis: these results support both word-level stress and beat position in song (ictus) as predictors for vowel duration. 
+
+\begin{wrapfigure}{L}{0.5\textwidth}
+\centering
+\includegraphics[width = 0.5\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/dur_density_qfac.png}
+\caption{vowel durations of stressed and unstressed Q1 and Q2 syllables falling on (ictus) and off the beat}
+\label{durstrick}
+\end{wrapfigure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{wrapfigure}{R}{0.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/dur_shape_ictus.png}
+\caption{vowel durations by beat position in open (CV), closed (CVC) and complex coda (CVCC) syllables}
+\label{ickdursh}
+\end{wrapfigure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{wrapfigure}{L}{0.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/dur_shapestress.png}
+\caption{vowel durations by word stress in open (CV), closed (CVC) and complex coda (CVCC) syllables}
+\label{strdursh}
+
+\end{wrapfigure}
 %
-%Taken together, \ref{songick} and \ref{songstr} show that within each song, vowel durations are distributed in such a way that preserves the word level duration cue of prominence (stressed vowels are longer overall) while simultaneously satisfying the expected distributions of the musical meter: syllable-notes falling on the beat have longer vowel durations than those that fall off the beat. 
+%%%%%%%%%%%%
 
-\begin{figure}[htb]
-\begin{center}
-\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/space_strictus.png}
-\caption{}
-\label{}
-\end{center}
-\end{figure}
+\subsection{space}
 
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/dur_density_qfac.png}
-\caption{default}
-\label{default}
-\end{center}
-\end{figure}
+In vowel dispersion, only the intercept is significant. Comparison with null model is not statistically significant. Thus in the case of vowel dispersion, we fail to reject the null hypothesis. 
+\begin{wrapfigure}{R}{0.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/space_strictus.png}
+\caption{euclidean distance of vowels in stress and ictus}
+\label{spcstrick}
 
-
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/dur_shape_ictus.png}
-\caption{default}
-\label{default}
-\end{center}
-\end{figure}
-
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/dur_shapestress.png}
-\caption{default}
-\label{default}
-\end{center}
-\end{figure}
-
-
-
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/figures/obs_samprep.png}
-\caption{default}
-\label{default}
-\end{center}
-\end{figure}
-
-\begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/figures/obs_sim.png}
-\caption{default}
-\label{default}
-\end{center}
-\end{figure}
-
-
-%A similar trend is visible in  when the datum are grouped by subject: each performer utlilizes syllable nucleus lengthening in both song \ref{perfick} and word \ref{perfstr} positions of prominence. 
-
-
-%
-%\ref{density} shows violin density plots of vowel durations falling on and off the beat with stressed and unstressed syllables at the word level. Here each graph is one of the two quantities that occur in both stressed and unstressed positions in natural spoken Estonian. 
-\subsection{Dispersion}
-\begin{figure}[htb]
-\begin{center}
-\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/figures/interact_space_strictus.png}
-
-
-\caption{vowel dispersion interactions of word stress and beat position}
-\label{density}
-\end{center}
-\end{figure}
+\end{wrapfigure}
 
 
 
 
-%For each dependent measure, a linear model with all fixed and random effects was fitted using the statsmodels python library \citep{seabold2010statsmodels}. Exploratory analysis of data distribution confirmed normality of data and the residuals.
-%Then, a linear model accounting for the potential interaction between stress and ictus is fitted, and a two-way anova is used to compare the two models. We reject the null hypothesis that the two models are of equal value, and continue with the larger nested model with interactions included (F = 6.17, {\it P} = 0.01). 
 
-%Multi-factor ANOVA 
+
+
 
 
 

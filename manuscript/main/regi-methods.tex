@@ -1,49 +1,5 @@
 \chapter{Methods}
 \index{Methods@\emph{Methods}}%
-\section{Phonetics of Metrics in Estonian Word Prosody}
-
-Primary lexical stress in native Estonian words is fixed, falling on word-initial syllables. There are no stress minimal pairs at the lexical level: thus, primary stress is said to be {\it demarcative} or {\it identificational}\citep{lehiste1992}, functioning to indicate the boundary of a new word. Syllables following primary stress are unstressed, and secondary stress is attested to fall on each odd syllable in polysyllabic words. Duration functions at several levels of Estonian prosody: it is the strongest correlate of both clear speech and stress \citep{lippusAsuMari2014} when compared with measurements of f0 and spectral emphasis, and is independently contrastive at the segmental level as illustrated in minimal triads in \ref{qperm}. Secondary stress was found to be significantly different in duration from both primary and peninitial unstressed syllables: interestingly, secondary stressed syllables were not shown to differ greatly from their even-positioned neighbors (excepting the peninitial). For the sake of simplicity, this study focuses only on the contrast between first (primary stressed) and second (unstressed) syllables. 
-
-%\cite{eekmeisterUralica98}
-
-In primary stress position, there are three contrastive syllable quantities. The first (Q1) is described as short, the next (Q2) as long, and the heaviest (Q3) as overlong. 
-
-%This ternary contrast has long been the subject of debate in the phonological literature of metrics: Q3 syllables have been analyzed both as a monosyllabic foot \citep{princeMetricalTheoryEstonian1980} and as a trimoraic syllable \citep{hayesCompensatoryLengtheningMoraic1989, kuznetsovaEstonianWordProsody2018,prillopMoraeEstonianReply2020}. 
-
-
- \begin{table}[htb]
-\centering
-\begin{tabular}{ccc}
-\hline
-Q1 & Q2 & Q3 \\
-{\it kodi	} 	& {\it koodi }	& {\it koodi }	\\  
-/ko.ti/		& /koː.ti/	& /koːː.ti/	\\
-\hline
-		& {\it koti }	& {\it kotti}	 \\
-		& /kot.ti/	& /kotː.ti/	\\
-\hline
-		& {\it gooti}	& {\it kooti} 	\\
-		& /koːt.ti/	& /koːːt.ti/	\\
-\hline
-\end{tabular}
-\label{qperm}
-\caption{segmental permutations of initial syllable quantity}
-\end{table}
-
-In the first row of \ref{qperm}, we see a minimal triad of the ternary quantity contrast in open first syllables. The Q2 and Q3 columns demonstrate all the other ways this contrast can be realized using the same segment identities in closed syllables. 
-
-\begin{exe}
-\ex \gll laul-da \\
-	{[ˈlɑuːl.dɑ]} \\
-	sing-\Tr{} 
-	\glt	`singing'
-\ex 	ööbik \\
-	{[ˈøː.pikː]} \\
-	nightingale.\Nom{} 
-	\glt`nightingale'
-\label{disyllables}
-\end{exe}
-Q1 and Q2 syllables can be both stressed and unstressed, while Q3 is only present in stressed positions, attracting stress to its (non-initial) syllable in compound and loan words. Peninitial syllables can only be Q1 or Q2, illustrated in \ref{disyllables}. 
 
 
 \section{Constructing the Corpus}
@@ -71,18 +27,8 @@ I first describe the source materials and the selection criteria for the sample 
 
 Songs for this paper were accessed via The Anthology of Estonian Traditional Music \citep{tampere2016}. Originally published on four vinyl discs in 1970, the digital version showcases a robust sample of the massive collection of {\it regilaul} in Estonian Folklore Archives. In addition to audio, the  compilation includes  photographs, sheet music, and performer demographics of 98 {\it regilaul} songs and 17 instrumental tunes. 
 These songs were compiled in part by Herbert Tampere, an early ethnomusicology field work organizer of the EFA, who along with Erna Tampere and Ottilie Kõiva collected these folk songs\citep{oras2002, tampere2016}. 
-% Pictured in \ref{tampy} is a photograph taken of one of the very field trips to record songs studied in this paper. 
-%
-%\begin{figure}[htb]
-%\centering
-%
-%\includegraphics[width=200pt]{figures/Mf_07027_Tampered_Orik.jpg}
-%\caption{Herbert Tampere on a field trip}
-%\label{tampy}
-%\end{figure}
 
-
-While the ultimate goal is to continue annotation of the entire available corpus of {\it regilaul}, for the initial analysis I chose a sample of songs all belonging to the same regional dialect and recording method. Once several regions were identified as possible candidates, a native Estonian speaker was consulted on the final selection. The nine songs analyzed in this study were all recorded in Parnümaa county from 1961-1966 by Herbert and Erna Tampere. 
+ initial analysis I chose a sample of songs all belonging to the same regional dialect and recording method. Once several regions were identified as possible candidates, a native Estonian speaker was consulted on the final selection. The nine songs analyzed in this study were all recorded in Parnümaa county from 1961-1966 by Herbert and Erna Tampere. 
 % The first criteria is due to the lossy nature of some of the older files available on the site: the online versions are all compressed lossy, so the analog audio originally recorded on tape and then digitized have a higher resolution, even compressed, than songs that have been copied from wax cylinders or shellac discs onto open-reel tape and then digitizing. 
 
 
@@ -112,7 +58,7 @@ In all cases, if the aforementioned cues were unavailable, ambiguous, or misalig
 
 
 At this point, the audio recording of each song has tiers annotated for tempo and strong beat, verse line phrases, two interval tiers force-aligned to word and phoneme levels, and a separate tier with intervals of the individual vowel segments of interest copied from the phoneme tier.
-\subsection{Fusing audio-aligned transcriptions with text corpus}
+\subsection{Connecting acoustic measurements to text corpus}
 
 The last step in preprocessing is to integrate the annotation of the song audio with the lexical content of the song. This study accomplishes the task using an open-source natural language toolkit in python called estinltk \url{https://github.com/estnltk} \citep{estnltk2020}. Among other things, the toolkit has a robust dictionary of Estonian grammar, including phonetic transcription of syllables with corresponding quantity and stress data. 
 
@@ -126,26 +72,7 @@ Once the annotations are complete, the corresponding text files are aggregated a
 
 Only those vowels from syllables that were nominally transcribed as isochronous eighth notes and also coincided with the beat length provided by the flexible MIDI metronome were used for this study.  Syllables in the final position of the verse were excluded due to the tendency for variation in the final notes of the phrase. 
 %Each verse line is considered a ``semantic rhyme" \citep{lehiste1978}, or a meaningfully complete constituent. 
-\subsection{long vowels and monophthongs}
-An estonian word game supports the notion of many-to-one phonemes for long vowels, but a one-to-one status for diphthongs.
 
-\begin{exe}
-
-\ex  long vowels (Q1,Q2, Q3 contrast) 
-	\begin{itemize} 
-	\item sada `hundred' $\rightarrow$ sapida 
-	\item  saada `send' (2nd sg. imp.) $\rightarrow$ sapiida (*sapiada)(*saapida)
-	\item saada `get' , {\it -da} infinitive $\rightarrow$ sapii:da (*sapiada)(*saapida)
-	\end{itemize}
-\ex 	 diphthongs \\
-laulus `in the song' (iness.sg) $\rightarrow$ lapiulus (*laupilus)
-\end{exe}
-
-In both cases, `pi' carries the prosodic characteristics of the displaced syllable. the stress is moved from first syllable to 'pi,' and also the length. crucially, the diphthong is split at the segmental level, while the long vowels are not.  Long vowels, then, are treated as monophonematic, whereas diphthongs are treated as biphonematic. 
-
-This word game supports the notion that long (identical) vowels and diphthongs in  Estonian should potentially be treated as different categories for duration. The analysis therefore will examine long monophthongs and diphthongs both together and separately for interpreting  the measurement of vowel duration. 
-
-\cite{lehiste1985}
 
 \subsection{Statistical Analysis} 
 %Linear mixed-effects model using lme4 in R \cite{rlme4}. 

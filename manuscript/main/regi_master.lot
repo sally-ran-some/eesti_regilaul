@@ -1,5 +1,15 @@
 \addvspace {10pt}
-\contentsline {table}{\numberline {1.1}{\ignorespaces ternary syllable weight contrast\relax }}{2}{}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces segmental permutations of initial syllable quantity\relax }}{3}{}%
 \addvspace {10pt}
-\contentsline {table}{\numberline {2.1}{\ignorespaces segmental permutations of initial syllable quantity\relax }}{12}{}%
 \addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {A.1}{\ignorespaces duration \& quantity fixed effects\relax }}{25}{}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces dquantity-duration random effects\relax }}{26}{}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces model comparison, duration predicting quantity \& ictus\relax }}{26}{}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces anova of model comparison: duration dependent stressed ictus\relax }}{26}{}%
+\contentsline {table}{\numberline {A.5}{\ignorespaces anova of design and null lmer models for euclidean distance, stress and ictus \relax }}{27}{}%
+\contentsline {table}{\numberline {A.6}{\ignorespaces duration dependent variable lmer\relax }}{27}{}%
+\contentsline {table}{\numberline {A.7}{\ignorespaces random effects duration-stress-ictus model\relax }}{27}{}%
+\contentsline {table}{\numberline {A.8}{\ignorespaces euclidean distance dependent fixed effects\relax }}{28}{}%
+\contentsline {table}{\numberline {A.9}{\ignorespaces random effects of euclidean distance and stress-ictus lmer\relax }}{28}{}%

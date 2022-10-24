@@ -4,6 +4,7 @@ The top-level auxiliary file: regi_master.aux
 A level-1 auxiliary file: regi-intro.aux
 A level-1 auxiliary file: regi-methods.aux
 A level-1 auxiliary file: regi-results.aux
+A level-1 auxiliary file: regi-discussion.aux
 The style file: apa-good.bst.bst
 Database file #1: regilaul.bib
 You're missing a field name---line 72 of file regilaul.bib
@@ -11,46 +12,45 @@ You're missing a field name---line 72 of file regilaul.bib
  :   %annote={used to make flextempo beatgrids}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--empty journal in lehiste1985
-You've used 29 entries,
+You've used 28 entries,
             2804 wiz_defined-function locations,
-            766 strings with 9148 characters,
-and the built_in function-call counts, 15608 in all, are:
-= -- 1323
-> -- 507
-< -- 30
-+ -- 202
-- -- 161
-* -- 1082
-:= -- 2430
-add.period$ -- 88
-call.type$ -- 29
-change.case$ -- 214
-chr.to.int$ -- 29
-cite$ -- 30
-duplicate$ -- 1189
-empty$ -- 1222
-format.name$ -- 255
-if$ -- 3095
+            765 strings with 9086 characters,
+and the built_in function-call counts, 15224 in all, are:
+= -- 1293
+> -- 497
+< -- 29
++ -- 196
+- -- 158
+* -- 1062
+:= -- 2363
+add.period$ -- 86
+call.type$ -- 28
+change.case$ -- 208
+chr.to.int$ -- 28
+cite$ -- 28
+duplicate$ -- 1157
+empty$ -- 1191
+format.name$ -- 251
+if$ -- 3023
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 232
-newline$ -- 147
-num.names$ -- 118
-pop$ -- 473
+missing$ -- 226
+newline$ -- 143
+num.names$ -- 114
+pop$ -- 456
 preamble$ -- 1
-purify$ -- 169
+purify$ -- 164
 quote$ -- 0
-skip$ -- 489
+skip$ -- 474
 stack$ -- 0
-substring$ -- 735
-swap$ -- 600
+substring$ -- 722
+swap$ -- 591
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 258
-warning$ -- 1
-while$ -- 122
+type$ -- 249
+warning$ -- 0
+while$ -- 119
 width$ -- 0
-write$ -- 370
+write$ -- 360
 (There was 1 error message)
