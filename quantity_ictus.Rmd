@@ -4,6 +4,7 @@ output: html_notebook
 ---
 
 ```{r}
+library("sjPlot")
 library("lme4")
 library("ggplot2")
 library("broom")
@@ -42,8 +43,16 @@ summary(maxmdl)
 ```
 
 ```{r}
+tab_model(maxmdl, digits.re = 4)
+```
+
+```{r}
 nullmdl <- lmer(duration ~ (1|song) + (1|word) + (1|performer) , data = quant_data, REML = FALSE)
 summary(nullmdl)
+```
+
+```{r}
+tab_model(nullmdl, digits.re = 4)
 ```
 
 ```{r}

@@ -8,6 +8,7 @@ This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*.
 
 ```{r}
+library("sjPlot")
 library("lme4")
 library("ggplot2")
 library("broom")
@@ -45,6 +46,7 @@ ggplot(space_data, aes(ictus,euclid)) +
   facet_wrap("song") +
   labs(x = "beat position", y = "vowel dispersion") + 
   theme_classic()
+ggsave("song_euc_ictus.png")
 space_data %>%
   arrange(euclid) %>%
   mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%
@@ -53,12 +55,13 @@ space_data %>%
     facet_wrap("song") +
     labs(x = "word stress", y = "vowel dispersion") + 
     theme_classic()
+ggsave("song_euc_stress.png")
 ggplot(space_data, aes(ictus,euclid)) + 
   geom_jitter(color = "violet", alpha = 0.5) +
   facet_wrap("performer") +
   labs(x = "beat position", y = "vowel dispersion") + 
   theme_minimal()
-
+ggsave("perf_euc_ictus.png")
   space_data %>%
   arrange(euclid) %>%
   mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%
@@ -67,7 +70,7 @@ ggplot(space_data, aes(ictus,euclid)) +
     facet_wrap("performer") +
     labs(x = "word stress", y = "vowel dispersion") + 
     theme_minimal()
-
+ggsave("perf_euc_stress.png")
 ```
 
 ```{r}
@@ -93,10 +96,19 @@ summary(desmd)
 ```
 
 ```{r}
+tab_model(desmd)
+```
+
+```{r}
 des_null_md <- lmer(euclid ~  (1|segment) + (1|song) +(1|performer), REML = FALSE, data = space_data )
 summary(des_null_md)
 ```
 
 ```{r}
-anova(desmd,des_null_md)
+tab_model(des_null_md)
+```
+
+```{r}
+spc_comp <- anova(desmd,des_null_md)
+print(spc_comp)
 ```

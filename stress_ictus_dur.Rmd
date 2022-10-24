@@ -3,7 +3,8 @@ title: "Q1 and Q2 duration in stress and ictus"
 output: html_notebook
 ---
 
-```{r}
+```{r setup}
+library("sjPlot")
 library("lme4")
 library("ggplot2")
 library("broom")
@@ -36,12 +37,14 @@ ggplot(strictus_data,aes(ictus,duration, shape = ictus)) +
   labs(x = "beat position", y = "mean vowel duration (ms)") + 
   theme_minimal()
 ggsave("song_icK_dur.png")
-  
-ggplot(strictus_data,aes(stressed,duration, shape = stressed)) + 
-  geom_jitter(color = "orange", alpha = 0.5) +
-  facet_wrap("song") + 
-  labs(x = "word stress", y = "within-song mean vowel duration (ms)") + 
-  theme_minimal()
+strictus_data %>%
+  arrange(duration) %>%
+  mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%  
+  ggplot(aes(stressed,duration, shape = stressed)) + 
+    geom_jitter(color = "orange", alpha = 0.5) +
+    facet_wrap("song") + 
+    labs(x = "word stress", y = "within-song mean vowel duration (ms)") + 
+    theme_minimal()
 ggsave("song_str_dur.png")
 
 ggplot(strictus_data,aes(ictus,duration, shape = ictus)) + 
@@ -50,11 +53,14 @@ ggplot(strictus_data,aes(ictus,duration, shape = ictus)) +
   labs(x = "beat position", y = "mean vowel duration (ms)") + 
   theme_minimal()
 ggsave("perf_ick_dur.png")
-ggplot(strictus_data,aes(stressed,duration, shape = stressed)) + 
-  geom_jitter(color = "orange", alpha = 0.5) +
-  facet_wrap("performer") + 
-  labs(x = "word stress", y = "within-subject mean vowel duration (ms)") + 
-  theme_minimal()
+strictus_data %>%
+  arrange(duration) %>%
+  mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%  
+  ggplot(aes(stressed,duration, shape = stressed)) + 
+    geom_jitter(color = "orange", alpha = 0.5) +
+    facet_wrap("performer") + 
+    labs(x = "word stress", y = "within-subject mean vowel duration (ms)") + 
+    theme_minimal()
 ggsave("perf_str_dur.png")
 ```
 
@@ -109,6 +115,20 @@ summary(lindesignmod)
 ```
 
 ```{r}
+tab_model(lindesignmod, digits.re = 4)
+
+
+```
+
+```{r}
+tab_model(linnullIntmod, digits.re = 4)
+```
+
+```{r}
+tab_model(lindesignmod,linnullIntmod, digits.re = 4)
+```
+
+```{r}
 hist(residuals(lindesignmod))
 ```
 
@@ -121,7 +141,7 @@ plot(lindesignmod)
 ```
 
 ```{r}
-linnullIntmod <- lmer(duration ~ (1|song) + (1|word) + (1|performer), data = strictus_data, REML = FALSE)
+linnullIntmod <- lmer(duration ~  (1|word) + (1|song) + (1|performer), data = strictus_data, REML = FALSE)
 n1 <- summary(linnullIntmod)
 print(n1)
 ```
