@@ -5,6 +5,7 @@ A level-1 auxiliary file: regi-intro.aux
 A level-1 auxiliary file: regi-methods.aux
 A level-1 auxiliary file: regi-results.aux
 A level-1 auxiliary file: regi-discussion.aux
+A level-1 auxiliary file: appendix-stats.aux
 The style file: apa-good.bst.bst
 Database file #1: regilaul.bib
 You're missing a field name---line 72 of file regilaul.bib
@@ -12,9 +13,10 @@ You're missing a field name---line 72 of file regilaul.bib
  :   %annote={used to make flextempo beatgrids}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Ross1990"
 You've used 28 entries,
             2804 wiz_defined-function locations,
-            765 strings with 9086 characters,
+            768 strings with 9120 characters,
 and the built_in function-call counts, 15224 in all, are:
 = -- 1293
 > -- 497
