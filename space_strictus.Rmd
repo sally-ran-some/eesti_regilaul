@@ -13,6 +13,7 @@ library("lme4")
 library("ggplot2")
 library("broom")
 library("dplyr")
+library("ggpattern")
 spata_df <- read.csv("vowel_master.csv", header= TRUE)
 
 
@@ -77,15 +78,13 @@ ggsave("perf_euc_stress.png")
 space_data %>%
   arrange(euclid) %>%
   mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%
-  ggplot(aes(x=ictus ,y=euclid,fill = stressed)) + 
+  ggplot(aes(x=stressed ,y=euclid,pattern = ictus)) + 
   
-  geom_boxplot(alpha = 0.5)  + 
+  geom_boxplot_pattern()  + 
   
   #geom_jitter( alpha = 0.5) +
   theme_classic() +
-  
-  facet_wrap("quantity")
-  labs( xlab = "beat" ,ylab = "euclidean distance") 
+  labs( x= "word stress" ,y = "euclidean distance(Hz) from center of (F1, F2) plane", pattern = "beat position", title = "spatial effects on vowels of stressed and unstressed syllables") 
 
 ggsave('space_strictus.png')
 ```

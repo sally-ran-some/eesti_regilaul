@@ -9,6 +9,7 @@ library("lme4")
 library("ggplot2")
 library("broom")
 library("dplyr")
+library("ggpattern")
 quant_df <- read.csv("vowel_master.csv", header= TRUE)
 quant_df$ictus <- as.factor(quant_df$ictus)
 quant_df$stressed <- as.factor(quant_df$stressed)
@@ -25,13 +26,13 @@ quant_data
 ```
 
 ```{r}
-ggplot(quant_data,aes(quantity, duration, color = quantity)) + 
+ggplot(quant_data,aes(quantity, duration, pattern = quantity)) + 
   #geom_violin()+
-  geom_boxplot(alpha = 0.3) +
+  geom_boxplot_pattern(alpha = 0.3) +
   #geom_jitter(alpha = 0.5) +
-  labs(x = "syllable quantity", y = "mean vowel duration (ms)") + 
-  facet_wrap("ictus")
-  theme_minimal()
+  labs(x = "syllable quantity", y = "mean vowel duration(s)", title = "temporal effects of beat position on vowel nuclei of stressed syllables", subtitle = "in three contrastive quantities") + 
+  facet_wrap("ictus") + 
+  theme_classic()
 ggsave("q_dur.png")
 
 

@@ -9,6 +9,7 @@ library("lme4")
 library("ggplot2")
 library("broom")
 library("dplyr")
+library("ggpattern")
 data_df <- read.csv("vowel_master.csv", header= TRUE)
 
 
@@ -32,9 +33,10 @@ strictus_data
 
 ```{r}
 ggplot(strictus_data,aes(ictus,duration, shape = ictus)) + 
+  
   geom_jitter(color = "violet", alpha = 0.5) +
   facet_wrap("song") +
-  labs(x = "beat position", y = "mean vowel duration (ms)") + 
+  labs(x = "beat position", y = "mean vowel duration(s)") + 
   theme_minimal()
 ggsave("song_icK_dur.png")
 strictus_data %>%
@@ -43,14 +45,14 @@ strictus_data %>%
   ggplot(aes(stressed,duration, shape = stressed)) + 
     geom_jitter(color = "orange", alpha = 0.5) +
     facet_wrap("song") + 
-    labs(x = "word stress", y = "within-song mean vowel duration (ms)") + 
+    labs(x = "word stress", y = "within-song mean vowel duration(s)") + 
     theme_minimal()
 ggsave("song_str_dur.png")
 
 ggplot(strictus_data,aes(ictus,duration, shape = ictus)) + 
   geom_jitter(color = "violet", alpha = 0.5) +
   facet_wrap("performer") + 
-  labs(x = "beat position", y = "mean vowel duration (ms)") + 
+  labs(x = "beat position", y = "mean vowel duration(s)") + 
   theme_minimal()
 ggsave("perf_ick_dur.png")
 strictus_data %>%
@@ -59,7 +61,7 @@ strictus_data %>%
   ggplot(aes(stressed,duration, shape = stressed)) + 
     geom_jitter(color = "orange", alpha = 0.5) +
     facet_wrap("performer") + 
-    labs(x = "word stress", y = "within-subject mean vowel duration (ms)") + 
+    labs(x = "word stress", y = "within-subject mean vowel duration(s)") + 
     theme_minimal()
 ggsave("perf_str_dur.png")
 ```
@@ -72,10 +74,12 @@ interaction.plot(strictus_data$stressed,strictus_data$ictus,strictus_data$durati
 strictus_data %>%
   arrange(duration)%>%
   mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%
-  ggplot(aes(x=stressed ,y=duration,fill = ictus)) + 
-    geom_violin() + stat_ydensity() + theme_minimal() +
-    labs( xlab = "word stress" ,ylab = "vowel duration (ms)") + 
-    facet_wrap("quantity", labeller = label_both)
+  ggplot(aes(x=stressed ,y=duration,pattern = ictus)) + 
+
+    geom_violin_pattern()+ theme_classic() +
+    labs( x= "word stress" ,y = "vowel duration (s)", title = "temporal effects of word stress and beat position in syllable nuclei") + 
+    facet_wrap("quantity", labeller = label_both) 
+    
   
 ggsave("dur_density_qfac.png")
 
@@ -91,9 +95,10 @@ shape_df <- filter(strictus_data, strictus_data$shape != "VVC" & strictus_data$s
 ```{r}
 
   
-  ggplot(shape_df,aes(x=shape,y=duration, fill = ictus)) +
-  geom_violin() + stat_ydensity() + theme_minimal() +
-  labs( xlab = "syllable shape" ,ylab = "vowel duration (ms)") 
+  ggplot(shape_df,aes(x=shape,y=duration, pattern = ictus)) +
+  geom_violin() + stat_ydensity() + theme_classic() +
+  geom_violin_pattern() +
+  labs( x = "syllable shape" ,y = "vowel duration(s)", title = "duration of syllable nuclei on and off the beat in three syllable shapes") 
 
 ggsave("dur_shape_ictus.png")
 ```
@@ -102,9 +107,11 @@ ggsave("dur_shape_ictus.png")
 shape_df %>%
   arrange(duration)%>%
   mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%
-  ggplot(aes(x=shape,y=duration, fill = stressed)) +
-  geom_violin() + stat_ydensity() + theme_minimal() +
-  labs( xlab = "syllable shape" ,ylab = "vowel duration (ms)") 
+  ggplot(aes(x=shape,y=duration, pattern = stressed)) +
+  geom_violin() + stat_ydensity() + theme_classic() +
+  geom_violin_pattern()+
+  
+  labs( x = "syllable shape" ,y = "vowel duration(s)", title = "duration of stressed and unstressed syllable nuclei in three syllable shapes") 
 
 ggsave("dur_shapestress.png")
 ```
