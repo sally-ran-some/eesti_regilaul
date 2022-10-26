@@ -1,6 +1,12 @@
 \chapter{Methods}
 \index{Methods@\emph{Methods}}%
 
+\section{Design}
+To test these hypotheses, vowel duration and location on the F1,F2 plane are taken from the nuclei of first (primary stressed) and unstressed syllables of disyllabic feet. \footnote{The exclusion of secondary stress is due to recent findings that secondary stress in spoken Estonian does not exhibit significant differences compared to unstressed syllables of polysyllabic words besides the pen-initial \cite{asuLippus2018}. }
+
+Within each song, samples of syllable-notes consisted only of those matching the nominal isochrony. For example, in verse lines mostly comprised of syllable-notes divided evenly into eighths, neither quarter notes nor sixteenth notes were taken. Syllables in phrase-final position were generally excluded under this criteria. 
+
+
 
 \section{Constructing the Corpus}
 
@@ -36,15 +42,17 @@ These songs were compiled in part by Herbert Tampere, an early ethnomusicology f
 
  Each song's lyrics are copied from the site and saved as .txt files in Estonian orthography, each line of the file corresponding to one melody line.  
 Audio files of the selected songs are downloaded from the archive in .ogg format, which is the highest resolution of the two lossy formats available from the digital anthology. Each song is then imported into a Logic Pro X \citep{logic2014} session for beat detection, tempo mapping, and trimming. 
-To make the tempo map, the session must be set to {\it flex tempo}. From here a beat onset detection algorithm is  given the transcribed bpm and time signature from the archived song data and run on the imported audio file. The result is an annotation of intervals in time, and the bpm for each measure is annotated according to the performance of the song.
-The tempo map allows us to document when {\it exactly} in time the particular singer performed a given note, the duration of the sung note, and the acoustic threshold by which the note is defined as ``strong" relative to surrounding notes. The process is informed by the transcribed bpm and time signature included in the anthology. This is beneficial to my purposes in two ways: by accounting for the natural tempo variation in live performance, and by using a consistent metric to determine beat strength acoustically rather than just perceptually. Using onset detection algorithms such as these \citep{bKeeper2007} in phonetics research, especially in the interdisciplinary field of linguistics and musicology, will be particularly beneficial to answering questions about rhythm: finding a way to bring our intuitions and impressions about ``the beat" together with the acoustic phenomenon. By automating the annotation and measurement process using open source tools, the author hopes to share these machines with those who have similar research interests, and also to invite contributors to the data of this corpus of text data time-aligned to queryable audio signal data. From here, a MIDI track is programmed to create a metronome that is the length of a single syllable-note in the song. In most of these, a 4/4 measure contains eight eighth notes, so the metronome track contains four eighth notes indicating the ``ictus" beats. In flex tempo mode, the MIDI track adjusts note and measure length to match the fluctuations in tempo as documented in the map for the song. The metronome and the song audio file are trimmed to match exactly, and the metronome is converted into a textgrid in PRAAT\citep{boersna2022}, where the annotation process continues. 
+To make the tempo map, the session is set to {\it flex tempo}. From here a beat onset detection algorithm is  given the estimated bpm and time signature as a starting point and then run on the song audio. 
+The result is documentationion of the precise moment a given note is realized, the absolute duration of that note, and the fluctuations in tempo from measure to measure.
+This is beneficial to my purposes in two ways: by accounting for the natural tempo variation of the a capella songs, and by incorporating acoustic parameters to define the beat, which increases the replicability compared to solely using perceptual judgments. 
+
+\footnote{Using onset detection algorithms such as these \citep{bKeeper2007} in phonetics research, especially in the interdisciplinary field of linguistics and musicology, will be particularly beneficial to answering questions about rhythm: finding a way to bring our intuitions and impressions about ``the beat" together with the acoustic phenomenon. By automating the annotation and measurement process using open source tools, the author hopes to share these machines with those who have similar research interests, and also to invite contributors to the data of this corpus of text data time-aligned to queryable audio signal data. } 
+From here, a MIDI track is programmed to create a metronome specifically tailored to the song according to the tempo map. Using the aforementioned {\it flex tempo}, the MIDI track adjusts note and measure length to match the fluctuations documented in the by the beat tracker. Once rendered, the metronome and the song audio file are trimmed to match exactly, and the metronome is converted with a script into a textgrid of beat and measure intervals in PRAAT\citep{boersna2022}. 
 
  
-The orthographic text phrases of the song lyrics are then inserted into each phrase interval with a script, and then eSpeak forced aligner for Estonian \citep{eSpeak1995} is run on each phrase to the word and phonemic level. Because this forced aligner is trained on spoken, not sung Estonian, the aligner sometimes tries to align words into the signal before they are uttered. In these cases, the word level tier is manually realigned so that it contains all and only the transcribed word, and then the forced aligner is re-run on this word to the segmental level. ``Giving" the forced-aligner all and only the correct word improved the segmental alignment, but the relevant segments for this study were manually verified and adjusted (if necessary) to ensure they all met a consistent criteria. 
-\subsection{Criteria for adjusting the forced-aligner}
+The orthographic text phrases of the song lyrics are then inserted into each verse-phrase interval, which the eSpeak forced aligner for Estonian \citep{eSpeak1995} uses to reverse-synthesize from the phrase input to the word and phonemic level. Because this forced aligner is trained on spoken, not sung Estonian, manual verification and realignment of the vowel segments used in this dataset was often necessary. \\
 
-
-Manually verified the intervals set by the forced aligner for syllable nuclei according to the frequency and intensity contours in PRAAT. 
+\subsection{Adjustment Criteria for Vowel Durations}
 The beginning of the vowel was broadly aligned according to a combination of acoustic correlates: at the point where 1. intensity was within 2dB of the steady-state medial portion of the vowel with a slope between 0.5 and zero, 2. frequency stabilizing into that syllable-note's pitch category, and 3. the presence of a voicing bar and visible formants f1, f2, and f3. Manner specific criteria: did not include burst in plosives. Boundaries between fricative onsets and vowels was determined by the end of visible high-frequency noise in the spectrum. Coronal fricative /s/ also consistently showed a carat \ref{} in the frequency track immediately preceding the transition to vowel. For approximants, the additional criteria of steady formants was necessary. Following nasal onsets, vowel intensity {\it lowered}, but a near-zero slope still reliably coincided with the other acoustic correlates. 
 
 
@@ -54,35 +62,23 @@ Closed syllables with approximant codas /l/were excluded, as neither the forced-
 %epenthesized vowels (i.e., pandi mind paju raiumaie) having mind(e) \\
 
 
-In all cases, if the aforementioned cues were unavailable, ambiguous, or misaligned, the token was elided for this analysis. From all nine songs in the corpus, a total of 757 vowel nuclei met the criteria for inclusion in duration measurements. 
+In all cases, if the aforementioned cues were unavailable, ambiguous, or misaligned, the token was elided for this analysis. From all nine songs in the corpus, a total of 757 vowel nuclei met the criteria for inclusion in duration measurements. For the measurements of F1, F2 space, formants were extracted from the mid point of the vowel. 
 
 
-At this point, the audio recording of each song has tiers annotated for tempo and strong beat, verse line phrases, two interval tiers force-aligned to word and phoneme levels, and a separate tier with intervals of the individual vowel segments of interest copied from the phoneme tier.
+At this point, the audio recording of each song has tiers annotated for beat, verse lines, and force-aligned word and phoneme levels.
 \subsection{Connecting acoustic measurements to text corpus}
 
-The last step in preprocessing is to integrate the annotation of the song audio with the lexical content of the song. This study accomplishes the task using an open-source natural language toolkit in python called estinltk \url{https://github.com/estnltk} \citep{estnltk2020}. Among other things, the toolkit has a robust dictionary of Estonian grammar, including phonetic transcription of syllables with corresponding quantity and stress data. 
-
-
-Thus the data structure of this corpus offers two independent metrics of rhythmic prominence in these songs. From the audio recording and the beat detection, we have an annotation of strong beats based on replicable acoustic measurements, and from the dictionary in the natural language toolkit, we have native speaker intuitions about the lexical weight and prominence in the words of the text. While the stress system is generally predictable, the syllable quantity is not always apparent from the orthography, and not always detectible by a non-native listener. 
+The last step in preprocessing is to integrate the annotation of the song audio with the lexical content of the song. This study accomplishes the task using an open-source natural language toolkit in python called estinltk \url{https://github.com/estnltk} \citep{estnltk2020}. Among other things, the toolkit has a robust dictionary of Estonian grammar, including phonetic transcription of syllables with corresponding quantity and stress data. This is especially important data for testing hypotheses about the ternary quantity contrast, which is not always apparent from the orthography. 
 %Linguistic descriptions of the Estonian language date back as early as the seventeenth century, but the ternary quantity contrast was not documented until native Estonian linguists contributed their intuitions. The non-native linguists had only described lexical stress \citep{sargEarlyHistoryEstonian2005a}. \\
 
 
 
-Once the annotations are complete, the corresponding text files are aggregated and, the corresponding measurements from PRAAT are concatenated via python using the parselmouth library python interface to PRAAT \citep{parselmouth2018, python1995}. 
+Once the annotations are complete, python scripts are used aggregate the audio and text that form this corpus: text files of lyrics are connected to the textgrid files corresponding to the audio, and acoustic measurements are extracted from PRAAT using the parselmouth library\citep{parselmouth2018, python1995}. 
 
-Only those vowels from syllables that were nominally transcribed as isochronous eighth notes and also coincided with the beat length provided by the flexible MIDI metronome were used for this study.  Syllables in the final position of the verse were excluded due to the tendency for variation in the final notes of the phrase. 
-%Each verse line is considered a ``semantic rhyme" \citep{lehiste1978}, or a meaningfully complete constituent. 
+
 
 
 \subsection{Statistical Analysis} 
-%Linear mixed-effects model using lme4 in R \cite{rlme4}. 
-%
-%For stress and ictus, only q1 and q2 syllables (Q3 never unstressed). \\
-%for quantity and ictus, only word-level stressed syllables
-%
-%
-%
-%Design-based formula
-%Hierarchical Linear Model with group-specific terms
-%
-%\cite{goodrichRstanarmBayesianApplied2020,brillemanJointLongitudinalTimetoevent2018}
+For each hypothesis, linear mixed-effects models were fit using the lme4 package in R \citep{lme4,r2022}. For models with duration as dependent variable, random intercepts were set for individual song, singer, and word. For HQ, fixed effects were syllable quantity, beat position (ictus), and the interaction of those terms. For HA, the fixed effects were ictus, stress, and the interaction of ictus and stress. 
+
+For the model using vowel dispersion (HS) as the predictor, random intercepts were set for performer, word, and segment quality. Fixed effects were ictus, stress, and the interaction of ictus and stress. 

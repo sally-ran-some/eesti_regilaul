@@ -8,51 +8,44 @@ A level-1 auxiliary file: regi-discussion.aux
 A level-1 auxiliary file: appendix-stats.aux
 The style file: apa-good.bst.bst
 Database file #1: regilaul.bib
-You're missing a field name---line 72 of file regilaul.bib
- :   
- :   %annote={used to make flextempo beatgrids}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Ross1990"
-You've used 28 entries,
+You've used 34 entries,
             2804 wiz_defined-function locations,
-            768 strings with 9120 characters,
-and the built_in function-call counts, 15224 in all, are:
-= -- 1293
-> -- 497
-< -- 29
-+ -- 196
-- -- 158
-* -- 1062
-:= -- 2363
-add.period$ -- 86
-call.type$ -- 28
-change.case$ -- 208
-chr.to.int$ -- 28
-cite$ -- 28
-duplicate$ -- 1157
-empty$ -- 1191
-format.name$ -- 251
-if$ -- 3023
+            805 strings with 10000 characters,
+and the built_in function-call counts, 18535 in all, are:
+= -- 1567
+> -- 600
+< -- 35
++ -- 239
+- -- 191
+* -- 1292
+:= -- 2870
+add.period$ -- 106
+call.type$ -- 34
+change.case$ -- 252
+chr.to.int$ -- 34
+cite$ -- 34
+duplicate$ -- 1416
+empty$ -- 1463
+format.name$ -- 300
+if$ -- 3684
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 226
-newline$ -- 143
-num.names$ -- 114
-pop$ -- 456
+missing$ -- 276
+newline$ -- 175
+num.names$ -- 138
+pop$ -- 554
 preamble$ -- 1
-purify$ -- 164
+purify$ -- 199
 quote$ -- 0
-skip$ -- 474
+skip$ -- 575
 stack$ -- 0
-substring$ -- 722
-swap$ -- 591
-text.length$ -- 5
+substring$ -- 876
+swap$ -- 728
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 249
+type$ -- 303
 warning$ -- 0
-while$ -- 119
+while$ -- 144
 width$ -- 0
-write$ -- 360
-(There was 1 error message)
+write$ -- 441

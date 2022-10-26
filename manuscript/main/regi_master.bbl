@@ -1,8 +1,25 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{34}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Asu \& Lippus(2018)}]{asuLippus2018}
+Asu, E.~L., \& Lippus, P. (2018).
+\newblock Acoustic correlates of secondary stress in {{Estonian}}.
+\newblock In {\em Speech {{Prosody}} 2018\/}, (pp. 602--606). {ISCA}.
+
+\bibitem[{Asu \& Teras(2009)}]{asuPire2009}
+Asu, E.~L., \& Teras, P. (2009).
+\newblock Estonian.
+\newblock {\em Journal of the International Phonetic Association\/}, {\em
+  39\/}(3), 367--372.
+
+\bibitem[{Bates et~al.(2015)Bates, Mächler, Bolker, \& Walker}]{lme4}
+Bates, D., Mächler, M., Bolker, B., \& Walker, S. (2015).
+\newblock Fitting linear mixed-effects models using lme4.
+\newblock {\em Journal of Statistical Software\/}, {\em 67\/}(1), 1–48.
+\newline\urlprefix\url{https://www.jstatsoft.org/index.php/jss/article/view/v067i01}
 
 \bibitem[{Boersna \& Weenink(2022)}]{boersna2022}
 Boersna, P., \& Weenink, D. (2022).
@@ -40,6 +57,22 @@ Laur, S., Orasmaa, S., S{\"a}rg, D., \& Tammo, P. (2020).
 \newblock In {\em Proceedings of the 12th Language Resources and Evaluation
   Conference\/}, (pp. 7154--7162). {Marseille, France}: {European Language
   Resources Association}.
+
+\bibitem[{Lehiste(1960)}]{lehiste1960}
+Lehiste, I. (1960).
+\newblock Segmental and syllabic quantity in {{Estonian}}.
+\newblock {\em American studies in Uralic linguistics\/}, {\em 1\/}, 21--82.
+
+\bibitem[{Lehiste(1965)}]{lehiste1965}
+Lehiste, I. (1965).
+\newblock The {{Function}} of {{Quantity}} in {{Finnish}} and {{Estonian}}.
+\newblock {\em Language\/}, {\em 41\/}(3), 447.
+
+\bibitem[{Lehiste(1978)}]{lehiste1978}
+Lehiste, I. (1978).
+\newblock The {{Syllable}} as a {{Structural Unit}} in {{Estonian}}.
+\newblock In {\em {{Syllables}} and {{Segments}}\/}. North-Holland Publishing
+  Company.
 
 \bibitem[{Lehiste(1992)}]{lehiste1992}
 Lehiste, I. (1992).
@@ -79,6 +112,12 @@ Oras, J., \& V{\"a}strik, E.-H. (2002).
 Palmer, C., \& Kelly, M.~H. (1992).
 \newblock Linguistic {{Prosody}} and {{Musical Meter}} in {{Song}}.
 \newblock {\em Journal of Memory and Language\/}, {\em 31\/}(4), 525--542.
+
+\bibitem[{{R Core Team}(2022)}]{r2022}
+{R Core Team} (2022).
+\newblock {\em R: A Language and Environment for Statistical Computing\/}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+\newline\urlprefix\url{https://www.R-project.org/}
 
 \bibitem[{Robertson \& Plumbley(2007)}]{bKeeper2007}
 Robertson, A., \& Plumbley, M. (2007).
@@ -124,12 +163,6 @@ Ross, J., \& Lehiste, I. (2001).
 \newblock In {\em The Temporal Structure of {{Estonian}} Runic Songs\/},
   Phonology and {{Phonetics}} ; 1. {Berlin, [Germany] ;}: {Mouton de Gruyter},
   reprint 2015 ed.
-
-\bibitem[{R{\"u}{\"u}tel(1999)}]{ruutel1999}
-R{\"u}{\"u}tel, I. (1999).
-\newblock Some results of a computerized comparative analysis of the
-  {{Balto-Finnic}} runotunes.
-\newblock {\em Etnomusikologian vuosikirja\/}, {\em 11\/}, 27--45.
 
 \bibitem[{Smiljani{\'c} \& Bradlow(2005)}]{smiljanic2005}
 Smiljani{\'c}, R., \& Bradlow, A.~R. (2005).
