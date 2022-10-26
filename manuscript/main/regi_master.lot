@@ -5,12 +5,9 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {A.1}{\ignorespaces duration \& quantity fixed effects\relax }}{31}{}%
-\contentsline {table}{\numberline {A.2}{\ignorespaces dquantity-duration random effects\relax }}{32}{}%
-\contentsline {table}{\numberline {A.3}{\ignorespaces model comparison, duration predicting quantity \& ictus\relax }}{32}{}%
-\contentsline {table}{\numberline {A.4}{\ignorespaces anova of model comparison: duration dependent stressed ictus\relax }}{32}{}%
-\contentsline {table}{\numberline {A.5}{\ignorespaces anova of design and null lmer models for euclidean distance, stress and ictus \relax }}{33}{}%
-\contentsline {table}{\numberline {A.6}{\ignorespaces duration dependent variable lmer\relax }}{33}{}%
-\contentsline {table}{\numberline {A.7}{\ignorespaces random effects duration-stress-ictus model\relax }}{33}{}%
-\contentsline {table}{\numberline {A.8}{\ignorespaces euclidean distance dependent fixed effects\relax }}{34}{}%
-\contentsline {table}{\numberline {A.9}{\ignorespaces random effects of euclidean distance and stress-ictus lmer\relax }}{34}{}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces duration \& syllable quantity\relax }}{31}{}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces duration \& syllable quantity: model comparison (max to null)\relax }}{32}{}%
+\contentsline {table}{\numberline {1.3}{\ignorespaces duration \& stress and ictus: model comparison (max to null) \relax }}{32}{}%
+\contentsline {table}{\numberline {1.4}{\ignorespaces duration \& stress-ictus\relax }}{32}{}%
+\contentsline {table}{\numberline {1.5}{\ignorespaces euclidean distance dependent fixed effects\relax }}{33}{}%
+\contentsline {table}{\numberline {1.6}{\ignorespaces euclidean distance \& stress-ictus: model comparison (max to null) \relax }}{33}{}%
