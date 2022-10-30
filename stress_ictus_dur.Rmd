@@ -23,7 +23,7 @@ data_df$word <- as.factor(data_df$word)
 #head(data_df)
 
 #to look at vowel duration in song-level and word-level prominence positions, I filter out only syllables of Q1 and Q2, and only those shapes which surface in both stressed and unstressed positions 
-strictus_data <- filter(data_df, data_df$quantity!="3"& data_df$shape != "C")
+strictus_data <- filter(data_df, data_df$quantity!="3")
 
 #strictus_data <- filter(strictus_data, nchar(strictus_data$segment)==1)
 strictus_data
@@ -76,7 +76,7 @@ strictus_data %>%
   mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%
   ggplot(aes(x=stressed ,y=duration,pattern = ictus)) + 
 
-    geom_violin_pattern()+ theme_classic() +
+    geom_boxplot_pattern()+ theme_classic() +
     labs( x= "word stress" ,y = "vowel duration (s)", title = "temporal effects of word stress and beat position in syllable nuclei") + 
     facet_wrap("quantity", labeller = label_both) 
     
@@ -89,15 +89,15 @@ ggsave("dur_density_qfac.png")
 ```{r}
 
 
-shape_df <- filter(strictus_data, strictus_data$shape != "VVC" & strictus_data$shape != "VVCC" & strictus_data$shape != "VV" & strictus_data$shape != "V")
+#shape_df <- filter(strictus_data, strictus_data$shape != "VVC" & strictus_data$shape != "VVCC" & strictus_data$shape != "VV" & strictus_data$shape != "V")
 ```
 
 ```{r}
 
   
   ggplot(shape_df,aes(x=shape,y=duration, pattern = ictus)) +
-  geom_violin() + stat_ydensity() + theme_classic() +
-  geom_violin_pattern() +
+  geom_boxplot_pattern()  + theme_classic() +
+
   labs( x = "syllable shape" ,y = "vowel duration(s)", title = "duration of syllable nuclei on and off the beat in three syllable shapes") 
 
 ggsave("dur_shape_ictus.png")
@@ -108,8 +108,9 @@ shape_df %>%
   arrange(duration)%>%
   mutate(stressed = factor(stressed, levels = c("stressed", "unstressed")))%>%
   ggplot(aes(x=shape,y=duration, pattern = stressed)) +
-  geom_violin() + stat_ydensity() + theme_classic() +
-  geom_violin_pattern()+
+  #geom_violin() + stat_ydensity() + 
+  theme_classic() +
+  geom_boxplot_pattern()+
   
   labs( x = "syllable shape" ,y = "vowel duration(s)", title = "duration of stressed and unstressed syllable nuclei in three syllable shapes") 
 
@@ -117,7 +118,7 @@ ggsave("dur_shapestress.png")
 ```
 
 ```{r}
-lindesignmod <- lmer(duration ~ ictus + stressed + quantity + ictus*stressed + quantity*ictus + (1|word) + (1|song) + (1|performer), data = strictus_data, REML = FALSE)
+lindesignmod <- lmer(duration ~ ictus + stressed + quantity + ictus*stressed + quantity*ictus + (1|song)+ (1|syll) +(1|shape)+ (1|word)+ (1|performer), data = strictus_data, REML = FALSE)
 summary(lindesignmod)
 ```
 
@@ -148,7 +149,7 @@ plot(lindesignmod)
 ```
 
 ```{r}
-linnullIntmod <- lmer(duration ~  (1|word) + (1|song) + (1|performer), data = strictus_data, REML = FALSE)
+linnullIntmod <- lmer(duration ~  (1|song)+ (1|syll) +(1|shape)+ (1|word)+ (1|performer), data = strictus_data, REML = FALSE)
 n1 <- summary(linnullIntmod)
 print(n1)
 ```
