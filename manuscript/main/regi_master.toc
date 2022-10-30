@@ -24,11 +24,10 @@
 \contentsline {section}{\numberline {3.1}Quantity Oppositions in Ictus position}{19}{}%
 \contentsline {section}{\numberline {3.2}Stress and Unstress}{21}{}%
 \contentsline {subsection}{\numberline {3.2.1}Vowel Duration}{21}{}%
-\contentsline {subsection}{\numberline {3.2.2}Vowel Dispersion}{23}{}%
-\contentsline {chapter}{Chapter 4.\hspace *{1em}Discussion}{26}{}%
-\contentsline {section}{\numberline {4.1}Temporal Prosodic Features Crystalized at Segmental level in isochronous syllables}{26}{}%
-\contentsline {section}{\numberline {4.2}Vowel Dispersion}{26}{}%
-\contentsline {section}{\numberline {4.3}Future Studies}{27}{}%
-\contentsline {section}{\numberline {4.4}Conclusion}{28}{}%
-\contentsline {chapter}{Appendix}{30}{}%
-\contentsline {chapter}{Appendix 1.\hspace *{1em}lmer output}{31}{}%
+\contentsline {subsection}{\numberline {3.2.2}Vowel Dispersion}{26}{}%
+\contentsline {chapter}{Chapter 4.\hspace *{1em}Discussion}{28}{}%
+\contentsline {section}{\numberline {4.1}Temporal Prosodic Features Crystalized at Segmental level in isochronous syllables}{28}{}%
+\contentsline {section}{\numberline {4.2}Vowel Dispersion}{28}{}%
+\contentsline {section}{\numberline {4.3}Future Studies}{29}{}%
+\contentsline {section}{\numberline {4.4}Conclusion}{30}{}%
+\contentsline {chapter}{Appendix}{32}{}%
