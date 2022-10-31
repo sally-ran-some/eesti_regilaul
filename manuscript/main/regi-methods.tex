@@ -2,11 +2,11 @@
 \index{Methods@\emph{Methods}}%
 
 \section{Design}
-To test these hypotheses, vowel duration and location on the F1,F2 plane are taken from the nuclei of first (primary stressed) and unstressed syllables of disyllabic feet. \footnote{The exclusion of secondary stress is due to recent findings that secondary stress in spoken Estonian does not exhibit significant differences compared to unstressed syllables of polysyllabic words besides the pen-initial \cite{asuLippus2018}. }
+To test these hypotheses, vowel duration from the nuclei of first (primary stressed) and unstressed syllables of disyllabic feet. \footnote{The exclusion of secondary stress is due to recent findings that secondary stress in spoken Estonian does not exhibit significant differences compared to unstressed syllables of polysyllabic words besides the pen-initial \cite{asuLippus2018}. }
 
 Within each song, samples of syllable-notes consisted only of those matching the nominal isochrony. For example, in verse lines mostly comprised of syllable-notes divided evenly into eighths, neither quarter notes nor sixteenth notes were taken. Syllables in phrase-final position were generally excluded under this criteria. 
 
-
+% and location on the F1,F2 plane are taken 
 
 \section{Constructing the Corpus}
 
@@ -64,7 +64,9 @@ In cases of vowel adjacency across syllable boundaries, the presence of a visibl
 %epenthesized vowels (i.e., pandi mind paju raiumaie) having mind(e) \\
 
 
-In all cases, if the aforementioned cues were unavailable, ambiguous, or misaligned, the token was elided for this analysis. From all nine songs in the corpus, a total of 757 vowel nuclei met the criteria for inclusion in duration measurements. For the measurements of F1, F2 space, formants were extracted from the mid point of the vowel. 
+In all cases, if the aforementioned cues were unavailable, ambiguous, or misaligned, the token was elided for this analysis. From all nine songs in the corpus, a total of 757 vowel nuclei met the criteria for inclusion in duration measurements. 
+
+%For the measurements of F1, F2 space, formants were extracted from the mid point of the vowel. 
 
 
 At this point, the audio recording of each song has corresponding textgrid tiers annotated for beat, verse lines, and force-aligned word and phoneme levels.
@@ -75,12 +77,21 @@ The last step in preprocessing is to integrate the annotation of the song audio 
 
 
 
-Once the annotations are complete, python scripts are used aggregate the audio and text that form this microcorpus: text files of lyrics are connected to the textgrid files corresponding to the audio, and acoustic measurements are extracted from PRAAT using the parselmouth library\citep{parselmouth2018, python1995}. 
+Once the annotations are complete, python scripts are used aggregate the audio and text that form this microcorpus: text files of lyrics are connected to the textgrid files corresponding to the audio, and corresponding duration measurements are extracted from PRAAT using the parselmouth library\citep{parselmouth2018, python1995}. The process of aggregating the acoustical and textual data for this corpus is available in the two jupyter notebooks in folder preprocess_jupyter at \url{https://github.com/sally-ran-some/eesti_regilaul} and also viewable in the appendices. 
 
 
 
 
 \section{Statistical Analysis} 
-For each hypothesis, linear mixed-effects models were fit using the lme4 package in R \citep{lme4,r2022}. For models with duration as dependent variable, random intercepts were set for individual song, singer, and word. For HQ, fixed effects were syllable quantity, beat position (ictus), and the interaction of those terms. For HA, the fixed effects were ictus, stress, and the interaction of ictus and stress. 
+For each hypothesis, linear mixed-effects models were fit using the lme4 package in R \citep{lme4,r2022}. Due to the asymmetry of distribution of the three quantities in Estonian (Q3 is never unstressed), the analysis of vowel duration is broken into two. The first analysis concerns the semantically-relevant lexical contrasts of the three Estonian quantities entrained to the binary long-short pattern of the musical meter. A subset of only primary stressed syllables is used to build this model. 
 
-For the model using vowel dispersion (HS) as the predictor, random intercepts were set for performer, word, and segment quality. Fixed effects were ictus, stress, and the interaction of ictus and stress. 
+\lipsum[2-3]
+
+
+To examine the effects of word stress on vowel duration, a subset of data excluding Q3 syllables was taken. While retaining Q1 and Q2, the interaction of syllable quantity and word stress will be apparent, as both Q1 and Q2 fall in stressed and unstressed positions. 
+
+\lipsum[2-3]
+
+%For models with duration as dependent variable, random intercepts were set for individual song, singer, and word. For HQ, fixed effects were syllable quantity, beat position (ictus), and the interaction of those terms. For HA, the fixed effects were ictus, stress, and the interaction of ictus and stress. 
+
+%For the model using vowel dispersion (HS) as the predictor, random intercepts were set for performer, word, and segment quality. Fixed effects were ictus, stress, and the interaction of ictus and stress. 

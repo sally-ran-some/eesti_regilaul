@@ -1,33 +1,26 @@
 \contentsline {chapter}{Abstract}{5}{}%
-\contentsline {chapter}{List of Tables}{8}{}%
-\contentsline {chapter}{List of Figures}{9}{}%
+\contentsline {chapter}{List of Tables}{9}{}%
+\contentsline {chapter}{List of Figures}{10}{}%
 \contentsline {chapter}{Chapter 1.\hspace *{1em}Introduction}{1}{}%
-\contentsline {section}{\numberline {1.1}When words become lyrics}{1}{}%
-\contentsline {section}{\numberline {1.2}Metrics}{2}{}%
-\contentsline {subsection}{\numberline {1.2.1}Phonetics of Estonian Segments and Syllables}{2}{}%
-\contentsline {subsection}{\numberline {1.2.2}Musical Metrics}{4}{}%
-\contentsline {subsection}{\numberline {1.2.3}Metrical Principles of Estonian folksong}{4}{}%
-\contentsline {section}{\numberline {1.3}Previous Studies with {\it regilaul}}{6}{}%
-\contentsline {section}{\numberline {1.4}The present study}{7}{}%
-\contentsline {subsection}{\numberline {1.4.1}Hypotheses}{9}{}%
-\contentsline {subsection}{\numberline {1.4.2}Duration of Syllable Nuclei}{10}{}%
-\contentsline {subsection}{\numberline {1.4.3}Dispersion of Perimeter Vowels in F1,F2 Space}{11}{}%
-\contentsline {chapter}{Chapter 2.\hspace *{1em}Methods}{12}{}%
-\contentsline {section}{\numberline {2.1}Design}{12}{}%
-\contentsline {section}{\numberline {2.2}Constructing the Corpus}{12}{}%
-\contentsline {subsection}{\numberline {2.2.1}Materials}{13}{}%
-\contentsline {subsection}{\numberline {2.2.2}Annotating the Song Audio }{13}{}%
-\contentsline {subsection}{\numberline {2.2.3}Adjustment Criteria for Vowel Durations}{15}{}%
-\contentsline {subsection}{\numberline {2.2.4}Connecting acoustic measurements to text corpus}{17}{}%
-\contentsline {section}{\numberline {2.3}Statistical Analysis}{17}{}%
+\contentsline {section}{\numberline {1.1}When words become lyrics}{2}{}%
+\contentsline {subsection}{\numberline {1.1.1}Phonetics of Estonian Word Prosody}{3}{}%
+\contentsline {subsection}{\numberline {1.1.2}Metrical Principles of Estonian folksong}{5}{}%
+\contentsline {section}{\numberline {1.2}Previous Studies with {\it regilaul}}{6}{}%
+\contentsline {section}{\numberline {1.3}The present study}{7}{}%
+\contentsline {subsection}{\numberline {1.3.1}Hypotheses}{8}{}%
+\contentsline {chapter}{Chapter 2.\hspace *{1em}Methods}{11}{}%
+\contentsline {section}{\numberline {2.1}Design}{11}{}%
+\contentsline {section}{\numberline {2.2}Constructing the Corpus}{11}{}%
+\contentsline {subsection}{\numberline {2.2.1}Materials}{12}{}%
+\contentsline {subsection}{\numberline {2.2.2}Annotating the Song Audio }{12}{}%
+\contentsline {subsection}{\numberline {2.2.3}Adjustment Criteria for Vowel Durations}{14}{}%
+\contentsline {subsection}{\numberline {2.2.4}Connecting acoustic measurements to text corpus}{16}{}%
+\contentsline {section}{\numberline {2.3}Statistical Analysis}{16}{}%
 \contentsline {chapter}{Chapter 3.\hspace *{1em}Results}{19}{}%
-\contentsline {section}{\numberline {3.1}Quantity Oppositions in Ictus position}{19}{}%
-\contentsline {section}{\numberline {3.2}Stress and Unstress}{21}{}%
-\contentsline {subsection}{\numberline {3.2.1}Vowel Duration}{21}{}%
-\contentsline {subsection}{\numberline {3.2.2}Vowel Dispersion}{26}{}%
-\contentsline {chapter}{Chapter 4.\hspace *{1em}Discussion}{28}{}%
-\contentsline {section}{\numberline {4.1}Temporal Prosodic Features Crystalized at Segmental level in isochronous syllables}{28}{}%
-\contentsline {section}{\numberline {4.2}Vowel Dispersion}{28}{}%
-\contentsline {section}{\numberline {4.3}Future Studies}{29}{}%
-\contentsline {section}{\numberline {4.4}Conclusion}{30}{}%
-\contentsline {chapter}{Appendix}{32}{}%
+\contentsline {section}{\numberline {3.1}Stress and Unstress}{21}{}%
+\contentsline {chapter}{Chapter 4.\hspace *{1em}Discussion}{25}{}%
+\contentsline {section}{\numberline {4.1}Temporal Prosodic Features Crystalized at Segmental level in isochronous syllables}{25}{}%
+\contentsline {section}{\numberline {4.2}Future Studies}{25}{}%
+\contentsline {section}{\numberline {4.3}Conclusion}{27}{}%
+\contentsline {chapter}{Appendices}{28}{}%
+\contentsline {chapter}{Appendix A.\hspace *{1em}songs}{29}{}%

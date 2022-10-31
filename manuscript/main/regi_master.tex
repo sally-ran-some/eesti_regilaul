@@ -19,21 +19,21 @@
 \usepackage{amsmath,amsthm,amsfonts,amscd} 
 				% Some packages to write mathematics.
 \usepackage{eucal} 	 	% Euler fonts
-\usepackage{verbatim}      	% Allows quoting source with commands.
+%\usepackage{verbatim}      	% Allows quoting source with commands.
 \usepackage{makeidx}       	% Package to make an index.
 %\usepackage{epsfig}         	% Allows inclusion of eps files.     	
 %\usepackage{cyrchar}
 %\usepackage{citesort}         	% 
 \usepackage{url}		% Allows good typesetting of web URLs.
-\usepackage{draftcopy}	
+%\usepackage{draftcopy}	
 \usepackage{graphicx}
-\usepackage{amsthm}
-%\usepackage{amssymb}
+%\usepackage{amsthm}
+\usepackage{amssymb}
 %\usepackage{epstopdf}
 %\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
-
-\usepackage{booktabs}
+%\usepackage{pdfpages}
+%\usepackage{booktabs}
 \usepackage{topcapt}
 \usepackage{subcaption}
 \usepackage{fontspec}
@@ -44,6 +44,7 @@
 \usepackage{leipzig}
 \usepackage{gb4e}
 \usepackage{wrapfig}
+\usepackage{lipsum}
 
 
 \author{sally ransom}  	% Required
@@ -160,10 +161,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %	Theorem environments (these need the amsthm package)
-%
- \theoremstyle{plain} %% This is the default
 
-\newtheorem{thm}{Theorem}[section]
+ \theoremstyle{plain} %% This is the default
+\newtheorem{hyp}{Hypothesis}
+\newtheorem{thm}{Theorem}
+
+\newtheorem{hypnull}[hyp]{}
 \newtheorem{cor}[thm]{Corollary}
 \newtheorem{lem}[thm]{Lemma}
 \newtheorem{prop}[thm]{Proposition}
@@ -271,10 +274,15 @@ That what is written is fiction. Only that what is sung is truth. \\
 \indent
 %
 %
-To examine the effects of musical metrical structure on the word-prosodic level of linguistic meter, I measure spatio-temporal aspect of sung syllable nuclei in recorded performances of traditional Estonian folksongs known as {\it regilaul}. The Estonian language is of particular interest to questions in the metrical realm: it is one of a few languages that features three contrastive syllable weights in primary stress position. How are short, long, and overlong syllables fit into a trochaic (classically long-short) metrical pattern? 
- Vowel space and duration of syllable nuclei is compared in stressed and unstressed syllables falling on and off the beat in song, and all three quantities in word-prosodic stressed position examined on and off the beat in the song. Results show a collaborative interaction between musical meter and word prosody: when syllable-notes follow the metrical pattern of the song, their temporal contrasts are preserved at the segmental level. 
 
- \tableofcontents   % Table of Contents will be automatically
+This paper presents a microprosodic analysis of fine-grained acoustic-phonetic measurements extracted from recordings of traditional Estonian lyrical {\it a capella} folksongs called {\it regilaul} (\(/re.ki.laul/\)). The song verses are set in a trochaic tetrameter, which classically calls for alternations of two (long-short) syllables. The Estonian language itself has three contrastive syllable lengths: short, long, and overlong. Previous studies of regilaul found that the absolute durations of nominally isochronous syllable-notes patterned into two, not three categories: short and long, concluding that semantically relevant duration cues were lost in song. However, I dispute this conclusion in light of their findings: if syllables with more segments (CVCC) are fitting into the same note constituent as those with fewer (CVC, CV), the absolute durations of the individual segments would reduce as the number of segments increased.  The absolute duration of syllable nuclei falling on and off the beat is compared in all three syllable quantities and both stressed and unstressed positions. Results show a collaborative interaction between musical meter and word prosody. The ternary quantity contrast is upheld by a gradient decrease in vowel duration. Likewise, stressed and unstressed syllables maintain their linguistic opposition {\it relative} to their position in the song. Thus, when the syllables and notes entrain to each other syllable-notes in the  metrical long-short pattern of the song, temporal signatures of linguistic rhythm are preserved in the relative duration of their segments.
+
+
+
+
+ 
+ 
+  \tableofcontents   % Table of Contents will be automatically
                    % generated and placed here.
 
 \listoftables      % List of Tables and List of Figures will be placed
@@ -293,7 +301,7 @@ To examine the effects of musical metrical structure on the word-prosodic level 
 \include{regi-methods}
 \include{regi-results}
 \include{regi-discussion}
-
+%
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -303,11 +311,12 @@ To examine the effects of musical metrical structure on the word-prosodic level 
 % If you have only one appendix, use the command \appendix instead
 % of \appendices.
 %%
-%\appendix
-%\index{Appendix@\emph{Appendix}}%
-%
-%\include{appendix-stats}
-%\include{appendix-songs}
+\appendices
+\index{Appendix@\emph{Appendix}}%
+
+%\include{appendix-corpus_building}
+
+\include{appendix-songs}
 
 %
 

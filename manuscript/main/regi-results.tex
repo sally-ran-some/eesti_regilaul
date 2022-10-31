@@ -1,21 +1,33 @@
 \chapter{Results}
 \index{Results@\emph{Results}}%
 
-\section{Quantity Oppositions in Ictus position}
-
-Regilaul's metrical pattern avoids short stressed syllables (Q1) in ictus position, preferring Q2 or Q3 (long and overlong) syllables to fall on the beat. In off-ictus position, short stressed (Q1) syllables are preferred while Q3 avoided.
-The ternary quantity contrast occurs only in primary stressed syllables. To analyze vowel duration measurements in all three quantities, a subset of only primary stressed syllables is taken from the dataset. 
-
-\begin{figure}[htb]
-\begin{center}
+\begin{wrapfigure}{L}{0.5\textwidth}
+\centering
 \includegraphics[width=0.5\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/main/figures/quictus_durmdl.png}
 \caption{quantity model}
 \label{qmdlt}
-\end{center}
-\end{figure}
 
 
-\begin{figure}[htb]
+\end{wrapfigure}
+
+
+
+
+
+The presence of a coda in comparison to an open syllable-note necessitates a shorter vowel to fit the consonant into the note duration. Complex and geminate codas shorten the nucleus even further. Likewise, primary stress and unstressed syllables maintain their durational differences within the context of their position relative to the beat. That is, while on the beat (long position) vowel durations are longer in general than off the beat (short positions), a stressed syllable on the beat has a longer vowel duration than an unstressed syllable in its same position, and in short positions, stressed syllables have longer vowels than unstressed. Thus, when the syllables and notes entrain to each other syllable-notes in the  metrical long-short pattern of the song, the segmental contrasts are preserved for both semantically relevant (quantity) and prosodic boundary (word stress) levels. 
+
+
+
+\ref{qmdlt} shows the full output of the linear mixed effects model. 
+
+%Regilaul's metrical pattern avoids short stressed syllables (Q1) in ictus position, preferring Q2 or Q3 (long and overlong) syllables to fall on the beat. In off-ictus position, short stressed (Q1) syllables are preferred while Q3 avoided.
+%The ternary quantity contrast occurs only in primary stressed syllables. To analyze vowel duration measurements in all three quantities, a subset of only primary stressed syllables is taken from the dataset. 
+
+
+
+
+
+\begin{figure}[ht]
 \centering
 \includegraphics[width =\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/q_dur.png}
 \caption{density plot of vowel durations in three syllable quantities}
@@ -35,26 +47,12 @@ The ternary quantity contrast occurs only in primary stressed syllables. To anal
  The intercept is set at ictus position, Q1. Findings are significant results for Q2(p<0.001), Q3, and off-ictus positions (p< 0.05). Comparison with null model was statistically significant (p<0.001). For full model output see \ref{qdurfixed} and \ref{qdurrandoms} in Appendix A. In context of earlier findings that the quantity contrast was ``lost" at the syllable level, the decrease in vowel duration as syllable weight increases supports the notion that the contrast is preserved at the segmental level. That is, rather than the full syllable lengthening in duration, the song-level isochrony of syllable-notes results in vowel nuclei shortening to accommodate codas in Q2, and further for geminates and complex codas in Q3. 
  
  
-A null model constructed containing only random effects was compared to the design model by two-way ANOVA. Results are significant for the design model (p < 0.001***), and so I reject the null hypothesis. 
-
-These data and analysis support both syllable quantity and ictus as predictors for vowel duration. 
+A null model constructed containing only random effects was compared to the design model by two-way ANOVA. Results are significant for the design model (p < 0.001***).
 
 
-
-%\begin{equation}
-%$$lmer(duration ~ quantity + ictus + quantity * ictus + (1 | song) + (1 | word) + (1 | performer))$$ \\
-%
-%$$lmer(duration ~ (1 | song) + (1 | word) + (1 | performer))$$
-%
-%
-%
-%\end{equation}
 \section{Stress and Unstress}
 
-
-\subsection{Vowel Duration}
-
-\begin{figure}[htbp]
+\begin{figure}[ht]
 \centering
 \includegraphics[width = \textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/dur_density_qfac.png}
 \caption{vowel durations of stressed and unstressed Q1 and Q2 syllables falling on (ictus) and off the beat}
@@ -65,7 +63,7 @@ The two graphs in \ref{durstrick} illustrate the distribution of vowel durations
 
 Linear mixed-effects model results are significant for off-ictus (p<0.05**), stressed (p<0.001***), and Q2 (p<0.001***). 
 
-\begin{figure}[htpb]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/dur_shape_ictus.png}
 \caption{vowel dur(s) by beat position and syll. shape}
@@ -75,7 +73,7 @@ Linear mixed-effects model results are significant for off-ictus (p<0.05**), str
 Compared to Q1 unstressed syllables in ictus position (the intercept,  off-ictus positions have a negative slope and are overall shorter. Stressed syllables have a small positive slope, indicating longer vowel durations. Q2 syllables have a negative slope, highlighting the shortening of syllable nuclei to accomodate the codas of these syllables. 
 
 
-\begin{figure}[htbp]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/dur_shapestress.png}
 \caption{vowel dur(s) by word stress and syll. shape}
@@ -89,34 +87,33 @@ The graph in \ref{ickdursh} illustrates the distribution of vowel durations in d
 A similar pattern can be seen in \ref{strdursh}, where the stressed or unstressed status is shown instead. At both song and word levels of prominence, CV or Q1 syllables are the longest, gradually decreasing in CVC and CVCC, both of which are Q2 syllables.  This further confirms the gradience of the quantity contrast at the segmental level. 
 
 
-\begin{figure}[htb]
-\begin{center}
+\begin{wrapfigure}{L}{0.5\textwidth}
+\centering
 \includegraphics[width=0.5\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/main/figures/strictus_durmol.png}
 
 \caption{stress and ictus duration model output}
 \label{strickmdl}
-\end{center}
-\end{figure}
+\end{wrapfigure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %
 %%%%%%%%%%%%
 
-\subsection{Vowel Dispersion}
-A subset of the Q1 and Q2 vowels used for duration measurements above is taken,  containing only those five vowel phonemes which occur in both stressed and unstressed syllables at the word level: \(a, e, i, o, u\). The total number of vowels in this set is {\bf N}.
-To account for physiological differences between singers, vowel dispersion is calculated as the euclidean distance of each token from the respective singer's vowel center in the (F1, F2) space. 
-
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/space_strictus.png}
-\caption{euclidean distance of vowels in stress and ictus}
-\label{spcstrick}
-
-\end{figure}
-A pattern is marginally visible in the two graphs  \ref{spcstrick}, faceted by Q1 and Q2. Notice that in off-ictus position, vowel dispersion means of stressed syllables are higher than those of stressed syllables in ictus position. This indicates that stressed syllables falling off the beat are being compensated for their shortened vowels by way of increased articulation of quality. This pattern, however, doesn't shake out as statistically significant in the model. \\
-A linear mixed effects model for vowel dispersion is constructed, but only the uninterpretable intercept shows significance. 
-Comparison with null model is not statistically significant. Thus in the case of vowel dispersion, we fail to reject the null hypothesis. This could be due to the relatively smaller size of the data subset. 
-
-
+%\subsection{Vowel Dispersion}
+%A subset of the Q1 and Q2 vowels used for duration measurements above is taken,  containing only those five vowel phonemes which occur in both stressed and unstressed syllables at the word level: \(a, e, i, o, u\). The total number of vowels in this set is {\bf N}.
+%To account for physiological differences between singers, vowel dispersion is calculated as the euclidean distance of each token from the respective singer's vowel center in the (F1, F2) space. 
+%
+%
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[width=\textwidth]{/Users/sarah/Git/regilaul_project/manuscript/results/space_strictus.png}
+%\caption{euclidean distance of vowels in stress and ictus}
+%\label{spcstrick}
+%
+%\end{figure}
+%A pattern is marginally visible in the two graphs  \ref{spcstrick}, faceted by Q1 and Q2. Notice that in off-ictus position, vowel dispersion means of stressed syllables are higher than those of stressed syllables in ictus position. This indicates that stressed syllables falling off the beat are being compensated for their shortened vowels by way of increased articulation of quality. This pattern, however, doesn't shake out as statistically significant in the model. \\
+%A linear mixed effects model for vowel dispersion is constructed, but only the uninterpretable intercept shows significance. 
+%Comparison with null model is not statistically significant. Thus in the case of vowel dispersion, we fail to reject the null hypothesis. This could be due to the relatively smaller size of the data subset. 
+%
+%

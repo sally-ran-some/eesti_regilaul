@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{35}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -111,6 +111,13 @@ Oras, J., \& V{\"a}strik, E.-H. (2002).
 Palmer, C., \& Kelly, M.~H. (1992).
 \newblock Linguistic {{Prosody}} and {{Musical Meter}} in {{Song}}.
 \newblock {\em Journal of Memory and Language\/}, {\em 31\/}(4), 525--542.
+
+\bibitem[{Park(2009)}]{park2009}
+Park, H. (2009).
+\newblock Linguistic experience’s influence on foreign accent detection in
+  short, slightly accented speech.
+\newblock {\em The Journal of the Acoustical Society of America\/}, {\em
+  125\/}(4), 2756--2756.
 
 \bibitem[{{R Core Team}(2022)}]{r2022}
 {R Core Team} (2022).
