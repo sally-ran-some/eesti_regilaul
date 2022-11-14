@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.22)  30 OCT 2022 22:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.22)  10 NOV 2022 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1005,8 +1005,7 @@ File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
 \openout4 = `regi_master.idx'.
 
 Writing index file regi_master.idx
-(./regi_master.aux (./regi-intro.aux) (./regi-methods.aux) (./regi-results.aux)
-(./regi-discussion.aux) (./appendix-songs.aux))
+(./regi_master.aux (./regi-methods.aux) (./regi-results.aux))
 \openout1 = `regi_master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
@@ -1105,9 +1104,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 216.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 216.
- [1
-
-]
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 230.
 Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
@@ -1120,10 +1116,13 @@ Requested font "[CharisSIL-B.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 14.4pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-B
 .ttf
-
-[2
-
-] [3
+LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/it' will be
+(Font)              scaled to size 14.4pt on input line 230.
+Requested font "[CharisSIL-I.ttf]/OT:script=latn;language=dflt;mapping=tex-text
+;" at 14.4pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-I
+.ttf
+ [1
 
 ]
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
@@ -1132,7 +1131,8 @@ Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 8.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
 .ttf
- [4
+
+[2
 
 ]
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
@@ -1197,334 +1197,81 @@ Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 278.
+(Font)              scaled to size 12.0pt on input line 279.
 Requested font "[CharisSIL-I.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-I
 .ttf
- [5
+ [3
 
-] [6]
+] [4]
+\openout2 = `regi-methods.aux'.
+
+
+(./regi-methods.tex
+Chapter 1.
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 285.
+(Font)              scaled to size 17.28pt on input line 1.
 Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 17.28pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
 .ttf
 LaTeX Font Info:    Font shape `TU/CharisSIL(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 285.
+(Font)              scaled to size 17.28pt on input line 1.
 Requested font "[CharisSIL-B.ttf]/OT:script=latn;language=dflt;mapping=tex-text
 ;" at 17.28pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-B
 .ttf
 
-(./regi_master.toc [7
-
-])
-\tf@toc=\write5
-\openout5 = `regi_master.toc'.
-
- [8] (./regi_master.lot)
-\tf@lot=\write6
-\openout6 = `regi_master.lot'.
-
- [9
-
-] (./regi_master.lof)
-\tf@lof=\write7
-\openout7 = `regi_master.lof'.
+Package natbib Warning: Citation `whyRegion' on page 1 undefined on input line 
+23.
 
 
-[10
+Package natbib Warning: Citation `whyDecade' on page 1 undefined on input line 
+23.
 
-]
-\openout2 = `regi-intro.aux'.
-
- (./regi-intro.tex
-Chapter 1.
 [1
 
 
-]
-Overfull \hbox (12.68884pt too wide) in paragraph at lines 36--38
-\TU/CharisSIL(0)/m/n/12 ternary syllable weight contrast that interacts closely
- with word stress (Lehiste,
- []
-
-[2]
-LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 77.
-Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;+smcp;mapping=te
-x-text;" at 12.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
-.ttf
- [3] [4]
-File: figures/045.png Graphic file (type bmp)
-<figures/045.png>
- [5]
-Requested font "[emmentaler-16.otf]/OT" at 11.99997pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lilyglyphs/emmenta
-ler-16.otf
-Requested font "[emmentaler-16.otf]/OT" at 12.00003pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lilyglyphs/emmenta
-ler-16.otf
-Requested font "[emmentaler-16.otf]/OT:language=dflt;" at 12.00003pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lilyglyphs/emmenta
-ler-16.otf
-
-Package fontspec Info: Font family 'emmentaler-16.otf(0)' created for font
-(fontspec)             'emmentaler-16.otf' with options [Scale=1.1].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1.1]"[emmentaler-16.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-LaTeX Font Info:    Font shape `TU/emmentaler-16.otf(0)/m/n' will be
-(Font)              scaled to size 13.20007pt on input line 126.
-Requested font "[emmentaler-16.otf]/OT:language=dflt;" at 13.20007pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lilyglyphs/emmenta
-ler-16.otf
-
-Package fontspec Info: Font family 'emmentaler-16.otf(1)' created for font
-(fontspec)             'emmentaler-16.otf' with options [Scale=1.3].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1.3]"[emmentaler-16.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-LaTeX Font Info:    Font shape `TU/emmentaler-16.otf(1)/m/n' will be
-(Font)              scaled to size 15.60004pt on input line 127.
-Requested font "[emmentaler-16.otf]/OT:language=dflt;" at 15.60004pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lilyglyphs/emmenta
-ler-16.otf
-File: figures/077.png Graphic file (type bmp)
-<figures/077.png>
-LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/it' will be
-(Font)              scaled to size 14.4pt on input line 149.
-Requested font "[CharisSIL-I.ttf]/OT:script=latn;language=dflt;mapping=tex-text
-;" at 14.4pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-I
-.ttf
- [6] [7]
-Overfull \hbox (4.94884pt too wide) in paragraph at lines 201--202
-[]\TU/CharisSIL(0)/m/n/12 Previous studies have compared acoustic measurements 
-with the nom-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-
- []
-
-[8]
-
-LaTeX Warning: Reference `co1' on page 9 undefined on input line 225.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
-
- []
-
-[9]) [10]
-\openout2 = `regi-methods.aux'.
-
- (./regi-methods.tex
-Chapter 2.
-LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 5.
-Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
-;" at 10.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
-.ttf
-LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 5.
-Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
-;" at 7.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
-.ttf
-LaTeX Font Info:    Font shape `TU/CharisSIL(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 5.
-Requested font "[CharisSIL-R.ttf]/OT:script=latn;language=dflt;mapping=tex-text
-;" at 5.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/truetype/SIL/charissil/CharisSIL-R
-.ttf
-Requested font "cmex7" at 7.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.
-tfm
-Requested font "cmex7" at 5.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.
-tfm
-Requested font "msam10" at 10.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10
-.tfm
-Requested font "msam7" at 7.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.
-tfm
-Requested font "msam5" at 5.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.
-tfm
-Requested font "msbm10" at 10.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10
-.tfm
-Requested font "msbm7" at 7.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.
-tfm
-Requested font "msbm5" at 5.0pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.
-tfm
-[11
-
-
-
-
-] [12]
-Overfull \hbox (5.03064pt too wide) in paragraph at lines 32--33
-\TU/CharisSIL(0)/m/n/12 into each verse-phrase interval (already annotated than
-ks to the metronome).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-[13]
-Overfull \hbox (4.13177pt too wide) in paragraph at lines 49--50
-[]\TU/CharisSIL(0)/m/n/12 following \TU/CharisSIL(0)/b/n/12 fricative onsets\TU
-/CharisSIL(0)/m/n/12 , the end of visible high-frequency noise
- []
-
-[14]
+] [2]
 Requested font "[lmmono12-regular]:" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono12-regula
 r.otf
- [15] [16] [17]) [18]
+ [3]) [4]
 \openout2 = `regi-results.aux'.
 
  (./regi-results.tex
-Chapter 3.
-File: /Users/sarah/Git/regilaul_project/manuscript/main/figures/quictus_durmdl.
-png Graphic file (type bmp)
-</Users/sarah/Git/regilaul_project/manuscript/main/figures/quictus_durmdl.png>
-
-Underfull \hbox (badness 1137) in paragraph at lines 17--18
-\TU/CharisSIL(0)/m/n/12 Likewise, primary stress and un-
- []
-
-[19
-
-
-
-
-]
-File: /Users/sarah/Git/regilaul_project/manuscript/results/q_dur.png Graphic fi
-le (type bmp)
-</Users/sarah/Git/regilaul_project/manuscript/results/q_dur.png>
-
-
-LaTeX Warning: Reference `qdurfixed' on page 20 undefined on input line 47.
-
-
-LaTeX Warning: Reference `qdurrandoms' on page 20 undefined on input line 47.
-
-
-Overfull \hbox (1.38634pt too wide) in paragraph at lines 46--48
-[]\TU/CharisSIL(0)/m/n/12 3.2[] shows the vowel durations of all three syllable
- quantities, grouped
- []
-
-[20]
+Chapter 2.
 File: /Users/sarah/Git/regilaul_project/manuscript/results/dur_density_qfac.png
  Graphic file (type bmp)
 </Users/sarah/Git/regilaul_project/manuscript/results/dur_density_qfac.png>
+[5
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-
-Overfull \hbox (25.80821pt too wide) in paragraph at lines 64--65
-[]\TU/CharisSIL(0)/m/n/12 Linear mixed-effects model results are significant fo
-r off-ictus (p<0.05**),
- []
-
-[21]
-File: /Users/sarah/Git/regilaul_project/manuscript/results/dur_shape_ictus.png 
-Graphic file (type bmp)
-</Users/sarah/Git/regilaul_project/manuscript/results/dur_shape_ictus.png>
-File: /Users/sarah/Git/regilaul_project/manuscript/results/dur_shapestress.png 
-Graphic file (type bmp)
-</Users/sarah/Git/regilaul_project/manuscript/results/dur_shapestress.png>
- [22]
-File: /Users/sarah/Git/regilaul_project/manuscript/main/figures/strictus_durmol
-.png Graphic file (type bmp)
-</Users/sarah/Git/regilaul_project/manuscript/main/figures/strictus_durmol.png>
-
-) [23]
-Overfull \vbox (126.17067pt too high) has occurred while \output is active []
-
-
-[24]
-\openout2 = `regi-discussion.aux'.
-
- (./regi-discussion.tex
-Chapter 4.
-[25
-
-
-
-
-] [26]) [27]
-Appendices.
-[28
 
 
 
 ]
-\openout2 = `appendix-songs.aux'.
-
- (./appendix-songs.tex
-Appendix A.
-File: figures/094.png Graphic file (type bmp)
-<figures/094.png>
-File: figures/009.png Graphic file (type bmp)
-<figures/009.png>
-File: figures/018.png Graphic file (type bmp)
-<figures/018.png>
-File: figures/077.png Graphic file (type bmp)
-<figures/077.png>
-) [29
-
-
-] [30]
+File: /Users/sarah/Git/regilaul_project/manuscript/main/CVmodout.png Graphic fi
+le (type bmp)
+</Users/sarah/Git/regilaul_project/manuscript/main/CVmodout.png>
+) [6]
 No file regi_master.ind.
-(./regi_master.bbl [31
+(./regi_master.bbl [7
 
 
 
-] [32] [33] [34]) [35] (./regi_master.aux
-(./regi-intro.aux) (./regi-methods.aux) (./regi-results.aux)
-(./regi-discussion.aux) (./appendix-songs.aux))
+] [8] [9] [10])
 
-LaTeX Warning: There were undefined references.
+Package natbib Warning: There were undefined citations.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[11] (./regi_master.aux (./regi-methods.aux) (./regi-results.aux)) ) 
 Here is how much of TeX's memory you used:
- 23264 strings out of 476919
- 455353 string characters out of 5821840
- 1066448 words of memory out of 5000000
- 42698 multiletter control sequences out of 15000+600000
- 410230 words of font info for 83 fonts, out of 8000000 for 9000
+ 23074 strings out of 476919
+ 450710 string characters out of 5821840
+ 992504 words of memory out of 5000000
+ 42562 multiletter control sequences out of 15000+600000
+ 408459 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 119i,8n,118p,1654b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 119i,6n,118p,1596b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on regi_master.pdf (45 pages).
+Output written on regi_master.pdf (15 pages).
