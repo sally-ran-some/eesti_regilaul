@@ -2,7 +2,17 @@
 \index{Methods@\emph{Methods}}%
 
 \section{Design}
-To test this hypothesis, the vowel durations of isochronous (eighth-note) word-initial and pen-initial syllables of polysyllabic feet are measured. This provides a level of control with regard to feet and word boundaries: no monosyllabic words are used, so every primary stressed syllable included has a following unstressed syllable. This also beneficially excludes possible complications due to secondary stress, which is not only weaker but also acoustically less salient \cite{asuLippus2018} compared to the opposition of primary and unstress in the first two syllables. 
+To test this hypothesis, the vowel durations of isochronous first and second syllable-notes of polysyllabic words are measured using a semi-automatic transcription approach. A tempograph of the entire song is referenced to identify whether or not a given syllable-note is `1on" or ``off" the beat relative to local and global tempo. 
+
+Then, using the text transcriptions of the verse lines, the locations of syllable nuclei are identified using a forced aligner. 
+
+
+Once located, the duration of a given vowel is defined as the difference between onset (within 10\% of the sustain level) of the ADSR envelope and the onset (within 10\%) of the release of the note. This is to account for temporal variation in syllable nuclei that arises due to environmental factors: consonant identities differing according to manner and place. Measuring nucleus duration by the sustain level subtracts the heavily coarticulated subsegmental transitions times that could be said to belong to both or either adjacent segments. 
+
+
+
+
+
 
 
 
