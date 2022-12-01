@@ -1,54 +1,40 @@
 \chapter{Discussion}
 \index{Discussion@\emph{Discussion}}%
 
-\section{Conflicts in Emphasis}
-To become lyrics, words have to accommodate restrictions of the song's metrical pattern. The evidence here suggests that both song and word level are predictors of vowel duration, but word-level stress and the interaction of stress and ictus have the more pronounced effect compared to song-level ictus. 
-These results differ from Ross Lehiste, who concluded that word-level stress was subordinated to the ictus requirements of the song. While they measured entire syllables, however, we have measured only the vowel durations. 
+\section{Temporal Prosodic Features Crystalized at Segmental level in isochronous syllables}
 
-Interestingly, while stress survived inclusion into the song, the ternary contrast at the syllable level is lost, confirming \citep{lostprosodicoppositions}
-but that the quantity contrast between long and overlong syllables loses this opposition. 
+These results support the hypothesis that prosodic timing modifications resulting from the synchronization of independent rhythms (in this case, syllables and notes into syllable-notes) do not result in the subordination of one system to another. In this case, when syllables and notes become one timing unit, the temporal acoustic correlates often found at suprasegmental levels (syllable, foot, word) are found at the segmental levels. 
 
-%The most interesting finding here is the asymmetry of prominence effects on vowel space area: while stressed syllables followed the expected pattern of expanded vowel space (though not significantly), the prominent position at the song level had the opposite effect. At the song level, being in a {\it weak} position was a significant predictor for increased vowel space. In order to explore this further, I would like to add more performed songs from the same dialect region: just over half of the songs that meet the criteria for this corpus have been annotated, and to increase the observations will hopefully shed light on the vowel space and prominence relationship we are seeing. Once all the songs from 1960s Pärnumaa have been annotated, the corpus will have 17 {\it regilaul} songs and seven singers, to total thirty-two minutes and twelve seconds of text-aligned, recorded audio. 
+This interaction is then more analagous to entrainment of two independent rhythmic systems than to language being forcibly pigeon-holed into the metrical structure of music. 
+
+
+%\section{Vowel Dispersion}
+%Results for the predictive power of ictus and off-ictus, stressed and unstressed syllables and vowel space dispersion were not significant. The patterns that seem to emerge visually in the graphs of distributions suggest that the situation might be ameliorated by increasing the dataset. For this measurement, there were fewer available tokens than for vowel duration, and therefore less statistical power. Further examination is needed to determine whether or not the observed pattern is simply lacking in power or whether the premises that lead to this hypothesis are missing something entirely. 
+
 
 \section{Future Studies} 
 
-In addition to regilaul, the archive maintains collections of other folkloric primary and secondary materials, as well as folklore and folk music traditions of other Balto-Finnic peoples: the Ingrian Finns, Votians, Karelians, Livonians and Izhorians. Collections also include materials from Ob-Ugrians: Khanty, Mansi, Udmurtian, Mari, and Hungarian, as well as folklore of nearby non-Finno-Ugric language users: Russian inhabitants, Estonian Swedes, Ngasans, and Latvians. 
-The total sound archive of the EFA has over 100,000 individual recording pieces. Over 26,000 of these recordings are songs, dating from the early 20th century until the 1970s. In the database, regilaul songs are classified according to function, e.g., work songs, calendar songs, wedding songs, and then by musical characteristics. Newer ``end-rhymed" Estonian folksongs are arranged by theme and then by texts. Finally, instrumental folk music is placed into categories dance and other 
-%\subsection{exploratory computation analysis comparing acoustic measurements to text constituents}
-%
-%The annotation possibilities with this toolkit are vast, especially with respect to morphosyntax. 
-\subsection{Comparing with Speech} 
+This study used a sample of nine songs and three singers, all recorded in the 1960s. Annotation has already begun on the remaining songs that fit into this sample's criteria: In total, there are seventeen songs and seven singers from Parnumaa county recorded in the 1960s.
+% Increasing the size of the audio corpus would facilitate exploratory analysis in countless dimensions of music and language, and also shed light on the issue of vowel space unresolved here. 
+Several of the singers featured in this sample set were also recorded speaking. Annotating their natural speech would provide a valuable contribution to the song corpus, as findings from the songs could be compared with speech of the same person.  
 
-Several of the songs used in this study have accompanying recordings of natural running speech of the respective singers: this was one motivation in choosing the recordings from the 1960s rather than earlier. These results could be further supported by an acoustic analysis of the speech of the performers, confirming, for example, that quantity is a predictor for vowel length in their natural speech. 
+Extending the findings of vowel duration and the ternary quantity contrast has several obvious paths: synchronic analysis of with song samples from the same approximate time period but differing according to region, or even language: several other Balto-Finnic families have a trochaic tetrameter folksong tradition. Diachronic analysis with song samples of same singers in the same region at different points in time is another possibility with data from the Estonian Folklore Archives. Both these goals are achievable only with the continued annotation of the corpus of regilaul, which is quite demanding work. As I continue to build this corpus, I am also actively exploring ways in which to automate the process. The inclusion of beat tracking software eliminated much observer subjectivity, and also facilitated the forced-aligner: by automatically grouping verse lines into measures, the aligner was given phrase groupings to synthesize and compare, rather than attempting to align the entire song in a linear fashion. However, as the forced aligner used here was made specifically for speech, one way to improve the accuracy of the forced aligner (decreasing manual adjustment of annotations) would be to train a the aligner on sung material using supervised machine learning. As I plan to continue with the annotations either way, I can use the corrections I make as training material for the algorithm, with the hopeful result that the forced-aligner will eventually reach some threshold of accuracy, voiding the need for manual adjustments. 
 
-%\subsection{Secondary Stress}
-%
-%Secondary stress
-%Typically coincides with odd numbered syllables
-%Secondary stress does not differ from un stress! 
-%
-% (Asu and Lippus 2018)
-%\citep{asuAcousticCorrelatesSecondary2018}
-%
-%\subsection{Spectral Cues}
-%
-%An obvious next domain of exploratory analysis is vowel space and how it interacts with ictus and stress. 
+\section{ML plans outline}
+%Kaldi: uses DNN (Deep Neural Net) rather than linear model like MFA (montreal forced-aligner). 
 
-%One runic invariant is that the tonal center is placed on ``the both syntactically stable 
-%dominating pitch value of the most stable syntactical positions of a given melody's typological group
-%
-%Melodic accents coincide with the stressed syllables, and  the tune resolves as the phrase resolves. It has been described as a musical abstraction of the natural prosodic intonation of the spoken runoverse, which also utlizes the Kalevala metre% \citep{ruutelResultsComputerizedComparative1999}.
-%
-%
-%more recently, melodic accent
-%\citep{sargDoesMelodicAccent2006} 
-%\citep{sargMelodicAccentEstonian2007}
+%https://www.kaldi-asr.org/doc/
+%https://www.eleanorchodroff.com/tutorial/kaldi/index.html
 
+for several/general uralic languages \citep{leinonen2021}. 
+Would be good to try for other runosongs! 
 
+%https://github.com/lingsoft/aalto-kaldi-align-elg
 
-%The results confirm the findings of Ross \& Lehiste's studies on timing in Estonian folk songs, while illuminating potential signatures of prominence contrast preservation when duration is lost to the song. Vowel duration usually increases with syllable prominence at the word level but, in sung verse, decreases as syllable weight or prominence increases. In order to confirm foot and note isochrony, the next logical step is to measure whole syllables and words and their relative proportions. Measuring onset consonant duration will potentially illuminate the vowel shortening in stressed syllables. 
+for Estonian specifically \citep{ratsep2022}
+\section{Conclusion}
 
-\subsection{metrical analysis of regilaul texts}
-Alongside the limited availability of digital recordings of the songs is a text database of regilaul song lyrics \url{https://www.folklore.ee/regilaul/andmebaas/?ln=en}. These texts contain the lyrical and musical transcriptions made by the linguists and ethnomusicologists who collected the songs, and by scholars who have contributed later. There are often different versions of the same songs in different regions, with different lyrics or different melodies. My first query of this database will be to analyze the frequency of stress and ictus conflicts in the larger pool of songs, to see if the asymmetry noted in this smaller set bears out at scale. 
- For example, are there more occurrences of syllables strong at the word level ending up in weak metrical positions, or more weak word-level syllables in strong metrical positions? How often do overlong (Q3, heaviest possible) syllables end up in metrically weak positions, if at all? Another simple exploratory analysis could incorporate frequency information with respect to the collective lexicon of all regilaul.  
- 
+This study examined fine-grained acoustic-phonetic features of Estonian prosody in the context of traditional folksongs known as regilaul. The data support the hypothesis that duration contrasts inherent in the ternary quantities of Estonian are still present at the segmental level, even after undergoing modification to fit syllables into isochronous notes of the song. The data also supports that the durational correlates of word-level stress are also crystallized and evident at the segmental level, so while it isn't lexically contrastive, the role of primary stress and unstress to mark word boundaries in spoken Estonian is still present in sung Estonian. 
+%Vowel quality patterns were measured but not significant for this dataset. 
+
+This indicates a relationship more akin to the collaboration of two independent rhythmic systems rather than one rhythmic system dominating the other. Combined with the fact that any regilaul text can be sung to any existing regilaul melody brings into question whether {\it spoken} metrical verse text is truly independent of the temporal constraints of the musical meter they are made with, or somewhere between language and music. 

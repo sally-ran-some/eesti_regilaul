@@ -19,39 +19,39 @@
 \usepackage{amsmath,amsthm,amsfonts,amscd} 
 				% Some packages to write mathematics.
 \usepackage{eucal} 	 	% Euler fonts
-\usepackage{verbatim}      	% Allows quoting source with commands.
+%\usepackage{verbatim}      	% Allows quoting source with commands.
 \usepackage{makeidx}       	% Package to make an index.
 %\usepackage{epsfig}         	% Allows inclusion of eps files.     	
 %\usepackage{cyrchar}
 %\usepackage{citesort}         	% 
 \usepackage{url}		% Allows good typesetting of web URLs.
-\usepackage{draftcopy}	
+%\usepackage{draftcopy}	
 \usepackage{graphicx}
-\usepackage{amsthm}
-%\usepackage{amssymb}
+%\usepackage{amsthm}
+\usepackage{amssymb}
 %\usepackage{epstopdf}
 %\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
-
-\usepackage{booktabs}
+%\usepackage{pdfpages}
+%\usepackage{booktabs}
 \usepackage{topcapt}
 \usepackage{subcaption}
-%\usepackage{wrapfig}
 \usepackage{fontspec}
 %\usepackage[utf8]{inputenc}
-%\usepackage{CharisSIL}
+\usepackage{CharisSIL}
 \usepackage{lilyglyphs}
 
 \usepackage{leipzig}
 \usepackage{gb4e}
-
+\usepackage{wrapfig}
+\usepackage{lipsum}
 
 
 \author{sally ransom}  	% Required
 
 \address{305 E. 23rd Street STOP B5100\\ Austin, Texas 78712}  % Required
 
-\title{becoming lyrics: how word prosody and musical meter negotiate the rhythmic terms of prominence}
+\title{Lyrics as entrained musical and linguistic oscillations: acoustic evidence in Estonian {\it regilaul}}
                                                     % Required
 
 
@@ -161,10 +161,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %	Theorem environments (these need the amsthm package)
-%
- \theoremstyle{plain} %% This is the default
 
-\newtheorem{thm}{Theorem}[section]
+ \theoremstyle{plain} %% This is the default
+\newtheorem{hyp}{Hypothesis}
+\newtheorem{thm}{Theorem}
+
+\newtheorem{hypnull}[hyp]{}
 \newtheorem{cor}[thm]{Corollary}
 \newtheorem{lem}[thm]{Lemma}
 \newtheorem{prop}[thm]{Proposition}
@@ -213,7 +215,7 @@
 
 \begin{document}
 
-\copyrightpage          % Produces the copyright page.
+%\copyrightpage          % Produces the copyright page.
 
 
 %
@@ -227,7 +229,7 @@
 
 \titlepage              % Produces the title page.
 %
-\commcertpage           % Produces the Committee Certification
+%\commcertpage           % Produces the Committee Certification
 			%   of Approved Version page (doctoral)
 			%   or Signature page (masters).
 			%		
@@ -272,14 +274,17 @@ That what is written is fiction. Only that what is sung is truth. \\
 \indent
 %
 %
-%This paper analyses the acoustic realizations of sung vowels in Estonian {\it regilaul} lyrical folksong performances to examine the effects of musical metrical structure on the word-prosodic level of the language. Estonian is of particular interest as it has a fixed, predictable word stress pattern and three  syllable weights. In light of these features, I compare documented acoustic correlates of both stress and syllable weight, and the effects of them falling ``on" or ``off" the beat within the trochaic tetrametric pattern of {\it regilaul}. Vowel space and duration of syllable nuclei is compared in stressed and unstressed syllables falling on and off the beat in song, and all three quantities in word-prosodic stressed position examined on and off the beat in the song. 
 
+This paper presents an empirical analysis of acoustic-phonetic measurements of sung Estonian lyrics using an oscillator-entrainment model. Entrainment is the process by which two independently oscillating systems with differing periods interact and assume the same period. 
+Measurements were extracted from {\it a capella} recordings of traditional Estonian folksongs called {\it regilaul} \(/re.ki.laul/\), which is part of the ancient indigenous oral tradition of Balto-Finnic {\it runosong}. Verse lines are composed using trochaic tetrameter, or four measures of syllable-note pairs with the downbeat corresponding to the first syllable-note. In nominally isochronous notes, the absolute durations of notes falling off the beat are shorter compared with their counterparts on the beat. Conversely, Estonian demonstrates foot isochrony such that the duration of the second syllable is inversely proportional to that of the first. Additionally, an increase in syllable duration is an acoustic correlate of primary stress in native Estonian words, which is fixed word-initially. This results in syllable-notes grouped across word boundaries in the song. Previous studies of regilaul found the absolute durations of syllable-notes patterned into two categories based on musical grouping rather than word grouping. In light of these results, I further investigate the strength of the entrainment of musical and linguistic rhythms at the sub-syllabic level, the alternation of consonant and sonorant phoneme segments. Results show that word-level stress and unstress is evident in the vowel durations of syllable-notes off the musical beat, but not apparent in syllable-notes that are on the beat. Therefore, when musical trochees cross word boundaries, word-initial syllables are acoustically distinct from pen-initial syllables. 
 
- \tableofcontents   % Table of Contents will be automatically
+ 
+ 
+ % \tableofcontents   % Table of Contents will be automatically
                    % generated and placed here.
 
-\listoftables      % List of Tables and List of Figures will be placed
-\listoffigures     % here, if applicable.
+%\listoftables      % List of Tables and List of Figures will be placed
+%\listoffigures     % here, if applicable.
 
 
 
@@ -290,21 +295,11 @@ That what is written is fiction. Only that what is sung is truth. \\
 
 
 %
-\include{regi-intro}
+%\include{regi-intro}
 \include{regi-methods}
-%\include{regi-results}
+\include{regi-results}
 %\include{regi-discussion}
-%\include{regi-conclusion}
-
-
-%\include{regi-background}
-%\include{regi-previous}
-%\include{regi-laulud}
-%\include{chapter-makingbib}
 %
-%\include{chapter-tables+figs}
-%
-%\include{chapter-math}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -315,11 +310,12 @@ That what is written is fiction. Only that what is sung is truth. \\
 % of \appendices.
 %%
 %\appendices
-%\index{Appendices@\emph{Appendices}}%
-%%
-%\include{appendi-data}
-%\include{apendi-efa}
-%\include{dur_parameters}
+%\index{Appendix@\emph{Appendix}}%
+
+%\include{appendix-corpus_building}
+
+%\include{appendix-songs}
+
 %
 
 %
@@ -365,13 +361,13 @@ That what is written is fiction. Only that what is sung is truth. \\
 % Vita page.							     %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{vita}
+%\begin{vita}
 %Sarah Marie Ransom-Laud
 %was born in Sarasota, Florida on 11 July 1990. Her early career was as a songwriter and recording artist, releasing several full-length albums combining digital and analog recording methods over the last decade. 
 %
 %In 2018 she received the Bachelor of Arts degree in Linguistics from the University of Wisconsin, Milwaukee. Upon graduation, she moved to Austin with her partner, Kavi, and taught English as a Second Language (ESL) to adults until her admission into the PhD program in the department of Linguistics at the University of Texas at Austin, where she matriculated in Fall 2019. 
 
 
-\end{vita}
+%\end{vita}
 
 \end{document}
