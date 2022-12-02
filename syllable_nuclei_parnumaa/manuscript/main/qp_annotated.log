@@ -1,0 +1,5675 @@
+This is TeX, Version 3.141592653 (TeX Live 2021) (preloaded format=tex 2022.2.22)  30 OCT 2022 13:57
+**open qp_annotated.bib
+(./qp_annotated.bib
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.11   keywords = {regi_
+                        master}
+? q
+OK, entering \batchmode...
+! Extra }, or forgotten $.
+l.11   keywords = {regi_master}
+                               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.12 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.13 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.23   keywords = {regi_
+                        master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.23   keywords = {regi_master}
+                               ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.25 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.26 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1067.01382pt too wide) in paragraph at lines 14--26
+[]$ |
+
+\hbox(7.51782+1.94444)x469.75499
+.\hbox(7.51782+1.94444)x1536.76881
+..\teni s
+..\teni c
+..\teni y
+..\kern0.35878
+..\teni p
+..etc.
+.\mathoff
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.\glue(\rightskip) 0.0
+.etc.
+
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+ [1]
+! Misplaced alignment tab character &.
+l.158 ...rch.ebscohost.com/login.aspx?direct=true&
+                                                  db=a9h&AN=79914264&site=eh...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.158 ...cohost.com/login.aspx?direct=true&db=a9h&
+                                                  AN=79914264&site=ehost-live},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.158 ...ogin.aspx?direct=true&db=a9h&AN=79914264&
+                                                  site=ehost-live},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (110.30188pt too wide) in paragraph at lines 148--164
+\tenrm url = http://ezproxy.lib.utexas.edu/login?url=https://search.ebscohost.c
+om/login.aspx?direct=truedb=a9hAN=79914264site=ehost-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm u
+.\tenrm r
+.\tenrm l
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm =
+.etc.
+
+
+Overfull \hbox (2.13371pt too wide) in paragraph at lines 148--164
+\tenrm sic,PIANISTS,PIANO mu-sic,RUMESSEN; Vardo, file = /Users/sarah/Zotero/st
+orage/6A4YT66B/Anderson|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm s
+.\tenrm i
+.\tenrm c
+.\tenrm ,
+.\tenrm P
+.etc.
+
+ [2]
+Overfull \hbox (7.55162pt too wide) in paragraph at lines 237--254
+\tenrm 372, pub-lisher = Cam-bridge Uni-ver-sity Press, issn = 1475-3502, 0025-
+1003, doi = 10.1017/S002510030999017X,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 3
+.\tenrm 7
+.\tenrm 2
+.\tenrm ,
+.\glue 3.33333 plus 2.08331 minus 0.88889
+.etc.
+
+
+Overfull \hbox (54.19067pt too wide) in paragraph at lines 237--254
+\tenrm and Teras - 2009 - Es-to-nian.pdf;/Users/sarah/Zotero/storage/JYRE5Q6F/6
+29DFE570A2E6606733B29A0145B4512.html|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm a
+.\tenrm n
+.\tenrm d
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm T
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--254
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+
+Overfull \hbox (7.55162pt too wide) in paragraph at lines 255--272
+\tenrm 372, pub-lisher = Cam-bridge Uni-ver-sity Press, issn = 1475-3502, 0025-
+1003, doi = 10.1017/S002510030999017X,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 3
+.\tenrm 7
+.\tenrm 2
+.\tenrm ,
+.\glue 3.33333 plus 2.08331 minus 0.88889
+.etc.
+
+
+Overfull \hbox (15.74492pt too wide) in paragraph at lines 273--285
+[]\tenrm @inproceedingsasuEstonianEnglishRhythm2006, ti-tle = Es-to-nian and En
+-glish Rhythm: A Two-Dimensional|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+ [3]
+! Undefined control sequence.
+l.296 ...lation to this: If Estonian doesn't \emph
+                                                  {temporally } reduce as mu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.296 ...e know that f0 (cue for both stress \emph
+                                                  {and} Q3) will not be as v...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (15.74492pt too wide) in paragraph at lines 286--298
+[]\tenrm @inproceedingsasuEstonianEnglishRhythm2006, ti-tle = Es-to-nian and En
+-glish Rhythm: A Two-Dimensional|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+! Undefined control sequence.
+<recently read> \circledR 
+                          
+l.319 ... {Welcome to Audacity Audacity{$\circledR
+                                                  $} is free, open source, c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \circledR 
+                          
+l.319 ...acity is available for Windows{$\circledR
+                                                  $}, Mac{$\circledR$}, GNU/...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \circledR 
+                          
+l.319 ... for Windows{$\circledR$}, Mac{$\circledR
+                                                  $}, GNU/Linux{$\circledR$}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \circledR 
+                          
+l.319 ...}, Mac{$\circledR$}, GNU/Linux{$\circledR
+                                                  $} and other operating sys...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (10.69041pt too wide) in paragraph at lines 313--323
+[]\tenrm @miscAudacity2021, ti-tle = Au-dac-ity(R), year = 2021, month = dec, u
+rl = https://www.audacityteam.org,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (46.67657pt too wide) in paragraph at lines 313--323
+\tenrm Au-dac-ity, how-pub-lished = open source, file = /Users/sarah/Zotero/sto
+rage/WYV7NRKG/www.audacityteam.org.html|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm A
+.\tenrm u
+.\discretionary
+..\tenrm -
+.\tenrm d
+.\tenrm a
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--323
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+! Undefined control sequence.
+<recently read> \circledR 
+                          
+l.325 ... | {{Nyquist}} in {{Audacity}}{$\circledR
+                                                  $}},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (8.99603pt too wide) in paragraph at lines 324--330
+[]\tenrm @miscAudioNyqNyquistAudacity, ti-tle = Au-dioNyq | Nyquist in Audacity
+$$, url = https://audionyq.com/,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.340   keywords = {regi_
+                         master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.340   keywords = {regi_master}
+                                
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.341 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.342 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.351   keywords = {regi_
+                         master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.351   keywords = {regi_master}
+                                ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.353 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.354 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+ [4]
+! Undefined control sequence.
+l.366 ...uth Estonian language islands \textendash
+                                                  {} Leivu, Lutsi, Kraasna \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.366 ...ndash{} Leivu, Lutsi, Kraasna \textendash
+                                                  {} are three historically ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.366 ...ies. Two of these communities \textendash
+                                                  {} Leivu and Lutsi \texten...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.366 ...\textendash{} Leivu and Lutsi \textendash
+                                                   were located in present-d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.366 ...y Latvia. The third community \textendash
+                                                  {} Kraasna \textendash{} w...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.366 ...mmunity \textendash{} Kraasna \textendash
+                                                  {} was located near the no...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.366 ...orthernmost Lutsi communities \textendash
+                                                  {} only about 35 kilometre...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.383 ...m other mythologies he admired\textemdash
+                                                   one of which is the Kalev...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 1215) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 2.30064
+.\glue(\topskip) 3.05556
+.\hbox(6.94444+1.94444)x469.75499, glue set - 0.29022
+..\hbox(0.0+0.0)x20.0
+..\tenrm @
+..\tenrm m
+..\tenrm i
+..\tenrm s
+..etc.
+.\penalty 150
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+1.94444)x469.75499, glue set - 0.2933
+..\tenrm m
+..\tenrm o
+..\tenrm n
+..\kern-0.27779
+..\tenrm t
+..etc.
+.etc.
+
+ [5]
+Overfull \hbox (19.45784pt too wide) in paragraph at lines 422--435
+\tenrm WPP, No. 47 A Cross-linguistic Study on the Perce.pdf;/Users/sarah/Zoter
+o/storage/PR2PC8ZB/0t0699hc.html|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm W
+.\tenrm P
+.\tenrm P
+.\kern-0.83334
+.\tenrm ,
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--435
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.470   keywords = {regi_
+                         master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.470   keywords = {regi_master}
+                                ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.472 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.473 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.474 @incollection{book_
+                         jril_2001,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.487 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.488 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+
+Overfull \hbox (83.7436pt too wide) in paragraph at lines 474--488
+[]\tenrm @incollectionbook$[]\teni ril[]\tenrm 001\teni ; title \tenrm = []\ten
+i ; booktitle \tenrm =|
+
+\hbox(7.5+2.86108)x469.75499
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm c
+.etc.
+
+
+Overfull \hbox (107.51244pt too wide) in paragraph at lines 474--488
+[]\teni ; author \tenrm = []\teni ; year \tenrm = []\teni ; series \tenrm = []\
+teni ; edition \tenrm =|
+
+\hbox(6.94444+1.94444)x469.75499
+.\hbox(6.94444+1.94444)x212.5991
+..\teni T
+..\kern1.3889
+..\teni h
+..\teni e
+..\teni T
+..etc.
+.\teni ;
+.\glue(\thinmuskip) 1.66663
+.\teni a
+.\teni u
+.etc.
+
+
+Overfull \hbox (31.16457pt too wide) in paragraph at lines 474--488
+[]\teni ; publisher \tenrm = []\teni ; address \tenrm = []\teni ; isbn \tenrm =
+ []\teni ; langid \tenrm =|
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(6.83331+1.94444)x55.20569
+..\teni R
+..\kern0.07726
+..\teni e
+..\teni p
+..\teni r
+..etc.
+.\teni ;
+.\glue(\thinmuskip) 1.66663
+.\teni p
+.\teni u
+.etc.
+
+! Undefined control sequence.
+l.504   copyright = {\textcopyright
+                                   {} 2018 Bouwer et al. This is an open acc...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+ [6]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.545 ...l = {https://github.com/stan-dev/stancon_
+                                                  talks/},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.545 ...tps://github.com/stan-dev/stancon_talks/}
+                                                  ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.548 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.549 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \vbox (badness 2884) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 3.06752
+.\glue(\topskip) 3.05556
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.1068
+..\tenrm o
+..\tenrm n
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\tenrm m
+..\kern-0.27779
+..etc.
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.16177
+..\tenrm m
+..\tenrm i
+..\tenrm s
+..\tenrm s
+..\discretionary
+...\tenrm -
+..etc.
+.\glue(\baselineskip) 3.11111
+.etc.
+
+ [7]
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^bc in font cmr10!
+
+Overfull \hbox (54.19063pt too wide) in paragraph at lines 559--576
+\tenrm ism,Estonia,ESTONIA,FESTIVALS,national fes-ti-vals,rituals, file = /User
+s/sarah/Zotero/storage/3L69ES69/Brggemann|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm i
+.\tenrm s
+.\tenrm m
+.\tenrm ,
+.\tenrm E
+.etc.
+
+
+Overfull \hbox (0.91261pt too wide) in paragraph at lines 594--602
+[]\tenrm @articlecapellMultipleLanguageRecordings2018, ti-tle = Mul-ti-ple Lan-
+guage Record-ings, au-thor = Capell,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Underfull \vbox (badness 1215) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 2.30064
+.\glue(\topskip) 3.05556
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.58617
+..\hbox(0.0+0.0)x20.0
+..\tenrm @
+..\tenrm a
+..\tenrm r
+..\tenrm t
+..etc.
+.\penalty 150
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.76631
+..\tenrm a
+..\tenrm n
+..\tenrm d
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\tenrm P
+..etc.
+.etc.
+
+ [8]
+! Undefined control sequence.
+<recently read> \sptilde 
+                         
+l.641 ...ish tends to have higher nPVI ({$\sptilde
+                                                  $}51) and Jamaican English...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \sptilde 
+                         
+l.641 ...glish has a lower median nPVI ({$\sptilde
+                                                  $}40)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 682--692
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+ [10]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.762   keywords = {regi_
+                         master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.762   keywords = {regi_master}
+                                ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.764 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.765 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (84.91284pt too wide) in paragraph at lines 756--765
+\tenrm ding-ton, Johnathan and Avi-son, Mar-tin and Dunn, Reece and Vi-tolins, 
+Valdis, year = 1995, url = http://espeak.sourceforge.net/,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm d
+.\tenrm i
+.\tenrm n
+.\tenrm g
+.\discretionary
+..\tenrm -
+.etc.
+
+
+Overfull \hbox (92.36975pt too wide) in paragraph at lines 756--765
+\tenrm url-date = 2022-05-14, key-words = regi$[]\teni aster; file \tenrm = []$
+ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm u
+.\tenrm r
+.\tenrm l
+.\discretionary
+..\tenrm -
+.\tenrm d
+.etc.
+
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+! Undefined control sequence.
+l.777 ... compound words, foreign words, and \emph
+                                                  {gradational suffixes}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.791 ...ce of stressed syll in unstress: Q1 \emph
+                                                  {least} central, unstresse...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 4.60127
+.\glue(\topskip) 2.5
+.\hbox(7.5+2.5)x469.75499, glue set - 0.0732
+..\tenrm p
+..\kern0.27779
+..\tenrm e
+..\tenrm r
+..\discretionary
+...\tenrm -
+..etc.
+.\glue(\baselineskip) 2.0
+.\hbox(7.5+2.5)x469.75499, glue set 0.32631
+..\tenrm l
+..\tenrm o
+..\tenrm n
+..\tenrm g
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..etc.
+.\glue(\baselineskip) 2.55556
+.etc.
+
+ [12]
+! Undefined control sequence.
+l.836   title = {{{EstNLTK}} \textendash
+                                        {} {{Open}} Source Tools for {{Eston...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (12.28769pt too wide) in paragraph at lines 835--844
+\tenrm ing, copy-right = GPL-2.0, how-pub-lished = es-tnltk, key-words = anacon
+da-distribution,estnltk,estonian,estonian-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm i
+.\tenrm n
+.\tenrm g
+.\tenrm ,
+.\glue 3.33333 plus 2.08331 minus 0.88889
+.etc.
+
+
+Overfull \hbox (10.1627pt too wide) in paragraph at lines 845--861
+[]\tenrm @articleestonianliterarymuseumRegilaulPoliticalWhirlpool2017, ti-tle =
+ Regi-laul in the Po-lit-i-cal Whirlpool:|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (159.16295pt too wide) in paragraph at lines 845--861
+\tenrm en-glish, lan-guage = en, file = /Users/sarah/Zotero/storage/8PAAUCFE/Co
+ntentServer.pdf;/Users/sarah/Zotero/storage/FR8C3BUM/Estonian|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm e
+.\tenrm n
+.\discretionary
+..\tenrm -
+.\tenrm g
+.\tenrm l
+.etc.
+
+
+Overfull \hbox (219.10767pt too wide) in paragraph at lines 862--869
+\tenrm hanced Reader, doi = 10.1016/j.specom.2015.11.005, langid = en-glish, la
+n-guage = en, file = /Users/sarah/Zotero/storage/79Z7NF6U/S016763931500134X.htm
+l|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm h
+.\tenrm a
+.\tenrm n
+.\tenrm c
+.\tenrm e
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 862--869
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+
+Overfull \hbox (26.07935pt too wide) in paragraph at lines 886--899
+\tenrm 1045-0 978-0-631-23305-3, langid = en-glish, lan-guage = en, file = /Use
+rs/sarah/Zotero/storage/XNLUIEYR/Evans|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 1
+.\tenrm 0
+.\tenrm 4
+.\tenrm 5
+.\tenrm -
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.902   url = {https://www.eurekalert.org/pub_
+                                              releases/2020-12/asoa-fmp12042...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.902 ...cFGtAhgr72OGct0_EO60hbWw16oSCm3rVO5Ilm6A}
+                                                  ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.904 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.905 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (48.37161pt too wide) in paragraph at lines 900--905
+\teni fmp\tenrm 120420\teni :php\tenrm ?\teni fbclid \tenrm = \teni IwAR\tenrm 
+3\teni aIPlTxfjreZ\tenrm 24\teni I\tenrm 5\teni ucFGtAhgr\tenrm 72\teni OGct\te
+nrm 0[]\teni O\tenrm 60\teni hbWw\tenrm 16\teni oSCm\tenrm 3\teni rVO\tenrm 5\t
+eni Ilm\tenrm 6\teni A; urldate \tenrm =|
+
+\hbox(6.94444+1.94444)x469.75499
+.\teni f
+.\kern1.0764
+.\teni m
+.\teni p
+.\tenrm 1
+.etc.
+
+! Undefined control sequence.
+l.939 ...: one based on quantity (short\textendash
+                                                   long vs. long\textendash ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.939 ...short\textendash long vs. long\textendash
+                                                   short disyllabic structur...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+ [13]
+! Undefined control sequence.
+l.956 ...: one based on quantity (short\textendash
+                                                   long vs. long\textendash ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.956 ...short\textendash long vs. long\textendash
+                                                   short disyllabic structur...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.972 ...l of Phonetics (1987), 15, 349\textendash
+                                                   363], we examined the abi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.989 ...l of Phonetics (1987), 15, 349\textendash
+                                                   363], we examined the abi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 2884) has occurred while \output is active
+\vbox(643.20255+2.5)x469.75499, glue set 3.06752
+.\glue(\topskip) 3.05556
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.1974
+..\tenrm s
+..\tenrm e
+..\discretionary
+...\tenrm -
+..\tenrm q
+..\tenrm u
+..etc.
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+1.94444)x469.75499, glue set - 0.1677
+..\tenrm w
+..\kern-0.27779
+..\tenrm a
+..\tenrm s
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..etc.
+.\glue(\baselineskip) 3.11111
+.etc.
+
+ [14]
+! Undefined control sequence.
+l.1007 ...) or Length change (mean r = \textendash
+                                                  \^a^^c2^^80^^c2^^93.09). S...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ^^c2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^c2 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+
+Overfull \hbox (60.88506pt too wide) in paragraph at lines 1013--1028
+\tenrm 01489267, doi = 10.2307/3680917, langid = en-glish, lan-guage = en, file
+ = /Users/sarah/Zotero/storage/6JACW4IJ/Friberg|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 0
+.\tenrm 1
+.\tenrm 4
+.\tenrm 8
+.\tenrm 9
+.etc.
+
+
+Overfull \hbox (97.89885pt too wide) in paragraph at lines 1046--1054
+\tenrm ston, Chris and Riad, Tomas, pages = 32, langid = en-glish, lan-guage = 
+en, file = /Users/sarah/Zotero/storage/ND6C2KCZ/Golston|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm s
+.\tenrm t
+.\tenrm o
+.\tenrm n
+.\tenrm ,
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1060   keywords = {regi_
+                          master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1060   keywords = {regi_master}
+                                 ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1062 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1063 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.1072 ...prosodic hierarchy in Estonian. In \emph
+                                                  {Estonian prosody: Papers ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.07918pt too wide) in paragraph at lines 1064--1075
+[]\tenrm @inproceedingsgordonPhoneticCorrelatesStress1997, ti-tle = Pho-netic C
+or-re-lates of Stress and the Prosodic|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (51.99153pt too wide) in paragraph at lines 1064--1075
+\tenrm po-sium (pp. 100-124). Tallinn: In-sti-tute of Es-to-nian Lan-guage., fi
+le = /Users/sarah/Zotero/storage/77TFEE7B/Gordon|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm p
+.\kern0.27779
+.\tenrm o
+.\discretionary
+..\tenrm -
+.\tenrm s
+.etc.
+
+! Undefined control sequence.
+l.1084 ...prosodic hierarchy in Estonian. In \emph
+                                                  {Estonian prosody: Papers ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.07918pt too wide) in paragraph at lines 1076--1086
+[]\tenrm @inproceedingsgordonPhoneticCorrelatesStress1997, ti-tle = Pho-netic C
+or-re-lates of Stress and the Prosodic|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+ [15] [16]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1173   doi = {10.1007/978-3-319-25931-4_
+                                          9},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1173   doi = {10.1007/978-3-319-25931-4_9}
+                                            ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1174 ... time-span tree analyser (FATTA); the {$
+                                                  \sigma$} GTTM analyser, wh...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1174 ... time-span tree analyser (FATTA); the {$
+                                                  \sigma$} GTTM analyser, wh...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \sigma 
+l.1174 ...span tree analyser (FATTA); the {$\sigma
+                                                  $} GTTM analyser, which de...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (12.94055pt too wide) in paragraph at lines 1164--1180
+[]\tenrm @incollectionhamanakaImplementingMethodsAnalysing2016a, ti-tle = Im-pl
+e-ment-ing Meth-ods for Analysing|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm c
+.etc.
+
+
+Overfull \hbox (2412.403pt too wide) in paragraph at lines 1164--1180
+\tenrm 10.1007/978-3-319-25931-4$[]\teni ; abstract \tenrm = []$$\teni ^^[$|
+
+\hbox(7.51782+2.5)x469.75499
+.\tenrm 1
+.\tenrm 0
+.\tenrm .
+.\tenrm 1
+.\tenrm 0
+.etc.
+
+
+Overfull \hbox (10.46814pt too wide) in paragraph at lines 1181--1189
+\tenrm Niels Chr, pages = 23, langid = en-glish, lan-guage = en, file = /Users/
+sarah/Zotero/storage/KZQ49IEU/Hansen|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm N
+.\tenrm i
+.\tenrm e
+.\tenrm l
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (10.91267pt too wide) in paragraph at lines 1219--1233
+[]\tenrm @articlehayesCompensatoryLengtheningMoraic1989, ti-tle = Com-pen-sator
+y Length-en-ing in Moraic Phonol-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (15.91269pt too wide) in paragraph at lines 1234--1248
+[]\tenrm @articlehayesCompensatoryLengtheningMoraic1989a, ti-tle = Com-pen-sato
+ry Length-en-ing in Moraic Phonol-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+ [17]
+! Undefined control sequence.
+l.1325 ...ental lengths b: segment structure \emph
+                                                  {and} prosody of stressed ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1327 ... in succession in connected speech \emph
+                                                  {`khev `k\~ohn `poiss `l\"...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (55.42667pt too wide) in paragraph at lines 1330--1343
+\tenrm Press., isbn = 9780198832232, langid = en-glish, lan-guage = en, file = 
+/Users/sarah/Zotero/storage/3EL95KEG/oxfordhb-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm P
+.\tenrm r
+.\tenrm e
+.\tenrm s
+.\tenrm s
+.etc.
+
+ [18]
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+! Undefined control sequence.
+l.1384   copyright = {\textcopyright
+                                    {} 2021. This work is licensed under htt...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1388 ...ers/sarah/Zotero/storage/IA9FXQ65/White_
+                                                  etal_2020.pdf}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1388 ...ro/storage/IA9FXQ65/White_etal_2020.pdf}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1389 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1390 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+! Undefined control sequence.
+l.1402   copyright = {\textcopyright
+                                    {} 2021. This work is licensed under htt...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 2884) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 3.06752
+.\glue(\topskip) 1.1875
+.\hbox(8.8125+1.94444)x469.75499, glue set - 0.5531
+..\tenrm M
+..\tenrm a
+..\tenrm c
+..\tenrm i
+..\tenrm e
+..etc.
+.\glue(\baselineskip) 2.55556
+.\hbox(7.5+2.5)x469.75499, glue set - 0.48964
+..\tenrm y
+..\kern-0.27779
+..\tenrm e
+..\tenrm a
+..\tenrm r
+..etc.
+.\glue(\baselineskip) 2.55556
+.etc.
+
+ [19] [20]
+! Undefined control sequence.
+l.1485 ...tle = {Jupyter {{Notebooks}} \textendash
+                                                  {} a Publishing Format for...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1492   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1492   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1493 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1494 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.1496 ...tle = {Jupyter {{Notebooks}} \textendash
+                                                  {} a Publishing Format for...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1503   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1503   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1504 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1505 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+ [21]
+Underfull \vbox (badness 2884) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 3.06752
+.\glue(\topskip) 2.5
+.\hbox(7.5+2.5)x469.75499, glue set - 0.32721
+..\tenrm P
+..\tenrm u
+..\tenrm b
+..\discretionary
+...\tenrm -
+..\tenrm l
+..etc.
+.\penalty 100
+.\glue(\baselineskip) 2.55556
+.\hbox(6.94444+1.94444)x469.75499, glue set - 0.61339
+..\tenrm k
+..\kern-0.27779
+..\tenrm e
+..\tenrm n
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..etc.
+.etc.
+
+ [22]
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^b5 in font cmr10!
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^a4 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b0 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b2 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^82 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^81 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b5 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b3 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bc in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b5 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bd in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^82 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bd in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b0 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^8f in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^84 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bd in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bb in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b3 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b8 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^8f in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^ba in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bb in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b8 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^87 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b5 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^81 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^82 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b2 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bc in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b0 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^81 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bb in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b2 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b5 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^81 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bd in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b0 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^8f in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bf in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^81 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b4 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b8 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^8f in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^81 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^82 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^83 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^ba in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^82 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^83 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bd in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b0 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^8f in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^84 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^83 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bd in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^ba in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^86 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b8 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bd in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b0 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bb in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^8c in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bd in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b0 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^8f in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^84 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bd in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bb in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b3 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b8 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^8f in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^8d in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^81 in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^82 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^be in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^bd in font cmr10!
+Missing character: There is no ^^d1 in font cmr10!
+Missing character: There is no ^^81 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^ba in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b8 in font cmr10!
+Missing character: There is no ^^d0 in font cmr10!
+Missing character: There is no ^^b9 in font cmr10!
+
+Overfull \hbox (118.302pt too wide) in paragraph at lines 1598--1614
+\tenrm (Lin-guis-tics),quantity,snaprosoodia,structural func-tional phonology,s
+trukturaal-funktsionaalne fonoloogia,vlted,VERSIFICATION,word|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm (
+.\tenrm L
+.\tenrm i
+.\tenrm n
+.\discretionary
+..\tenrm -
+.etc.
+
+
+Overfull \hbox (30.69061pt too wide) in paragraph at lines 1615--1626
+\tenrm year = 2009, jour-nal = Pho-net-ica, vol-ume = 66, pages = 5--14, url = 
+https://cir.nii.ac.jp/crid/1574231874036812800,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm y
+.\kern-0.27779
+.\tenrm e
+.\tenrm a
+.\tenrm r
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1646   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1646   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1647 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1648 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (77.1349pt too wide) in paragraph at lines 1636--1648
+\tenrm = Eu-ro-pean Lan-guage Re-sources As-so-ci-a-tion, ad-dress = Mar-seille
+, France, url = https://www.aclweb.org/anthology/2020.lrec-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm =
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm E
+.\tenrm u
+.\discretionary
+..\tenrm -
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1658   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1658   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1659 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1660 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (17.16255pt too wide) in paragraph at lines 1661--1669
+[]\tenrm @phdthesislawrenceVeljoTormisEstonian2013, ti-tle = Veljo Tormis, Es-t
+o-nian Com-poser, au-thor = Lawrence,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm p
+.\tenrm h
+.\tenrm d
+.etc.
+
+
+Overfull \hbox (52.05154pt too wide) in paragraph at lines 1661--1669
+\tenrm Mark Richard, year = 2013, langid = en-glish, lan-guage = en, file = /Us
+ers/sarah/Zotero/storage/CB9XXUWZ/Lawrence|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm M
+.\tenrm a
+.\tenrm r
+.\tenrm k
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+
+Overfull \hbox (17.16255pt too wide) in paragraph at lines 1670--1677
+[]\tenrm @phdthesislawrenceVeljoTormisEstonian2013, ti-tle = Veljo Tormis, Es-t
+o-nian Com-poser, au-thor = Lawrence,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm p
+.\tenrm h
+.\tenrm d
+.etc.
+
+ [23]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1807   doi = {10.1007/978-94-009-2037-8_
+                                          16},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1807   doi = {10.1007/978-94-009-2037-8_16}
+                                             ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1808   abstract = {The H{$
+                            \&$}H theory is developed from evidence showing ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1808   abstract = {The H{$
+                            \&$}H theory is developed from evidence showing ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1808   abstract = {The H{$\&$}
+                                H theory is developed from evidence showing ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1808 ...on the other. For the ideal speaker, H{$
+                                                  \&$}H claims that such ada...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1808 ...he other. For the ideal speaker, H{$\&$}
+                                                  H claims that such adaptat...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1808 ...acNeilage 1970). Accordingly, in the H{$
+                                                  \&$}H program the quest fo...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1808 ...ilage 1970). Accordingly, in the H{$\&$}
+                                                  H program the quest for ph...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1808 ...peech signals that meet that criterion.}
+                                                  ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1810 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1811 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1015.61195pt too wide) in paragraph at lines 1798--1811
+\tenrm 10.1007/978-94-009-2037-8$[]6\teni ; abstract \tenrm = []$&$\teni Htheor
+yisdevelopedfromevidenceshowingthatspeakingandlisteningareshapedbybiologicallyg
+eneralprocesses:Speechproductionisadaptive:Speakerscan; andtypicallydo; tunethe
+irperformanceaccordingtocommunicativeandsituationaldemands; controllingtheinter
+playbetweenproduction \tensy ^^@|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 1
+.\tenrm 0
+.\tenrm .
+.\tenrm 1
+.\tenrm 0
+.etc.
+
+
+Overfull \hbox (657.50212pt too wide) in paragraph at lines 1798--1811
+\teni orientedfactorsontheonehand; andoutput \tensy ^^@ \teni orientedconstrain
+tsontheother:Fortheidealspeaker; H[]$\tenrm &$\teni Hclaimsthatsuchadaptationsr
+eflecthistacitawarenessofthelistener[]saccesstosourcesofinformationindependento
+fthesignalandhisjudgementoftheshort \tensy ^^@|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\teni o
+.\teni r
+.\kern0.27779
+.\teni i
+.\teni e
+.etc.
+
+
+Overfull \hbox (51.24075pt too wide) in paragraph at lines 1798--1811
+\teni termdemandsforexplicitsignalinformation:Hencespeakersareexpectedtovarythe
+iroutputalongacontinuumofhyper \tensy ^^@|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\teni t
+.\teni e
+.\teni r
+.\kern0.27779
+.\teni m
+.etc.
+
+
+Overfull \hbox (808.03076pt too wide) in paragraph at lines 1798--1811
+\teni andhypospeech:Thetheorysuggeststhatthelackofinvariancethatspeechsignalsco
+mmonlyexhibit\tenrm (\teni PerkellandKlatt\tenrm 1986)\teni isadirectconsequenc
+eofthisadaptiveorganization\tenrm (\teni cfMacNeilage\tenrm 1970)\teni :Accordi
+ngly; intheH[]$\tenrm &$\teni Hprogramthequestforphoneticinvarianceisreplacedby
+anotherresearchtask \tenrm :|
+
+\hbox(7.5+2.5)x469.75499
+.\teni a
+.\teni n
+.\teni d
+.\teni h
+.\teni y
+.etc.
+
+
+Overfull \hbox (56.73856pt too wide) in paragraph at lines 1798--1811
+\teni Explicatingthenotionofsufficientdiscriminabilityanddefiningtheclassofspee
+chsignalsthatmeetthatcriterion:; isbn \tenrm =|
+
+\hbox(6.94444+1.94444)x469.75499
+.\teni E
+.\kern0.57637
+.\teni x
+.\teni p
+.\teni l
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1821   doi = {10.1007/978-94-009-2037-8_
+                                          16},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1821   doi = {10.1007/978-94-009-2037-8_16}
+                                             ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1822   abstract = {The H{$
+                            \&$}H theory is developed from evidence showing ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1822   abstract = {The H{$
+                            \&$}H theory is developed from evidence showing ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1822   abstract = {The H{$\&$}
+                                H theory is developed from evidence showing ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1822 ...on the other. For the ideal speaker, H{$
+                                                  \&$}H claims that such ada...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1822 ...he other. For the ideal speaker, H{$\&$}
+                                                  H claims that such adaptat...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1822 ...acNeilage 1970). Accordingly, in the H{$
+                                                  \&$}H program the quest fo...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1822 ...ilage 1970). Accordingly, in the H{$\&$}
+                                                  H program the quest for ph...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1822 ...peech signals that meet that criterion.}
+                                                  ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1824 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1825 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1015.61195pt too wide) in paragraph at lines 1812--1825
+\tenrm 10.1007/978-94-009-2037-8$[]6\teni ; abstract \tenrm = []$&$\teni Htheor
+yisdevelopedfromevidenceshowingthatspeakingandlisteningareshapedbybiologicallyg
+eneralprocesses:Speechproductionisadaptive:Speakerscan; andtypicallydo; tunethe
+irperformanceaccordingtocommunicativeandsituationaldemands; controllingtheinter
+playbetweenproduction \tensy ^^@|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 1
+.\tenrm 0
+.\tenrm .
+.\tenrm 1
+.\tenrm 0
+.etc.
+
+
+Overfull \hbox (657.50212pt too wide) in paragraph at lines 1812--1825
+\teni orientedfactorsontheonehand; andoutput \tensy ^^@ \teni orientedconstrain
+tsontheother:Fortheidealspeaker; H[]$\tenrm &$\teni Hclaimsthatsuchadaptationsr
+eflecthistacitawarenessofthelistener[]saccesstosourcesofinformationindependento
+fthesignalandhisjudgementoftheshort \tensy ^^@|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\teni o
+.\teni r
+.\kern0.27779
+.\teni i
+.\teni e
+.etc.
+
+
+Overfull \hbox (51.24075pt too wide) in paragraph at lines 1812--1825
+\teni termdemandsforexplicitsignalinformation:Hencespeakersareexpectedtovarythe
+iroutputalongacontinuumofhyper \tensy ^^@|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\teni t
+.\teni e
+.\teni r
+.\kern0.27779
+.\teni m
+.etc.
+
+
+Overfull \hbox (808.03076pt too wide) in paragraph at lines 1812--1825
+\teni andhypospeech:Thetheorysuggeststhatthelackofinvariancethatspeechsignalsco
+mmonlyexhibit\tenrm (\teni PerkellandKlatt\tenrm 1986)\teni isadirectconsequenc
+eofthisadaptiveorganization\tenrm (\teni cfMacNeilage\tenrm 1970)\teni :Accordi
+ngly; intheH[]$\tenrm &$\teni Hprogramthequestforphoneticinvarianceisreplacedby
+anotherresearchtask \tenrm :|
+
+\hbox(7.5+2.5)x469.75499
+.\teni a
+.\teni n
+.\teni d
+.\teni h
+.\teni y
+.etc.
+
+
+Overfull \hbox (56.73856pt too wide) in paragraph at lines 1812--1825
+\teni Explicatingthenotionofsufficientdiscriminabilityanddefiningtheclassofspee
+chsignalsthatmeetthatcriterion:; isbn \tenrm =|
+
+\hbox(6.94444+1.94444)x469.75499
+.\teni E
+.\kern0.57637
+.\teni x
+.\teni p
+.\teni l
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1835   doi = {10.1007/978-94-009-2037-8_
+                                          16},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1835   doi = {10.1007/978-94-009-2037-8_16}
+                                             ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1836   abstract = {The H{$
+                            \&$}H theory is developed from evidence showing ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1836   abstract = {The H{$
+                            \&$}H theory is developed from evidence showing ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1836   abstract = {The H{$\&$}
+                                H theory is developed from evidence showing ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1836 ...on the other. For the ideal speaker, H{$
+                                                  \&$}H claims that such ada...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1836 ...he other. For the ideal speaker, H{$\&$}
+                                                  H claims that such adaptat...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1836 ...acNeilage 1970). Accordingly, in the H{$
+                                                  \&$}H program the quest fo...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1836 ...ilage 1970). Accordingly, in the H{$\&$}
+                                                  H program the quest for ph...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1836 ...peech signals that meet that criterion.}
+                                                  ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1838 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1839 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1015.61195pt too wide) in paragraph at lines 1826--1839
+\tenrm 10.1007/978-94-009-2037-8$[]6\teni ; abstract \tenrm = []$&$\teni Htheor
+yisdevelopedfromevidenceshowingthatspeakingandlisteningareshapedbybiologicallyg
+eneralprocesses:Speechproductionisadaptive:Speakerscan; andtypicallydo; tunethe
+irperformanceaccordingtocommunicativeandsituationaldemands; controllingtheinter
+playbetweenproduction \tensy ^^@|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 1
+.\tenrm 0
+.\tenrm .
+.\tenrm 1
+.\tenrm 0
+.etc.
+
+
+Overfull \hbox (657.50212pt too wide) in paragraph at lines 1826--1839
+\teni orientedfactorsontheonehand; andoutput \tensy ^^@ \teni orientedconstrain
+tsontheother:Fortheidealspeaker; H[]$\tenrm &$\teni Hclaimsthatsuchadaptationsr
+eflecthistacitawarenessofthelistener[]saccesstosourcesofinformationindependento
+fthesignalandhisjudgementoftheshort \tensy ^^@|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\teni o
+.\teni r
+.\kern0.27779
+.\teni i
+.\teni e
+.etc.
+
+
+Overfull \hbox (51.24075pt too wide) in paragraph at lines 1826--1839
+\teni termdemandsforexplicitsignalinformation:Hencespeakersareexpectedtovarythe
+iroutputalongacontinuumofhyper \tensy ^^@|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\teni t
+.\teni e
+.\teni r
+.\kern0.27779
+.\teni m
+.etc.
+
+
+Overfull \hbox (808.03076pt too wide) in paragraph at lines 1826--1839
+\teni andhypospeech:Thetheorysuggeststhatthelackofinvariancethatspeechsignalsco
+mmonlyexhibit\tenrm (\teni PerkellandKlatt\tenrm 1986)\teni isadirectconsequenc
+eofthisadaptiveorganization\tenrm (\teni cfMacNeilage\tenrm 1970)\teni :Accordi
+ngly; intheH[]$\tenrm &$\teni Hprogramthequestforphoneticinvarianceisreplacedby
+anotherresearchtask \tenrm :|
+
+\hbox(7.5+2.5)x469.75499
+.\teni a
+.\teni n
+.\teni d
+.\teni h
+.\teni y
+.etc.
+
+
+Overfull \hbox (56.73856pt too wide) in paragraph at lines 1826--1839
+\teni Explicatingthenotionofsufficientdiscriminabilityanddefiningtheclassofspee
+chsignalsthatmeetthatcriterion:; isbn \tenrm =|
+
+\hbox(6.94444+1.94444)x469.75499
+.\teni E
+.\kern0.57637
+.\teni x
+.\teni p
+.\teni l
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.1849   doi = {10.1007/978-94-009-2037-8_
+                                          16},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.1849   doi = {10.1007/978-94-009-2037-8_16}
+                                             ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1850   abstract = {The H{$
+                            \&$}H theory is developed from evidence showing ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1850   abstract = {The H{$
+                            \&$}H theory is developed from evidence showing ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1850   abstract = {The H{$\&$}
+                                H theory is developed from evidence showing ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1850 ...on the other. For the ideal speaker, H{$
+                                                  \&$}H claims that such ada...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1850 ...he other. For the ideal speaker, H{$\&$}
+                                                  H claims that such adaptat...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.1850 ...acNeilage 1970). Accordingly, in the H{$
+                                                  \&$}H program the quest fo...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.1850 ...ilage 1970). Accordingly, in the H{$\&$}
+                                                  H program the quest for ph...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1850 ...peech signals that meet that criterion.}
+                                                  ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.1852 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.1853 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1015.61195pt too wide) in paragraph at lines 1840--1853
+\tenrm 10.1007/978-94-009-2037-8$[]6\teni ; abstract \tenrm = []$&$\teni Htheor
+yisdevelopedfromevidenceshowingthatspeakingandlisteningareshapedbybiologicallyg
+eneralprocesses:Speechproductionisadaptive:Speakerscan; andtypicallydo; tunethe
+irperformanceaccordingtocommunicativeandsituationaldemands; controllingtheinter
+playbetweenproduction \tensy ^^@|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 1
+.\tenrm 0
+.\tenrm .
+.\tenrm 1
+.\tenrm 0
+.etc.
+
+
+Overfull \hbox (657.50212pt too wide) in paragraph at lines 1840--1853
+\teni orientedfactorsontheonehand; andoutput \tensy ^^@ \teni orientedconstrain
+tsontheother:Fortheidealspeaker; H[]$\tenrm &$\teni Hclaimsthatsuchadaptationsr
+eflecthistacitawarenessofthelistener[]saccesstosourcesofinformationindependento
+fthesignalandhisjudgementoftheshort \tensy ^^@|
+
+\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+.\teni o
+.\teni r
+.\kern0.27779
+.\teni i
+.\teni e
+.etc.
+
+
+Overfull \hbox (51.24075pt too wide) in paragraph at lines 1840--1853
+\teni termdemandsforexplicitsignalinformation:Hencespeakersareexpectedtovarythe
+iroutputalongacontinuumofhyper \tensy ^^@|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\teni t
+.\teni e
+.\teni r
+.\kern0.27779
+.\teni m
+.etc.
+
+
+Overfull \hbox (808.03076pt too wide) in paragraph at lines 1840--1853
+\teni andhypospeech:Thetheorysuggeststhatthelackofinvariancethatspeechsignalsco
+mmonlyexhibit\tenrm (\teni PerkellandKlatt\tenrm 1986)\teni isadirectconsequenc
+eofthisadaptiveorganization\tenrm (\teni cfMacNeilage\tenrm 1970)\teni :Accordi
+ngly; intheH[]$\tenrm &$\teni Hprogramthequestforphoneticinvarianceisreplacedby
+anotherresearchtask \tenrm :|
+
+\hbox(7.5+2.5)x469.75499
+.\teni a
+.\teni n
+.\teni d
+.\teni h
+.\teni y
+.etc.
+
+
+Overfull \hbox (56.73856pt too wide) in paragraph at lines 1840--1853
+\teni Explicatingthenotionofsufficientdiscriminabilityanddefiningtheclassofspee
+chsignalsthatmeetthatcriterion:; isbn \tenrm =|
+
+\hbox(6.94444+1.94444)x469.75499
+.\teni E
+.\kern0.57637
+.\teni x
+.\teni p
+.\teni l
+.etc.
+
+ [24]
+Overfull \hbox (193.96877pt too wide) in paragraph at lines 1901--1917
+\tenrm pitch and .pdf;/Users/sarah/Zotero/storage/BVAH2JCP/S0095447012000721.ht
+ml;/Users/sarah/Zotero/storage/RQFRVN6U/S0095447012000721.html|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm p
+.\tenrm i
+.\tenrm t
+.\tenrm c
+.\kern-0.27779
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1901--1917
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+
+Underfull \vbox (badness 1215) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 2.30064
+.\glue(\topskip) 2.5
+.\hbox(7.5+2.5)x469.75499, glue set - 1.0
+..\tenrm 1
+..\tenrm 0
+..\tenrm .
+..\tenrm 1
+..\tenrm 0
+..etc.
+.\glue(\baselineskip) 1.98218
+.\hbox(7.51782+1.94444)x469.75499, glue set - 1.0
+..\teni o
+..\teni r
+..\kern0.27779
+..\teni i
+..\teni e
+..etc.
+.\glue(\baselineskip) 3.11111
+.etc.
+
+ [25]
+Overfull \hbox (16.94032pt too wide) in paragraph at lines 1934--1942
+\tenrm thing mu-si-cians need to go from first note to fi-nal mas-ter., file = 
+/Users/sarah/Zotero/storage/Q6TWIZVA/logic-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm t
+.\tenrm h
+.\tenrm i
+.\tenrm n
+.\tenrm g
+.etc.
+
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+Missing character: There is no ^^c9 in font cmr10!
+Missing character: There is no ^^91 in font cmr10!
+
+Underfull \vbox (badness 1215) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 2.30064
+.\glue(\topskip) 3.05556
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.51195
+..\tenrm a
+..\tenrm r
+..\tenrm e
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\tenrm r
+..etc.
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.12827
+..\tenrm f
+..\tenrm e
+..\tenrm a
+..\discretionary
+...\tenrm -
+..\tenrm t
+..etc.
+.\glue(\baselineskip) 3.11111
+.etc.
+
+ [26]
+Underfull \vbox (badness 2884) has occurred while \output is active
+\vbox(643.20255+2.5)x469.75499, glue set 3.06752
+.\glue(\topskip) 2.5
+.\hbox(7.5+2.5)x469.75499, glue set 0.29117
+..\tenrm =
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\tenrm 8
+..\tenrm ,
+..\glue 3.33333 plus 2.08331 minus 0.88889
+..etc.
+.\glue(\baselineskip) 2.55556
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.91606
+..\tenrm t
+..\tenrm o
+..\tenrm l
+..\tenrm e
+..\tenrm r
+..etc.
+.\glue(\baselineskip) 2.55556
+.etc.
+
+ [27]
+Overfull \hbox (8.38266pt too wide) in paragraph at lines 2048--2056
+\tenrm S L Anya, pages = 9, langid = en-glish, lan-guage = en, file = /Users/sa
+rah/Zotero/storage/YJ99YBMF/Lunden|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm S
+.\glue 3.33333 plus 1.66498 minus 1.11221
+.\tenrm L
+.\glue 3.33333 plus 1.66498 minus 1.11221
+.\tenrm A
+.etc.
+
+! Undefined control sequence.
+l.2089 ...act = {Ternary stress pattern\textemdash
+                                                   the lapse of more than on...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.2089 ...one syllable between stresses\textemdash
+                                                   have been challenging for...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (39.07951pt too wide) in paragraph at lines 2083--2096
+\tenrm Steven James, year = 2003, url = https://www.proquest.com/docview/305299
+014/abstract/72577482378D4F51PQ/1,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm S
+.\tenrm t
+.\tenrm e
+.\tenrm v
+.\kern-0.27779
+.etc.
+
+ [28]
+! Undefined control sequence.
+l.2101 ...act = {Ternary stress pattern\textemdash
+                                                   the lapse of more than on...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.2101 ...one syllable between stresses\textemdash
+                                                   have been challenging for...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 4.60127
+.\glue(\topskip) 3.05556
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.2028
+..\tenrm b
+..\kern0.27779
+..\tenrm e
+..\discretionary
+...\tenrm -
+..\tenrm t
+..etc.
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.27422
+..\tenrm s
+..\tenrm y
+..\tenrm l
+..\discretionary
+...\tenrm -
+..\tenrm l
+..etc.
+.\glue(\baselineskip) 3.11111
+.etc.
+
+ [29]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2154   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2154   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2155 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2156 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2165   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2165   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2166 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2167 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+ [30]
+! Undefined control sequence.
+l.2258 ...s been a successful strategy \textendash
+                                                  {} due to phonetic similar...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.2275 ...s been a successful strategy \textendash
+                                                  {} due to phonetic similar...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 2884) has occurred while \output is active
+\vbox(643.20255+2.5)x469.75499, glue set 3.06752
+.\glue(\topskip) 3.05556
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.3489
+..\tenrm =
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\tenrm 2
+..\tenrm 0
+..\tenrm 1
+..etc.
+.\glue(\baselineskip) 2.55556
+.\hbox(7.5+2.5)x469.75499, glue set 0.3866
+..\tenrm =
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\tenrm 0
+..\tenrm 0
+..\tenrm 9
+..etc.
+.\glue(\baselineskip) 2.55556
+.etc.
+
+ [31]
+Overfull \hbox (8.32936pt too wide) in paragraph at lines 2280--2292
+[]\tenrm @bookmeredithComputationalMusicAnalysis2016, ti-tle = Com-pu-ta-tional
+ Mu-sic Anal-y-sis, ed-i-tor = Mered-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm b
+.\kern0.27779
+.\tenrm o
+.etc.
+
+
+Overfull \hbox (186.19078pt too wide) in paragraph at lines 2280--2292
+\tenrm 3-319-25931-4, isbn = 978-3-319-25929-1 978-3-319-25931-4, langid = en-g
+lish, lan-guage = en, file = /Users/sarah/Zotero/storage/NVDPUZB5/Meredith|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 3
+.\tenrm -
+.\discretionary
+.\tenrm 3
+.\tenrm 1
+.etc.
+
+
+Overfull \hbox (20.60716pt too wide) in paragraph at lines 2293--2306
+\tenrm 10.1155/2010/546047, langid = en-glish, lan-guage = en, file = /Users/sa
+rah/Zotero/storage/3XDUYDH8/Mesaros|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 1
+.\tenrm 0
+.\tenrm .
+.\tenrm 1
+.\tenrm 1
+.etc.
+
+
+Overfull \hbox (154.55183pt too wide) in paragraph at lines 2307--2313
+[]\tenrm @miscMIDI, ti-tle = MIDI, url = https://midi.org/about, url-date = 202
+2-05-14, file = /Users/sarah/Zotero/storage/IRR9BWF9/about.html|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2307--2313
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+
+Overfull \hbox (6.88486pt too wide) in paragraph at lines 2314--2328
+[]\tenrm @articlemoonInteractionDurationContext1994, ti-tle = In-ter-ac-tion be
+-tween Du-ra-tion, Con-text, and Speak-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (6.88486pt too wide) in paragraph at lines 2329--2342
+[]\tenrm @articlemoonInteractionDurationContext1994, ti-tle = In-ter-ac-tion be
+-tween Du-ra-tion, Con-text, and Speak-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+ [32]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2390   doi = {10.1044/2018_
+                             JSLHR-S-18-0006},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2390   doi = {10.1044/2018_JSLHR-S-18-0006}
+                                             ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2393 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2394 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (4655.93497pt too wide) in paragraph at lines 2379--2394
+\tenrm 0006\teni ; abstract \tenrm = []\teni ; file \tenrm =|
+
+\hbox(7.5+2.5)x469.75499
+.\tenrm 0
+.\tenrm 0
+.\tenrm 0
+.\tenrm 6
+.\teni ;
+.etc.
+
+
+Overfull \hbox (80.20615pt too wide) in paragraph at lines 2379--2394
+[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(7.5+2.5)x549.96114
+..\teni =
+..\teni U
+..\kern1.09026
+..\teni s
+..\teni e
+..etc.
+.\mathoff
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.\glue(\rightskip) 0.0
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2406   doi = {10.1044/2018_
+                             JSLHR-S-18-0006},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2406   doi = {10.1044/2018_JSLHR-S-18-0006}
+                                             ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2408 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2409 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (4623.68082pt too wide) in paragraph at lines 2395--2409
+\tenrm 0006\teni ; abstract \tenrm = []$ |
+
+\hbox(7.5+2.5)x469.75499
+.\tenrm 0
+.\tenrm 0
+.\tenrm 0
+.\tenrm 6
+.\teni ;
+.etc.
+
+
+Overfull \hbox (154.66316pt too wide) in paragraph at lines 2410--2429
+\tenrm Bloom-ing-ton, Ind., United States, issn = 0737-7037, url = https://www.
+proquest.com/docview/1308430772/citation/151D437C11CE47B1PQ/1,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm B
+.\tenrm l
+.\tenrm o
+.\kern0.27779
+.\tenrm o
+.etc.
+
+
+Overfull \hbox (121.30176pt too wide) in paragraph at lines 2410--2429
+\tenrm url-date = 2022-07-18, langid = en-glish, lan-guage = En-glish, key-word
+s = Folk-lore, file = /Users/sarah/Zotero/storage/JY2M2ZZ9/Nenola|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm u
+.\tenrm r
+.\tenrm l
+.\discretionary
+..\tenrm -
+.\tenrm d
+.etc.
+
+
+Overfull \hbox (34.30179pt too wide) in paragraph at lines 2460--2477
+\tenrm French oc-to-syl-labic ver.pdf;/Users/sarah/Zotero/storage/DBTB7W35/6449
+6E014569187598D32701F44BEE23.html|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm F
+.\kern-0.83334
+.\tenrm r
+.\tenrm e
+.\tenrm n
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2460--2477
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+ [33]
+Overfull \hbox (56.0793pt too wide) in paragraph at lines 2510--2516
+[]\tenrm @miscNyquistReferenceManual, ti-tle = Nyquist Ref-er-ence Man-ual, url
+ = http://www.cs.cmu.edu/ rbd/doc/nyquist/,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^a4 in font cmr10!
+ [34]
+Overfull \hbox (8.6904pt too wide) in paragraph at lines 2628--2636
+\tenrm year = 2021, pages = 25, langid = en-glish, lan-guage = en, file = /User
+s/sarah/Zotero/storage/93CQC9ZL/2021|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm y
+.\kern-0.27779
+.\tenrm e
+.\tenrm a
+.\tenrm r
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2659   keywords = {Education,Linguistics,regi_
+                                                master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2659 ...ds = {Education,Linguistics,regi_master}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2660 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2661 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2678   keywords = {Education,Linguistics,regi_
+                                                master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2678 ...ds = {Education,Linguistics,regi_master}
+                                                  ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2680 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2681 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (100.6352pt too wide) in paragraph at lines 2662--2681
+\tenrm York, United States, issn = 0749-596X, url = https://www.proquest.com/do
+cview/1297335897/citation/F03AC77A70A74E61PQ/1,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm Y
+.\kern-0.83334
+.\tenrm o
+.\tenrm r
+.\tenrm k
+.etc.
+
+
+Overfull \hbox (15.68185pt too wide) in paragraph at lines 2662--2681
+\tenrm url-date = 2022-07-18, langid = en-glish, lan-guage = En-glish, key-word
+s = Education,Linguistics,regi$[]\teni aster; file \tenrm =|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm u
+.\tenrm r
+.\tenrm l
+.\discretionary
+..\tenrm -
+.\tenrm d
+.etc.
+
+
+Overfull \hbox (68.45221pt too wide) in paragraph at lines 2662--2681
+[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(7.5+2.5)x538.2072
+..\teni =
+..\teni U
+..\kern1.09026
+..\teni s
+..\teni e
+..etc.
+.\mathoff
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.\glue(\rightskip) 0.0
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2690   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2690   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2691 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2692 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+ [35]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2701   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2701   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2702 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2703 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1.4405pt too wide) in paragraph at lines 2737--2750
+[]\tenrm @bookpatelMusicLanguageBrain2007, ti-tle = Mu-sic, Lan-guage, and the 
+Brain, au-thor = Pa-tel, Aniruddh|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm b
+.\kern0.27779
+.\tenrm o
+.etc.
+
+
+Overfull \hbox (155.59811pt too wide) in paragraph at lines 2737--2750
+\tenrm -- Psy-cho-log-i-cal as-pects.,Music and lan-guage., note = from Tem-per
+-leyx2: pp. 159-160, 165, file = /Users/sarah/Zotero/storage/FAM537LY/Patel|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm { (ligature --)
+.\discretionary
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm P
+.\tenrm s
+.etc.
+
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+
+Overfull \hbox (1.4405pt too wide) in paragraph at lines 2751--2761
+[]\tenrm @bookpatelMusicLanguageBrain2007, ti-tle = Mu-sic, Lan-guage, and the 
+Brain, au-thor = Pa-tel, Aniruddh|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm b
+.\kern0.27779
+.\tenrm o
+.etc.
+
+ [36]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2799 ...ww.researchgate.net/publication/4137126_
+                                                  Beat_tracking_with_a_two_s...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.2799 ...ublication/4137126_Beat_tracking_with_a_
+                                                  two_state_model},
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Extra }, or forgotten $.
+l.2799 ...26_Beat_tracking_with_a_two_state_model}
+                                                  ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Double subscript.
+l.2801 ...e/ETZH24MQ/4137126_Beat_tracking_with_a_
+                                                  two_state_model.html}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Extra }, or forgotten $.
+l.2802 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2803 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (342.53343pt too wide) in paragraph at lines 2797--2803
+[]\tenrm @articlePDFBeatTracking, ti-tle = (PDF) Beat Track-ing with a Two Stat
+e Model, url = https://www.researchgate.net/publication/4137126$[]\teni eat[]ra
+cking[]ith[][]wo[]tate[]odel; urldate \tenrm =|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (446.07138pt too wide) in paragraph at lines 2797--2803
+[]\teni ; file \tenrm = []$ |
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(6.44444+0.83333)x64.4444
+..\tenrm 2
+..\tenrm 0
+..\tenrm 2
+..\tenrm 2
+..\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+..etc.
+.\teni ;
+.\glue(\thinmuskip) 1.66663
+.\teni f
+.\kern1.0764
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2806 ...ww.researchgate.net/publication/3457779_
+                                                  Context-Dependent_Beat_Tra...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2806 ...ependent_Beat_Tracking_of_Musical_Audio}
+                                                  ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2809 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2810 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (67.39268pt too wide) in paragraph at lines 2804--2810
+\tenrm dio, url = https://www.researchgate.net/publication/3457779$[]\teni onte
+xt \tensy ^^@ \teni Dependent[]eat[]racking[]f[]usical[]udio; urldate \tenrm =|
+
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm d
+.\tenrm i
+.\tenrm o
+.\tenrm ,
+.\glue 3.33333 plus 2.08331 minus 0.88889
+.etc.
+
+
+Overfull \hbox (586.74962pt too wide) in paragraph at lines 2804--2810
+[]\teni ; file \tenrm = []$ |
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(6.44444+0.83333)x64.4444
+..\tenrm 2
+..\tenrm 0
+..\tenrm 2
+..\tenrm 2
+..\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+..etc.
+.\teni ;
+.\glue(\thinmuskip) 1.66663
+.\teni f
+.\kern1.0764
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2829   doi = {10.1007/978-3-319-98017-1_
+                                          5},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2829   doi = {10.1007/978-3-319-98017-1_5}
+                                            ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2835 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2836 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1380.794pt too wide) in paragraph at lines 2819--2836
+[]\teni ; isbn \tenrm =|
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(7.5+2.5)x1817.12244
+..\teni T
+..\kern1.3889
+..\teni h
+..\teni e
+..\teni c
+..etc.
+.\teni ;
+.\glue(\thinmuskip) 1.66663
+.\teni i
+.\teni s
+.etc.
+
+
+Overfull \hbox (227.7099pt too wide) in paragraph at lines 2819--2836
+[]\teni ; langid \tenrm = []\teni ; language \tenrm = []\teni ; keywords \tenrm
+ = []$ |
+
+\hbox(6.94444+1.94444)x469.75499
+.\hbox(6.44444+0.83333)x113.88875
+..\tenrm 9
+..\tenrm 7
+..\tenrm 8
+..\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+..\tensy ^^@
+..etc.
+.\teni ;
+.\glue(\thinmuskip) 1.66663
+.\teni l
+.\kern0.19678
+.etc.
+
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^99 in font cmr10!
+! You can't use `macro parameter character #' in horizontal mode.
+l.2883 ...u.ezproxy.lib.utexas.edu/article/562216#
+                                                  front},
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no ^^c5 in font cmr10!
+Missing character: There is no ^^b7 in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^9c in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^9d in font cmr10!
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2895   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2895   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2896 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2897 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2905   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2905   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2906 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2907 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+ [37]
+Overfull \hbox (40.35716pt too wide) in paragraph at lines 2908--2914
+[]\tenrm @miscRegilauluLuguVaike, ti-tle = Regi-laulu Lugu | V^^?aike Hellero, 
+url = https://folklore.ee/regilaul/lugu/kuula,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (2.32948pt too wide) in paragraph at lines 2915--2930
+\tenrm nal of Folk-lore, vol-ume = 67, pages = 115--142, issn = 14060957, 14060
+949, doi = 10.7592/FEJF2017.67.saarlo,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm n
+.\tenrm a
+.\tenrm l
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm o
+.etc.
+
+
+Overfull \hbox (12.69029pt too wide) in paragraph at lines 2941--2947
+[]\tenrm @miscResourcesLanguagesEstonia, ti-tle = Re-sources for Lan-guages in 
+Es-to-nia, url = http://www.language-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2971   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2971   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2972 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2973 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2987   keywords = {regi_
+                          master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.2987   keywords = {regi_master}
+                                 ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.2989 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2990 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (108.91934pt too wide) in paragraph at lines 2974--2990
+[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(7.5+2.5)x578.67433
+..\teni =
+..\teni U
+..\kern1.09026
+..\teni s
+..\teni e
+..etc.
+.\mathoff
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.\glue(\rightskip) 0.0
+.etc.
+
+
+Overfull \hbox (3.21817pt too wide) in paragraph at lines 2991--3008
+[]\tenrm @articleroettgerPreregistrationExperimentalLinguistics2021, ti-tle = P
+re-reg-is-tra-tion in Ex-per-i-men-tal Lin-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+ [38]
+! Undefined control sequence.
+l.3021 ... due to its scientific object\textemdash
+                                                   speech\textemdash being i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3021 ...ific object\textemdash speech\textemdash
+                                                   being inherently multidim...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3022 ...ented on this journal are \textcopyright
+                                                  , {$\circledR$} or \texttr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \circledR 
+                          
+l.3022 ... journal are \textcopyright, {$\circledR
+                                                  $} or \texttrademark{} of ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3022 ...pyright, {$\circledR$} or \texttrademark
+                                                  {} of their respective own...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3033   keywords = {regi_
+                          master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3033   keywords = {regi_master}
+                                 ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.3034 ...ls selected were in off-ictus\textendash
+                                                  {} HUAT FIND THIS SONG NOW...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.3034 ...respect to note durations (Ross 1989) {$
+                                                  \%$}*******Discussion simi...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+l.3034 ...respect to note durations (Ross 1989) {$
+                                                  \%$}*******Discussion simi...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.3034 ...ect to note durations (Ross 1989) {$\%$}
+                                                  *******Discussion similari...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Please use \mathaccent for accents in math mode.
+\"#1->{\accent 
+               "7F #1}
+l.3034 ... f3 in spoken and sung vowels Ternstr\"o
+                                                  m and Sundberg 1989: cauti...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Undefined control sequence.
+l.3034 ...d dev of f2 and f2 f1 f2 which are \emph
+                                                  {fairly} independent of su...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten $.
+l.3034 ...ression of a larger overall vowel space}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3035 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3036 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (4690.372pt too wide) in paragraph at lines 3029--3036
+\tenrm year = 1990, key-words = regi$[]\teni aster; note \tenrm = []$%$\tensy ^
+^C ^^C|
+
+\hbox(7.51782+2.5)x469.75499, glue set - 1.0
+.\tenrm y
+.\kern-0.27779
+.\tenrm e
+.\tenrm a
+.\tenrm r
+.etc.
+
+
+Overfull \hbox (1045.51837pt too wide) in paragraph at lines 3029--3036
+\tensy ^^C ^^C ^^C ^^C ^^C\teni Discussionsimilarityf\tenrm 3\teni inspokenands
+ungvowelsTernstr[]mandSundberg\tenrm 1989 : \teni cautionagainstusingf\tenrm 3\
+teni andf\tenrm 4\teni standarddeviationsstandarddevforthirdandfourthformantsle
+ssvoweldependent; more\tenrm \\teni personal; \tenrm "\teni especiallycomparedt
+ostandarddevoff\tenrm 2\teni andf\tenrm 2\teni f\tenrm 1\teni f\tenrm 2\teni wh
+ichare[]independentofsubjects\tenrm !!!\teni inversefilterresultstoconfirmTnS\t
+enrm 87 :|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tensy ^^C
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\tensy ^^C
+.\penalty 700
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.etc.
+
+
+Overfull \hbox (444.69087pt too wide) in paragraph at lines 3029--3036
+\teni f\tenrm 3\teni lowerinsinging\tenrm ?\teni sawsomesimilarpatternsinwithsp
+okendatastudies; butoverallthesizeofthevariationwassmall:Forthethirdformant; de
+viationsofthesungvowelsfromspokentendtobeminorandirregularn \tenrm =|
+
+\hbox(6.94444+1.94444)x469.75499
+.\teni f
+.\kern1.0764
+.\tenrm 3
+.\teni l
+.\kern0.19678
+.etc.
+
+
+Overfull \hbox (699.53061pt too wide) in paragraph at lines 3029--3036
+\tenrm 2\teni overallf\tenrm 1\teni =f\tenrm 2 : \teni sungvowelsclustercompare
+dtospoken; specifically \tenrm : \teni f\tenrm 1\teni raisedineverythingbut=a=;
+ f\tenrm 2\teni lowerinfront; raisedinback:So; gradientmodificationofvowelquali
+tycontrast\tenrm (\teni lessdifferentthaninspeech\tenrm )\teni ::butIamgettinga
+nimpressionofalargeroverallvowelspace$ |
+
+\hbox(7.5+2.5)x469.75499
+.\tenrm 2
+.\teni o
+.\teni v
+.\kern0.35878
+.\teni e
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3052   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3052   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3053 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3054 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \vbox (badness 2884) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 3.06752
+.\glue(\topskip) 2.5
+.\hbox(7.5+2.5)x469.75499, glue set - 0.37642
+..\tenrm b
+..\tenrm i
+..\discretionary
+...\tenrm -
+..\tenrm a
+..\tenrm s
+..etc.
+.\glue(\baselineskip) 2.0
+.\hbox(7.5+2.5)x469.75499, glue set 0.14195
+..\tenrm \ (ligature ``)
+..\tenrm p
+..\tenrm u
+..\tenrm b
+..\discretionary
+...\tenrm -
+..etc.
+.\penalty 100
+.etc.
+
+ [39]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3070   keywords = {regi_
+                          master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3070   keywords = {regi_master}
+                                 ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3072 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3073 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (162.72522pt too wide) in paragraph at lines 3055--3073
+\tenrm regi$[]\teni aster; file \tenrm = []$ |
+
+\hbox(7.5+2.5)x469.75499
+.\tenrm r
+.\tenrm e
+.\tenrm g
+.\tenrm i
+.\mathon
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3087   keywords = {regi_
+                          master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3087   keywords = {regi_master}
+                                 ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3089 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3090 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (140.82613pt too wide) in paragraph at lines 3074--3090
+\tenrm en, key-words = regi$[]\teni aster; file \tenrm = []$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm e
+.\tenrm n
+.\tenrm ,
+.\glue 3.33333 plus 2.08331 minus 0.88889
+.\tenrm k
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3104   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3104   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3105 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3106 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3121   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3121   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3122 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3123 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3138   keywords = {regi_
+                          master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3138   keywords = {regi_master}
+                                 ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3140 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3141 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (87.22878pt too wide) in paragraph at lines 3124--3141
+[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(7.5+2.5)x556.98376
+..\teni =
+..\teni U
+..\kern1.09026
+..\teni s
+..\teni e
+..etc.
+.\mathoff
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.\glue(\rightskip) 0.0
+.etc.
+
+ [40]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3153   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3153   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3154 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3155 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (9.0517pt too wide) in paragraph at lines 3142--3155
+\tenrm nal of Folk-lore, vol-ume = 02, pages = 116--123, issn = 14060957, 14060
+949, doi = 10.7592/FEJF1996.02.rosslehi,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm n
+.\tenrm a
+.\tenrm l
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm o
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3167   keywords = {regi_
+                          master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3167   keywords = {regi_master}
+                                 ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3169 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3170 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (28.66286pt too wide) in paragraph at lines 3156--3170
+\tenrm Jour-nal of Folk-lore, vol-ume = 02, pages = 116--123, issn = 14060957, 
+14060949, doi = 10.7592/FEJF1996.02.rosslehi,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm J
+.\tenrm o
+.\tenrm u
+.\tenrm r
+.\discretionary
+..\tenrm -
+.etc.
+
+
+Overfull \hbox (359.88803pt too wide) in paragraph at lines 3156--3170
+\tenrm langid = en-glish, lan-guage = en, key-words = regi$[]\teni aster; file 
+\tenrm = []$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm l
+.\tenrm a
+.\tenrm n
+.\tenrm g
+.\tenrm i
+.etc.
+
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^bc in font cmr10!
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^bc in font cmr10!
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^bc in font cmr10!
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^bc in font cmr10!
+
+Overfull \hbox (35.30173pt too wide) in paragraph at lines 3227--3244
+\tenrm weight uni-ver-sals in .pdf;/Users/sarah/Zotero/storage/SC3Q3WX4/079CB3F
+772CE213AB3BB50701D6C10C9.html|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm w
+.\kern-0.27779
+.\tenrm e
+.\tenrm i
+.\tenrm g
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3227--3244
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+ [41]
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^a4 in font cmr10!
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3313   keywords = {regi_
+                          master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3313   keywords = {regi_master}
+                                 ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3315 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3316 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^a4 in font cmr10!
+
+Overfull \hbox (35.6026pt too wide) in paragraph at lines 3300--3316
+[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\hbox(7.5+2.5)x505.35759
+..\teni =
+..\teni U
+..\kern1.09026
+..\teni s
+..\teni e
+..etc.
+.\mathoff
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.\glue(\rightskip) 0.0
+.etc.
+
+ [42]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3330   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3330   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3331 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3332 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^a4 in font cmr10!
+Missing character: There is no ^^c4 in font cmr10!
+Missing character: There is no ^^8d in font cmr10!
+
+Underfull \vbox (badness 2884) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 3.06752
+.\glue(\topskip) 2.5
+.\hbox(7.5+2.5)x469.75499, glue set 0.28275
+..\tenrm i
+..\tenrm n
+..\tenrm g
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\tenrm 1
+..etc.
+.\penalty 150
+.\glue(\baselineskip) 2.0
+.\hbox(7.5+2.5)x469.75499
+..\hbox(7.5+2.5)x505.35759
+...\teni =
+...\teni U
+...\kern1.09026
+...\teni s
+...\teni e
+...etc.
+..\mathoff
+..\penalty 10000
+..\glue(\parfillskip) 0.0 plus 1.0fil
+..\glue(\rightskip) 0.0
+..etc.
+.etc.
+
+ [43]
+Overfull \hbox (58.96826pt too wide) in paragraph at lines 3404--3414
+\tenrm ray, year = 2009, pages = 9, langid = en-glish, lan-guage = en, file = /
+Users/sarah/Zotero/storage/Q3K2E8NH/Schellenberg|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm r
+.\tenrm a
+.\kern-0.27779
+.\tenrm y
+.\kern-0.83334
+.etc.
+
+! Misplaced alignment tab character &.
+l.3441 ...xas.edu/ehost/pdfviewer/pdfviewer?vid=0&
+                                                  sid=99ecc797-91f7-4c4c-8fb...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (108.71841pt too wide) in paragraph at lines 3439--3445
+\tenrm als of Poli...: EB-SCO-host, url = https://web-s-ebscohost-com.ezproxy.l
+ib.utexas.edu/ehost/pdfviewer/pdfviewer?vid=0sid=99ecc797-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm a
+.\tenrm l
+.\tenrm s
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm o
+.etc.
+
+
+Overfull \hbox (24.19052pt too wide) in paragraph at lines 3439--3445
+\tenrm 91f7-4c4c-8fb8-cd9d2a70fbacurldate = 2022-06-16, file = /Users/sarah/Zot
+ero/storage/67899T9W/pdfviewer.html|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 9
+.\tenrm 1
+.\tenrm f
+.\tenrm 7
+.\tenrm -
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3439--3445
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+! Undefined control sequence.
+l.3447 ...ng the Field Forward: A Micro\textendash
+                                                   Meso\textendash Macro Mod...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3447 ...ward: A Micro\textendash Meso\textendash
+                                                   Macro Model for Critical ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^93 in font cmr10!
+ [44]
+Missing character: There is no ^^c4 in font cmr10!
+Missing character: There is no ^^87 in font cmr10!
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 4.60127
+.\glue(\topskip) 3.05556
+.\hbox(6.94444+1.94444)x469.75499, glue set - 0.27626
+..\tenrm S
+..\tenrm a
+..\tenrm n
+..\tenrm d
+..\tenrm i
+..etc.
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.01974
+..\tenrm t
+..\tenrm h
+..\tenrm e
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\tenrm A
+..etc.
+.\glue(\baselineskip) 2.55556
+.etc.
+
+ [45]
+! Undefined control sequence.
+l.3594 ...tal tunes from the years 1912\textendash
+                                                   1966.},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3598   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3598   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3599 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3600 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.3607 ...tal tunes from the years 1912\textendash
+                                                   1966.},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3611   keywords = {regi_
+                          master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3611   keywords = {regi_master}
+                                 ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3613 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3614 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (19.60718pt too wide) in paragraph at lines 3601--3614
+\tenrm au-thor = Tam-pere, Her-bert, year = 2016, url = https://www.folklore.ee
+/pubte/eraamat/rahvamuusika/en/index,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm a
+.\tenrm u
+.\discretionary
+..\tenrm -
+.\tenrm t
+.\tenrm h
+.etc.
+
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^9c in font cmr10!
+Missing character: There is no ^^e2 in font cmr10!
+Missing character: There is no ^^80 in font cmr10!
+Missing character: There is no ^^9d in font cmr10!
+ [46]
+! Misplaced alignment tab character &.
+l.3635 .../docview/305299014?pq-origsite=gscholar&
+                                                  fromopenview=true},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (152.94072pt too wide) in paragraph at lines 3633--3642
+[]\tenrm @miscTernarityBinarityProQuest, ti-tle = Ternar-ity through Bi-na-rity
+ - Pro-Quest, url = https://www.proquest.com/docview/305299014?pq-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+! Undefined control sequence.
+l.3689   title = {Kalevala \textendash
+                                      {} the {{Estonian}} Perspective},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (24.19049pt too wide) in paragraph at lines 3688--3701
+\tenrm Tormis, Veljo, year = 1985, month = feb, jour-nal = Finnish Mu-sic Quar-
+terly, url = https://fmq.fi/articles/kalevala-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm T
+.\kern-0.83334
+.\tenrm o
+.\tenrm r
+.\tenrm m
+.etc.
+
+! Undefined control sequence.
+l.3703   title = {Kalevala \textendash
+                                      {} the {{Estonian}} Perspective},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3718   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3718   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3719 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3720 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3726   keywords = {regi_
+                          master},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3726   keywords = {regi_master}
+                                 ,
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3728 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3729 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (241.29114pt too wide) in paragraph at lines 3721--3729
+\tenrm ti-tle = RING, au-thor = Tormis, Veljo, year = 2007, key-words = regi$[]
+\teni aster; file \tenrm = []$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\tenrm t
+.\tenrm i
+.\discretionary
+..\tenrm -
+.\tenrm t
+.\tenrm l
+.etc.
+
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^bc in font cmr10!
+ [47]
+Overfull \hbox (1.16255pt too wide) in paragraph at lines 3765--3781
+[]\tenrm @articleturkAcousticCorrelatesQuantity2019, ti-tle = The Acous-tic Cor
+-re-lates of Quan-tity in Inari Saami,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (1.16255pt too wide) in paragraph at lines 3782--3797
+[]\tenrm @articleturkAcousticCorrelatesQuantity2019, ti-tle = The Acous-tic Cor
+-re-lates of Quan-tity in Inari Saami,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Underfull \vbox (badness 2884) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 3.06752
+.\glue(\topskip) 3.05556
+.\hbox(6.94444+1.94444)x469.75499, glue set - 0.16864
+..\hbox(0.0+0.0)x20.0
+..\tenrm @
+..\tenrm a
+..\tenrm r
+..\tenrm t
+..etc.
+.\penalty 250
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.44652
+..\tenrm t
+..\tenrm i
+..\tenrm o
+..\tenrm n
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..etc.
+.etc.
+
+ [48]
+! Undefined control sequence.
+l.3802 ... other Finno-Ugric languages \textendash
+                                                  {} Estonian and Livonian \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3802 ...dash{} Estonian and Livonian \textendash
+                                                  {} in several respects. In...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^bc in font cmr10!
+! Undefined control sequence.
+l.3812 ... other Finno-Ugric languages \textendash
+                                                  {} Estonian and Livonian \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3812 ...dash{} Estonian and Livonian \textendash
+                                                  {} in several respects. In...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ^^c3 in font cmr10!
+Missing character: There is no ^^bc in font cmr10!
+
+Underfull \vbox (badness 1215) has occurred while \output is active
+\vbox(643.20255+2.5)x469.75499, glue set 2.30064
+.\glue(\topskip) 3.05556
+.\hbox(6.94444+1.94444)x469.75499, glue set - 0.26486
+..\tenrm S
+..\tenrm a
+..\tenrm a
+..\tenrm m
+..\tenrm i
+..etc.
+.\penalty 100
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.32298
+..\tenrm p
+..\tenrm a
+..\tenrm r
+..\tenrm e
+..\tenrm d
+..etc.
+.etc.
+
+ [49]
+Missing character: There is no ^^ef in font cmr10!
+Missing character: There is no ^^bc in font cmr10!
+Missing character: There is no ^^9e in font cmr10!
+
+Overfull \hbox (45.72429pt too wide) in paragraph at lines 3854--3872
+\tenrm CHE SUB-STI-TUTE BALTISCHER RESP. LET-TIS-CHER DIPH-THONGE IN S[]UDESTNI
+SCHEN LEHNW[]ORTERN,|
+
+\hbox(9.20636+1.94444)x469.75499, glue set - 1.0
+.\tenrm C
+.\tenrm H
+.\tenrm E
+.\glue 3.33333 plus 1.66498 minus 1.11221
+.\tenrm S
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3878   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3878   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3879 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3880 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.3886   keywords = {regi_
+                          master}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.3886   keywords = {regi_master}
+                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.3887 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.3888 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.3899 ...ity in Estonian children. \textcopyright
+                                                  {} 2015 Elsevier B.V. All ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (48.30174pt too wide) in paragraph at lines 3889--3904
+\tenrm mar, jour-nal = Speech Com-mu-ni-ca-tion, vol-ume = 77, pages = 1--7, is
+sn = 01676393, doi = 10.1016/j.specom.2015.11.005,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm m
+.\tenrm a
+.\tenrm r
+.\tenrm ,
+.\glue 3.33333 plus 2.08331 minus 0.88889
+.etc.
+
+ [50]
+Overfull \hbox (151.5357pt too wide) in paragraph at lines 3919--3927
+\tenrm Line Tools, Part I - SoX | Linux Jour-nal, au-thor = Venkat-acha-lam, Gi
+rish, year = 2007, url = https://www.linuxjournal.com/content/powerful-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm L
+.\tenrm i
+.\tenrm n
+.\tenrm e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+
+Overfull \hbox (69.55162pt too wide) in paragraph at lines 3919--3927
+\tenrm multimedia-command-line-tools-part-i-sox, url-date = 2022-07-30, file = 
+/Users/sarah/Zotero/storage/RE4ZCENE/powerful-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm m
+.\kern-0.27779
+.\tenrm u
+.\tenrm l
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (151.5357pt too wide) in paragraph at lines 3928--3934
+\tenrm Line Tools, Part I - SoX | Linux Jour-nal, au-thor = Venkat-acha-lam, Gi
+rish, year = 2007, url = https://www.linuxjournal.com/content/powerful-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm L
+.\tenrm i
+.\tenrm n
+.\tenrm e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+! Misplaced alignment tab character &.
+l.3946 ...ch.ebscohost.com/login.aspx?direct=true&
+                                                  db=a2h&AN=22263267&site=eh...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.3946 ...ohost.com/login.aspx?direct=true&db=a2h&
+                                                  AN=22263267&site=ehost-live},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.3946 ...gin.aspx?direct=true&db=a2h&AN=22263267&
+                                                  site=ehost-live},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (155.52423pt too wide) in paragraph at lines 3935--3952
+\tenrm 00156191, url = http://ezproxy.lib.utexas.edu/login?url=https://search.e
+bscohost.com/login.aspx?direct=truedb=a2hAN=22263267site=ehost-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 0
+.\tenrm 0
+.\tenrm 1
+.\tenrm 5
+.\tenrm 6
+.etc.
+
+
+Overfull \hbox (140.30185pt too wide) in paragraph at lines 3968--3974
+[]\tenrm @miscweeninkSSP2018, ti-tle = SSP, au-thor = Weenink, David, year = 20
+18, file = /Users/sarah/Zotero/storage/4KPS98JE/sspbook.pdf|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3968--3974
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+
+Overfull \hbox (1.35707pt too wide) in paragraph at lines 3975--3990
+[]\tenrm @articlewhiteAreInitialconsonantLengthening2020, ti-tle = Are Initial-
+Consonant Length-en-ing and Final-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+ [51] [52]
+Overfull \hbox (13.07933pt too wide) in paragraph at lines 4123--4137
+\tenrm of Illi-nois Press, issn = 0014-1836, doi = 10.2307/851079, file = /User
+s/sarah/Zotero/storage/N2N3NMZ2/Yung|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm o
+.\tenrm f
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm I
+.\tenrm l
+.etc.
+
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+<*> open qp_
+            annotated.bib
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Emergency stop.
+<*> open qp_annotated.bib
+                         
+*** (job aborted, no legal \end found)
+
+Output written on qp_annotated.dvi (52 pages, 366188 bytes).

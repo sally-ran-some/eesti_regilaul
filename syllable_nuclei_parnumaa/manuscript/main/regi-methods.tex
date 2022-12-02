@@ -1,0 +1,104 @@
+\chapter{Methods}
+\index{Methods@\emph{Methods}}%
+
+\section{Design}
+To test this hypothesis, the vowel durations of isochronous first and second syllable-notes of polysyllabic words are measured using a semi-automatic transcription approach. A tempograph of the entire song is referenced to identify whether or not a given syllable-note is `1on" or ``off" the beat relative to local and global tempo. 
+
+Then, using the text transcriptions of the verse lines, the locations of syllable nuclei are identified using a forced aligner. 
+
+
+Once located, the duration of a given vowel is defined as the difference between onset (within 10\% of the sustain level) of the ADSR envelope and the onset (within 10\%) of the release of the note. This is to account for temporal variation in syllable nuclei that arises due to environmental factors: consonant identities differing according to manner and place. Measuring nucleus duration by the sustain level subtracts the heavily coarticulated subsegmental transitions times that could be said to belong to both or either adjacent segments. 
+
+
+
+
+
+
+
+
+%
+%Within each song, samples of syllable-notes consisted only of those matching the nominal isochrony. For example, in verse lines mostly comprised of syllable-notes divided evenly into eighths, neither quarter notes nor sixteenth notes were taken. Syllables in phrase-final position were generally excluded under this criteria. 
+
+
+\section{Constructing the Corpus}
+
+
+
+\subsection{Materials}
+
+Songs for this paper were accessed via The Anthology of Estonian Traditional Music \citep{tampere2016}, which includes audio recordings with transcriptions of the lyrics. 
+
+%Originally published on four vinyl discs in 1970, the digital version showcases a robust sample of the massive collection of {\it regilaul} in Estonian Folklore Archives. In addition to audio, the  compilation includes  photographs, sheet music, and performer demographics of 98 {\it regilaul} songs and 17 instrumental tunes. 
+
+The regilaul sample in this paper is a subset of the entire anthology. To control for regional differences \citep{whyRegion},  songs were all from Pärnumaa county. In order to account for diachronic variation \citep{whyDecade} as well as possible differences due to recording equipment used, all songs came from the same 5 year span from 1961-1966 and were recorded on behalf of the Estonian Folklore Archives by Herbert Tampere, Erna Tampere, and Ottilie Kõiva for the Estonian Folklore Archives\citep{oras2002, tampere2016}. 
+
+
+
+
+\subsection{Annotating the Song Audio }
+
+ Each song's lyrics are copied from the site and saved as .txt files in Estonian orthography, each line of the file corresponding to one melody line.  
+Audio files of the selected songs are downloaded from the archive in .ogg format, which is the highest resolution of the two lossy formats available from the digital anthology. Each song is then imported into a Logic Pro X \citep{logic2014} session for preprocessing. 
+Since a main predictor in the hypothesis refers to the notes with relation to the beat, it is necessary to annotate the location of beats for each measure in the song while accomodating the fine-grained variation in absolute duration and tempo inherent in natural meter. 
+Beat onset detection in general works by analyzing the signal's acoustic dimensions with relation to the downbeat \citep{bKeeper2007}. 
+Once the tempo map is aligned with the downbeat of each measure, Musical Instrument Digital Interface (MIDI) is used to synthesize a metronome to indicate beat location and duration with respect to the tempo variation in each measure. This metronome is converted into a PRAAT\citep{boersna2022} TextGrid with an interval tier indicating the onset and offset of the metronome's notes, which correspond to syllable-notes falling ``on" the beat. 
+
+
+ 
+Lyrical transcriptions of each verse line is added to another interval tier, with each line corresponding to four measures indicated by the click tier.  Here, the eSpeak forced aligner for Estonian \citep{eSpeak1995} attempts to align the transcription from orthographic verse line to two tiers: one with phonemic transcriptions of words, and one with individual phonemes. Due to its inherent design for speech, the aligner frequently needed manual adjustment of the word boundaries before reliable phonemic alignment could be produced. 
+
+A subset of vowel intervals from initial and pen-initial syllables of polysyllabic words is the data in this study. 
+
+
+
+%The beginning of the vowel was aligned according to a combination of acoustic correlates: 
+%
+%
+%
+%\begin{itemize}
+%\item vowel considerations
+%\begin{itemize}
+%\item {\bf intensity(dB) contours}: intensity within 2dB of the steady-state medial portion of the vowel, with a positive slope less than one.
+%\item {\bf fundamental frequency(Hz)} stabilizing into that syllable-note's pitch category
+%\item {\bf resonant frequencies F1, F2, and F3}: visible and approaching steady-state, combined wtih  the presence of a voicing bar.
+%\end{itemize}
+%\item onset manner particulars: 
+%\begin{itemize}
+%\item following {\bf plosive onsets}, vowel boundary is after a burst
+%\item following {\bf fricative onsets},  the end of visible high-frequency noise in the spectrum was reliable. The phoneme /s/ also consistently showed a carat in the frequency track immediately preceding the transition to vowel.
+%\item boundaries between {\bf approximant onsets} and vowel nuclei were determined chiefly by the steady state of formants. 
+%\item following {\bf nasal onsets}, vowel intensity actually lowered, but a negative slope approaching zero reliably followed the offset of visible anti-formants.
+%\end{itemize} 
+%\item The offsets of vowels into codas:
+%\begin{itemize}
+%\item negative slopes approaching zero for intensity; positive preceding nasal. 
+%\item Formants were allowed more variation in transitions to codas
+%\item approximant codas {[l, j, w]} were excluded from the dataset, as neither the forced-aligner nor the phonetician could determine a reliable way to define the boundary between them.
+%\end{itemize} 
+%\end{itemize}
+%
+%
+%
+%In cases of vowel adjacency across syllable boundaries, the presence of a visible glottal stop and support from other criteria would qualify both for inclusion. In the absence of these cues, both nuclei were excluded from the measurements. Other exclusions were due to ambient noise (i.e., churchbells in song 41), ambiguity of word boundaries due to wordplay (consulted with native speaker), and cases of adjacent identical vowels across word boundaries. 
+%%epenthesized vowels (i.e., pandi mind paju raiumaie) having mind(e) \\
+%
+%
+%In all cases, if the aforementioned cues were unavailable, ambiguous, or misaligned, the token was elided for this analysis. From all nine songs in the corpus, a total of 757 vowel nuclei met the criteria for inclusion in duration measurements. 
+
+%For the measurements of F1, F2 space, formants were extracted from the mid point of the vowel. 
+
+
+\subsection{Aggregating Acoustic and Text data}
+
+The last step in preprocessing is to integrate the audio annotation with the lexical content of the song lyrics. This task was accomplished using an open-source natural language toolkit in python called estinltk \url{https://github.com/estnltk} \citep{estnltk2020}. For each vowel interval included  in the study, the vowel's word context from the corresponding TextGrid tier is input into estnltk vabamorf syllabifier, which returns the word broken into individual syllables with corresponding prominence data for each syllable. Vowel duration is measured by the difference between the offset and the onset of the interval on the vowel's TextGrid tier. The estnltk data and PRAAT measurements are aggregated using the parselmouth library\citep{parselmouth2018, python1995}. Jupyter notebooks illustrating each step are available at  \url{https://github.com/sally-ran-some/eesti_regilaul}. 
+
+
+%Linguistic descriptions of the Estonian language date back as early as the seventeenth century, but the ternary quantity contrast was not documented until native Estonian linguists contributed their intuitions. The non-native linguists had only described lexical stress \citep{sargEarlyHistoryEstonian2005a}. \\
+
+
+
+\section{Statistical Analysis} 
+For each hypothesis, linear mixed-effects models were fit using the lme4 package in R \citep{lme4,r2022}. All the models, random slopes and intercepts, comparisons, etc. 
+
+
+Anova comparison of the maximal design model with a null model is also statistically significant (p<0.001***). 

@@ -1,0 +1,12 @@
+\contentsline {chapter}{Abstract}{5}{}%
+\contentsline {chapter}{List of Tables}{8}{}%
+\contentsline {chapter}{List of Figures}{9}{}%
+\contentsline {chapter}{Chapter 1.\hspace *{1em}Methods}{1}{}%
+\contentsline {section}{\numberline {1.1}Design}{1}{}%
+\contentsline {section}{\numberline {1.2}Constructing the Corpus}{1}{}%
+\contentsline {subsection}{\numberline {1.2.1}Materials}{1}{}%
+\contentsline {subsection}{\numberline {1.2.2}Annotating the Song Audio }{2}{}%
+\contentsline {subsection}{\numberline {1.2.3}Aggregating Acoustic and Text data}{3}{}%
+\contentsline {section}{\numberline {1.3}Statistical Analysis}{4}{}%
+\contentsline {chapter}{Chapter 2.\hspace *{1em}Results}{5}{}%
+\contentsline {section}{\numberline {2.1}Stress and Unstress}{5}{}%

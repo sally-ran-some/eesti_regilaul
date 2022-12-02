@@ -1,0 +1,20 @@
+This paper presents a microprosodic analysis of fine-grained acoustic-phonetic measurements extracted from recordings of traditional Estonian lyrical {\it a capella} folksongs called {\it regilaul} (\(/re.ki.laul/\)). 
+
+The song verses are set in a trochaic tetrameter, which classically calls for alternations of two (long-short) syllables. 
+
+
+Previous studies of regilaul found that the absolute durations of nominally isochronous syllable-notes patterned into two categories, short and long, irrespective of word stress. Unstressed syllables in musically prominent positions ("on" the beat) were as long as stressed syllables in their same positions, and both stressed and unstressed syllables "off" the beat were shorter still. 
+
+Taking these findings, I investigate the effects of metrical and word stress at a rhythmic level below that of the syllable: the sub-syllabic rhythm of consonants and sonorants. 
+
+
+Musical notes falling off the beat are underspecified for duration compared with their "on the beat" neighbors. This is also true of unstressed syllables in spoken Estonian, which demonstrates foot isochrony in both conversational and read speech. Thus, the longer the first syllable, the shorter the second, so that the duration of an unstressed syllable is inversely proportional to that of the first. 
+
+I predict that vowel duration, an acoustic correlates of Estonian word stress, will be apparent at the segmental level at underspecified positions in the musical meter: that is, off the beat. 
+
+
+The absolute duration of syllable nuclei falling on and off the beat is compared in stressed and unstressed positions. 
+
+Results show a collaborative interaction between musical meter and word prosody. 
+
+
