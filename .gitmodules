@@ -1,3 +1,6 @@
 [submodule "results"]
 	path = results
 	url = /Users/sarah/Git/regilaul_project/manuscript/results
+[submodule "syllable_nuclei_parnumaa/manuscript/results"]
+	path = syllable_nuclei_parnumaa/manuscript/results
+	url = git@gitbub.com:sally-ran-some/eestiresults.git
